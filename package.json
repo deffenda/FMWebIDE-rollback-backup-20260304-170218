@@ -74,7 +74,7 @@
     "bench:perf": "node --experimental-strip-types scripts/bench-perf.mts",
     "test:layout-fidelity": "node --experimental-strip-types scripts/layout-fidelity.mts",
     "test:layout-fidelity:update-baselines": "node --experimental-strip-types scripts/layout-fidelity-update-baselines.mts",
-    "setup": "./setup.sh"
+    "setup": "node ./setup.mjs"
   },
   "dependencies": {
     "@dnd-kit/core": "^6.3.1",
