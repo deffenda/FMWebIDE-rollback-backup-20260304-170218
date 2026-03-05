@@ -4,3 +4,8 @@ node_modules
 !.env.example
 !.envrc.example
 .DS_Store
+.npm-cache
+.turbo
+dist
+build
+coverage
