@@ -1,0 +1,24 @@
+{
+  "generatedAt": "fingerprint:331e02f4d6acc207",
+  "runFingerprint": "331e02f4d6acc207",
+  "taxonomyCount": 100,
+  "parityStatusCounts": {
+    "Implemented": 100
+  },
+  "backlogCount": 100,
+  "topWinsCount": 20,
+  "issueMode": "local",
+  "issueCount": 50,
+  "requiredLabels": [
+    "parity",
+    "layout-engine",
+    "design-mode",
+    "runtime",
+    "scripting",
+    "portals",
+    "security",
+    "performance",
+    "dx"
+  ],
+  "fixtureCount": 1
+}

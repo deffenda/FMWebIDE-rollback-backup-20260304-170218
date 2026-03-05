@@ -1,0 +1,767 @@
+{
+  "id": "fm-iphone-inspection-details-T21lZ2E6",
+  "name": "iPhone|Inspection Details",
+  "defaultTableOccurrence": "iPhone|Inspection Details",
+  "canvas": {
+    "width": 507,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-iphone-inspection-details-T21lZ2E6-12",
+      "position": {
+        "x": 3,
+        "y": 0,
+        "width": 216,
+        "height": 44,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "styleName": "Entity Header",
+        "ddrObjectPath": "12",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 0,
+        "ddrSourceLeft": 3,
+        "ddrSourceBottom": 44,
+        "ddrSourceRight": 219,
+        "fillType": "none",
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "fontSize": 24,
+        "fontFamily": "arial,sans-serif",
+        "textColor": "#FFFFFF",
+        "label": "Inspection Details",
+        "ddrArrangeOrder": 1
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-iphone-inspection-details-T21lZ2E6-13",
+      "position": {
+        "x": 233,
+        "y": 3,
+        "width": 79,
+        "height": 37,
+        "z": 2
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "styleName": "Header Logo",
+        "ddrObjectPath": "13",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": true,
+        "autosizeBottom": false,
+        "autosizeLeft": false,
+        "ddrOriginalObjectType": "GroupButton",
+        "ddrObjectFlags": 1342177540,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 3,
+        "ddrSourceLeft": 233,
+        "ddrSourceBottom": 40,
+        "ddrSourceRight": 312,
+        "fillType": "none",
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "label": "Button",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 2
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "iPhone|Go to Home",
+          "parameter": "not Get ( WindowMode ) = 0 or not Get ( FoundCount )"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-iphone-inspection-details-T21lZ2E6-13-14",
+      "position": {
+        "x": 466,
+        "y": 6,
+        "width": 79,
+        "height": 37,
+        "z": 3
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "styleName": "Header Logo",
+        "ddrObjectPath": "13.14",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": true,
+        "autosizeBottom": false,
+        "autosizeLeft": false,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 1342177280,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 6,
+        "ddrSourceLeft": 466,
+        "ddrSourceBottom": 43,
+        "ddrSourceRight": 545,
+        "fillType": "none",
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "com_logo_display",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 3
+      },
+      "type": "field",
+      "binding": {
+        "field": "com_logo_display",
+        "tableOccurrence": "SYSTEM"
+      }
+    },
+    {
+      "id": "ddr-fm-iphone-inspection-details-T21lZ2E6-52",
+      "position": {
+        "x": 18,
+        "y": 50,
+        "width": 37,
+        "height": 37,
+        "z": 4
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "ddrObjectPath": "52",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 50,
+        "ddrSourceLeft": 18,
+        "ddrSourceBottom": 87,
+        "ddrSourceRight": 55,
+        "fontFamily": "arial,sans-serif",
+        "fontSize": 12,
+        "textColor": "#000000",
+        "label": "Button",
+        "variant": "secondary",
+        "buttonIconName": "a33_leftChevron.svg",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 4
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "goToLayout",
+          "layoutName": "iPhone|Inspections List"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-iphone-inspection-details-T21lZ2E6-91",
+      "position": {
+        "x": 32,
+        "y": 143,
+        "width": 255,
+        "height": 276,
+        "z": 5
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "styleName": "Button Bar iOS",
+        "ddrObjectPath": "91",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": true,
+        "autosizeBottom": true,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "ButtonBar",
+        "ddrObjectFlags": 3221225472,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 143,
+        "ddrSourceLeft": 32,
+        "ddrSourceBottom": 419,
+        "ddrSourceRight": 287,
+        "fillType": "none",
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "fontFamily": "Arial",
+        "fontSize": 24,
+        "textColor": "#000000",
+        "label": "Let ( \n\n_count = 0 + Count ( inspections_INSPECTION_DEVICES::zz_count ) ;\n\n\"Devices¶\" &\n0 + Sum ( inspections_INSPECTION_DEVICES::is_complete ) & \" of \" & _count & \" Done\"\n\n)",
+        "buttonMode": "bar",
+        "variant": "secondary",
+        "buttonBarSegments": [
+          {
+            "id": "92",
+            "label": "Let ( \n\n_count = 0 + Count ( inspections_INSPECTION_DEVICES::zz_count ) ;\n\n\"Devices¶\" &\n0 + Sum ( inspections_INSPECTION_DEVICES::is_complete ) & \" of \" & _count & \" Done\"\n\n)",
+            "action": "runScript",
+            "script": "iPhone|Go to Inspection Devices",
+            "parameter": "Let ( \n\n_count = 0 + Count ( inspections_INSPECTION_DEVICES::zz_count ) ;\n\n\"Devices¶\" &\n0 + Sum ( inspections_INSPECTION_DEVICES::is_complete ) & \" of \" & _count & \" Done\"\n\n)"
+          },
+          {
+            "id": "93",
+            "label": "Let ( \n\n_count = 0 + Count ( inspections_TIME_BILLING::zz_count) ;\n\n\"Work Performed¶\" &\n\n_count & \" Entries\"\n\n)",
+            "action": "runScript",
+            "script": "iPhone|Go to Inspection Hours",
+            "parameter": "Let ( \n\n_count = 0 + Count ( inspections_TIME_BILLING::zz_count) ;\n\n\"Work Performed¶\" &\n\n_count & \" Entries\"\n\n)"
+          },
+          {
+            "id": "94",
+            "label": "Let ( \n\n_count = 0 + Count ( inspections_MATERIALS::zz_count ) ;\n\n\"Materials¶\" &\n\nCase ( _count = 0 ; \"No Materials Used\" ;\n\n0 + Sum ( inspections_MATERIALS::is_complete ) & \" of \" & _count & \" Installed\"\n\n)\n\n)",
+            "action": "runScript",
+            "script": "iPhone|Go to Inspection Materials",
+            "parameter": "Let ( \n\n_count = 0 + Count ( inspections_MATERIALS::zz_count ) ;\n\n\"Materials¶\" &\n\nCase ( _count = 0 ; \"No Materials Used\" ;\n\n0 + Sum ( inspections_MATERIALS::is_complete ) & \" of \" & _count & \" Installed\"\n\n)\n\n)"
+          },
+          {
+            "id": "105",
+            "label": "Case (\n\nIsEmpty ( TICKETS::signature ) ; \"Need Signature\" ;\n\n\"Signed\" \n\n)",
+            "action": "runScript",
+            "script": "iPhone|Go to Inpection SIgnature",
+            "parameter": "Case (\n\nIsEmpty ( TICKETS::signature ) ; \"Need Signature\" ;\n\n\"Signed\" \n\n)"
+          },
+          {
+            "id": "95",
+            "label": "Case ( \n\nINSPECTIONS::is_complete ;\n\n\"Ticket Completed\" ;\n\nnot INSPECTIONS::is_complete_c ; \n\n\"All Devices Must Be Inspected\" ;\n\nTICKETS::is_complete_c ;\n\n\"Mark Inspection Complete\" \n\n)",
+            "action": "runScript",
+            "script": "iPhone|Mark Inspection Complete",
+            "parameter": "Case ( \n\nINSPECTIONS::is_complete ;\n\n\"Ticket Completed\" ;\n\nnot INSPECTIONS::is_complete_c ; \n\n\"All Devices Must Be Inspected\" ;\n\nTICKETS::is_complete_c ;\n\n\"Mark Inspection Complete\" \n\n)"
+          }
+        ],
+        "ddrArrangeOrder": 5
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "iPhone|Go to Inspection Devices",
+          "parameter": "Let ( \n\n_count = 0 + Count ( inspections_INSPECTION_DEVICES::zz_count ) ;\n\n\"Devices¶\" &\n0 + Sum ( inspections_INSPECTION_DEVICES::is_complete ) & \" of \" & _count & \" Done\"\n\n)"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-iphone-inspection-details-T21lZ2E6-91-92",
+      "position": {
+        "x": 65,
+        "y": 287,
+        "width": 253,
+        "height": 55,
+        "z": 6
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "styleName": "Button Bar iOS",
+        "ddrObjectPath": "91.92",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 287,
+        "ddrSourceLeft": 65,
+        "ddrSourceBottom": 342,
+        "ddrSourceRight": 318,
+        "fillType": "none",
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "fontFamily": "Arial",
+        "fontSize": 24,
+        "textColor": "#000000",
+        "label": "Let ( \n\n_count = 0 + Count ( inspections_INSPECTION_DEVICES::zz_count ) ;\n\n\"Devices¶\" &\n0 + Sum ( inspections_INSPECTION_DEVICES::is_complete ) & \" of \" & _count & \" Done\"\n\n)",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 6
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "iPhone|Go to Inspection Devices",
+          "parameter": "Let ( \n\n_count = 0 + Count ( inspections_INSPECTION_DEVICES::zz_count ) ;\n\n\"Devices¶\" &\n0 + Sum ( inspections_INSPECTION_DEVICES::is_complete ) & \" of \" & _count & \" Done\"\n\n)"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-iphone-inspection-details-T21lZ2E6-91-93",
+      "position": {
+        "x": 65,
+        "y": 342,
+        "width": 253,
+        "height": 54.5,
+        "z": 7
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "styleName": "Button Bar iOS",
+        "ddrObjectPath": "91.93",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 342,
+        "ddrSourceLeft": 65,
+        "ddrSourceBottom": 396.5,
+        "ddrSourceRight": 318,
+        "fillType": "none",
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "fontFamily": "Arial",
+        "fontSize": 24,
+        "textColor": "#000000",
+        "label": "Let ( \n\n_count = 0 + Count ( inspections_TIME_BILLING::zz_count) ;\n\n\"Work Performed¶\" &\n\n_count & \" Entries\"\n\n)",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 7
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "iPhone|Go to Inspection Hours",
+          "parameter": "Let ( \n\n_count = 0 + Count ( inspections_TIME_BILLING::zz_count) ;\n\n\"Work Performed¶\" &\n\n_count & \" Entries\"\n\n)"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-iphone-inspection-details-T21lZ2E6-91-94",
+      "position": {
+        "x": 65,
+        "y": 396.5,
+        "width": 253,
+        "height": 55,
+        "z": 8
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "styleName": "Button Bar iOS",
+        "ddrObjectPath": "91.94",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 396.5,
+        "ddrSourceLeft": 65,
+        "ddrSourceBottom": 451.5,
+        "ddrSourceRight": 318,
+        "fillType": "none",
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "fontFamily": "Arial",
+        "fontSize": 24,
+        "textColor": "#000000",
+        "label": "Let ( \n\n_count = 0 + Count ( inspections_MATERIALS::zz_count ) ;\n\n\"Materials¶\" &\n\nCase ( _count = 0 ; \"No Materials Used\" ;\n\n0 + Sum ( inspections_MATERIALS::is_complete ) & \" of \" & _count & \" Installed\"\n\n)\n\n)",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 8
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "iPhone|Go to Inspection Materials",
+          "parameter": "Let ( \n\n_count = 0 + Count ( inspections_MATERIALS::zz_count ) ;\n\n\"Materials¶\" &\n\nCase ( _count = 0 ; \"No Materials Used\" ;\n\n0 + Sum ( inspections_MATERIALS::is_complete ) & \" of \" & _count & \" Installed\"\n\n)\n\n)"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-iphone-inspection-details-T21lZ2E6-91-105",
+      "position": {
+        "x": 65,
+        "y": 451.5,
+        "width": 253,
+        "height": 54.5,
+        "z": 9
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "styleName": "Button Bar iOS",
+        "ddrObjectPath": "91.105",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 451.5,
+        "ddrSourceLeft": 65,
+        "ddrSourceBottom": 506,
+        "ddrSourceRight": 318,
+        "fillType": "none",
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "fontFamily": "Arial",
+        "fontSize": 24,
+        "textColor": "#000000",
+        "label": "Case (\n\nIsEmpty ( TICKETS::signature ) ; \"Need Signature\" ;\n\n\"Signed\" \n\n)",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 9
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "iPhone|Go to Inpection SIgnature",
+          "parameter": "Case (\n\nIsEmpty ( TICKETS::signature ) ; \"Need Signature\" ;\n\n\"Signed\" \n\n)"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-iphone-inspection-details-T21lZ2E6-91-95",
+      "position": {
+        "x": 65,
+        "y": 506,
+        "width": 253,
+        "height": 55,
+        "z": 10
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "styleName": "Button Bar iOS",
+        "ddrObjectPath": "91.95",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 506,
+        "ddrSourceLeft": 65,
+        "ddrSourceBottom": 561,
+        "ddrSourceRight": 318,
+        "fillType": "none",
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "fontFamily": "Arial",
+        "fontSize": 24,
+        "textColor": "#000000",
+        "label": "Case ( \n\nINSPECTIONS::is_complete ;\n\n\"Ticket Completed\" ;\n\nnot INSPECTIONS::is_complete_c ; \n\n\"All Devices Must Be Inspected\" ;\n\nTICKETS::is_complete_c ;\n\n\"Mark Inspection Complete\" \n\n)",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 10
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "iPhone|Mark Inspection Complete",
+          "parameter": "Case ( \n\nINSPECTIONS::is_complete ;\n\n\"Ticket Completed\" ;\n\nnot INSPECTIONS::is_complete_c ; \n\n\"All Devices Must Be Inspected\" ;\n\nTICKETS::is_complete_c ;\n\n\"Mark Inspection Complete\" \n\n)"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-iphone-inspection-details-T21lZ2E6-97",
+      "position": {
+        "x": 64,
+        "y": 47,
+        "width": 248,
+        "height": 21,
+        "z": 11
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "styleName": "Minimal Edit Box LJ",
+        "ddrObjectPath": "97",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": true,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 1073741824,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 47,
+        "ddrSourceLeft": 64,
+        "ddrSourceBottom": 68,
+        "ddrSourceRight": 312,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "site_name",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 11
+      },
+      "type": "field",
+      "binding": {
+        "field": "site_name",
+        "tableOccurrence": "INSPECTIONS"
+      }
+    },
+    {
+      "id": "ddr-fm-iphone-inspection-details-T21lZ2E6-98",
+      "position": {
+        "x": 64,
+        "y": 68,
+        "width": 248,
+        "height": 21,
+        "z": 12
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "styleName": "Minimal Edit Box LJ",
+        "ddrObjectPath": "98",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": true,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 1073741824,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 68,
+        "ddrSourceLeft": 64,
+        "ddrSourceBottom": 89,
+        "ddrSourceRight": 312,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "job_name",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 12
+      },
+      "type": "field",
+      "binding": {
+        "field": "job_name",
+        "tableOccurrence": "INSPECTIONS"
+      }
+    },
+    {
+      "id": "ddr-fm-iphone-inspection-details-T21lZ2E6-100",
+      "position": {
+        "x": 77,
+        "y": 109,
+        "width": 210,
+        "height": 24,
+        "z": 13
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "styleName": "Popup Touch 14",
+        "ddrObjectPath": "100",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": true,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 1073741824,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 109,
+        "ddrSourceLeft": 77,
+        "ddrSourceBottom": 133,
+        "ddrSourceRight": 287,
+        "fillType": "none",
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textAlign": "center",
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "status",
+        "controlType": "popup",
+        "valueList": "TicketStatuses_iOS",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 13
+      },
+      "type": "field",
+      "binding": {
+        "field": "status",
+        "tableOccurrence": "INSPECTIONS"
+      }
+    },
+    {
+      "id": "ddr-fm-iphone-inspection-details-T21lZ2E6-104",
+      "position": {
+        "x": 32,
+        "y": 113,
+        "width": 38,
+        "height": 17,
+        "z": 14
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "ddrObjectPath": "104",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 113,
+        "ddrSourceLeft": 32,
+        "ddrSourceBottom": 130,
+        "ddrSourceRight": 70,
+        "fontFamily": "arial,sans-serif",
+        "fontSize": 12,
+        "textColor": "#707070",
+        "label": "Status",
+        "ddrArrangeOrder": 14
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-iphone-inspection-details-T21lZ2E6-114",
+      "position": {
+        "x": 334,
+        "y": 105,
+        "width": 79,
+        "height": 28,
+        "z": 15
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "ddrObjectPath": "114",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 105,
+        "ddrSourceLeft": 334,
+        "ddrSourceBottom": 133,
+        "ddrSourceRight": 413,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "signature",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 15
+      },
+      "type": "field",
+      "binding": {
+        "field": "signature",
+        "tableOccurrence": "INSPECTIONS"
+      }
+    },
+    {
+      "id": "ddr-fm-iphone-inspection-details-T21lZ2E6-127",
+      "position": {
+        "x": 334,
+        "y": 143,
+        "width": 149,
+        "height": 17,
+        "z": 16
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "ddrObjectPath": "127",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 143,
+        "ddrSourceLeft": 334,
+        "ddrSourceBottom": 160,
+        "ddrSourceRight": 483,
+        "fontFamily": "arial,sans-serif",
+        "fontSize": 12,
+        "textColor": "#707070",
+        "label": "DO NOT Remove this field.",
+        "ddrArrangeOrder": 16
+      },
+      "type": "label"
+    }
+  ],
+  "actions": []
+}

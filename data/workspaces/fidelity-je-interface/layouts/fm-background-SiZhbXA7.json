@@ -1,0 +1,209 @@
+{
+  "id": "fm-background-SiZhbXA7",
+  "name": "background",
+  "defaultTableOccurrence": "background",
+  "canvas": {
+    "width": 1208,
+    "height": 960,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-background-SiZhbXA7-8",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 1184,
+        "height": 920,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "Classic",
+        "ddrObjectPath": "8",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "GroupButton",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 0,
+        "ddrSourceLeft": 0,
+        "ddrSourceBottom": 920,
+        "ddrSourceRight": 1184,
+        "fillType": "solid",
+        "fillColor": "rgba(255, 255, 255, 1)",
+        "lineColor": "rgba(255, 255, 255, 1)",
+        "lineStyle": "solid",
+        "effectOuterShadow": true,
+        "label": "Button",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 1
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-background-SiZhbXA7-8-4",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 592,
+        "height": 460,
+        "z": 2
+      },
+      "props": {
+        "styleTheme": "Classic",
+        "ddrObjectPath": "8.4",
+        "rotation": 2700,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Graphic",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 0,
+        "ddrSourceLeft": 0,
+        "ddrSourceBottom": 460,
+        "ddrSourceRight": 592,
+        "ddrFidelityWarnings": [
+          "Unsupported DDR object type: Graphic"
+        ],
+        "fillType": "solid",
+        "fillColor": "rgba(255, 255, 255, 1)",
+        "lineColor": "rgba(255, 255, 255, 1)",
+        "lineStyle": "solid",
+        "effectOuterShadow": true,
+        "label": "[Graphic]",
+        "ddrArrangeOrder": 2
+      },
+      "type": "unknown"
+    },
+    {
+      "id": "ddr-fm-background-SiZhbXA7-8-5",
+      "position": {
+        "x": 592,
+        "y": 0,
+        "width": 592,
+        "height": 460,
+        "z": 3
+      },
+      "props": {
+        "styleTheme": "Classic",
+        "ddrObjectPath": "8.5",
+        "rotation": 900,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Graphic",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 0,
+        "ddrSourceLeft": 592,
+        "ddrSourceBottom": 460,
+        "ddrSourceRight": 1184,
+        "ddrFidelityWarnings": [
+          "Unsupported DDR object type: Graphic"
+        ],
+        "fillType": "solid",
+        "fillColor": "rgba(255, 255, 255, 1)",
+        "lineColor": "rgba(255, 255, 255, 1)",
+        "lineStyle": "solid",
+        "effectOuterShadow": true,
+        "label": "[Graphic]",
+        "ddrArrangeOrder": 3
+      },
+      "type": "unknown"
+    },
+    {
+      "id": "ddr-fm-background-SiZhbXA7-8-6",
+      "position": {
+        "x": 0,
+        "y": 460,
+        "width": 592,
+        "height": 460,
+        "z": 4
+      },
+      "props": {
+        "styleTheme": "Classic",
+        "ddrObjectPath": "8.6",
+        "rotation": 2700,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Graphic",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 460,
+        "ddrSourceLeft": 0,
+        "ddrSourceBottom": 920,
+        "ddrSourceRight": 592,
+        "ddrFidelityWarnings": [
+          "Unsupported DDR object type: Graphic"
+        ],
+        "fillType": "solid",
+        "fillColor": "rgba(255, 255, 255, 1)",
+        "lineColor": "rgba(255, 255, 255, 1)",
+        "lineStyle": "solid",
+        "effectOuterShadow": true,
+        "label": "[Graphic]",
+        "ddrArrangeOrder": 4
+      },
+      "type": "unknown"
+    },
+    {
+      "id": "ddr-fm-background-SiZhbXA7-8-7",
+      "position": {
+        "x": 592,
+        "y": 460,
+        "width": 592,
+        "height": 460,
+        "z": 5
+      },
+      "props": {
+        "styleTheme": "Classic",
+        "ddrObjectPath": "8.7",
+        "rotation": 2700,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Graphic",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 460,
+        "ddrSourceLeft": 592,
+        "ddrSourceBottom": 920,
+        "ddrSourceRight": 1184,
+        "ddrFidelityWarnings": [
+          "Unsupported DDR object type: Graphic"
+        ],
+        "fillType": "solid",
+        "fillColor": "rgba(255, 255, 255, 1)",
+        "lineColor": "rgba(255, 255, 255, 1)",
+        "lineStyle": "solid",
+        "effectOuterShadow": true,
+        "label": "[Graphic]",
+        "ddrArrangeOrder": 5
+      },
+      "type": "unknown"
+    }
+  ],
+  "actions": []
+}

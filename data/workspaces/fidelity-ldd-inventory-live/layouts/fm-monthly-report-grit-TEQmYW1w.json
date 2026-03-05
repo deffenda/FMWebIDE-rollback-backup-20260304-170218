@@ -1,0 +1,317 @@
+{
+  "id": "fm-monthly-report-grit-TEQmYW1w",
+  "name": "Monthly Report Grit",
+  "defaultTableOccurrence": "Monthly Report Grit",
+  "canvas": {
+    "width": 780,
+    "height": 856,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-monthly-report-grit-TEQmYW1w-15",
+      "position": {
+        "x": 2,
+        "y": 2,
+        "width": 227,
+        "height": 12,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "Enlightened Print",
+        "ddrObjectPath": "15",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 2,
+        "ddrSourceLeft": 2,
+        "ddrSourceBottom": 14,
+        "ddrSourceRight": 229,
+        "fillType": "none",
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "fontSize": 8,
+        "fontWeight": "bold",
+        "fontFamily": "arial,sans-serif",
+        "textColor": "#000000",
+        "label": "Labeling Design & Development Monthly Metrics Dashboard",
+        "ddrArrangeOrder": 1
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-monthly-report-grit-TEQmYW1w-16",
+      "position": {
+        "x": 2,
+        "y": 14,
+        "width": 106,
+        "height": 13,
+        "z": 2
+      },
+      "props": {
+        "styleTheme": "Enlightened Print",
+        "ddrObjectPath": "16",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 14,
+        "ddrSourceLeft": 2,
+        "ddrSourceBottom": 27,
+        "ddrSourceRight": 108,
+        "fillType": "none",
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "fontSize": 8,
+        "fontWeight": "bold",
+        "fontFamily": "arial,sans-serif",
+        "textColor": "#000000",
+        "label": "Filemaker Test version 0_1",
+        "ddrArrangeOrder": 2
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-monthly-report-grit-TEQmYW1w-29",
+      "position": {
+        "x": 2,
+        "y": 27,
+        "width": 255,
+        "height": 692,
+        "z": 3
+      },
+      "props": {
+        "styleTheme": "Enlightened Print",
+        "ddrObjectPath": "29",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Portal",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 27,
+        "ddrSourceLeft": 2,
+        "ddrSourceBottom": 719,
+        "ddrSourceRight": 257,
+        "label": "Portal",
+        "portalSortRecords": false,
+        "portalFilterRecords": false,
+        "portalFilterCalculation": "",
+        "portalAllowDelete": false,
+        "portalAllowVerticalScrolling": true,
+        "portalScrollBar": "always",
+        "portalResetScrollOnExit": false,
+        "portalInitialRow": 1,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 30,
+        "portalUseAlternateRowState": false,
+        "portalUseActiveRowState": true,
+        "portalRowFields": [
+          "Entry name",
+          "Entry value"
+        ],
+        "portalColumnHeaders": [
+          "Entry value",
+          "Entry name"
+        ],
+        "portalColumnWidths": [
+          47,
+          91
+        ],
+        "ddrArrangeOrder": 3
+      },
+      "type": "portal",
+      "binding": {
+        "tableOccurrence": "Monthly report entries"
+      }
+    },
+    {
+      "id": "ddr-fm-monthly-report-grit-TEQmYW1w-29-30",
+      "position": {
+        "x": 7,
+        "y": 57,
+        "width": 91,
+        "height": 17,
+        "z": 4
+      },
+      "props": {
+        "styleTheme": "Enlightened Print",
+        "ddrObjectPath": "29.30",
+        "portalParentComponentId": "ddr-fm-monthly-report-grit-TEQmYW1w-29",
+        "portalParentDdrPath": "29",
+        "portalParentTableOccurrence": "Monthly report entries",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 57,
+        "ddrSourceLeft": 7,
+        "ddrSourceBottom": 74,
+        "ddrSourceRight": 98,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Entry name",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 4
+      },
+      "type": "field",
+      "binding": {
+        "field": "Entry name",
+        "tableOccurrence": "Monthly report entries"
+      }
+    },
+    {
+      "id": "ddr-fm-monthly-report-grit-TEQmYW1w-29-31",
+      "position": {
+        "x": 110,
+        "y": 56,
+        "width": 47,
+        "height": 17,
+        "z": 5
+      },
+      "props": {
+        "styleTheme": "Enlightened Print",
+        "ddrObjectPath": "29.31",
+        "portalParentComponentId": "ddr-fm-monthly-report-grit-TEQmYW1w-29",
+        "portalParentDdrPath": "29",
+        "portalParentTableOccurrence": "Monthly report entries",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 56,
+        "ddrSourceLeft": 110,
+        "ddrSourceBottom": 73,
+        "ddrSourceRight": 157,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Entry value",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 5
+      },
+      "type": "field",
+      "binding": {
+        "field": "Entry value",
+        "tableOccurrence": "Monthly report entries"
+      }
+    },
+    {
+      "id": "ddr-fm-monthly-report-grit-TEQmYW1w-33",
+      "position": {
+        "x": 257,
+        "y": 439,
+        "width": 398,
+        "height": 377,
+        "z": 6
+      },
+      "props": {
+        "styleTheme": "Enlightened Print",
+        "ddrObjectPath": "33",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "ExternalObject",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 439,
+        "ddrSourceLeft": 257,
+        "ddrSourceBottom": 816,
+        "ddrSourceRight": 655,
+        "ddrFidelityWarnings": [
+          "Unsupported DDR object type: ExternalObject"
+        ],
+        "fontFamily": "arial,sans-serif",
+        "fontSize": 15,
+        "textColor": "#000000FF",
+        "label": "[ExternalObject]",
+        "ddrArrangeOrder": 6
+      },
+      "type": "unknown"
+    },
+    {
+      "id": "ddr-fm-monthly-report-grit-TEQmYW1w-32",
+      "position": {
+        "x": 257,
+        "y": 0,
+        "width": 398,
+        "height": 377,
+        "z": 7
+      },
+      "props": {
+        "styleTheme": "Enlightened Print",
+        "ddrObjectPath": "32",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "ExternalObject",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 0,
+        "ddrSourceLeft": 257,
+        "ddrSourceBottom": 377,
+        "ddrSourceRight": 655,
+        "ddrFidelityWarnings": [
+          "Unsupported DDR object type: ExternalObject"
+        ],
+        "fontFamily": "arial,sans-serif",
+        "fontSize": 15,
+        "textColor": "#000000FF",
+        "label": "[ExternalObject]",
+        "ddrArrangeOrder": 7
+      },
+      "type": "unknown"
+    }
+  ],
+  "actions": []
+}

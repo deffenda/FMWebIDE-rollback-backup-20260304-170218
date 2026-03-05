@@ -1,0 +1,377 @@
+{
+  "id": "fm-search-jobs-TEQmYW1w",
+  "name": "Search jobs",
+  "defaultTableOccurrence": "Search jobs",
+  "canvas": {
+    "width": 1996,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-search-jobs-TEQmYW1w-10",
+      "position": {
+        "x": 30,
+        "y": 73,
+        "width": 75,
+        "height": 25,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Normal text",
+        "ddrObjectPath": "10",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 73,
+        "ddrSourceLeft": 30,
+        "ddrSourceBottom": 98,
+        "ddrSourceRight": 105,
+        "fontFamily": "Helvetica",
+        "fontSize": 18,
+        "textColor": "#666666",
+        "label": "Job ID",
+        "ddrArrangeOrder": 1
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-search-jobs-TEQmYW1w-56",
+      "position": {
+        "x": 208,
+        "y": 68,
+        "width": 230,
+        "height": 32,
+        "z": 2
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "data entry field",
+        "ddrObjectPath": "56",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 68,
+        "ddrSourceLeft": 208,
+        "ddrSourceBottom": 100,
+        "ddrSourceRight": 438,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "string 1",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 2
+      },
+      "type": "field",
+      "binding": {
+        "field": "string 1",
+        "tableOccurrence": "Temporary store input data"
+      }
+    },
+    {
+      "id": "ddr-fm-search-jobs-TEQmYW1w-70",
+      "position": {
+        "x": 48,
+        "y": 210,
+        "width": 143,
+        "height": 37,
+        "z": 3
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Blue button",
+        "ddrObjectPath": "70",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 210,
+        "ddrSourceLeft": 48,
+        "ddrSourceBottom": 247,
+        "ddrSourceRight": 191,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#E6E6E6",
+        "label": "Find",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 3
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Search jobs"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-search-jobs-TEQmYW1w-71",
+      "position": {
+        "x": 255,
+        "y": 210,
+        "width": 143,
+        "height": 37,
+        "z": 4
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Blue button",
+        "ddrObjectPath": "71",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 210,
+        "ddrSourceLeft": 255,
+        "ddrSourceBottom": 247,
+        "ddrSourceRight": 398,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#E6E6E6",
+        "label": "Cancel",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 4
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Cancel document search"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-search-jobs-TEQmYW1w-118",
+      "position": {
+        "x": 30,
+        "y": 21,
+        "width": 347,
+        "height": 34,
+        "z": 5
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Header text",
+        "ddrObjectPath": "118",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 21,
+        "ddrSourceLeft": 30,
+        "ddrSourceBottom": 55,
+        "ddrSourceRight": 377,
+        "fontFamily": "Helvetica",
+        "fontSize": 24,
+        "textColor": "#666666",
+        "label": "Search Jobs",
+        "ddrArrangeOrder": 5
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-search-jobs-TEQmYW1w-161",
+      "position": {
+        "x": 30,
+        "y": 112,
+        "width": 150,
+        "height": 25,
+        "z": 6
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Normal text",
+        "ddrObjectPath": "161",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 112,
+        "ddrSourceLeft": 30,
+        "ddrSourceBottom": 137,
+        "ddrSourceRight": 180,
+        "fontFamily": "Helvetica",
+        "fontSize": 18,
+        "textColor": "#666666",
+        "label": "Keyword in Title",
+        "ddrArrangeOrder": 6
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-search-jobs-TEQmYW1w-162",
+      "position": {
+        "x": 208,
+        "y": 107,
+        "width": 230,
+        "height": 32,
+        "z": 7
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "data entry field",
+        "ddrObjectPath": "162",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 107,
+        "ddrSourceLeft": 208,
+        "ddrSourceBottom": 139,
+        "ddrSourceRight": 438,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "string 2",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 7
+      },
+      "type": "field",
+      "binding": {
+        "field": "string 2",
+        "tableOccurrence": "Temporary store input data"
+      }
+    },
+    {
+      "id": "ddr-fm-search-jobs-TEQmYW1w-163",
+      "position": {
+        "x": 30,
+        "y": 151,
+        "width": 150,
+        "height": 25,
+        "z": 8
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Normal text",
+        "ddrObjectPath": "163",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 151,
+        "ddrSourceLeft": 30,
+        "ddrSourceBottom": 176,
+        "ddrSourceRight": 180,
+        "fontFamily": "Helvetica",
+        "fontSize": 18,
+        "textColor": "#666666",
+        "label": "Document ID",
+        "ddrArrangeOrder": 8
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-search-jobs-TEQmYW1w-164",
+      "position": {
+        "x": 208,
+        "y": 146,
+        "width": 230,
+        "height": 32,
+        "z": 9
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "data entry field",
+        "ddrObjectPath": "164",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 146,
+        "ddrSourceLeft": 208,
+        "ddrSourceBottom": 178,
+        "ddrSourceRight": 438,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "string 3",
+        "controlType": "text",
+        "valueList": "Media Types",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 9
+      },
+      "type": "field",
+      "binding": {
+        "field": "string 3",
+        "tableOccurrence": "Temporary store input data"
+      }
+    }
+  ],
+  "actions": []
+}

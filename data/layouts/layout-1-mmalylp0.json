@@ -1,0 +1,249 @@
+{
+  "id": "layout-1-mmalylp0",
+  "name": "Layout #1",
+  "defaultTableOccurrence": "Asset List",
+  "canvas": {
+    "width": 1280,
+    "height": 960,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false,
+    "showRulers": false,
+    "showGuides": false,
+    "autosizeTop": true,
+    "autosizeRight": true,
+    "autosizeBottom": true,
+    "autosizeLeft": true,
+    "locked": false,
+    "devicePresetId": "desktop-1280x960",
+    "deviceFramePresetIds": [
+      "desktop-1280x960"
+    ]
+  },
+  "parts": [
+    {
+      "id": "66460fd8-c511-4305-94f6-72a6393c9eae",
+      "type": "body",
+      "label": "Body",
+      "height": 960
+    }
+  ],
+  "components": [
+    {
+      "id": "5b8f11e5-0841-4f5d-a1d9-3e42f28cfeec",
+      "type": "label",
+      "position": {
+        "x": 24,
+        "y": 18,
+        "width": 1232,
+        "height": 24,
+        "z": 1772542370009
+      },
+      "binding": {},
+      "props": {
+        "label": "List View Starter",
+        "placeholder": "",
+        "controlType": "text",
+        "variant": "primary",
+        "buttonMode": "standard",
+        "locked": false,
+        "rotation": 0,
+        "fontWeight": "bold"
+      }
+    },
+    {
+      "id": "a2490fd5-999f-4b01-893f-982b327df71b",
+      "type": "field",
+      "position": {
+        "x": 24,
+        "y": 62,
+        "width": 197,
+        "height": 32,
+        "z": 1772542370010
+      },
+      "binding": {
+        "field": "Image",
+        "tableOccurrence": "Asset List"
+      },
+      "props": {
+        "label": "Image",
+        "placeholder": "Enter value",
+        "controlType": "text",
+        "variant": "primary",
+        "buttonMode": "standard",
+        "locked": false,
+        "rotation": 0,
+        "labelPlacement": "top",
+        "tabOrder": 1
+      }
+    },
+    {
+      "id": "04df63e9-7b0e-4960-9df0-3bf1b11af9b3",
+      "type": "field",
+      "position": {
+        "x": 231,
+        "y": 62,
+        "width": 197,
+        "height": 32,
+        "z": 1772542370011
+      },
+      "binding": {
+        "field": "Name",
+        "tableOccurrence": "Asset List"
+      },
+      "props": {
+        "label": "Name",
+        "placeholder": "Enter value",
+        "controlType": "text",
+        "variant": "primary",
+        "buttonMode": "standard",
+        "locked": false,
+        "rotation": 0,
+        "labelPlacement": "top",
+        "tabOrder": 2
+      }
+    },
+    {
+      "id": "aeed4b2c-a0f6-4d3d-8e93-670f0e8bbc09",
+      "type": "field",
+      "position": {
+        "x": 438,
+        "y": 62,
+        "width": 197,
+        "height": 32,
+        "z": 1772542370012
+      },
+      "binding": {
+        "field": "Price",
+        "tableOccurrence": "Asset List"
+      },
+      "props": {
+        "label": "Price",
+        "placeholder": "Enter value",
+        "controlType": "text",
+        "variant": "primary",
+        "buttonMode": "standard",
+        "locked": false,
+        "rotation": 0,
+        "labelPlacement": "top",
+        "tabOrder": 3
+      }
+    },
+    {
+      "id": "39b52cf8-e4d3-47ea-bda8-343f6db60708",
+      "type": "field",
+      "position": {
+        "x": 645,
+        "y": 62,
+        "width": 197,
+        "height": 32,
+        "z": 1772542370013
+      },
+      "binding": {
+        "field": "Purchase Date",
+        "tableOccurrence": "Asset List"
+      },
+      "props": {
+        "label": "Purchase Date",
+        "placeholder": "Enter value",
+        "controlType": "text",
+        "variant": "primary",
+        "buttonMode": "standard",
+        "locked": false,
+        "rotation": 0,
+        "labelPlacement": "top",
+        "tabOrder": 4
+      }
+    },
+    {
+      "id": "8907b69e-f9c7-4c7b-b5d8-c9d5d15cb5c9",
+      "type": "field",
+      "position": {
+        "x": 852,
+        "y": 62,
+        "width": 197,
+        "height": 32,
+        "z": 1772542370014
+      },
+      "binding": {
+        "field": "Total",
+        "tableOccurrence": "Asset List"
+      },
+      "props": {
+        "label": "Total",
+        "placeholder": "Enter value",
+        "controlType": "text",
+        "variant": "primary",
+        "buttonMode": "standard",
+        "locked": false,
+        "rotation": 0,
+        "labelPlacement": "top",
+        "tabOrder": 5
+      }
+    },
+    {
+      "id": "af2ce346-1d17-4c88-a069-e56356b6c70e",
+      "type": "field",
+      "position": {
+        "x": 1059,
+        "y": 62,
+        "width": 197,
+        "height": 32,
+        "z": 1772542370015
+      },
+      "binding": {
+        "field": "Type",
+        "tableOccurrence": "Asset List"
+      },
+      "props": {
+        "label": "Type",
+        "placeholder": "Enter value",
+        "controlType": "text",
+        "variant": "primary",
+        "buttonMode": "standard",
+        "locked": false,
+        "rotation": 0,
+        "labelPlacement": "top",
+        "tabOrder": 6
+      }
+    },
+    {
+      "id": "5d38909f-c32f-49ee-a750-242e5bc18e26",
+      "type": "shape",
+      "position": {
+        "x": 24,
+        "y": 112,
+        "width": 1232,
+        "height": 804,
+        "z": 1772542370016
+      },
+      "binding": {},
+      "props": {
+        "label": "",
+        "placeholder": "",
+        "controlType": "text",
+        "variant": "primary",
+        "buttonMode": "standard",
+        "locked": false,
+        "rotation": 0,
+        "shapeType": "rectangle",
+        "fillType": "none",
+        "fillColor": "#ffffff",
+        "lineStyle": "solid",
+        "lineWidth": 1,
+        "lineColor": "#9ca3af",
+        "cornerRadius": 0
+      }
+    }
+  ],
+  "actions": [],
+  "includeInLayoutMenus": true,
+  "tabOrder": [
+    "a2490fd5-999f-4b01-893f-982b327df71b",
+    "04df63e9-7b0e-4960-9df0-3bf1b11af9b3",
+    "aeed4b2c-a0f6-4d3d-8e93-670f0e8bbc09",
+    "39b52cf8-e4d3-47ea-bda8-343f6db60708",
+    "8907b69e-f9c7-4c7b-b5d8-c9d5d15cb5c9",
+    "af2ce346-1d17-4c88-a069-e56356b6c70e"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "fm-5160-contacts-SiZhbXA7",
+  "name": "5160 Contacts",
+  "defaultTableOccurrence": "5160 Contacts",
+  "canvas": {
+    "width": 480,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-5160-contacts-SiZhbXA7-1",
+      "position": {
+        "x": 10,
+        "y": 4,
+        "width": 169,
+        "height": 62,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "Classic",
+        "ddrObjectPath": "1",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 16777216,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 4,
+        "ddrSourceLeft": 10,
+        "ddrSourceBottom": 66,
+        "ddrSourceRight": 179,
+        "fillType": "none",
+        "lineColor": "rgba(255, 255, 255, 1)",
+        "lineStyle": "solid",
+        "effectOuterShadow": true,
+        "fontSize": 10,
+        "fontFamily": "Helvetica",
+        "textColor": "#000000",
+        "label": "<<Full Name>>\n<<Company>>\n<<Bill To Address>>\n<<Bill To Address 2>>\n<<Bill To City>>, <<Bill To State>>  <<Bill To Zip>>",
+        "ddrArrangeOrder": 1
+      },
+      "type": "label"
+    }
+  ],
+  "actions": []
+}

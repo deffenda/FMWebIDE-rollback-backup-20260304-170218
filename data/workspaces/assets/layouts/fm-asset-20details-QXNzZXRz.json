@@ -1,0 +1,29 @@
+{
+  "id": "fm-asset-20details-QXNzZXRz",
+  "name": "Asset%20Details",
+  "defaultTableOccurrence": "Asset%20Details",
+  "canvas": {
+    "width": 1200,
+    "height": 900,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false,
+    "showRulers": false,
+    "showGuides": false,
+    "autosizeTop": true,
+    "autosizeRight": true,
+    "autosizeBottom": true,
+    "autosizeLeft": true,
+    "locked": false
+  },
+  "parts": [
+    {
+      "id": "e6548ac9-e422-4391-b232-f1f7b47d51bd",
+      "type": "body",
+      "label": "Body",
+      "height": 900
+    }
+  ],
+  "components": [],
+  "actions": []
+}

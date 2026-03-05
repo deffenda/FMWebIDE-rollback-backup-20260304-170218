@@ -1,0 +1,296 @@
+{
+  "id": "fm-bd-add-a-new-document-type-TEQmYW1w",
+  "name": "BD Add a new document type",
+  "defaultTableOccurrence": "BD Add a new document type",
+  "canvas": {
+    "width": 1996,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-bd-add-a-new-document-type-TEQmYW1w-10",
+      "position": {
+        "x": 26,
+        "y": 118,
+        "width": 150,
+        "height": 25,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Normal text",
+        "ddrObjectPath": "10",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 118,
+        "ddrSourceLeft": 26,
+        "ddrSourceBottom": 143,
+        "ddrSourceRight": 176,
+        "fontFamily": "Helvetica",
+        "fontSize": 18,
+        "textColor": "#666666",
+        "label": "SAP ID",
+        "ddrArrangeOrder": 1
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-bd-add-a-new-document-type-TEQmYW1w-70",
+      "position": {
+        "x": 55,
+        "y": 165,
+        "width": 132,
+        "height": 37,
+        "z": 2
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Blue button",
+        "ddrObjectPath": "70",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 165,
+        "ddrSourceLeft": 55,
+        "ddrSourceBottom": 202,
+        "ddrSourceRight": 187,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#E6E6E6",
+        "label": "Save",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 2
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Save entered document type"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-bd-add-a-new-document-type-TEQmYW1w-71",
+      "position": {
+        "x": 251,
+        "y": 165,
+        "width": 132,
+        "height": 37,
+        "z": 3
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Blue button",
+        "ddrObjectPath": "71",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 165,
+        "ddrSourceLeft": 251,
+        "ddrSourceBottom": 202,
+        "ddrSourceRight": 383,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#E6E6E6",
+        "label": "Cancel",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 3
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Cancel entered document type"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-bd-add-a-new-document-type-TEQmYW1w-76",
+      "position": {
+        "x": 182,
+        "y": 114,
+        "width": 302,
+        "height": 32,
+        "z": 4
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "dropdown",
+        "ddrObjectPath": "76",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 114,
+        "ddrSourceLeft": 182,
+        "ddrSourceBottom": 146,
+        "ddrSourceRight": 484,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "SAP ID",
+        "controlType": "dropdown",
+        "valueList": "SAP ID's for Subgroups",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 4
+      },
+      "type": "field",
+      "binding": {
+        "field": "SAP ID",
+        "tableOccurrence": "document types"
+      }
+    },
+    {
+      "id": "ddr-fm-bd-add-a-new-document-type-TEQmYW1w-79",
+      "position": {
+        "x": 26,
+        "y": 73,
+        "width": 150,
+        "height": 25,
+        "z": 5
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "ddrObjectPath": "79",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 73,
+        "ddrSourceLeft": 26,
+        "ddrSourceBottom": 98,
+        "ddrSourceRight": 176,
+        "fontFamily": "arial,sans-serif",
+        "fontSize": 18,
+        "textColor": "#4D4D4D",
+        "label": "Subgroup",
+        "ddrArrangeOrder": 5
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-bd-add-a-new-document-type-TEQmYW1w-80",
+      "position": {
+        "x": 182,
+        "y": 69,
+        "width": 302,
+        "height": 32,
+        "z": 6
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "data entry field",
+        "ddrObjectPath": "80",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 69,
+        "ddrSourceLeft": 182,
+        "ddrSourceBottom": 101,
+        "ddrSourceRight": 484,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Subgroup",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 6
+      },
+      "type": "field",
+      "binding": {
+        "field": "Subgroup",
+        "tableOccurrence": "document types"
+      }
+    },
+    {
+      "id": "ddr-fm-bd-add-a-new-document-type-TEQmYW1w-131",
+      "position": {
+        "x": 26,
+        "y": 18,
+        "width": 347,
+        "height": 34,
+        "z": 7
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Header text",
+        "ddrObjectPath": "131",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 18,
+        "ddrSourceLeft": 26,
+        "ddrSourceBottom": 52,
+        "ddrSourceRight": 373,
+        "fontFamily": "Helvetica",
+        "fontSize": 24,
+        "textColor": "#666666",
+        "label": "Add a new Subgroup",
+        "ddrArrangeOrder": 7
+      },
+      "type": "label"
+    }
+  ],
+  "actions": []
+}

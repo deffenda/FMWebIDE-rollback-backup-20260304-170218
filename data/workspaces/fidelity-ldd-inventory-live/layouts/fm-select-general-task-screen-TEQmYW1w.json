@@ -1,0 +1,296 @@
+{
+  "id": "fm-select-general-task-screen-TEQmYW1w",
+  "name": "Select general task screen",
+  "defaultTableOccurrence": "Select general task screen",
+  "canvas": {
+    "width": 562,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-select-general-task-screen-TEQmYW1w-2",
+      "position": {
+        "x": 24,
+        "y": 72,
+        "width": 127,
+        "height": 26,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Normal text",
+        "ddrObjectPath": "2",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 72,
+        "ddrSourceLeft": 24,
+        "ddrSourceBottom": 98,
+        "ddrSourceRight": 151,
+        "fontFamily": "Helvetica",
+        "fontSize": 18,
+        "textColor": "#666666",
+        "label": "Task",
+        "ddrArrangeOrder": 1
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-select-general-task-screen-TEQmYW1w-3",
+      "position": {
+        "x": 24,
+        "y": 20,
+        "width": 510,
+        "height": 32,
+        "z": 2
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Header text",
+        "ddrObjectPath": "3",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 20,
+        "ddrSourceLeft": 24,
+        "ddrSourceBottom": 52,
+        "ddrSourceRight": 534,
+        "fontFamily": "Helvetica",
+        "fontSize": 24,
+        "textColor": "#666666",
+        "label": "Add a General Task totime registration",
+        "ddrArrangeOrder": 2
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-select-general-task-screen-TEQmYW1w-6",
+      "position": {
+        "x": 76,
+        "y": 166,
+        "width": 144,
+        "height": 43,
+        "z": 3
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Blue button",
+        "ddrObjectPath": "6",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 166,
+        "ddrSourceLeft": 76,
+        "ddrSourceBottom": 209,
+        "ddrSourceRight": 220,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#E6E6E6",
+        "label": "OK",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 3
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Add a general task to time registration (old)"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-select-general-task-screen-TEQmYW1w-7",
+      "position": {
+        "x": 261,
+        "y": 166,
+        "width": 144,
+        "height": 43,
+        "z": 4
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Blue button",
+        "ddrObjectPath": "7",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 166,
+        "ddrSourceLeft": 261,
+        "ddrSourceBottom": 209,
+        "ddrSourceRight": 405,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#E6E6E6",
+        "label": "Cancel",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 4
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Cancel add general task"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-select-general-task-screen-TEQmYW1w-8",
+      "position": {
+        "x": 102,
+        "y": 110,
+        "width": 344,
+        "height": 32,
+        "z": 5
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "dropdown",
+        "ddrObjectPath": "8",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 110,
+        "ddrSourceLeft": 102,
+        "ddrSourceBottom": 142,
+        "ddrSourceRight": 446,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "string 2",
+        "controlType": "dropdown",
+        "valueList": "Plants",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 5
+      },
+      "type": "field",
+      "binding": {
+        "field": "string 2",
+        "tableOccurrence": "Temporary store input data"
+      }
+    },
+    {
+      "id": "ddr-fm-select-general-task-screen-TEQmYW1w-9",
+      "position": {
+        "x": 24,
+        "y": 114,
+        "width": 127,
+        "height": 26,
+        "z": 6
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Normal text",
+        "ddrObjectPath": "9",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 114,
+        "ddrSourceLeft": 24,
+        "ddrSourceBottom": 140,
+        "ddrSourceRight": 151,
+        "fontFamily": "Helvetica",
+        "fontSize": 18,
+        "textColor": "#666666",
+        "label": "Plant",
+        "ddrArrangeOrder": 6
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-select-general-task-screen-TEQmYW1w-16",
+      "position": {
+        "x": 102,
+        "y": 63,
+        "width": 344,
+        "height": 32,
+        "z": 7
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "ddrObjectPath": "16",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 63,
+        "ddrSourceLeft": 102,
+        "ddrSourceBottom": 95,
+        "ddrSourceRight": 446,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "string 1",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 7
+      },
+      "type": "field",
+      "binding": {
+        "field": "string 1",
+        "tableOccurrence": "Temporary store input data"
+      }
+    }
+  ],
+  "actions": []
+}

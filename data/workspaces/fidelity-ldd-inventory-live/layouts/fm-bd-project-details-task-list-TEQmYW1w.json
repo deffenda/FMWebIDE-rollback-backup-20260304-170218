@@ -1,0 +1,3732 @@
+{
+  "id": "fm-bd-project-details-task-list-TEQmYW1w",
+  "name": "BD Project Details task list",
+  "defaultTableOccurrence": "BD Project Details task list",
+  "canvas": {
+    "width": 1830,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-831",
+      "position": {
+        "x": 0,
+        "y": 175,
+        "width": 1797,
+        "height": 32,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "ddrObjectPath": "831",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": true,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Rect",
+        "ddrObjectFlags": 1073741824,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 175,
+        "ddrSourceLeft": 0,
+        "ddrSourceBottom": 207,
+        "ddrSourceRight": 1797,
+        "ddrFidelityWarnings": [
+          "Unsupported DDR object type: Rect"
+        ],
+        "fillType": "solid",
+        "fillColor": "rgba(202, 219, 254, 1)",
+        "lineColor": "rgba(202, 219, 254, 1)",
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "label": "[Rect]",
+        "ddrArrangeOrder": 1
+      },
+      "type": "unknown"
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-832",
+      "position": {
+        "x": 0,
+        "y": 175,
+        "width": 1796,
+        "height": 8,
+        "z": 2
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Table top line",
+        "ddrObjectPath": "832",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": true,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Line",
+        "ddrObjectFlags": 1073754112,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 175,
+        "ddrSourceLeft": 0,
+        "ddrSourceBottom": 175,
+        "ddrSourceRight": 1796,
+        "fillType": "none",
+        "lineColor": "rgba(0, 127, 209, 1)",
+        "lineWidth": 3,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "label": "",
+        "shapeType": "line",
+        "fillColor": "transparent",
+        "cornerRadius": 0,
+        "ddrArrangeOrder": 2
+      },
+      "type": "shape"
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-143",
+      "position": {
+        "x": 36,
+        "y": 126,
+        "width": 580,
+        "height": 33,
+        "z": 3
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Header text",
+        "ddrObjectPath": "143",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 126,
+        "ddrSourceLeft": 36,
+        "ddrSourceBottom": 159,
+        "ddrSourceRight": 616,
+        "fontFamily": "Helvetica",
+        "fontSize": 24,
+        "textColor": "#666666",
+        "label": "Master Task List for job <<$$job>>",
+        "ddrArrangeOrder": 3
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-494",
+      "position": {
+        "x": 197,
+        "y": 179,
+        "width": 192,
+        "height": 24,
+        "z": 4
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Column title",
+        "ddrObjectPath": "494",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 179,
+        "ddrSourceLeft": 197,
+        "ddrSourceBottom": 203,
+        "ddrSourceRight": 389,
+        "fontFamily": "Helvetica",
+        "fontSize": 18,
+        "textColor": "#666666",
+        "label": "Description",
+        "ddrArrangeOrder": 4
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-543",
+      "position": {
+        "x": 603,
+        "y": 179,
+        "width": 127,
+        "height": 28,
+        "z": 5
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Column title",
+        "ddrObjectPath": "543",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 179,
+        "ddrSourceLeft": 603,
+        "ddrSourceBottom": 207,
+        "ddrSourceRight": 730,
+        "fontFamily": "Helvetica",
+        "fontSize": 18,
+        "textColor": "#666666",
+        "label": "Source doc",
+        "ddrArrangeOrder": 5
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-544",
+      "position": {
+        "x": 733,
+        "y": 179,
+        "width": 192,
+        "height": 25,
+        "z": 6
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Column title",
+        "ddrObjectPath": "544",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 179,
+        "ddrSourceLeft": 733,
+        "ddrSourceBottom": 204,
+        "ddrSourceRight": 925,
+        "fontFamily": "Helvetica",
+        "fontSize": 18,
+        "textColor": "#666666",
+        "label": "Assigned to",
+        "ddrArrangeOrder": 6
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-545",
+      "position": {
+        "x": 922,
+        "y": 179,
+        "width": 110,
+        "height": 25,
+        "z": 7
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Column title",
+        "ddrObjectPath": "545",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 179,
+        "ddrSourceLeft": 922,
+        "ddrSourceBottom": 204,
+        "ddrSourceRight": 1032,
+        "fontFamily": "Helvetica",
+        "fontSize": 18,
+        "textColor": "#666666",
+        "label": "Target date",
+        "ddrArrangeOrder": 7
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-546",
+      "position": {
+        "x": 1067,
+        "y": 179,
+        "width": 110,
+        "height": 25,
+        "z": 8
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Column title",
+        "ddrObjectPath": "546",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 179,
+        "ddrSourceLeft": 1067,
+        "ddrSourceBottom": 204,
+        "ddrSourceRight": 1177,
+        "fontFamily": "Helvetica",
+        "fontSize": 18,
+        "textColor": "#666666",
+        "label": "Status",
+        "ddrArrangeOrder": 8
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-368",
+      "position": {
+        "x": 1221,
+        "y": 179,
+        "width": 278,
+        "height": 25,
+        "z": 9
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Column title",
+        "ddrObjectPath": "368",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 179,
+        "ddrSourceLeft": 1221,
+        "ddrSourceBottom": 204,
+        "ddrSourceRight": 1499,
+        "fontFamily": "Helvetica",
+        "fontSize": 18,
+        "textColor": "#666666",
+        "label": "Task  instructions:",
+        "ddrArrangeOrder": 9
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-547",
+      "position": {
+        "x": 430,
+        "y": 179,
+        "width": 132,
+        "height": 28,
+        "z": 10
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Column title",
+        "ddrObjectPath": "547",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 179,
+        "ddrSourceLeft": 430,
+        "ddrSourceBottom": 207,
+        "ddrSourceRight": 562,
+        "fontFamily": "Helvetica",
+        "fontSize": 18,
+        "textColor": "#666666",
+        "label": "Documents",
+        "ddrArrangeOrder": 10
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-561",
+      "position": {
+        "x": 184,
+        "y": 208,
+        "width": 237,
+        "height": 32,
+        "z": 11
+      },
+      "props": {
+        "hideObjectWhen": "Project tasks::Status = \"Not Started\"",
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Table dropdown",
+        "ddrObjectPath": "561",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "GroupButton",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": true,
+        "ddrSourceTop": 208,
+        "ddrSourceLeft": 184,
+        "ddrSourceBottom": 240,
+        "ddrSourceRight": 421,
+        "ddrFidelityWarnings": [
+          "Conditional formatting imported as static first-rule style."
+        ],
+        "fillType": "none",
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "rgba(255, 39, 18, 1)",
+        "label": "Button",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 11
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-561-84",
+      "position": {
+        "x": 368,
+        "y": 416,
+        "width": 237,
+        "height": 32,
+        "z": 12
+      },
+      "props": {
+        "hideObjectWhen": "Project tasks::Status = \"Not Started\"",
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Table dropdown",
+        "ddrObjectPath": "561.84",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 1,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": true,
+        "ddrSourceTop": 416,
+        "ddrSourceLeft": 368,
+        "ddrSourceBottom": 448,
+        "ddrSourceRight": 605,
+        "ddrFidelityWarnings": [
+          "Conditional formatting imported as static first-rule style."
+        ],
+        "fillType": "none",
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "rgba(255, 39, 18, 1)",
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Task description",
+        "controlType": "dropdown",
+        "valueList": "task list",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 12
+      },
+      "type": "field",
+      "binding": {
+        "field": "Task description",
+        "tableOccurrence": "Project tasks"
+      }
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-85",
+      "position": {
+        "x": 430,
+        "y": 208,
+        "width": 152,
+        "height": 32,
+        "z": 13
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Table field",
+        "ddrObjectPath": "85",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 208,
+        "ddrSourceLeft": 430,
+        "ddrSourceBottom": 240,
+        "ddrSourceRight": 582,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Edition ID",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 13
+      },
+      "type": "field",
+      "binding": {
+        "field": "Edition ID",
+        "tableOccurrence": "Project tasks"
+      }
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-87",
+      "position": {
+        "x": 721,
+        "y": 208,
+        "width": 192,
+        "height": 32,
+        "z": 14
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Table dropdown",
+        "ddrObjectPath": "87",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 208,
+        "ddrSourceLeft": 721,
+        "ddrSourceBottom": 240,
+        "ddrSourceRight": 913,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "assigned to",
+        "controlType": "dropdown",
+        "valueList": "Names",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 14
+      },
+      "type": "field",
+      "binding": {
+        "field": "assigned to",
+        "tableOccurrence": "Project tasks"
+      }
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-197",
+      "position": {
+        "x": 1221,
+        "y": 208,
+        "width": 443,
+        "height": 32,
+        "z": 15
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Table field",
+        "ddrObjectPath": "197",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 208,
+        "ddrSourceLeft": 1221,
+        "ddrSourceBottom": 240,
+        "ddrSourceRight": 1664,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Instructions for tasks",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 15
+      },
+      "type": "field",
+      "binding": {
+        "field": "Instructions for tasks",
+        "tableOccurrence": "Project tasks"
+      }
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-367",
+      "position": {
+        "x": 922,
+        "y": 208,
+        "width": 140,
+        "height": 32,
+        "z": 16
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "calendar entry field",
+        "ddrObjectPath": "367",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 208,
+        "ddrSourceLeft": 922,
+        "ddrSourceBottom": 240,
+        "ddrSourceRight": 1062,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Task deadline",
+        "controlType": "date",
+        "valueList": "Names",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 16
+      },
+      "type": "field",
+      "binding": {
+        "field": "Task deadline",
+        "tableOccurrence": "Project tasks"
+      }
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-520",
+      "position": {
+        "x": 590,
+        "y": 208,
+        "width": 127,
+        "height": 32,
+        "z": 17
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Table dropdown",
+        "ddrObjectPath": "520",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 208,
+        "ddrSourceLeft": 590,
+        "ddrSourceBottom": 240,
+        "ddrSourceRight": 717,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "document version",
+        "controlType": "dropdown",
+        "valueList": "document version",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 17
+      },
+      "type": "field",
+      "binding": {
+        "field": "document version",
+        "tableOccurrence": "Project tasks"
+      }
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-375",
+      "position": {
+        "x": 1723,
+        "y": 214,
+        "width": 20,
+        "height": 20,
+        "z": 18
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "action button",
+        "ddrObjectPath": "375",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "PopoverButton",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 214,
+        "ddrSourceLeft": 1723,
+        "ddrSourceBottom": 234,
+        "ddrSourceRight": 1743,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#E6E6E6",
+        "label": "Button",
+        "variant": "secondary",
+        "buttonMode": "popover",
+        "popoverTitle": "Popover",
+        "popoverShowTitleBar": true,
+        "popoverButtonDisplay": "text",
+        "popoverWidth": 247,
+        "popoverHeight": 100,
+        "ddrArrangeOrder": 18
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Delete task button check and delete"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-375-376",
+      "position": {
+        "x": 3282,
+        "y": 457,
+        "width": 247,
+        "height": 88,
+        "z": 19
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu popover",
+        "ddrObjectPath": "375.376",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Popover",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 457,
+        "ddrSourceLeft": 3282,
+        "ddrSourceBottom": 545,
+        "ddrSourceRight": 3529,
+        "ddrFidelityWarnings": [
+          "Unsupported DDR object type: Popover"
+        ],
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "[Popover]",
+        "ddrArrangeOrder": 19
+      },
+      "type": "unknown",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Delete task button check and delete"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-375-376-377",
+      "position": {
+        "x": 4851,
+        "y": 708,
+        "width": 227,
+        "height": 34,
+        "z": 20
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu button in popover",
+        "ddrObjectPath": "375.376.377",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 708,
+        "ddrSourceLeft": 4851,
+        "ddrSourceBottom": 742,
+        "ddrSourceRight": 5078,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "Delete Task",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 20
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Delete task button check and delete"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-375-376-560",
+      "position": {
+        "x": 4851,
+        "y": 748,
+        "width": 227,
+        "height": 34,
+        "z": 21
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu button in popover",
+        "ddrObjectPath": "375.376.560",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 748,
+        "ddrSourceLeft": 4851,
+        "ddrSourceBottom": 782,
+        "ddrSourceRight": 5078,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "Copy to next row",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 21
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Copy project task info to next record in Master task list"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-550",
+      "position": {
+        "x": 18,
+        "y": 240,
+        "width": 1683,
+        "height": 8,
+        "z": 22
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "ddrObjectPath": "550",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Line",
+        "ddrObjectFlags": 12288,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 240,
+        "ddrSourceLeft": 18,
+        "ddrSourceBottom": 240,
+        "ddrSourceRight": 1701,
+        "label": "",
+        "shapeType": "line",
+        "fillType": "none",
+        "fillColor": "transparent",
+        "lineStyle": "solid",
+        "lineWidth": 2,
+        "lineColor": "#94a3b8",
+        "cornerRadius": 0,
+        "ddrArrangeOrder": 22
+      },
+      "type": "shape"
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-552",
+      "position": {
+        "x": 0,
+        "y": 240,
+        "width": 1796,
+        "height": 8,
+        "z": 23
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "ddrObjectPath": "552",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Line",
+        "ddrObjectFlags": 12288,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 240,
+        "ddrSourceLeft": 0,
+        "ddrSourceBottom": 240,
+        "ddrSourceRight": 1796,
+        "label": "",
+        "shapeType": "line",
+        "fillType": "none",
+        "fillColor": "transparent",
+        "lineStyle": "solid",
+        "lineWidth": 2,
+        "lineColor": "#94a3b8",
+        "cornerRadius": 0,
+        "ddrArrangeOrder": 23
+      },
+      "type": "shape"
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-553",
+      "position": {
+        "x": 36,
+        "y": 208,
+        "width": 79,
+        "height": 32,
+        "z": 24
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Table field",
+        "ddrObjectPath": "553",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 208,
+        "ddrSourceLeft": 36,
+        "ddrSourceBottom": 240,
+        "ddrSourceRight": 115,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Job_ID",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 24
+      },
+      "type": "field",
+      "binding": {
+        "field": "Job_ID",
+        "tableOccurrence": "Project tasks"
+      }
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-555",
+      "position": {
+        "x": 36,
+        "y": 179,
+        "width": 67,
+        "height": 25,
+        "z": 25
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Column title",
+        "ddrObjectPath": "555",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 179,
+        "ddrSourceLeft": 36,
+        "ddrSourceBottom": 204,
+        "ddrSourceRight": 103,
+        "fontFamily": "Helvetica",
+        "fontSize": 18,
+        "textColor": "#666666",
+        "label": "Job",
+        "ddrArrangeOrder": 25
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-556",
+      "position": {
+        "x": 116,
+        "y": 208,
+        "width": 67,
+        "height": 32,
+        "z": 26
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Table field",
+        "ddrObjectPath": "556",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 208,
+        "ddrSourceLeft": 116,
+        "ddrSourceBottom": 240,
+        "ddrSourceRight": 183,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Task ID",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 26
+      },
+      "type": "field",
+      "binding": {
+        "field": "Task ID",
+        "tableOccurrence": "Project tasks"
+      }
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-557",
+      "position": {
+        "x": 120,
+        "y": 180,
+        "width": 67,
+        "height": 24,
+        "z": 27
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Column title",
+        "ddrObjectPath": "557",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 180,
+        "ddrSourceLeft": 120,
+        "ddrSourceBottom": 204,
+        "ddrSourceRight": 187,
+        "fontFamily": "Helvetica",
+        "fontSize": 18,
+        "textColor": "#666666",
+        "label": "ID",
+        "ddrArrangeOrder": 27
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-558",
+      "position": {
+        "x": 1550,
+        "y": 129,
+        "width": 244,
+        "height": 40,
+        "z": 28
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "ddrObjectPath": "558",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": true,
+        "autosizeBottom": false,
+        "autosizeLeft": false,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 1342177280,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 129,
+        "ddrSourceLeft": 1550,
+        "ddrSourceBottom": 169,
+        "ddrSourceRight": 1794,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#E6E6E6",
+        "label": "Back to Job detail screen",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 28
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Back to details screen from task  list"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-559",
+      "position": {
+        "x": 1058,
+        "y": 210,
+        "width": 152,
+        "height": 27,
+        "z": 29
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Table dropdown",
+        "ddrObjectPath": "559",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 210,
+        "ddrSourceLeft": 1058,
+        "ddrSourceBottom": 237,
+        "ddrSourceRight": 1210,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Status",
+        "controlType": "dropdown",
+        "valueList": "task status list",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 29
+      },
+      "type": "field",
+      "binding": {
+        "field": "Status",
+        "tableOccurrence": "Project tasks"
+      }
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-887",
+      "position": {
+        "x": 1291,
+        "y": 129,
+        "width": 244,
+        "height": 40,
+        "z": 30
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "ddrObjectPath": "887",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": true,
+        "autosizeBottom": false,
+        "autosizeLeft": false,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 1342177280,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 129,
+        "ddrSourceLeft": 1291,
+        "ddrSourceBottom": 169,
+        "ddrSourceRight": 1535,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#E6E6E6",
+        "label": "Back to Job List",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 30
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Present job task list"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-947",
+      "position": {
+        "x": 0,
+        "y": 58,
+        "width": 1797,
+        "height": 40,
+        "z": 31
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Menu bar",
+        "ddrObjectPath": "947",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": true,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Rect",
+        "ddrObjectFlags": 1073741824,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 58,
+        "ddrSourceLeft": 0,
+        "ddrSourceBottom": 98,
+        "ddrSourceRight": 1797,
+        "ddrFidelityWarnings": [
+          "Unsupported DDR object type: Rect"
+        ],
+        "fillType": "solid",
+        "fillColor": "rgba(230, 230, 230, 1)",
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "label": "[Rect]",
+        "ddrArrangeOrder": 31
+      },
+      "type": "unknown"
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-948",
+      "position": {
+        "x": 117,
+        "y": 64,
+        "width": 82,
+        "height": 30,
+        "z": 32
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu button in popover",
+        "ddrObjectPath": "948",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "PopoverButton",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 64,
+        "ddrSourceLeft": 117,
+        "ddrSourceBottom": 94,
+        "ddrSourceRight": 199,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "Button",
+        "variant": "secondary",
+        "buttonMode": "popover",
+        "popoverTitle": "Popover",
+        "popoverShowTitleBar": true,
+        "popoverButtonDisplay": "text",
+        "popoverWidth": 270,
+        "popoverHeight": 100,
+        "ddrArrangeOrder": 32
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Add a new plant"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-948-949",
+      "position": {
+        "x": 140,
+        "y": 169,
+        "width": 270,
+        "height": 95,
+        "z": 33
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu popover",
+        "ddrObjectPath": "948.949",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Popover",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 169,
+        "ddrSourceLeft": 140,
+        "ddrSourceBottom": 264,
+        "ddrSourceRight": 410,
+        "ddrFidelityWarnings": [
+          "Unsupported DDR object type: Popover"
+        ],
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "[Popover]",
+        "ddrArrangeOrder": 33
+      },
+      "type": "unknown",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Add a new plant"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-948-949-950",
+      "position": {
+        "x": 173,
+        "y": 322,
+        "width": 250,
+        "height": 34,
+        "z": 34
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu button",
+        "ddrObjectPath": "948.949.950",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 322,
+        "ddrSourceLeft": 173,
+        "ddrSourceBottom": 356,
+        "ddrSourceRight": 423,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "Create New Plant",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 34
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Add a new plant"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-948-949-951",
+      "position": {
+        "x": 173,
+        "y": 282,
+        "width": 250,
+        "height": 34,
+        "z": 35
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu button",
+        "ddrObjectPath": "948.949.951",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 282,
+        "ddrSourceLeft": 173,
+        "ddrSourceBottom": 316,
+        "ddrSourceRight": 423,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "List of Plants",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 35
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "goToLayout",
+          "layoutName": "BD List of Plants"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-952",
+      "position": {
+        "x": 212,
+        "y": 64,
+        "width": 82,
+        "height": 30,
+        "z": 36
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu button",
+        "ddrObjectPath": "952",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "PopoverButton",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 64,
+        "ddrSourceLeft": 212,
+        "ddrSourceBottom": 94,
+        "ddrSourceRight": 294,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "Button",
+        "variant": "secondary",
+        "buttonMode": "popover",
+        "popoverTitle": "Popover",
+        "popoverShowTitleBar": true,
+        "popoverButtonDisplay": "text",
+        "popoverWidth": 270,
+        "popoverHeight": 100,
+        "ddrArrangeOrder": 36
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Add a new product"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-952-953",
+      "position": {
+        "x": 330,
+        "y": 169,
+        "width": 270,
+        "height": 95,
+        "z": 37
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu popover",
+        "ddrObjectPath": "952.953",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Popover",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 169,
+        "ddrSourceLeft": 330,
+        "ddrSourceBottom": 264,
+        "ddrSourceRight": 600,
+        "ddrFidelityWarnings": [
+          "Unsupported DDR object type: Popover"
+        ],
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "[Popover]",
+        "ddrArrangeOrder": 37
+      },
+      "type": "unknown",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Add a new product"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-952-953-954",
+      "position": {
+        "x": 458,
+        "y": 322,
+        "width": 250,
+        "height": 34,
+        "z": 38
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu button",
+        "ddrObjectPath": "952.953.954",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 322,
+        "ddrSourceLeft": 458,
+        "ddrSourceBottom": 356,
+        "ddrSourceRight": 708,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "Create New Product",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 38
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Add a new product"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-952-953-955",
+      "position": {
+        "x": 458,
+        "y": 282,
+        "width": 250,
+        "height": 34,
+        "z": 39
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu button",
+        "ddrObjectPath": "952.953.955",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 282,
+        "ddrSourceLeft": 458,
+        "ddrSourceBottom": 316,
+        "ddrSourceRight": 708,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "List All Products",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 39
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "List of all products"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-956",
+      "position": {
+        "x": 302,
+        "y": 63,
+        "width": 113,
+        "height": 30,
+        "z": 40
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu button in popover",
+        "ddrObjectPath": "956",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "PopoverButton",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 63,
+        "ddrSourceLeft": 302,
+        "ddrSourceBottom": 93,
+        "ddrSourceRight": 415,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "Button",
+        "variant": "secondary",
+        "buttonMode": "popover",
+        "popoverTitle": "Popover",
+        "popoverShowTitleBar": true,
+        "popoverButtonDisplay": "text",
+        "popoverWidth": 270,
+        "popoverHeight": 133,
+        "ddrArrangeOrder": 40
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Add a new document"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-956-957",
+      "position": {
+        "x": 526,
+        "y": 170,
+        "width": 270,
+        "height": 133,
+        "z": 41
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu popover",
+        "ddrObjectPath": "956.957",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Popover",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 170,
+        "ddrSourceLeft": 526,
+        "ddrSourceBottom": 303,
+        "ddrSourceRight": 796,
+        "ddrFidelityWarnings": [
+          "Unsupported DDR object type: Popover"
+        ],
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "[Popover]",
+        "ddrArrangeOrder": 41
+      },
+      "type": "unknown",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Add a new document"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-956-957-958",
+      "position": {
+        "x": 760,
+        "y": 325,
+        "width": 250,
+        "height": 34,
+        "z": 42
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu button",
+        "ddrObjectPath": "956.957.958",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 325,
+        "ddrSourceLeft": 760,
+        "ddrSourceBottom": 359,
+        "ddrSourceRight": 1010,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "Create New Document",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 42
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Add a new document"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-956-957-959",
+      "position": {
+        "x": 760,
+        "y": 285,
+        "width": 250,
+        "height": 34,
+        "z": 43
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu button",
+        "ddrObjectPath": "956.957.959",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 285,
+        "ddrSourceLeft": 760,
+        "ddrSourceBottom": 319,
+        "ddrSourceRight": 1010,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "List All Documents",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 43
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "List of all documents"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-956-957-960",
+      "position": {
+        "x": 760,
+        "y": 366,
+        "width": 250,
+        "height": 34,
+        "z": 44
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu button",
+        "ddrObjectPath": "956.957.960",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 366,
+        "ddrSourceLeft": 760,
+        "ddrSourceBottom": 400,
+        "ddrSourceRight": 1010,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "Source files",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 44
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-961",
+      "position": {
+        "x": 448,
+        "y": 65,
+        "width": 83,
+        "height": 26,
+        "z": 45
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu button in popover",
+        "ddrObjectPath": "961",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "PopoverButton",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 65,
+        "ddrSourceLeft": 448,
+        "ddrSourceBottom": 91,
+        "ddrSourceRight": 531,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "Button",
+        "variant": "secondary",
+        "buttonMode": "popover",
+        "popoverTitle": "Popover",
+        "popoverShowTitleBar": true,
+        "popoverButtonDisplay": "text",
+        "popoverWidth": 270,
+        "popoverHeight": 302,
+        "ddrArrangeOrder": 45
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "My jobs"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-961-962",
+      "position": {
+        "x": 775,
+        "y": 169,
+        "width": 270,
+        "height": 302,
+        "z": 46
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu popover",
+        "ddrObjectPath": "961.962",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Popover",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 169,
+        "ddrSourceLeft": 775,
+        "ddrSourceBottom": 471,
+        "ddrSourceRight": 1045,
+        "ddrFidelityWarnings": [
+          "Unsupported DDR object type: Popover"
+        ],
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "[Popover]",
+        "ddrArrangeOrder": 46
+      },
+      "type": "unknown",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "My jobs"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-961-962-963",
+      "position": {
+        "x": 1112,
+        "y": 280,
+        "width": 250,
+        "height": 34,
+        "z": 47
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu button",
+        "ddrObjectPath": "961.962.963",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 280,
+        "ddrSourceLeft": 1112,
+        "ddrSourceBottom": 314,
+        "ddrSourceRight": 1362,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "My Jobs",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 47
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "My jobs"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-961-962-964",
+      "position": {
+        "x": 1112,
+        "y": 322,
+        "width": 250,
+        "height": 34,
+        "z": 48
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu button",
+        "ddrObjectPath": "961.962.964",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 322,
+        "ddrSourceLeft": 1112,
+        "ddrSourceBottom": 356,
+        "ddrSourceRight": 1362,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "Active Jobs",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 48
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Active jobs"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-961-962-965",
+      "position": {
+        "x": 1112,
+        "y": 489,
+        "width": 250,
+        "height": 34,
+        "z": 49
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu button",
+        "ddrObjectPath": "961.962.965",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 65536,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 489,
+        "ddrSourceLeft": 1112,
+        "ddrSourceBottom": 523,
+        "ddrSourceRight": 1362,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "Search Job",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 49
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Show jobs search screen"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-961-962-966",
+      "position": {
+        "x": 1112,
+        "y": 531,
+        "width": 250,
+        "height": 34,
+        "z": 50
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu button",
+        "ddrObjectPath": "961.962.966",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 531,
+        "ddrSourceLeft": 1112,
+        "ddrSourceBottom": 565,
+        "ddrSourceRight": 1362,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "Create New Job",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 50
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "create new job"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-961-962-967",
+      "position": {
+        "x": 1112,
+        "y": 363,
+        "width": 250,
+        "height": 35,
+        "z": 51
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu button",
+        "ddrObjectPath": "961.962.967",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 363,
+        "ddrSourceLeft": 1112,
+        "ddrSourceBottom": 398,
+        "ddrSourceRight": 1362,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "Completed Jobs",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 51
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Completed jobs"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-961-962-968",
+      "position": {
+        "x": 1112,
+        "y": 404,
+        "width": 250,
+        "height": 34,
+        "z": 52
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu button",
+        "ddrObjectPath": "961.962.968",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 404,
+        "ddrSourceLeft": 1112,
+        "ddrSourceBottom": 438,
+        "ddrSourceRight": 1362,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "Jobs On-Hold",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 52
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Jobs on-hold"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-961-962-969",
+      "position": {
+        "x": 1112,
+        "y": 447,
+        "width": 250,
+        "height": 34,
+        "z": 53
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu button",
+        "ddrObjectPath": "961.962.969",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 447,
+        "ddrSourceLeft": 1112,
+        "ddrSourceBottom": 481,
+        "ddrSourceRight": 1362,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "All Jobs",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 53
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "All jobs"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-970",
+      "position": {
+        "x": 660,
+        "y": 66,
+        "width": 112,
+        "height": 26,
+        "z": 54
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu button",
+        "ddrObjectPath": "970",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "PopoverButton",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 66,
+        "ddrSourceLeft": 660,
+        "ddrSourceBottom": 92,
+        "ddrSourceRight": 772,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "Button",
+        "variant": "secondary",
+        "buttonMode": "popover",
+        "popoverTitle": "Popover",
+        "popoverShowTitleBar": true,
+        "popoverButtonDisplay": "text",
+        "popoverWidth": 346,
+        "popoverHeight": 132,
+        "ddrArrangeOrder": 54
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Present general task list"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-970-971",
+      "position": {
+        "x": 1048,
+        "y": 169,
+        "width": 346,
+        "height": 132,
+        "z": 55
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu popover",
+        "ddrObjectPath": "970.971",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Popover",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 169,
+        "ddrSourceLeft": 1048,
+        "ddrSourceBottom": 301,
+        "ddrSourceRight": 1394,
+        "ddrFidelityWarnings": [
+          "Unsupported DDR object type: Popover"
+        ],
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "[Popover]",
+        "ddrArrangeOrder": 55
+      },
+      "type": "unknown",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Present general task list"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-970-971-972",
+      "position": {
+        "x": 1446,
+        "y": 282,
+        "width": 326,
+        "height": 34,
+        "z": 56
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu button in popover",
+        "ddrObjectPath": "970.971.972",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 65536,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 282,
+        "ddrSourceLeft": 1446,
+        "ddrSourceBottom": 316,
+        "ddrSourceRight": 1772,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "General Task List",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 56
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Present general task list"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-970-971-973",
+      "position": {
+        "x": 1446,
+        "y": 364,
+        "width": 326,
+        "height": 35,
+        "z": 57
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu button in popover",
+        "ddrObjectPath": "970.971.973",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 364,
+        "ddrSourceLeft": 1446,
+        "ddrSourceBottom": 399,
+        "ddrSourceRight": 1772,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "Time registrations",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 57
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Show time registrations for a user"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-970-971-974",
+      "position": {
+        "x": 1446,
+        "y": 323,
+        "width": 326,
+        "height": 34,
+        "z": 58
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu button in popover",
+        "ddrObjectPath": "970.971.974",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 65536,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 323,
+        "ddrSourceLeft": 1446,
+        "ddrSourceBottom": 357,
+        "ddrSourceRight": 1772,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "Jobs List",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 58
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Present job task list"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-975",
+      "position": {
+        "x": 1521,
+        "y": 66,
+        "width": 103,
+        "height": 26,
+        "z": 59
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu button",
+        "ddrObjectPath": "975",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": true,
+        "autosizeBottom": false,
+        "autosizeLeft": false,
+        "ddrOriginalObjectType": "PopoverButton",
+        "ddrObjectFlags": 1342177280,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 66,
+        "ddrSourceLeft": 1521,
+        "ddrSourceBottom": 92,
+        "ddrSourceRight": 1624,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "Button",
+        "variant": "secondary",
+        "buttonMode": "popover",
+        "popoverTitle": "Popover",
+        "popoverShowTitleBar": true,
+        "popoverButtonDisplay": "text",
+        "popoverWidth": 230,
+        "popoverHeight": 100,
+        "ddrArrangeOrder": 59
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Create a server side monthly report"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-975-976",
+      "position": {
+        "x": 2384,
+        "y": 168,
+        "width": 230,
+        "height": 51,
+        "z": 60
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu popover",
+        "ddrObjectPath": "975.976",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Popover",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 168,
+        "ddrSourceLeft": 2384,
+        "ddrSourceBottom": 219,
+        "ddrSourceRight": 2614,
+        "ddrFidelityWarnings": [
+          "Unsupported DDR object type: Popover"
+        ],
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "[Popover]",
+        "ddrArrangeOrder": 60
+      },
+      "type": "unknown",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Create a server side monthly report"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-975-976-977",
+      "position": {
+        "x": 3257,
+        "y": 279,
+        "width": 210,
+        "height": 34,
+        "z": 61
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu button in popover",
+        "ddrObjectPath": "975.976.977",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 279,
+        "ddrSourceLeft": 3257,
+        "ddrSourceBottom": 313,
+        "ddrSourceRight": 3467,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "Create output file",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 61
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Create a server side monthly report"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-978",
+      "position": {
+        "x": 1645,
+        "y": 65,
+        "width": 132,
+        "height": 26,
+        "z": 62
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu button",
+        "ddrObjectPath": "978",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": true,
+        "autosizeBottom": false,
+        "autosizeLeft": false,
+        "ddrOriginalObjectType": "PopoverButton",
+        "ddrObjectFlags": 1342177284,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 65,
+        "ddrSourceLeft": 1645,
+        "ddrSourceBottom": 91,
+        "ddrSourceRight": 1777,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "Button",
+        "variant": "secondary",
+        "buttonMode": "popover",
+        "popoverTitle": "Popover",
+        "popoverShowTitleBar": true,
+        "popoverButtonDisplay": "text",
+        "popoverWidth": 270,
+        "popoverHeight": 246,
+        "ddrArrangeOrder": 62
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "goToLayout",
+          "layoutName": "BD List of Tasks"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-978-979",
+      "position": {
+        "x": 2626,
+        "y": 166,
+        "width": 270,
+        "height": 246,
+        "z": 63
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu popover",
+        "ddrObjectPath": "978.979",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Popover",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 166,
+        "ddrSourceLeft": 2626,
+        "ddrSourceBottom": 412,
+        "ddrSourceRight": 2896,
+        "ddrFidelityWarnings": [
+          "Unsupported DDR object type: Popover"
+        ],
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "[Popover]",
+        "ddrArrangeOrder": 63
+      },
+      "type": "unknown",
+      "events": {
+        "onClick": {
+          "action": "goToLayout",
+          "layoutName": "BD List of Tasks"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-978-979-980",
+      "position": {
+        "x": 3617,
+        "y": 314,
+        "width": 250,
+        "height": 34,
+        "z": 64
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu button in popover",
+        "ddrObjectPath": "978.979.980",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 314,
+        "ddrSourceLeft": 3617,
+        "ddrSourceBottom": 348,
+        "ddrSourceRight": 3867,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "List of Project Tasks",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 64
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "goToLayout",
+          "layoutName": "BD List of Tasks"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-978-979-981",
+      "position": {
+        "x": 3617,
+        "y": 353,
+        "width": 250,
+        "height": 34,
+        "z": 65
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu button in popover",
+        "ddrObjectPath": "978.979.981",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 353,
+        "ddrSourceLeft": 3617,
+        "ddrSourceBottom": 387,
+        "ddrSourceRight": 3867,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "List of Languages",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 65
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "goToLayout",
+          "layoutName": "BD List of languages"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-978-979-982",
+      "position": {
+        "x": 3617,
+        "y": 392,
+        "width": 250,
+        "height": 34,
+        "z": 66
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu button in popover",
+        "ddrObjectPath": "978.979.982",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 392,
+        "ddrSourceLeft": 3617,
+        "ddrSourceBottom": 426,
+        "ddrSourceRight": 3867,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "List of Subgroups",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 66
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "goToLayout",
+          "layoutName": "BD List of Document Types"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-978-979-983",
+      "position": {
+        "x": 3617,
+        "y": 275,
+        "width": 250,
+        "height": 34,
+        "z": 67
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu button in popover",
+        "ddrObjectPath": "978.979.983",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 275,
+        "ddrSourceLeft": 3617,
+        "ddrSourceBottom": 309,
+        "ddrSourceRight": 3867,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "List of General Tasks",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 67
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "goToLayout",
+          "layoutName": "BD List of General Tasks"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-978-979-984",
+      "position": {
+        "x": 3617,
+        "y": 431,
+        "width": 250,
+        "height": 34,
+        "z": 68
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu button in popover",
+        "ddrObjectPath": "978.979.984",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 431,
+        "ddrSourceLeft": 3617,
+        "ddrSourceBottom": 465,
+        "ddrSourceRight": 3867,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "List of Functions",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 68
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "goToLayout",
+          "layoutName": "Functions"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-978-979-985",
+      "position": {
+        "x": 3617,
+        "y": 470,
+        "width": 250,
+        "height": 34,
+        "z": 69
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu button in popover",
+        "ddrObjectPath": "978.979.985",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 470,
+        "ddrSourceLeft": 3617,
+        "ddrSourceBottom": 504,
+        "ddrSourceRight": 3867,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "List of Names",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 69
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "goToLayout",
+          "layoutName": "BD List of Names"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-986",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 1797,
+        "height": 58,
+        "z": 70
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Header blue bar",
+        "ddrObjectPath": "986",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": true,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Rect",
+        "ddrObjectFlags": 1073741824,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 0,
+        "ddrSourceLeft": 0,
+        "ddrSourceBottom": 58,
+        "ddrSourceRight": 1797,
+        "ddrFidelityWarnings": [
+          "Unsupported DDR object type: Rect"
+        ],
+        "fillType": "solid",
+        "fillColor": "rgba(0, 127, 209, 1)",
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "label": "[Rect]",
+        "ddrArrangeOrder": 70
+      },
+      "type": "unknown"
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-987",
+      "position": {
+        "x": 1571,
+        "y": 19,
+        "width": 194,
+        "height": 34,
+        "z": 71
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Username",
+        "ddrObjectPath": "987",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": true,
+        "autosizeBottom": false,
+        "autosizeLeft": false,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 1342177280,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 19,
+        "ddrSourceLeft": 1571,
+        "ddrSourceBottom": 53,
+        "ddrSourceRight": 1765,
+        "fillType": "none",
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#FFFFFF",
+        "fontFamily": "Helvetica",
+        "fontSize": 18,
+        "label": "<<$$UserName>>",
+        "ddrArrangeOrder": 71
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-988",
+      "position": {
+        "x": 31,
+        "y": 10,
+        "width": 100,
+        "height": 40,
+        "z": 72
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "ddrObjectPath": "988",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Graphic",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 10,
+        "ddrSourceLeft": 31,
+        "ddrSourceBottom": 50,
+        "ddrSourceRight": 131,
+        "ddrFidelityWarnings": [
+          "Unsupported DDR object type: Graphic"
+        ],
+        "label": "[Graphic]",
+        "ddrArrangeOrder": 72
+      },
+      "type": "unknown"
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-989",
+      "position": {
+        "x": 1517,
+        "y": 1,
+        "width": 54,
+        "height": 56,
+        "z": 73
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "ddrObjectPath": "989",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": true,
+        "autosizeBottom": false,
+        "autosizeLeft": false,
+        "ddrOriginalObjectType": "Graphic",
+        "ddrObjectFlags": 1342177280,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 1,
+        "ddrSourceLeft": 1517,
+        "ddrSourceBottom": 57,
+        "ddrSourceRight": 1571,
+        "ddrFidelityWarnings": [
+          "Unsupported DDR object type: Graphic"
+        ],
+        "label": "[Graphic]",
+        "ddrArrangeOrder": 73
+      },
+      "type": "unknown"
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-990",
+      "position": {
+        "x": 536,
+        "y": 66,
+        "width": 83,
+        "height": 26,
+        "z": 74
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu button in popover",
+        "ddrObjectPath": "990",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "PopoverButton",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 66,
+        "ddrSourceLeft": 536,
+        "ddrSourceBottom": 92,
+        "ddrSourceRight": 619,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "Button",
+        "variant": "secondary",
+        "buttonMode": "popover",
+        "popoverTitle": "Popover",
+        "popoverShowTitleBar": true,
+        "popoverButtonDisplay": "text",
+        "popoverWidth": 270,
+        "popoverHeight": 100,
+        "ddrArrangeOrder": 74
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "goToLayout",
+          "layoutName": "BD Master Task List"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-990-991",
+      "position": {
+        "x": 1007,
+        "y": 169,
+        "width": 270,
+        "height": 52,
+        "z": 75
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu popover",
+        "ddrObjectPath": "990.991",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Popover",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 169,
+        "ddrSourceLeft": 1007,
+        "ddrSourceBottom": 221,
+        "ddrSourceRight": 1277,
+        "ddrFidelityWarnings": [
+          "Unsupported DDR object type: Popover"
+        ],
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "[Popover]",
+        "ddrArrangeOrder": 75
+      },
+      "type": "unknown",
+      "events": {
+        "onClick": {
+          "action": "goToLayout",
+          "layoutName": "BD Master Task List"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-990-991-992",
+      "position": {
+        "x": 1488,
+        "y": 284,
+        "width": 250,
+        "height": 34,
+        "z": 76
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu button",
+        "ddrObjectPath": "990.991.992",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 284,
+        "ddrSourceLeft": 1488,
+        "ddrSourceBottom": 318,
+        "ddrSourceRight": 1738,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "Master task list",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 76
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "goToLayout",
+          "layoutName": "BD Master Task List"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-993",
+      "position": {
+        "x": 0,
+        "y": 98,
+        "width": 1797,
+        "height": 8,
+        "z": 77
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Menu line",
+        "ddrObjectPath": "993",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": true,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Line",
+        "ddrObjectFlags": 1073754112,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 98,
+        "ddrSourceLeft": 0,
+        "ddrSourceBottom": 98,
+        "ddrSourceRight": 1797,
+        "label": "",
+        "shapeType": "line",
+        "fillType": "none",
+        "fillColor": "transparent",
+        "lineStyle": "solid",
+        "lineWidth": 2,
+        "lineColor": "#94a3b8",
+        "cornerRadius": 0,
+        "ddrArrangeOrder": 77
+      },
+      "type": "shape"
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-994",
+      "position": {
+        "x": 20,
+        "y": 61,
+        "width": 1757,
+        "height": 36,
+        "z": 78
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu button text",
+        "ddrObjectPath": "994",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": true,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "GroupButton",
+        "ddrObjectFlags": 1073741824,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 61,
+        "ddrSourceLeft": 20,
+        "ddrSourceBottom": 97,
+        "ddrSourceRight": 1777,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "Documents",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 78
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Show workaid in explorer"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-994-995",
+      "position": {
+        "x": 317,
+        "y": 122,
+        "width": 131,
+        "height": 34,
+        "z": 79
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu button text",
+        "ddrObjectPath": "994.995",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 122,
+        "ddrSourceLeft": 317,
+        "ddrSourceBottom": 156,
+        "ddrSourceRight": 448,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "Documents",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 79
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-994-996",
+      "position": {
+        "x": 1536,
+        "y": 123,
+        "width": 108,
+        "height": 33,
+        "z": 80
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu button text",
+        "ddrObjectPath": "994.996",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": true,
+        "autosizeBottom": false,
+        "autosizeLeft": false,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 1342177280,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 123,
+        "ddrSourceLeft": 1536,
+        "ddrSourceBottom": 156,
+        "ddrSourceRight": 1644,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "Reports",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 80
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-994-997",
+      "position": {
+        "x": 677,
+        "y": 123,
+        "width": 140,
+        "height": 34,
+        "z": 81
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu button text",
+        "ddrObjectPath": "994.997",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 123,
+        "ddrSourceLeft": 677,
+        "ddrSourceBottom": 157,
+        "ddrSourceRight": 817,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "Time Tracker",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 81
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-994-998",
+      "position": {
+        "x": 462,
+        "y": 122,
+        "width": 89,
+        "height": 34,
+        "z": 82
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu button text",
+        "ddrObjectPath": "994.998",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 122,
+        "ddrSourceLeft": 462,
+        "ddrSourceBottom": 156,
+        "ddrSourceRight": 551,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "Jobs",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 82
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-994-999",
+      "position": {
+        "x": 1659,
+        "y": 122,
+        "width": 138,
+        "height": 34,
+        "z": 83
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu button text",
+        "ddrObjectPath": "994.999",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": true,
+        "autosizeBottom": false,
+        "autosizeLeft": false,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 1342177284,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 122,
+        "ddrSourceLeft": 1659,
+        "ddrSourceBottom": 156,
+        "ddrSourceRight": 1797,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "Maintenance",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 83
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-994-1000",
+      "position": {
+        "x": 941,
+        "y": 123,
+        "width": 113,
+        "height": 34,
+        "z": 84
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu button text",
+        "ddrObjectPath": "994.1000",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 65536,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 123,
+        "ddrSourceLeft": 941,
+        "ddrSourceBottom": 157,
+        "ddrSourceRight": 1054,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "Logout",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 84
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-994-1001",
+      "position": {
+        "x": 832,
+        "y": 122,
+        "width": 91,
+        "height": 36,
+        "z": 85
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu button text",
+        "ddrObjectPath": "994.1001",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 65536,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 122,
+        "ddrSourceLeft": 832,
+        "ddrSourceBottom": 158,
+        "ddrSourceRight": 923,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "Workaid",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 85
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Show workaid in explorer"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-994-1002",
+      "position": {
+        "x": 550,
+        "y": 123,
+        "width": 100,
+        "height": 33,
+        "z": 86
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu button text",
+        "ddrObjectPath": "994.1002",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 123,
+        "ddrSourceLeft": 550,
+        "ddrSourceBottom": 156,
+        "ddrSourceRight": 650,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "Tasks",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 86
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-994-1003",
+      "position": {
+        "x": 40,
+        "y": 122,
+        "width": 113,
+        "height": 34,
+        "z": 87
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu button text",
+        "ddrObjectPath": "994.1003",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 122,
+        "ddrSourceLeft": 40,
+        "ddrSourceBottom": 156,
+        "ddrSourceRight": 153,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "Main Menu",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 87
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "goToLayout",
+          "layoutName": "Main menu"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-994-1004",
+      "position": {
+        "x": 145,
+        "y": 122,
+        "width": 74,
+        "height": 34,
+        "z": 88
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu button text",
+        "ddrObjectPath": "994.1004",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 122,
+        "ddrSourceLeft": 145,
+        "ddrSourceBottom": 156,
+        "ddrSourceRight": 219,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "Plants",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 88
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-bd-project-details-task-list-TEQmYW1w-994-1005",
+      "position": {
+        "x": 221,
+        "y": 122,
+        "width": 101,
+        "height": 34,
+        "z": 89
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu button text",
+        "ddrObjectPath": "994.1005",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 122,
+        "ddrSourceLeft": 221,
+        "ddrSourceBottom": 156,
+        "ddrSourceRight": 322,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "Products",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 89
+      },
+      "type": "button"
+    }
+  ],
+  "actions": []
+}

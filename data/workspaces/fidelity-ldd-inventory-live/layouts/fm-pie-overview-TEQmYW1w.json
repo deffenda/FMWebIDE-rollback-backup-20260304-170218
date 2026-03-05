@@ -1,0 +1,3099 @@
+{
+  "id": "fm-pie-overview-TEQmYW1w",
+  "name": "Pie overview",
+  "defaultTableOccurrence": "Pie overview",
+  "canvas": {
+    "width": 1945,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-6",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 1921,
+        "height": 111,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "6",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": true,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "GroupButton",
+        "ddrObjectFlags": 1073741824,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 0,
+        "ddrSourceLeft": 0,
+        "ddrSourceBottom": 111,
+        "ddrSourceRight": 1921,
+        "fillType": "none",
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "fontSize": 48,
+        "textColor": "#004EA8",
+        "fontFamily": "arial,sans-serif",
+        "label": "BD",
+        "variant": "secondary",
+        "buttonIconName": "logo.png",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 1
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "goToLayout",
+          "layoutName": "BD List of Products"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-6-7",
+      "position": {
+        "x": 85,
+        "y": 12,
+        "width": 73,
+        "height": 61,
+        "z": 2
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "6.7",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 12,
+        "ddrSourceLeft": 85,
+        "ddrSourceBottom": 73,
+        "ddrSourceRight": 158,
+        "fillType": "none",
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "fontSize": 48,
+        "textColor": "#004EA8",
+        "fontFamily": "arial,sans-serif",
+        "label": "BD",
+        "ddrArrangeOrder": 2
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-6-8",
+      "position": {
+        "x": 19,
+        "y": 12,
+        "width": 52,
+        "height": 52,
+        "z": 3
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "6.8",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Graphic",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 12,
+        "ddrSourceLeft": 19,
+        "ddrSourceBottom": 64,
+        "ddrSourceRight": 71,
+        "ddrFidelityWarnings": [
+          "Unsupported DDR object type: Graphic"
+        ],
+        "label": "[Graphic]",
+        "ddrArrangeOrder": 3
+      },
+      "type": "unknown"
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-6-9",
+      "position": {
+        "x": 1,
+        "y": 73,
+        "width": 1920,
+        "height": 8,
+        "z": 4
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "6.9",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Line",
+        "ddrObjectFlags": 12288,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 73,
+        "ddrSourceLeft": 1,
+        "ddrSourceBottom": 73,
+        "ddrSourceRight": 1921,
+        "fillType": "none",
+        "lineColor": "rgba(179, 179, 179, 1)",
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "label": "",
+        "shapeType": "line",
+        "fillColor": "transparent",
+        "lineWidth": 2,
+        "cornerRadius": 0,
+        "ddrArrangeOrder": 4
+      },
+      "type": "shape"
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-6-10",
+      "position": {
+        "x": 0,
+        "y": 74,
+        "width": 1920,
+        "height": 37,
+        "z": 5
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "6.10",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Rect",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 74,
+        "ddrSourceLeft": 0,
+        "ddrSourceBottom": 111,
+        "ddrSourceRight": 1920,
+        "ddrFidelityWarnings": [
+          "Unsupported DDR object type: Rect"
+        ],
+        "fillType": "solid",
+        "fillColor": "rgba(255, 255, 255, 1)",
+        "lineWidth": 0,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "label": "[Rect]",
+        "ddrArrangeOrder": 5
+      },
+      "type": "unknown"
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-6-11",
+      "position": {
+        "x": 294,
+        "y": 75,
+        "width": 130,
+        "height": 34,
+        "z": 6
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "6.11",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 75,
+        "ddrSourceLeft": 294,
+        "ddrSourceBottom": 109,
+        "ddrSourceRight": 424,
+        "fillType": "solid",
+        "fillColor": "rgba(255, 255, 255, 1)",
+        "lineColor": "rgba(0, 78, 168, 1)",
+        "lineWidth": 0,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#004EA8",
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "label": "Documents",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 6
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "goToLayout",
+          "layoutName": "BD List of Products"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-6-12",
+      "position": {
+        "x": 302,
+        "y": 79,
+        "width": 112,
+        "height": 30,
+        "z": 7
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "6.12",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "PopoverButton",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 79,
+        "ddrSourceLeft": 302,
+        "ddrSourceBottom": 109,
+        "ddrSourceRight": 414,
+        "fillType": "solid",
+        "fillColor": "rgba(255, 255, 255, 0)",
+        "lineWidth": 0,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#E6E6E6",
+        "label": "Button",
+        "variant": "secondary",
+        "buttonMode": "popover",
+        "popoverTitle": "Popover",
+        "popoverShowTitleBar": true,
+        "popoverButtonDisplay": "text",
+        "popoverWidth": 270,
+        "popoverHeight": 133,
+        "ddrArrangeOrder": 7
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Add a new document"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-6-12-13",
+      "position": {
+        "x": 525,
+        "y": 199,
+        "width": 270,
+        "height": 133,
+        "z": 8
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "6.12.13",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Popover",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 199,
+        "ddrSourceLeft": 525,
+        "ddrSourceBottom": 332,
+        "ddrSourceRight": 795,
+        "ddrFidelityWarnings": [
+          "Unsupported DDR object type: Popover"
+        ],
+        "fillType": "solid",
+        "fillColor": "rgba(243, 240, 235, 1)",
+        "lineColor": "rgba(243, 240, 235, 1)",
+        "lineStyle": "solid",
+        "cornerRadius": 0,
+        "effectOuterShadow": false,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#004EA8",
+        "label": "[Popover]",
+        "ddrArrangeOrder": 8
+      },
+      "type": "unknown",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Add a new document"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-6-12-13-14",
+      "position": {
+        "x": 758,
+        "y": 367,
+        "width": 250,
+        "height": 34,
+        "z": 9
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "6.12.13.14",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 367,
+        "ddrSourceLeft": 758,
+        "ddrSourceBottom": 401,
+        "ddrSourceRight": 1008,
+        "fillType": "solid",
+        "fillColor": "rgba(255, 255, 255, 1)",
+        "lineColor": "rgba(0, 78, 168, 1)",
+        "lineWidth": 0,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#004EA8",
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "label": "Create New Document",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 9
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Add a new document"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-6-12-13-15",
+      "position": {
+        "x": 758,
+        "y": 327,
+        "width": 250,
+        "height": 34,
+        "z": 10
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "6.12.13.15",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 327,
+        "ddrSourceLeft": 758,
+        "ddrSourceBottom": 361,
+        "ddrSourceRight": 1008,
+        "fillType": "solid",
+        "fillColor": "rgba(255, 255, 255, 1)",
+        "lineColor": "rgba(0, 78, 168, 1)",
+        "lineWidth": 0,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#004EA8",
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "label": "List All Documents",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 10
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "List of all documents"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-6-12-13-16",
+      "position": {
+        "x": 758,
+        "y": 408,
+        "width": 250,
+        "height": 34,
+        "z": 11
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "6.12.13.16",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 408,
+        "ddrSourceLeft": 758,
+        "ddrSourceBottom": 442,
+        "ddrSourceRight": 1008,
+        "fillType": "solid",
+        "fillColor": "rgba(255, 255, 255, 1)",
+        "lineColor": "rgba(0, 78, 168, 1)",
+        "lineWidth": 0,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#004EA8",
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "label": "Source files",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 11
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-6-17",
+      "position": {
+        "x": 109,
+        "y": 75,
+        "width": 98,
+        "height": 34,
+        "z": 12
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "6.17",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 75,
+        "ddrSourceLeft": 109,
+        "ddrSourceBottom": 109,
+        "ddrSourceRight": 207,
+        "fillType": "solid",
+        "fillColor": "rgba(255, 255, 255, 1)",
+        "lineColor": "rgba(0, 78, 168, 1)",
+        "lineWidth": 0,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#004EA8",
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "label": "Plants",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 12
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "goToLayout",
+          "layoutName": "BD List of Plants"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-6-18",
+      "position": {
+        "x": 622,
+        "y": 75,
+        "width": 98,
+        "height": 34,
+        "z": 13
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "6.18",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 75,
+        "ddrSourceLeft": 622,
+        "ddrSourceBottom": 109,
+        "ddrSourceRight": 720,
+        "fillType": "solid",
+        "fillColor": "rgba(255, 255, 255, 1)",
+        "lineColor": "rgba(0, 78, 168, 1)",
+        "lineWidth": 0,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#004EA8",
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "label": "Reports",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 13
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Add a new plant"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-6-19",
+      "position": {
+        "x": 414,
+        "y": 75,
+        "width": 89,
+        "height": 34,
+        "z": 14
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "6.19",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 75,
+        "ddrSourceLeft": 414,
+        "ddrSourceBottom": 109,
+        "ddrSourceRight": 503,
+        "fillType": "solid",
+        "fillColor": "rgba(255, 255, 255, 1)",
+        "lineColor": "rgba(0, 78, 168, 1)",
+        "lineWidth": 0,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#004EA8",
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "label": "Jobs",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 14
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-6-20",
+      "position": {
+        "x": 491,
+        "y": 75,
+        "width": 139,
+        "height": 34,
+        "z": 15
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "6.20",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 75,
+        "ddrSourceLeft": 491,
+        "ddrSourceBottom": 109,
+        "ddrSourceRight": 630,
+        "fillType": "solid",
+        "fillColor": "rgba(255, 255, 255, 1)",
+        "lineColor": "rgba(0, 78, 168, 1)",
+        "lineWidth": 0,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#004EA8",
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "label": "Time Tracker",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 15
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-6-21",
+      "position": {
+        "x": 201,
+        "y": 75,
+        "width": 101,
+        "height": 34,
+        "z": 16
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "6.21",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 75,
+        "ddrSourceLeft": 201,
+        "ddrSourceBottom": 109,
+        "ddrSourceRight": 302,
+        "fillType": "solid",
+        "fillColor": "rgba(255, 255, 255, 1)",
+        "lineColor": "rgba(0, 78, 168, 1)",
+        "lineWidth": 0,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#004EA8",
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "label": "Products",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 16
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "goToLayout",
+          "layoutName": "BD List of Products"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-6-22",
+      "position": {
+        "x": 421,
+        "y": 80,
+        "width": 82,
+        "height": 26,
+        "z": 17
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "6.22",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "PopoverButton",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 80,
+        "ddrSourceLeft": 421,
+        "ddrSourceBottom": 106,
+        "ddrSourceRight": 503,
+        "fillType": "solid",
+        "fillColor": "rgba(255, 255, 255, 0)",
+        "lineWidth": 0,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#E6E6E6",
+        "label": "Button",
+        "variant": "secondary",
+        "buttonMode": "popover",
+        "popoverTitle": "Popover",
+        "popoverShowTitleBar": true,
+        "popoverButtonDisplay": "text",
+        "popoverWidth": 270,
+        "popoverHeight": 302,
+        "ddrArrangeOrder": 17
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "My jobs"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-6-22-23",
+      "position": {
+        "x": 748,
+        "y": 197,
+        "width": 270,
+        "height": 302,
+        "z": 18
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "6.22.23",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Popover",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 197,
+        "ddrSourceLeft": 748,
+        "ddrSourceBottom": 499,
+        "ddrSourceRight": 1018,
+        "ddrFidelityWarnings": [
+          "Unsupported DDR object type: Popover"
+        ],
+        "fillType": "solid",
+        "fillColor": "rgba(243, 240, 235, 1)",
+        "lineColor": "rgba(243, 240, 235, 1)",
+        "lineStyle": "solid",
+        "cornerRadius": 0,
+        "effectOuterShadow": false,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#004EA8",
+        "label": "[Popover]",
+        "ddrArrangeOrder": 18
+      },
+      "type": "unknown",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "My jobs"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-6-22-23-24",
+      "position": {
+        "x": 1085,
+        "y": 321,
+        "width": 250,
+        "height": 34,
+        "z": 19
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "6.22.23.24",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 321,
+        "ddrSourceLeft": 1085,
+        "ddrSourceBottom": 355,
+        "ddrSourceRight": 1335,
+        "fillType": "solid",
+        "fillColor": "rgba(255, 255, 255, 1)",
+        "lineColor": "rgba(0, 78, 168, 1)",
+        "lineWidth": 0,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#004EA8",
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "label": "My Jobs",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 19
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "My jobs"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-6-22-23-25",
+      "position": {
+        "x": 1085,
+        "y": 363,
+        "width": 250,
+        "height": 34,
+        "z": 20
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "6.22.23.25",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 363,
+        "ddrSourceLeft": 1085,
+        "ddrSourceBottom": 397,
+        "ddrSourceRight": 1335,
+        "fillType": "solid",
+        "fillColor": "rgba(255, 255, 255, 1)",
+        "lineColor": "rgba(0, 78, 168, 1)",
+        "lineWidth": 0,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#004EA8",
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "label": "Active Jobs",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 20
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Active jobs"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-6-22-23-26",
+      "position": {
+        "x": 1085,
+        "y": 530,
+        "width": 250,
+        "height": 34,
+        "z": 21
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "6.22.23.26",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 530,
+        "ddrSourceLeft": 1085,
+        "ddrSourceBottom": 564,
+        "ddrSourceRight": 1335,
+        "fillType": "solid",
+        "fillColor": "rgba(255, 255, 255, 1)",
+        "lineColor": "rgba(0, 78, 168, 1)",
+        "lineWidth": 0,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#004EA8",
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "label": "Search Job",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 21
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "goToLayout",
+          "layoutName": "BD List of Jobs"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-6-22-23-27",
+      "position": {
+        "x": 1085,
+        "y": 572,
+        "width": 250,
+        "height": 34,
+        "z": 22
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "6.22.23.27",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 572,
+        "ddrSourceLeft": 1085,
+        "ddrSourceBottom": 606,
+        "ddrSourceRight": 1335,
+        "fillType": "solid",
+        "fillColor": "rgba(255, 255, 255, 1)",
+        "lineColor": "rgba(0, 78, 168, 1)",
+        "lineWidth": 0,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#004EA8",
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "label": "Create New Job",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 22
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "create new job"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-6-22-23-28",
+      "position": {
+        "x": 1085,
+        "y": 404,
+        "width": 250,
+        "height": 35,
+        "z": 23
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "6.22.23.28",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 404,
+        "ddrSourceLeft": 1085,
+        "ddrSourceBottom": 439,
+        "ddrSourceRight": 1335,
+        "fillType": "solid",
+        "fillColor": "rgba(255, 255, 255, 1)",
+        "lineColor": "rgba(0, 78, 168, 1)",
+        "lineWidth": 0,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#004EA8",
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "label": "Completed Jobs",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 23
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Completed jobs"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-6-22-23-29",
+      "position": {
+        "x": 1085,
+        "y": 445,
+        "width": 250,
+        "height": 34,
+        "z": 24
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "6.22.23.29",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 445,
+        "ddrSourceLeft": 1085,
+        "ddrSourceBottom": 479,
+        "ddrSourceRight": 1335,
+        "fillType": "solid",
+        "fillColor": "rgba(255, 255, 255, 1)",
+        "lineColor": "rgba(0, 78, 168, 1)",
+        "lineWidth": 0,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#004EA8",
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "label": "Jobs On-Hold",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 24
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Jobs on-hold"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-6-22-23-30",
+      "position": {
+        "x": 1085,
+        "y": 488,
+        "width": 250,
+        "height": 34,
+        "z": 25
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "6.22.23.30",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 488,
+        "ddrSourceLeft": 1085,
+        "ddrSourceBottom": 522,
+        "ddrSourceRight": 1335,
+        "fillType": "solid",
+        "fillColor": "rgba(255, 255, 255, 1)",
+        "lineColor": "rgba(0, 78, 168, 1)",
+        "lineWidth": 0,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#004EA8",
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "label": "All Jobs",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 25
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "All jobs"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-6-31",
+      "position": {
+        "x": 3,
+        "y": 75,
+        "width": 116,
+        "height": 34,
+        "z": 26
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "6.31",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 75,
+        "ddrSourceLeft": 3,
+        "ddrSourceBottom": 109,
+        "ddrSourceRight": 119,
+        "fillType": "solid",
+        "fillColor": "rgba(255, 255, 255, 1)",
+        "lineColor": "rgba(0, 78, 168, 1)",
+        "lineWidth": 0,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#004EA8",
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "label": "Main Menu",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 26
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "goToLayout",
+          "layoutName": "Main menu"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-6-32",
+      "position": {
+        "x": 720,
+        "y": 75,
+        "width": 134,
+        "height": 34,
+        "z": 27
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "6.32",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 75,
+        "ddrSourceLeft": 720,
+        "ddrSourceBottom": 109,
+        "ddrSourceRight": 854,
+        "fillType": "solid",
+        "fillColor": "rgba(255, 255, 255, 1)",
+        "lineColor": "rgba(0, 78, 168, 1)",
+        "lineWidth": 0,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#004EA8",
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "label": "Maintenance",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 27
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Add a new plant"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-6-33",
+      "position": {
+        "x": 722,
+        "y": 81,
+        "width": 130,
+        "height": 26,
+        "z": 28
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "6.33",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "PopoverButton",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 81,
+        "ddrSourceLeft": 722,
+        "ddrSourceBottom": 107,
+        "ddrSourceRight": 852,
+        "fillType": "solid",
+        "fillColor": "rgba(255, 255, 255, 0)",
+        "lineWidth": 0,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#E6E6E6",
+        "label": "Button",
+        "variant": "secondary",
+        "buttonMode": "popover",
+        "popoverTitle": "Popover",
+        "popoverShowTitleBar": true,
+        "popoverButtonDisplay": "text",
+        "popoverWidth": 270,
+        "popoverHeight": 246,
+        "ddrArrangeOrder": 28
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "goToLayout",
+          "layoutName": "BD List of Tasks"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-6-33-34",
+      "position": {
+        "x": 1374,
+        "y": 199,
+        "width": 270,
+        "height": 246,
+        "z": 29
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "6.33.34",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Popover",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 199,
+        "ddrSourceLeft": 1374,
+        "ddrSourceBottom": 445,
+        "ddrSourceRight": 1644,
+        "ddrFidelityWarnings": [
+          "Unsupported DDR object type: Popover"
+        ],
+        "fillType": "solid",
+        "fillColor": "rgba(243, 240, 235, 1)",
+        "lineColor": "rgba(243, 240, 235, 1)",
+        "lineStyle": "solid",
+        "cornerRadius": 0,
+        "effectOuterShadow": false,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#004EA8",
+        "label": "[Popover]",
+        "ddrArrangeOrder": 29
+      },
+      "type": "unknown",
+      "events": {
+        "onClick": {
+          "action": "goToLayout",
+          "layoutName": "BD List of Tasks"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-6-33-34-35",
+      "position": {
+        "x": 2036,
+        "y": 364,
+        "width": 250,
+        "height": 34,
+        "z": 30
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "6.33.34.35",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 364,
+        "ddrSourceLeft": 2036,
+        "ddrSourceBottom": 398,
+        "ddrSourceRight": 2286,
+        "fillType": "solid",
+        "fillColor": "rgba(255, 255, 255, 1)",
+        "lineColor": "rgba(0, 78, 168, 1)",
+        "lineWidth": 0,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#004EA8",
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "label": "List of Project Tasks",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 30
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "goToLayout",
+          "layoutName": "BD List of Tasks"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-6-33-34-36",
+      "position": {
+        "x": 2036,
+        "y": 403,
+        "width": 250,
+        "height": 34,
+        "z": 31
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "6.33.34.36",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 403,
+        "ddrSourceLeft": 2036,
+        "ddrSourceBottom": 437,
+        "ddrSourceRight": 2286,
+        "fillType": "solid",
+        "fillColor": "rgba(255, 255, 255, 1)",
+        "lineColor": "rgba(0, 78, 168, 1)",
+        "lineWidth": 0,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#004EA8",
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "label": "List of Languages",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 31
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "goToLayout",
+          "layoutName": "BD List of languages"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-6-33-34-37",
+      "position": {
+        "x": 2036,
+        "y": 442,
+        "width": 250,
+        "height": 34,
+        "z": 32
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "6.33.34.37",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 442,
+        "ddrSourceLeft": 2036,
+        "ddrSourceBottom": 476,
+        "ddrSourceRight": 2286,
+        "fillType": "solid",
+        "fillColor": "rgba(255, 255, 255, 1)",
+        "lineColor": "rgba(0, 78, 168, 1)",
+        "lineWidth": 0,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#004EA8",
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "label": "List of Subgroups",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 32
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "goToLayout",
+          "layoutName": "BD List of Document Types"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-6-33-34-38",
+      "position": {
+        "x": 2036,
+        "y": 481,
+        "width": 250,
+        "height": 34,
+        "z": 33
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "6.33.34.38",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 481,
+        "ddrSourceLeft": 2036,
+        "ddrSourceBottom": 515,
+        "ddrSourceRight": 2286,
+        "fillType": "solid",
+        "fillColor": "rgba(255, 255, 255, 1)",
+        "lineColor": "rgba(0, 78, 168, 1)",
+        "lineWidth": 0,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#004EA8",
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "label": "List of Names",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 33
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "goToLayout",
+          "layoutName": "BD List of Names"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-6-33-34-39",
+      "position": {
+        "x": 2036,
+        "y": 325,
+        "width": 250,
+        "height": 34,
+        "z": 34
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "6.33.34.39",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 325,
+        "ddrSourceLeft": 2036,
+        "ddrSourceBottom": 359,
+        "ddrSourceRight": 2286,
+        "fillType": "solid",
+        "fillColor": "rgba(255, 255, 255, 1)",
+        "lineColor": "rgba(0, 78, 168, 1)",
+        "lineWidth": 0,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#004EA8",
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "label": "List of General Tasks",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 34
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "goToLayout",
+          "layoutName": "BD List of General Tasks"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-6-33-34-40",
+      "position": {
+        "x": 2036,
+        "y": 520,
+        "width": 250,
+        "height": 34,
+        "z": 35
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "6.33.34.40",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 520,
+        "ddrSourceLeft": 2036,
+        "ddrSourceBottom": 554,
+        "ddrSourceRight": 2286,
+        "fillType": "solid",
+        "fillColor": "rgba(255, 255, 255, 1)",
+        "lineColor": "rgba(0, 78, 168, 1)",
+        "lineWidth": 0,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#004EA8",
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "label": "List of Functions",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 35
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "goToLayout",
+          "layoutName": "Functions"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-6-41",
+      "position": {
+        "x": 622,
+        "y": 81,
+        "width": 101,
+        "height": 26,
+        "z": 36
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "6.41",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "PopoverButton",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 81,
+        "ddrSourceLeft": 622,
+        "ddrSourceBottom": 107,
+        "ddrSourceRight": 723,
+        "fillType": "solid",
+        "fillColor": "rgba(255, 255, 255, 0)",
+        "lineWidth": 0,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#E6E6E6",
+        "label": "Button",
+        "variant": "secondary",
+        "buttonMode": "popover",
+        "popoverTitle": "Popover",
+        "popoverShowTitleBar": true,
+        "popoverButtonDisplay": "text",
+        "popoverWidth": 378,
+        "popoverHeight": 170,
+        "ddrArrangeOrder": 36
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "goToLayout",
+          "layoutName": "Functions"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-6-41-42",
+      "position": {
+        "x": 1106,
+        "y": 199,
+        "width": 378,
+        "height": 170,
+        "z": 37
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "6.41.42",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Popover",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 199,
+        "ddrSourceLeft": 1106,
+        "ddrSourceBottom": 369,
+        "ddrSourceRight": 1484,
+        "ddrFidelityWarnings": [
+          "Unsupported DDR object type: Popover"
+        ],
+        "fillType": "solid",
+        "fillColor": "rgba(243, 240, 235, 1)",
+        "lineColor": "rgba(243, 240, 235, 1)",
+        "lineStyle": "solid",
+        "cornerRadius": 0,
+        "effectOuterShadow": false,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#004EA8",
+        "label": "[Popover]",
+        "ddrArrangeOrder": 37
+      },
+      "type": "unknown",
+      "events": {
+        "onClick": {
+          "action": "goToLayout",
+          "layoutName": "Functions"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-6-41-42-43",
+      "position": {
+        "x": 1600,
+        "y": 364,
+        "width": 358,
+        "height": 34,
+        "z": 38
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "6.41.42.43",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 364,
+        "ddrSourceLeft": 1600,
+        "ddrSourceBottom": 398,
+        "ddrSourceRight": 1958,
+        "fillType": "solid",
+        "fillColor": "rgba(255, 255, 255, 1)",
+        "lineColor": "rgba(0, 78, 168, 1)",
+        "lineWidth": 0,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#004EA8",
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "label": "Time related reports",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 38
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "goToLayout",
+          "layoutName": "Functions"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-6-41-42-44",
+      "position": {
+        "x": 1600,
+        "y": 325,
+        "width": 358,
+        "height": 34,
+        "z": 39
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "6.41.42.44",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 325,
+        "ddrSourceLeft": 1600,
+        "ddrSourceBottom": 359,
+        "ddrSourceRight": 1958,
+        "fillType": "solid",
+        "fillColor": "rgba(255, 255, 255, 1)",
+        "lineColor": "rgba(0, 78, 168, 1)",
+        "lineWidth": 0,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#004EA8",
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "label": "Generate Monthly Report",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 39
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Send filemaker output file"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-6-41-42-45",
+      "position": {
+        "x": 1600,
+        "y": 403,
+        "width": 358,
+        "height": 34,
+        "z": 40
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "6.41.42.45",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 403,
+        "ddrSourceLeft": 1600,
+        "ddrSourceBottom": 437,
+        "ddrSourceRight": 1958,
+        "fillType": "solid",
+        "fillColor": "rgba(255, 255, 255, 1)",
+        "lineColor": "rgba(0, 78, 168, 1)",
+        "lineWidth": 0,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#004EA8",
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "label": "Time per user per job",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 40
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "goToLayout",
+          "layoutName": "Time spent on projects"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-6-41-42-46",
+      "position": {
+        "x": 1600,
+        "y": 442,
+        "width": 358,
+        "height": 34,
+        "z": 41
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "6.41.42.46",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 442,
+        "ddrSourceLeft": 1600,
+        "ddrSourceBottom": 476,
+        "ddrSourceRight": 1958,
+        "fillType": "solid",
+        "fillColor": "rgba(255, 255, 255, 1)",
+        "lineColor": "rgba(0, 78, 168, 1)",
+        "lineWidth": 0,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#004EA8",
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "label": "Time per user per task",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 41
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "goToLayout",
+          "layoutName": "Time spent on tasks"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-6-47",
+      "position": {
+        "x": 117,
+        "y": 79,
+        "width": 82,
+        "height": 30,
+        "z": 42
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "6.47",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "PopoverButton",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 79,
+        "ddrSourceLeft": 117,
+        "ddrSourceBottom": 109,
+        "ddrSourceRight": 199,
+        "fillType": "solid",
+        "fillColor": "rgba(255, 255, 255, 0)",
+        "lineWidth": 0,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#E6E6E6",
+        "label": "Button",
+        "variant": "secondary",
+        "buttonMode": "popover",
+        "popoverTitle": "Popover",
+        "popoverShowTitleBar": true,
+        "popoverButtonDisplay": "text",
+        "popoverWidth": 270,
+        "popoverHeight": 100,
+        "ddrArrangeOrder": 42
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Add a new plant"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-6-47-48",
+      "position": {
+        "x": 148,
+        "y": 206,
+        "width": 270,
+        "height": 95,
+        "z": 43
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "6.47.48",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Popover",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 206,
+        "ddrSourceLeft": 148,
+        "ddrSourceBottom": 301,
+        "ddrSourceRight": 418,
+        "ddrFidelityWarnings": [
+          "Unsupported DDR object type: Popover"
+        ],
+        "fillType": "solid",
+        "fillColor": "rgba(243, 240, 235, 1)",
+        "lineColor": "rgba(243, 240, 235, 1)",
+        "lineStyle": "solid",
+        "cornerRadius": 0,
+        "effectOuterShadow": false,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#004EA8",
+        "label": "[Popover]",
+        "ddrArrangeOrder": 43
+      },
+      "type": "unknown",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Add a new plant"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-6-47-48-49",
+      "position": {
+        "x": 189,
+        "y": 381,
+        "width": 250,
+        "height": 34,
+        "z": 44
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "6.47.48.49",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 381,
+        "ddrSourceLeft": 189,
+        "ddrSourceBottom": 415,
+        "ddrSourceRight": 439,
+        "fillType": "solid",
+        "fillColor": "rgba(255, 255, 255, 1)",
+        "lineColor": "rgba(0, 78, 168, 1)",
+        "lineWidth": 0,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#004EA8",
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "label": "Create New Plant",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 44
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Add a new plant"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-6-47-48-50",
+      "position": {
+        "x": 189,
+        "y": 341,
+        "width": 250,
+        "height": 34,
+        "z": 45
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "6.47.48.50",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 341,
+        "ddrSourceLeft": 189,
+        "ddrSourceBottom": 375,
+        "ddrSourceRight": 439,
+        "fillType": "solid",
+        "fillColor": "rgba(255, 255, 255, 1)",
+        "lineColor": "rgba(0, 78, 168, 1)",
+        "lineWidth": 0,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#004EA8",
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "label": "List of Plants",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 45
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "goToLayout",
+          "layoutName": "BD List of Plants"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-6-51",
+      "position": {
+        "x": 212,
+        "y": 77,
+        "width": 82,
+        "height": 30,
+        "z": 46
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "6.51",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "PopoverButton",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 77,
+        "ddrSourceLeft": 212,
+        "ddrSourceBottom": 107,
+        "ddrSourceRight": 294,
+        "fillType": "solid",
+        "fillColor": "rgba(255, 255, 255, 0)",
+        "lineWidth": 0,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#E6E6E6",
+        "label": "Button",
+        "variant": "secondary",
+        "buttonMode": "popover",
+        "popoverTitle": "Popover",
+        "popoverShowTitleBar": true,
+        "popoverButtonDisplay": "text",
+        "popoverWidth": 270,
+        "popoverHeight": 100,
+        "ddrArrangeOrder": 46
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Add a new product"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-6-51-52",
+      "position": {
+        "x": 330,
+        "y": 195,
+        "width": 270,
+        "height": 95,
+        "z": 47
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "6.51.52",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Popover",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 195,
+        "ddrSourceLeft": 330,
+        "ddrSourceBottom": 290,
+        "ddrSourceRight": 600,
+        "ddrFidelityWarnings": [
+          "Unsupported DDR object type: Popover"
+        ],
+        "fillType": "solid",
+        "fillColor": "rgba(243, 240, 235, 1)",
+        "lineColor": "rgba(243, 240, 235, 1)",
+        "lineStyle": "solid",
+        "cornerRadius": 0,
+        "effectOuterShadow": false,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#004EA8",
+        "label": "[Popover]",
+        "ddrArrangeOrder": 47
+      },
+      "type": "unknown",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Add a new product"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-6-51-52-53",
+      "position": {
+        "x": 458,
+        "y": 361,
+        "width": 250,
+        "height": 34,
+        "z": 48
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "6.51.52.53",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 361,
+        "ddrSourceLeft": 458,
+        "ddrSourceBottom": 395,
+        "ddrSourceRight": 708,
+        "fillType": "solid",
+        "fillColor": "rgba(255, 255, 255, 1)",
+        "lineColor": "rgba(0, 78, 168, 1)",
+        "lineWidth": 0,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#004EA8",
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "label": "Create New Product",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 48
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Add a new product"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-6-51-52-54",
+      "position": {
+        "x": 458,
+        "y": 321,
+        "width": 250,
+        "height": 34,
+        "z": 49
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "6.51.52.54",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 321,
+        "ddrSourceLeft": 458,
+        "ddrSourceBottom": 355,
+        "ddrSourceRight": 708,
+        "fillType": "solid",
+        "fillColor": "rgba(255, 255, 255, 1)",
+        "lineColor": "rgba(0, 78, 168, 1)",
+        "lineWidth": 0,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#004EA8",
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "label": "List All Products",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 49
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "List of all products"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-6-55",
+      "position": {
+        "x": 505,
+        "y": 79,
+        "width": 112,
+        "height": 26,
+        "z": 50
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "6.55",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "PopoverButton",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 79,
+        "ddrSourceLeft": 505,
+        "ddrSourceBottom": 105,
+        "ddrSourceRight": 617,
+        "fillType": "solid",
+        "fillColor": "rgba(255, 255, 255, 0)",
+        "lineWidth": 0,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#E6E6E6",
+        "label": "Button",
+        "variant": "secondary",
+        "buttonMode": "popover",
+        "popoverTitle": "Popover",
+        "popoverShowTitleBar": true,
+        "popoverButtonDisplay": "text",
+        "popoverWidth": 346,
+        "popoverHeight": 179,
+        "ddrArrangeOrder": 50
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Setup user interface"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-6-55-56",
+      "position": {
+        "x": 893,
+        "y": 195,
+        "width": 346,
+        "height": 179,
+        "z": 51
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "6.55.56",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Popover",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 195,
+        "ddrSourceLeft": 893,
+        "ddrSourceBottom": 374,
+        "ddrSourceRight": 1239,
+        "ddrFidelityWarnings": [
+          "Unsupported DDR object type: Popover"
+        ],
+        "fillType": "solid",
+        "fillColor": "rgba(243, 240, 235, 1)",
+        "lineColor": "rgba(243, 240, 235, 1)",
+        "lineStyle": "solid",
+        "cornerRadius": 0,
+        "effectOuterShadow": false,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#004EA8",
+        "label": "[Popover]",
+        "ddrArrangeOrder": 51
+      },
+      "type": "unknown",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Setup user interface"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-6-55-56-57",
+      "position": {
+        "x": 1291,
+        "y": 322,
+        "width": 326,
+        "height": 34,
+        "z": 52
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "6.55.56.57",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 322,
+        "ddrSourceLeft": 1291,
+        "ddrSourceBottom": 356,
+        "ddrSourceRight": 1617,
+        "fillType": "solid",
+        "fillColor": "rgba(255, 255, 255, 1)",
+        "lineColor": "rgba(0, 78, 168, 1)",
+        "lineWidth": 0,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#004EA8",
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "label": "Start Time Tracker",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 52
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Setup user interface"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-6-55-56-58",
+      "position": {
+        "x": 1291,
+        "y": 363,
+        "width": 326,
+        "height": 34,
+        "z": 53
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "6.55.56.58",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 363,
+        "ddrSourceLeft": 1291,
+        "ddrSourceBottom": 397,
+        "ddrSourceRight": 1617,
+        "fillType": "solid",
+        "fillColor": "rgba(255, 255, 255, 1)",
+        "lineColor": "rgba(0, 78, 168, 1)",
+        "lineWidth": 0,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#004EA8",
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "label": "Show my personal task list",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 53
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Present general task list"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-6-55-56-59",
+      "position": {
+        "x": 1291,
+        "y": 404,
+        "width": 326,
+        "height": 34,
+        "z": 54
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "6.55.56.59",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 404,
+        "ddrSourceLeft": 1291,
+        "ddrSourceBottom": 438,
+        "ddrSourceRight": 1617,
+        "fillType": "solid",
+        "fillColor": "rgba(255, 255, 255, 1)",
+        "lineColor": "rgba(0, 78, 168, 1)",
+        "lineWidth": 0,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#004EA8",
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "label": "Show individual time registrations",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 54
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Show time registrations for a user"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-6-55-56-60",
+      "position": {
+        "x": 1291,
+        "y": 445,
+        "width": 326,
+        "height": 34,
+        "z": 55
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "6.55.56.60",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 445,
+        "ddrSourceLeft": 1291,
+        "ddrSourceBottom": 479,
+        "ddrSourceRight": 1617,
+        "fillType": "solid",
+        "fillColor": "rgba(255, 255, 255, 1)",
+        "lineColor": "rgba(0, 78, 168, 1)",
+        "lineWidth": 0,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#004EA8",
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "label": "Show daily time registrations",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 55
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Show daily time registrations for a user"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-6-61",
+      "position": {
+        "x": 842,
+        "y": 75,
+        "width": 134,
+        "height": 34,
+        "z": 56
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "6.61",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 65536,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 75,
+        "ddrSourceLeft": 842,
+        "ddrSourceBottom": 109,
+        "ddrSourceRight": 976,
+        "fillType": "solid",
+        "fillColor": "rgba(255, 255, 255, 1)",
+        "lineColor": "rgba(0, 78, 168, 1)",
+        "lineWidth": 0,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#004EA8",
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "label": "Logout",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 56
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-6-62",
+      "position": {
+        "x": 790,
+        "y": 0,
+        "width": 494,
+        "height": 73,
+        "z": 57
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "6.62",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": true,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 1073741824,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 0,
+        "ddrSourceLeft": 790,
+        "ddrSourceBottom": 73,
+        "ddrSourceRight": 1284,
+        "fillType": "none",
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#004EA8",
+        "textAlign": "right",
+        "fontFamily": "arial,sans-serif",
+        "fontSize": 18,
+        "label": "Current user: <<$$UserName>>",
+        "ddrArrangeOrder": 57
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-88",
+      "position": {
+        "x": 21,
+        "y": 140,
+        "width": 453,
+        "height": 371,
+        "z": 58
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "88",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 140,
+        "ddrSourceLeft": 21,
+        "ddrSourceBottom": 511,
+        "ddrSourceRight": 474,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "plants pie",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 58
+      },
+      "type": "field",
+      "binding": {
+        "field": "plants pie",
+        "tableOccurrence": "charts"
+      }
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-89",
+      "position": {
+        "x": 911,
+        "y": 140,
+        "width": 453,
+        "height": 371,
+        "z": 59
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "89",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 140,
+        "ddrSourceLeft": 911,
+        "ddrSourceBottom": 511,
+        "ddrSourceRight": 1364,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "doctype pie",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 59
+      },
+      "type": "field",
+      "binding": {
+        "field": "doctype pie",
+        "tableOccurrence": "charts"
+      }
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-91",
+      "position": {
+        "x": 495,
+        "y": 140,
+        "width": 365,
+        "height": 372,
+        "z": 60
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "91",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Portal",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 140,
+        "ddrSourceLeft": 495,
+        "ddrSourceBottom": 512,
+        "ddrSourceRight": 860,
+        "label": "Portal",
+        "portalSortRecords": false,
+        "portalFilterRecords": false,
+        "portalFilterCalculation": "",
+        "portalAllowDelete": false,
+        "portalAllowVerticalScrolling": true,
+        "portalScrollBar": "always",
+        "portalResetScrollOnExit": false,
+        "portalInitialRow": 1,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 10,
+        "portalUseAlternateRowState": false,
+        "portalUseActiveRowState": true,
+        "portalRowFields": [
+          "plant name",
+          "time to present"
+        ],
+        "portalColumnHeaders": [
+          "plant name",
+          "time to present"
+        ],
+        "portalColumnWidths": [
+          223,
+          108
+        ],
+        "ddrArrangeOrder": 60
+      },
+      "type": "portal",
+      "binding": {
+        "tableOccurrence": "Plants"
+      }
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-91-92",
+      "position": {
+        "x": 992,
+        "y": 283,
+        "width": 223,
+        "height": 33,
+        "z": 61
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "91.92",
+        "portalParentComponentId": "ddr-fm-pie-overview-TEQmYW1w-91",
+        "portalParentDdrPath": "91",
+        "portalParentTableOccurrence": "Plants",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 283,
+        "ddrSourceLeft": 992,
+        "ddrSourceBottom": 316,
+        "ddrSourceRight": 1215,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "plant name",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 61
+      },
+      "type": "field",
+      "binding": {
+        "field": "plant name",
+        "tableOccurrence": "Plants"
+      }
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-91-93",
+      "position": {
+        "x": 1225,
+        "y": 283,
+        "width": 108,
+        "height": 33,
+        "z": 62
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "91.93",
+        "portalParentComponentId": "ddr-fm-pie-overview-TEQmYW1w-91",
+        "portalParentDdrPath": "91",
+        "portalParentTableOccurrence": "Plants",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 283,
+        "ddrSourceLeft": 1225,
+        "ddrSourceBottom": 316,
+        "ddrSourceRight": 1333,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "time to present",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 62
+      },
+      "type": "field",
+      "binding": {
+        "field": "time to present",
+        "tableOccurrence": "Plants"
+      }
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-94",
+      "position": {
+        "x": 1385,
+        "y": 140,
+        "width": 365,
+        "height": 372,
+        "z": 63
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "94",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Portal",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 140,
+        "ddrSourceLeft": 1385,
+        "ddrSourceBottom": 512,
+        "ddrSourceRight": 1750,
+        "label": "Portal",
+        "portalSortRecords": false,
+        "portalFilterRecords": false,
+        "portalFilterCalculation": "",
+        "portalAllowDelete": false,
+        "portalAllowVerticalScrolling": true,
+        "portalScrollBar": "always",
+        "portalResetScrollOnExit": false,
+        "portalInitialRow": 1,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 10,
+        "portalUseAlternateRowState": false,
+        "portalUseActiveRowState": true,
+        "portalRowFields": [
+          "Subgroup",
+          "time spent"
+        ],
+        "portalColumnHeaders": [
+          "Subgroup",
+          "time spent"
+        ],
+        "portalColumnWidths": [
+          222,
+          107.771
+        ],
+        "ddrArrangeOrder": 63
+      },
+      "type": "portal",
+      "binding": {
+        "tableOccurrence": "document types"
+      }
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-94-95",
+      "position": {
+        "x": 2772,
+        "y": 283,
+        "width": 222,
+        "height": 33,
+        "z": 64
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "94.95",
+        "portalParentComponentId": "ddr-fm-pie-overview-TEQmYW1w-94",
+        "portalParentDdrPath": "94",
+        "portalParentTableOccurrence": "document types",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 283,
+        "ddrSourceLeft": 2772,
+        "ddrSourceBottom": 316,
+        "ddrSourceRight": 2994,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Subgroup",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 64
+      },
+      "type": "field",
+      "binding": {
+        "field": "Subgroup",
+        "tableOccurrence": "document types"
+      }
+    },
+    {
+      "id": "ddr-fm-pie-overview-TEQmYW1w-94-96",
+      "position": {
+        "x": 3005,
+        "y": 283,
+        "width": 107.771,
+        "height": 32.842,
+        "z": 65
+      },
+      "props": {
+        "styleTheme": "BD Theme",
+        "ddrObjectPath": "94.96",
+        "portalParentComponentId": "ddr-fm-pie-overview-TEQmYW1w-94",
+        "portalParentDdrPath": "94",
+        "portalParentTableOccurrence": "document types",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 283,
+        "ddrSourceLeft": 3005,
+        "ddrSourceBottom": 315.842,
+        "ddrSourceRight": 3112.771,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "time spent",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 65
+      },
+      "type": "field",
+      "binding": {
+        "field": "time spent",
+        "tableOccurrence": "document types"
+      }
+    }
+  ],
+  "actions": []
+}

@@ -1,0 +1,201 @@
+{
+  "version": 1,
+  "layouts": {
+    "phase6-table-layout": {
+      "layoutId": "phase6-table-layout",
+      "listRowFields": [
+        "Name",
+        "Type"
+      ],
+      "tableColumns": [
+        {
+          "field": "Name",
+          "width": 220,
+          "hidden": false,
+          "order": 0
+        },
+        {
+          "field": "Type",
+          "width": 120,
+          "hidden": true,
+          "order": 1
+        }
+      ],
+      "updatedAt": 1772438055256
+    },
+    "fm-customers-QXNzZXRz": {
+      "layoutId": "fm-customers-QXNzZXRz",
+      "listRowFields": [],
+      "tableColumns": [],
+      "updatedAt": 1772455561669
+    },
+    "fm-asset-list-QXNzZXRz": {
+      "layoutId": "fm-asset-list-QXNzZXRz",
+      "listRowFields": [],
+      "tableColumns": [
+        {
+          "field": "Assignments::Name",
+          "hidden": false,
+          "order": 0
+        },
+        {
+          "field": "Assets::Price",
+          "hidden": false,
+          "order": 1
+        },
+        {
+          "field": "Assets::Purchase Date",
+          "hidden": false,
+          "order": 2
+        },
+        {
+          "field": "Assets::Type",
+          "hidden": false,
+          "order": 3
+        },
+        {
+          "field": "Assets::Name",
+          "hidden": false,
+          "order": 4
+        },
+        {
+          "field": "Assets::Image",
+          "hidden": false,
+          "order": 5
+        },
+        {
+          "field": "Assets::Total",
+          "hidden": false,
+          "order": 6
+        }
+      ],
+      "updatedAt": 1772549689468
+    },
+    "default": {
+      "layoutId": "default",
+      "listRowFields": [],
+      "tableColumns": [
+        {
+          "field": "Assignments::Note",
+          "hidden": false,
+          "order": 0
+        },
+        {
+          "field": "Assignments::Date Returned",
+          "hidden": false,
+          "order": 1
+        },
+        {
+          "field": "Assignments::EmployeeForeignKey",
+          "hidden": false,
+          "order": 2
+        },
+        {
+          "field": "Assets::Purchase Date",
+          "hidden": false,
+          "order": 3
+        },
+        {
+          "field": "Assets::Price",
+          "hidden": false,
+          "order": 4
+        },
+        {
+          "field": "Assets::Vendor",
+          "hidden": false,
+          "order": 5
+        },
+        {
+          "field": "Assets::Type",
+          "hidden": false,
+          "order": 6
+        },
+        {
+          "field": "Assets::Serial Number",
+          "hidden": false,
+          "order": 7
+        },
+        {
+          "field": "Assets::Description",
+          "hidden": false,
+          "order": 8
+        },
+        {
+          "field": "Assets::Name",
+          "hidden": false,
+          "order": 9
+        },
+        {
+          "field": "Assets::Image",
+          "hidden": false,
+          "order": 10
+        }
+      ],
+      "updatedAt": 1772565883734
+    },
+    "fm-employee-list-QXNzZXRz": {
+      "layoutId": "fm-employee-list-QXNzZXRz",
+      "listRowFields": [],
+      "tableColumns": [
+        {
+          "field": "Employees::Description",
+          "hidden": false,
+          "order": 0
+        },
+        {
+          "field": "Employees::Last Name",
+          "hidden": false,
+          "order": 1
+        },
+        {
+          "field": "Employees::First Name",
+          "hidden": false,
+          "order": 2
+        },
+        {
+          "field": "Employees::Photo",
+          "hidden": false,
+          "order": 3
+        }
+      ],
+      "updatedAt": 1772506406057
+    },
+    "layout-1-mmalylp0": {
+      "layoutId": "layout-1-mmalylp0",
+      "listRowFields": [],
+      "tableColumns": [
+        {
+          "field": "Image",
+          "hidden": false,
+          "order": 0
+        },
+        {
+          "field": "Name",
+          "hidden": false,
+          "order": 1
+        },
+        {
+          "field": "Price",
+          "hidden": false,
+          "order": 2
+        },
+        {
+          "field": "Purchase Date",
+          "hidden": false,
+          "order": 3
+        },
+        {
+          "field": "Total",
+          "hidden": false,
+          "order": 4
+        },
+        {
+          "field": "Type",
+          "hidden": false,
+          "order": 5
+        }
+      ],
+      "updatedAt": 1772542381363
+    }
+  }
+}

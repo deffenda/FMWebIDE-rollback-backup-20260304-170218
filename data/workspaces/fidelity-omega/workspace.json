@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "id": "fidelity-omega",
+  "name": "Omega",
+  "filemaker": {
+    "host": "https://crmserver.omegafls.com",
+    "database": "Omega",
+    "ddrPath": "/Users/deffenda/Koofr/Inactive/Omega/DDR/08202018/Omega_fmp12.xml",
+    "sourceFileName": "Omega.fmp12",
+    "solutionName": "Phase 16 Layout Fidelity"
+  }
+}

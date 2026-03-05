@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "id": "default",
+  "name": "Assets",
+  "filemaker": {
+    "database": "Assets",
+    "ddrPath": "/Users/deffenda/Downloads/Assets.xml"
+  },
+  "files": [
+    {
+      "fileId": "default",
+      "databaseName": "Assets",
+      "displayName": "default",
+      "primary": true,
+      "status": "connected"
+    }
+  ]
+}

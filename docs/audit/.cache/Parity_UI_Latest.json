@@ -1,0 +1,207 @@
+{
+  "generatedAt": "2026-03-03T02:59:06.935Z",
+  "environment": {
+    "node": "v25.6.1",
+    "ci": false,
+    "projects": []
+  },
+  "metrics": {
+    "parityScore": 0,
+    "commandCoverage": 0,
+    "invariantPassRate": 0,
+    "scenarioPassRate": 0,
+    "crossBrowserPassRate": 0
+  },
+  "commandSummary": {
+    "tested": 0,
+    "skipped": 43,
+    "notFound": 0,
+    "error": 0,
+    "discoveredEnabled": 0,
+    "coverage": 0
+  },
+  "invariants": [
+    {
+      "id": "assertModeHook",
+      "status": "skipped"
+    },
+    {
+      "id": "assertLayoutIdHook",
+      "status": "skipped"
+    },
+    {
+      "id": "assertStatusToolbarVisible",
+      "status": "skipped"
+    },
+    {
+      "id": "assertTopMenuOpen",
+      "status": "skipped"
+    },
+    {
+      "id": "assertFindModeActive",
+      "status": "skipped"
+    },
+    {
+      "id": "assertPreviewModeActive",
+      "status": "skipped"
+    },
+    {
+      "id": "assertViewTabSelected",
+      "status": "skipped"
+    },
+    {
+      "id": "assertFocusOnFirstEditableField",
+      "status": "skipped"
+    },
+    {
+      "id": "assertDirtyStatePill",
+      "status": "skipped"
+    },
+    {
+      "id": "assertModeSeparationLayout",
+      "status": "skipped"
+    },
+    {
+      "id": "assertModeSeparationBrowse",
+      "status": "skipped"
+    },
+    {
+      "id": "assertRecordNavigatorInputVisible",
+      "status": "skipped"
+    },
+    {
+      "id": "assertLastActionHook",
+      "status": "skipped"
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "SCN-001",
+      "status": "not-run",
+      "smoke": true
+    },
+    {
+      "id": "SCN-002",
+      "status": "not-run",
+      "smoke": true
+    },
+    {
+      "id": "SCN-003",
+      "status": "not-run",
+      "smoke": true
+    },
+    {
+      "id": "SCN-004",
+      "status": "not-run",
+      "smoke": false
+    },
+    {
+      "id": "SCN-005",
+      "status": "not-run",
+      "smoke": false
+    },
+    {
+      "id": "SCN-006",
+      "status": "not-run",
+      "smoke": false
+    },
+    {
+      "id": "SCN-007",
+      "status": "not-run",
+      "smoke": true
+    },
+    {
+      "id": "SCN-008",
+      "status": "not-run",
+      "smoke": true
+    },
+    {
+      "id": "SCN-009",
+      "status": "not-run",
+      "smoke": true
+    },
+    {
+      "id": "SCN-010",
+      "status": "not-run",
+      "smoke": true
+    },
+    {
+      "id": "SCN-011",
+      "status": "not-run",
+      "smoke": false
+    },
+    {
+      "id": "SCN-012",
+      "status": "not-run",
+      "smoke": false
+    },
+    {
+      "id": "SCN-013",
+      "status": "not-run",
+      "smoke": false
+    },
+    {
+      "id": "SCN-014",
+      "status": "not-run",
+      "smoke": true
+    },
+    {
+      "id": "SCN-015",
+      "status": "not-run",
+      "smoke": false
+    },
+    {
+      "id": "SCN-016",
+      "status": "not-run",
+      "smoke": false
+    },
+    {
+      "id": "SCN-017",
+      "status": "not-run",
+      "smoke": true
+    },
+    {
+      "id": "SCN-018",
+      "status": "not-run",
+      "smoke": false
+    },
+    {
+      "id": "SCN-019",
+      "status": "not-run",
+      "smoke": false
+    },
+    {
+      "id": "SCN-020",
+      "status": "not-run",
+      "smoke": true
+    },
+    {
+      "id": "SCN-021",
+      "status": "not-run",
+      "smoke": true
+    },
+    {
+      "id": "SCN-022",
+      "status": "not-run",
+      "smoke": true
+    },
+    {
+      "id": "SCN-023",
+      "status": "not-run",
+      "smoke": false
+    },
+    {
+      "id": "SCN-024",
+      "status": "not-run",
+      "smoke": true
+    },
+    {
+      "id": "SCN-025",
+      "status": "not-run",
+      "smoke": true
+    }
+  ],
+  "suites": [],
+  "failures": [],
+  "flakes": []
+}

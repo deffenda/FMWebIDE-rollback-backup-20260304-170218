@@ -1,0 +1,968 @@
+{
+  "id": "fm-document-catalog-and-languages-TEQmYW1w",
+  "name": "Document catalog and languages",
+  "defaultTableOccurrence": "Document catalog and languages",
+  "canvas": {
+    "width": 1996,
+    "height": 734,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-document-catalog-and-languages-TEQmYW1w-195",
+      "position": {
+        "x": 22,
+        "y": 103,
+        "width": 140,
+        "height": 28,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Column title",
+        "ddrObjectPath": "195",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 103,
+        "ddrSourceLeft": 22,
+        "ddrSourceBottom": 131,
+        "ddrSourceRight": 162,
+        "fontFamily": "Helvetica",
+        "fontSize": 18,
+        "textColor": "#666666",
+        "label": "Catalog Nrs",
+        "ddrArrangeOrder": 1
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-document-catalog-and-languages-TEQmYW1w-219",
+      "position": {
+        "x": 22,
+        "y": 131,
+        "width": 150,
+        "height": 562,
+        "z": 2
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "portal",
+        "ddrObjectPath": "219",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Portal",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 131,
+        "ddrSourceLeft": 22,
+        "ddrSourceBottom": 693,
+        "ddrSourceRight": 172,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#E6E6E6",
+        "label": "Portal",
+        "portalSortRecords": false,
+        "portalFilterRecords": false,
+        "portalFilterCalculation": "",
+        "portalAllowDelete": false,
+        "portalAllowVerticalScrolling": true,
+        "portalScrollBar": "always",
+        "portalResetScrollOnExit": false,
+        "portalInitialRow": 1,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 16,
+        "portalUseAlternateRowState": false,
+        "portalUseActiveRowState": true,
+        "portalRowFields": [
+          "Catalog number"
+        ],
+        "portalColumnHeaders": [
+          "Catalog number"
+        ],
+        "portalColumnWidths": [
+          93
+        ],
+        "ddrArrangeOrder": 2
+      },
+      "type": "portal",
+      "binding": {
+        "tableOccurrence": "Products to documents"
+      },
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Delete product from document button"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-document-catalog-and-languages-TEQmYW1w-219-241",
+      "position": {
+        "x": 47,
+        "y": 265,
+        "width": 93,
+        "height": 32,
+        "z": 3
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Table field",
+        "ddrObjectPath": "219.241",
+        "portalParentComponentId": "ddr-fm-document-catalog-and-languages-TEQmYW1w-219",
+        "portalParentDdrPath": "219",
+        "portalParentTableOccurrence": "Products to documents",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 265,
+        "ddrSourceLeft": 47,
+        "ddrSourceBottom": 297,
+        "ddrSourceRight": 140,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Catalog number",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 3
+      },
+      "type": "field",
+      "binding": {
+        "field": "Catalog number",
+        "tableOccurrence": "Products to documents"
+      }
+    },
+    {
+      "id": "ddr-fm-document-catalog-and-languages-TEQmYW1w-219-259",
+      "position": {
+        "x": 147,
+        "y": 269,
+        "width": 20,
+        "height": 20,
+        "z": 4
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "action button",
+        "ddrObjectPath": "219.259",
+        "portalParentComponentId": "ddr-fm-document-catalog-and-languages-TEQmYW1w-219",
+        "portalParentDdrPath": "219",
+        "portalParentTableOccurrence": "Products to documents",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "PopoverButton",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 269,
+        "ddrSourceLeft": 147,
+        "ddrSourceBottom": 289,
+        "ddrSourceRight": 167,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#E6E6E6",
+        "label": "Button",
+        "variant": "secondary",
+        "buttonMode": "popover",
+        "popoverTitle": "Popover",
+        "popoverShowTitleBar": true,
+        "popoverButtonDisplay": "text",
+        "popoverWidth": 140,
+        "popoverHeight": 100,
+        "ddrArrangeOrder": 4
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Delete product from document button"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-document-catalog-and-languages-TEQmYW1w-219-259-260",
+      "position": {
+        "x": 228,
+        "y": 414,
+        "width": 109,
+        "height": 53,
+        "z": 5
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu popover",
+        "ddrObjectPath": "219.259.260",
+        "portalParentComponentId": "ddr-fm-document-catalog-and-languages-TEQmYW1w-219",
+        "portalParentDdrPath": "219",
+        "portalParentTableOccurrence": "Products to documents",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Popover",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 414,
+        "ddrSourceLeft": 228,
+        "ddrSourceBottom": 467,
+        "ddrSourceRight": 337,
+        "ddrFidelityWarnings": [
+          "Unsupported DDR object type: Popover"
+        ],
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "[Popover]",
+        "ddrArrangeOrder": 5
+      },
+      "type": "unknown",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Delete product from document button"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-document-catalog-and-languages-TEQmYW1w-219-259-260-261",
+      "position": {
+        "x": 319,
+        "y": 567,
+        "width": 88,
+        "height": 34,
+        "z": 6
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu button in popover",
+        "ddrObjectPath": "219.259.260.261",
+        "portalParentComponentId": "ddr-fm-document-catalog-and-languages-TEQmYW1w-219",
+        "portalParentDdrPath": "219",
+        "portalParentTableOccurrence": "Products to documents",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 567,
+        "ddrSourceLeft": 319,
+        "ddrSourceBottom": 601,
+        "ddrSourceRight": 407,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "Delete",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 6
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Delete product from document button"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-document-catalog-and-languages-TEQmYW1w-223",
+      "position": {
+        "x": 191,
+        "y": 103,
+        "width": 122,
+        "height": 28,
+        "z": 7
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Column title",
+        "ddrObjectPath": "223",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 103,
+        "ddrSourceLeft": 191,
+        "ddrSourceBottom": 131,
+        "ddrSourceRight": 313,
+        "fontFamily": "Helvetica",
+        "fontSize": 18,
+        "textColor": "#666666",
+        "label": "Languages",
+        "ddrArrangeOrder": 7
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-document-catalog-and-languages-TEQmYW1w-242",
+      "position": {
+        "x": 191,
+        "y": 131,
+        "width": 122,
+        "height": 562,
+        "z": 8
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "portal",
+        "ddrObjectPath": "242",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Portal",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 131,
+        "ddrSourceLeft": 191,
+        "ddrSourceBottom": 693,
+        "ddrSourceRight": 313,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#E6E6E6",
+        "label": "Portal",
+        "portalSortRecords": false,
+        "portalFilterRecords": false,
+        "portalFilterCalculation": "",
+        "portalAllowDelete": false,
+        "portalAllowVerticalScrolling": true,
+        "portalScrollBar": "always",
+        "portalResetScrollOnExit": false,
+        "portalInitialRow": 1,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 16,
+        "portalUseAlternateRowState": false,
+        "portalUseActiveRowState": true,
+        "portalRowFields": [
+          "Language code"
+        ],
+        "portalColumnHeaders": [
+          "Language code"
+        ],
+        "portalColumnWidths": [
+          45
+        ],
+        "ddrArrangeOrder": 8
+      },
+      "type": "portal",
+      "binding": {
+        "tableOccurrence": "Standalones"
+      },
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Delete language from document"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-document-catalog-and-languages-TEQmYW1w-242-247",
+      "position": {
+        "x": 389,
+        "y": 264,
+        "width": 45,
+        "height": 32,
+        "z": 9
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Table field",
+        "ddrObjectPath": "242.247",
+        "portalParentComponentId": "ddr-fm-document-catalog-and-languages-TEQmYW1w-242",
+        "portalParentDdrPath": "242",
+        "portalParentTableOccurrence": "Standalones",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 264,
+        "ddrSourceLeft": 389,
+        "ddrSourceBottom": 296,
+        "ddrSourceRight": 434,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Language code",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 9
+      },
+      "type": "field",
+      "binding": {
+        "field": "Language code",
+        "tableOccurrence": "Standalones"
+      }
+    },
+    {
+      "id": "ddr-fm-document-catalog-and-languages-TEQmYW1w-242-263",
+      "position": {
+        "x": 454,
+        "y": 267,
+        "width": 20,
+        "height": 20,
+        "z": 10
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "action button",
+        "ddrObjectPath": "242.263",
+        "portalParentComponentId": "ddr-fm-document-catalog-and-languages-TEQmYW1w-242",
+        "portalParentDdrPath": "242",
+        "portalParentTableOccurrence": "Standalones",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "PopoverButton",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 267,
+        "ddrSourceLeft": 454,
+        "ddrSourceBottom": 287,
+        "ddrSourceRight": 474,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#E6E6E6",
+        "label": "Button",
+        "variant": "secondary",
+        "buttonMode": "popover",
+        "popoverTitle": "Popover",
+        "popoverShowTitleBar": true,
+        "popoverButtonDisplay": "text",
+        "popoverWidth": 140,
+        "popoverHeight": 100,
+        "ddrArrangeOrder": 10
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Delete language from document"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-document-catalog-and-languages-TEQmYW1w-242-263-264",
+      "position": {
+        "x": 673,
+        "y": 434,
+        "width": 109,
+        "height": 53,
+        "z": 11
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu popover",
+        "ddrObjectPath": "242.263.264",
+        "portalParentComponentId": "ddr-fm-document-catalog-and-languages-TEQmYW1w-242",
+        "portalParentDdrPath": "242",
+        "portalParentTableOccurrence": "Standalones",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Popover",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 434,
+        "ddrSourceLeft": 673,
+        "ddrSourceBottom": 487,
+        "ddrSourceRight": 782,
+        "ddrFidelityWarnings": [
+          "Unsupported DDR object type: Popover"
+        ],
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "[Popover]",
+        "ddrArrangeOrder": 11
+      },
+      "type": "unknown",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Delete language from document"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-document-catalog-and-languages-TEQmYW1w-242-263-264-265",
+      "position": {
+        "x": 902,
+        "y": 609,
+        "width": 88,
+        "height": 34,
+        "z": 12
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu button in popover",
+        "ddrObjectPath": "242.263.264.265",
+        "portalParentComponentId": "ddr-fm-document-catalog-and-languages-TEQmYW1w-242",
+        "portalParentDdrPath": "242",
+        "portalParentTableOccurrence": "Standalones",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 609,
+        "ddrSourceLeft": 902,
+        "ddrSourceBottom": 643,
+        "ddrSourceRight": 990,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "Delete",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 12
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Delete language from document"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-document-catalog-and-languages-TEQmYW1w-267",
+      "position": {
+        "x": 22,
+        "y": 13,
+        "width": 353,
+        "height": 36,
+        "z": 13
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Header text",
+        "ddrObjectPath": "267",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 13,
+        "ddrSourceLeft": 22,
+        "ddrSourceBottom": 49,
+        "ddrSourceRight": 375,
+        "fontFamily": "Helvetica",
+        "fontSize": 24,
+        "textColor": "#666666",
+        "label": "Document <<$$document>>",
+        "ddrArrangeOrder": 13
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-document-catalog-and-languages-TEQmYW1w-268",
+      "position": {
+        "x": 22,
+        "y": 55,
+        "width": 164,
+        "height": 36,
+        "z": 14
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "ddrObjectPath": "268",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 55,
+        "ddrSourceLeft": 22,
+        "ddrSourceBottom": 91,
+        "ddrSourceRight": 186,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#E6E6E6",
+        "label": "Done",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 14
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Done adding products to document"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-document-catalog-and-languages-TEQmYW1w-282",
+      "position": {
+        "x": 339,
+        "y": 77,
+        "width": 122,
+        "height": 47,
+        "z": 15
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Column title",
+        "ddrObjectPath": "282",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 77,
+        "ddrSourceLeft": 339,
+        "ddrSourceBottom": 124,
+        "ddrSourceRight": 461,
+        "fontFamily": "Helvetica",
+        "fontSize": 18,
+        "textColor": "#666666",
+        "label": "Printed\nLanguages",
+        "ddrArrangeOrder": 15
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-document-catalog-and-languages-TEQmYW1w-288",
+      "position": {
+        "x": 339,
+        "y": 132,
+        "width": 122,
+        "height": 562,
+        "z": 16
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "portal",
+        "ddrObjectPath": "288",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Portal",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 132,
+        "ddrSourceLeft": 339,
+        "ddrSourceBottom": 694,
+        "ddrSourceRight": 461,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#E6E6E6",
+        "label": "Portal",
+        "portalSortRecords": false,
+        "portalFilterRecords": false,
+        "portalFilterCalculation": "",
+        "portalAllowDelete": false,
+        "portalAllowVerticalScrolling": true,
+        "portalScrollBar": "always",
+        "portalResetScrollOnExit": false,
+        "portalInitialRow": 1,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 16,
+        "portalUseAlternateRowState": false,
+        "portalUseActiveRowState": true,
+        "portalRowFields": [
+          "Language code"
+        ],
+        "portalColumnHeaders": [
+          "Language code"
+        ],
+        "portalColumnWidths": [
+          65
+        ],
+        "ddrArrangeOrder": 16
+      },
+      "type": "portal",
+      "binding": {
+        "tableOccurrence": "Printed languages"
+      },
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Delete language from document"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-document-catalog-and-languages-TEQmYW1w-288-289",
+      "position": {
+        "x": 681,
+        "y": 267,
+        "width": 65,
+        "height": 32,
+        "z": 17
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Table field",
+        "ddrObjectPath": "288.289",
+        "portalParentComponentId": "ddr-fm-document-catalog-and-languages-TEQmYW1w-288",
+        "portalParentDdrPath": "288",
+        "portalParentTableOccurrence": "Printed languages",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 267,
+        "ddrSourceLeft": 681,
+        "ddrSourceBottom": 299,
+        "ddrSourceRight": 746,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Language code",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 17
+      },
+      "type": "field",
+      "binding": {
+        "field": "Language code",
+        "tableOccurrence": "Printed languages"
+      }
+    },
+    {
+      "id": "ddr-fm-document-catalog-and-languages-TEQmYW1w-288-290",
+      "position": {
+        "x": 754,
+        "y": 271,
+        "width": 20,
+        "height": 20,
+        "z": 18
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "action button",
+        "ddrObjectPath": "288.290",
+        "portalParentComponentId": "ddr-fm-document-catalog-and-languages-TEQmYW1w-288",
+        "portalParentDdrPath": "288",
+        "portalParentTableOccurrence": "Printed languages",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "PopoverButton",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 271,
+        "ddrSourceLeft": 754,
+        "ddrSourceBottom": 291,
+        "ddrSourceRight": 774,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#E6E6E6",
+        "label": "Button",
+        "variant": "secondary",
+        "buttonMode": "popover",
+        "popoverTitle": "Popover",
+        "popoverShowTitleBar": true,
+        "popoverButtonDisplay": "text",
+        "popoverWidth": 140,
+        "popoverHeight": 100,
+        "ddrArrangeOrder": 18
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Delete language from document"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-document-catalog-and-languages-TEQmYW1w-288-290-291",
+      "position": {
+        "x": 1125,
+        "y": 441,
+        "width": 109,
+        "height": 53,
+        "z": 19
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu popover",
+        "ddrObjectPath": "288.290.291",
+        "portalParentComponentId": "ddr-fm-document-catalog-and-languages-TEQmYW1w-288",
+        "portalParentDdrPath": "288",
+        "portalParentTableOccurrence": "Printed languages",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Popover",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 441,
+        "ddrSourceLeft": 1125,
+        "ddrSourceBottom": 494,
+        "ddrSourceRight": 1234,
+        "ddrFidelityWarnings": [
+          "Unsupported DDR object type: Popover"
+        ],
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "[Popover]",
+        "ddrArrangeOrder": 19
+      },
+      "type": "unknown",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Delete language from document"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-document-catalog-and-languages-TEQmYW1w-288-290-291-292",
+      "position": {
+        "x": 1506,
+        "y": 619,
+        "width": 88,
+        "height": 34,
+        "z": 20
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu button in popover",
+        "ddrObjectPath": "288.290.291.292",
+        "portalParentComponentId": "ddr-fm-document-catalog-and-languages-TEQmYW1w-288",
+        "portalParentDdrPath": "288",
+        "portalParentTableOccurrence": "Printed languages",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 619,
+        "ddrSourceLeft": 1506,
+        "ddrSourceBottom": 653,
+        "ddrSourceRight": 1594,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "Delete",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 20
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Delete language from document"
+        }
+      }
+    }
+  ],
+  "actions": []
+}

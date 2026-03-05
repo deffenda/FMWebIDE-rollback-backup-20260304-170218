@@ -1,0 +1,97 @@
+{
+  "id": "fm-test-table-TEQmYW1w",
+  "name": "test table",
+  "defaultTableOccurrence": "test table",
+  "canvas": {
+    "width": 1024,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-test-table-TEQmYW1w-1",
+      "position": {
+        "x": 64,
+        "y": 55,
+        "width": 63,
+        "height": 18,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "1",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 55,
+        "ddrSourceLeft": 64,
+        "ddrSourceBottom": 73,
+        "ddrSourceRight": 127,
+        "fillType": "none",
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textAlign": "right",
+        "fontFamily": "arial,sans-serif",
+        "fontSize": 12,
+        "textColor": "#707070",
+        "label": "test record",
+        "ddrArrangeOrder": 1
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-test-table-TEQmYW1w-2",
+      "position": {
+        "x": 140,
+        "y": 52,
+        "width": 253,
+        "height": 22,
+        "z": 2
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "2",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 52,
+        "ddrSourceLeft": 140,
+        "ddrSourceBottom": 74,
+        "ddrSourceRight": 393,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "test record",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 2
+      },
+      "type": "field",
+      "binding": {
+        "field": "test record",
+        "tableOccurrence": "test table"
+      }
+    }
+  ],
+  "actions": []
+}

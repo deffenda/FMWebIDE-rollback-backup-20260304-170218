@@ -1,0 +1,63 @@
+{
+  "externalDataSources": [],
+  "customFunctions": [],
+  "themes": [],
+  "securityRoles": [
+    {
+      "id": "full-access",
+      "name": "fullAccess",
+      "canView": true,
+      "canEdit": true,
+      "canDelete": true,
+      "notes": "Default unrestricted runtime simulation role."
+    },
+    {
+      "id": "read-only",
+      "name": "readOnly",
+      "canView": true,
+      "canEdit": false,
+      "canDelete": false,
+      "notes": "Runtime read-only simulation role."
+    },
+    {
+      "id": "restricted",
+      "name": "restricted",
+      "canView": true,
+      "canEdit": true,
+      "canDelete": false,
+      "notes": "Runtime restricted simulation role."
+    }
+  ],
+  "containerSettings": {
+    "cacheSeconds": 0,
+    "maxPreviewBytes": 8388608,
+    "allowUploads": true
+  },
+  "preferences": {
+    "general": {
+      "showStatusToolbar": true,
+      "showFormattingBar": false,
+      "compactStatusArea": false
+    },
+    "runtime": {
+      "defaultBrowseView": "form",
+      "autoRefreshOnOpen": true,
+      "enablePolling": false
+    },
+    "debug": {
+      "enableDebugOverlay": false,
+      "enableScriptTrace": false,
+      "enableCalcDiagnostics": false
+    },
+    "security": {
+      "maskSensitiveDebugValues": true,
+      "requireConfirmOnDelete": true
+    }
+  },
+  "fileOptions": [],
+  "sharing": [],
+  "fileReferences": [],
+  "authProfiles": [],
+  "pluginPreferences": [],
+  "updatedAt": "2026-03-03T19:02:52.721Z"
+}

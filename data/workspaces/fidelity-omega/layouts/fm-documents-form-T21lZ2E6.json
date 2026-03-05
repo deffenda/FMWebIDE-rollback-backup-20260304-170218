@@ -1,0 +1,104 @@
+{
+  "id": "fm-documents-form-T21lZ2E6",
+  "name": "Documents|Form",
+  "defaultTableOccurrence": "Documents|Form",
+  "canvas": {
+    "width": 690,
+    "height": 767,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-documents-form-T21lZ2E6-1",
+      "position": {
+        "x": 13,
+        "y": 50,
+        "width": 653,
+        "height": 677,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "ddrObjectPath": "1",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": true,
+        "autosizeBottom": true,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 3221225472,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 50,
+        "ddrSourceLeft": 13,
+        "ddrSourceBottom": 727,
+        "ddrSourceRight": 666,
+        "fillType": "gradient",
+        "fillColor": "rgba(94.5098%,94.5098%,94.5098%,1",
+        "fillGradientStartColor": "rgba(94.5098%,94.5098%,94.5098%,1",
+        "fillGradientEndColor": "rgba(100%,100%,100%,1",
+        "lineColor": "rgba(177, 177, 177, 1)",
+        "lineStyle": "solid",
+        "effectOuterShadow": true,
+        "fontFamily": "-fm-font-family(Verdana",
+        "fontSize": 11,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "attachment",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 1
+      },
+      "type": "field",
+      "binding": {
+        "field": "attachment",
+        "tableOccurrence": "DOCUMENTS"
+      }
+    },
+    {
+      "id": "ddr-fm-documents-form-T21lZ2E6-2",
+      "position": {
+        "x": 12,
+        "y": 13,
+        "width": 100,
+        "height": 24,
+        "z": 2
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "ddrObjectPath": "2",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 13,
+        "ddrSourceLeft": 12,
+        "ddrSourceBottom": 37,
+        "ddrSourceRight": 112,
+        "fontFamily": "arial,sans-serif",
+        "fontSize": 12,
+        "textColor": "#000000",
+        "label": "Button",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 2
+      },
+      "type": "button"
+    }
+  ],
+  "actions": []
+}

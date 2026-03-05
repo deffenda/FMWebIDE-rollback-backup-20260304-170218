@@ -1,0 +1,14 @@
+{
+  "id": "fm-short-invoice-SiZhbXA7",
+  "name": "Short Invoice",
+  "defaultTableOccurrence": "Short Invoice",
+  "canvas": {
+    "width": 1024,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [],
+  "actions": []
+}

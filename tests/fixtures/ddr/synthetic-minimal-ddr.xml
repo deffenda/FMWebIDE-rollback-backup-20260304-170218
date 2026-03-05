@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Synthetic fixture generated for parity harness scaffolding. -->
+<FMPReport>
+  <Layout id="synthetic-layout-1" name="Synthetic Layout">
+    <Object type="Field" id="field-1">
+      <Bounds top="20" left="20" bottom="44" right="220" />
+      <FieldReference name="Synthetic::Name" />
+    </Object>
+    <Object type="Text" id="text-1">
+      <Bounds top="52" left="20" bottom="74" right="220" />
+      <TextObj><Data>Synthetic Fixture</Data></TextObj>
+    </Object>
+  </Layout>
+</FMPReport>

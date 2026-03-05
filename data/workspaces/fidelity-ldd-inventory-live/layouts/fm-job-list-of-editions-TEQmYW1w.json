@@ -1,0 +1,360 @@
+{
+  "id": "fm-job-list-of-editions-TEQmYW1w",
+  "name": "Job list of editions",
+  "defaultTableOccurrence": "Job list of editions",
+  "canvas": {
+    "width": 1996,
+    "height": 732,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-job-list-of-editions-TEQmYW1w-81",
+      "position": {
+        "x": 9,
+        "y": 130,
+        "width": 227,
+        "height": 562,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "portal",
+        "ddrObjectPath": "81",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Portal",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 130,
+        "ddrSourceLeft": 9,
+        "ddrSourceBottom": 692,
+        "ddrSourceRight": 236,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#E6E6E6",
+        "label": "Portal",
+        "portalSortRecords": false,
+        "portalFilterRecords": false,
+        "portalFilterCalculation": "",
+        "portalAllowDelete": false,
+        "portalAllowVerticalScrolling": true,
+        "portalScrollBar": "always",
+        "portalResetScrollOnExit": false,
+        "portalInitialRow": 1,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 16,
+        "portalUseAlternateRowState": false,
+        "portalUseActiveRowState": true,
+        "portalRowFields": [
+          "Edition ID"
+        ],
+        "portalColumnHeaders": [
+          "Edition ID"
+        ],
+        "portalColumnWidths": [
+          149
+        ],
+        "ddrArrangeOrder": 1
+      },
+      "type": "portal",
+      "binding": {
+        "tableOccurrence": "Editions to projects"
+      }
+    },
+    {
+      "id": "ddr-fm-job-list-of-editions-TEQmYW1w-81-85",
+      "position": {
+        "x": 26,
+        "y": 262,
+        "width": 149,
+        "height": 32,
+        "z": 2
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Table field",
+        "ddrObjectPath": "81.85",
+        "portalParentComponentId": "ddr-fm-job-list-of-editions-TEQmYW1w-81",
+        "portalParentDdrPath": "81",
+        "portalParentTableOccurrence": "Editions to projects",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 262,
+        "ddrSourceLeft": 26,
+        "ddrSourceBottom": 294,
+        "ddrSourceRight": 175,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Edition ID",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 2
+      },
+      "type": "field",
+      "binding": {
+        "field": "Edition ID",
+        "tableOccurrence": "Editions to projects"
+      }
+    },
+    {
+      "id": "ddr-fm-job-list-of-editions-TEQmYW1w-81-168",
+      "position": {
+        "x": 190,
+        "y": 268,
+        "width": 20,
+        "height": 20,
+        "z": 3
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "action button",
+        "ddrObjectPath": "81.168",
+        "portalParentComponentId": "ddr-fm-job-list-of-editions-TEQmYW1w-81",
+        "portalParentDdrPath": "81",
+        "portalParentTableOccurrence": "Editions to projects",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "PopoverButton",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 268,
+        "ddrSourceLeft": 190,
+        "ddrSourceBottom": 288,
+        "ddrSourceRight": 210,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#E6E6E6",
+        "label": "Button",
+        "variant": "secondary",
+        "buttonMode": "popover",
+        "popoverTitle": "Popover",
+        "popoverShowTitleBar": true,
+        "popoverButtonDisplay": "text",
+        "popoverWidth": 140,
+        "popoverHeight": 100,
+        "ddrArrangeOrder": 3
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-job-list-of-editions-TEQmYW1w-81-168-169",
+      "position": {
+        "x": 327,
+        "y": 437,
+        "width": 109,
+        "height": 53,
+        "z": 4
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu popover",
+        "ddrObjectPath": "81.168.169",
+        "portalParentComponentId": "ddr-fm-job-list-of-editions-TEQmYW1w-81",
+        "portalParentDdrPath": "81",
+        "portalParentTableOccurrence": "Editions to projects",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Popover",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 437,
+        "ddrSourceLeft": 327,
+        "ddrSourceBottom": 490,
+        "ddrSourceRight": 436,
+        "ddrFidelityWarnings": [
+          "Unsupported DDR object type: Popover"
+        ],
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "[Popover]",
+        "ddrArrangeOrder": 4
+      },
+      "type": "unknown"
+    },
+    {
+      "id": "ddr-fm-job-list-of-editions-TEQmYW1w-81-168-169-170",
+      "position": {
+        "x": 474,
+        "y": 614,
+        "width": 88,
+        "height": 34,
+        "z": 5
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "menu button in popover",
+        "ddrObjectPath": "81.168.169.170",
+        "portalParentComponentId": "ddr-fm-job-list-of-editions-TEQmYW1w-81",
+        "portalParentDdrPath": "81",
+        "portalParentTableOccurrence": "Editions to projects",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 614,
+        "ddrSourceLeft": 474,
+        "ddrSourceBottom": 648,
+        "ddrSourceRight": 562,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#333333",
+        "label": "Delete",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 5
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-job-list-of-editions-TEQmYW1w-88",
+      "position": {
+        "x": 9,
+        "y": 103,
+        "width": 117,
+        "height": 25,
+        "z": 6
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Column title",
+        "ddrObjectPath": "88",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 103,
+        "ddrSourceLeft": 9,
+        "ddrSourceBottom": 128,
+        "ddrSourceRight": 126,
+        "fontFamily": "Helvetica",
+        "fontSize": 18,
+        "textColor": "#666666",
+        "label": "Document ID",
+        "ddrArrangeOrder": 6
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-job-list-of-editions-TEQmYW1w-165",
+      "position": {
+        "x": 9,
+        "y": 6,
+        "width": 182,
+        "height": 32,
+        "z": 7
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Header text",
+        "ddrObjectPath": "165",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 6,
+        "ddrSourceLeft": 9,
+        "ddrSourceBottom": 38,
+        "ddrSourceRight": 191,
+        "fontFamily": "Helvetica",
+        "fontSize": 24,
+        "textColor": "#666666",
+        "label": "Job: <<$$Job>>",
+        "ddrArrangeOrder": 7
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-job-list-of-editions-TEQmYW1w-167",
+      "position": {
+        "x": 73,
+        "y": 51,
+        "width": 163,
+        "height": 40,
+        "z": 8
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "ddrObjectPath": "167",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 51,
+        "ddrSourceLeft": 73,
+        "ddrSourceBottom": 91,
+        "ddrSourceRight": 236,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#E6E6E6",
+        "label": "Done",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 8
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Done adding editions to a job"
+        }
+      }
+    }
+  ],
+  "actions": []
+}

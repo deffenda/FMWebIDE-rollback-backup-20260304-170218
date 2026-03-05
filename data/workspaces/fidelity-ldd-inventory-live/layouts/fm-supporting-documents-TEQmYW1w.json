@@ -1,0 +1,141 @@
+{
+  "id": "fm-supporting-documents-TEQmYW1w",
+  "name": "Supporting documents",
+  "defaultTableOccurrence": "Supporting documents",
+  "canvas": {
+    "width": 1582,
+    "height": 784,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-supporting-documents-TEQmYW1w-1",
+      "position": {
+        "x": 30,
+        "y": 55,
+        "width": 97,
+        "height": 18,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "1",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 55,
+        "ddrSourceLeft": 30,
+        "ddrSourceBottom": 73,
+        "ddrSourceRight": 127,
+        "fillType": "none",
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textAlign": "right",
+        "fontFamily": "arial,sans-serif",
+        "fontSize": 12,
+        "textColor": "#707070",
+        "label": "Document name",
+        "ddrArrangeOrder": 1
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-supporting-documents-TEQmYW1w-2",
+      "position": {
+        "x": 138,
+        "y": 52,
+        "width": 253,
+        "height": 22,
+        "z": 2
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "2",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 52,
+        "ddrSourceLeft": 138,
+        "ddrSourceBottom": 74,
+        "ddrSourceRight": 391,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Document name",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 2
+      },
+      "type": "field",
+      "binding": {
+        "field": "Document name",
+        "tableOccurrence": "Supporting documents"
+      }
+    },
+    {
+      "id": "ddr-fm-supporting-documents-TEQmYW1w-5",
+      "position": {
+        "x": 141,
+        "y": 91,
+        "width": 1417,
+        "height": 653,
+        "z": 3
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "5",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 91,
+        "ddrSourceLeft": 141,
+        "ddrSourceBottom": 744,
+        "ddrSourceRight": 1558,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Document file",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 3
+      },
+      "type": "field",
+      "binding": {
+        "field": "Document file",
+        "tableOccurrence": "Supporting documents"
+      }
+    }
+  ],
+  "actions": []
+}

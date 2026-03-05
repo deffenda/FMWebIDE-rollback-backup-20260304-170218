@@ -1,0 +1,1616 @@
+{
+  "id": "fm-orders-list-T21lZ2E6",
+  "name": "Orders|List",
+  "defaultTableOccurrence": "Orders|List",
+  "canvas": {
+    "width": 1147,
+    "height": 650,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-orders-list-T21lZ2E6-14",
+      "position": {
+        "x": 173,
+        "y": 0,
+        "width": 737,
+        "height": 50,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "styleName": "Entity Header",
+        "ddrObjectPath": "14",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 0,
+        "ddrSourceLeft": 173,
+        "ddrSourceBottom": 50,
+        "ddrSourceRight": 910,
+        "fontFamily": "arial,sans-serif",
+        "fontSize": 36,
+        "textColor": "#FFFFFF",
+        "label": "Orders",
+        "ddrArrangeOrder": 1
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-orders-list-T21lZ2E6-16",
+      "position": {
+        "x": 5,
+        "y": 119,
+        "width": 21,
+        "height": 21,
+        "z": 2
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "styleName": "Navigation Blue",
+        "ddrObjectPath": "16",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 260,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 119,
+        "ddrSourceLeft": 5,
+        "ddrSourceBottom": 140,
+        "ddrSourceRight": 26,
+        "fontFamily": "arial,sans-serif",
+        "fontSize": 12,
+        "textColor": "#FFFFFF",
+        "label": "Button",
+        "variant": "secondary",
+        "buttonIconName": "a35_rightChevron.svg",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 2
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Desktop|Go to Form View from List View",
+          "parameter": "not Get ( WindowMode ) = 0 or not Get ( FoundCount )"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-orders-list-T21lZ2E6-17",
+      "position": {
+        "x": 32,
+        "y": 119,
+        "width": 308,
+        "height": 21,
+        "z": 3
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "ddrObjectPath": "17",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 119,
+        "ddrSourceLeft": 32,
+        "ddrSourceBottom": 140,
+        "ddrSourceRight": 340,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "name",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 3
+      },
+      "type": "field",
+      "binding": {
+        "field": "name",
+        "tableOccurrence": "ORDERS"
+      }
+    },
+    {
+      "id": "ddr-fm-orders-list-T21lZ2E6-20",
+      "position": {
+        "x": 32,
+        "y": 158,
+        "width": 308,
+        "height": 16,
+        "z": 4
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "styleName": "Accent Text 2",
+        "ddrObjectPath": "20",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 158,
+        "ddrSourceLeft": 32,
+        "ddrSourceBottom": 174,
+        "ddrSourceRight": 340,
+        "fontFamily": "arial,sans-serif",
+        "fontSize": 12,
+        "textColor": "#72A332",
+        "label": "Showing {{FoundCount}} of {{TotalRecordCount}}",
+        "ddrArrangeOrder": 4
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-orders-list-T21lZ2E6-33",
+      "position": {
+        "x": 1044,
+        "y": 5,
+        "width": 79,
+        "height": 37,
+        "z": 5
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "styleName": "Header Logo",
+        "ddrObjectPath": "33",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": true,
+        "autosizeBottom": false,
+        "autosizeLeft": false,
+        "ddrOriginalObjectType": "GroupButton",
+        "ddrObjectFlags": 1342177540,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 5,
+        "ddrSourceLeft": 1044,
+        "ddrSourceBottom": 42,
+        "ddrSourceRight": 1123,
+        "fillType": "none",
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "label": "Button",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 5
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Desktop|Go to Home",
+          "parameter": "not Get ( WindowMode ) = 0 or not Get ( FoundCount )"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-orders-list-T21lZ2E6-33-34",
+      "position": {
+        "x": 2088,
+        "y": 10,
+        "width": 79,
+        "height": 37,
+        "z": 6
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "styleName": "Header Logo",
+        "ddrObjectPath": "33.34",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": true,
+        "autosizeBottom": false,
+        "autosizeLeft": false,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 1342177280,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 10,
+        "ddrSourceLeft": 2088,
+        "ddrSourceBottom": 47,
+        "ddrSourceRight": 2167,
+        "fillType": "none",
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "com_logo_display",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 6
+      },
+      "type": "field",
+      "binding": {
+        "field": "com_logo_display",
+        "tableOccurrence": "SYSTEM"
+      }
+    },
+    {
+      "id": "ddr-fm-orders-list-T21lZ2E6-55",
+      "position": {
+        "x": 32,
+        "y": 94,
+        "width": 308,
+        "height": 16,
+        "z": 7
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "ddrObjectPath": "55",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "GroupButton",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 94,
+        "ddrSourceLeft": 32,
+        "ddrSourceBottom": 110,
+        "ddrSourceRight": 340,
+        "fillType": "none",
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "fontFamily": "Verdana",
+        "fontSize": 11,
+        "textColor": "#FFFFFF",
+        "fontWeight": "bold",
+        "label": "Name",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 7
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Orders | Sort [column]",
+          "parameter": "1"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-orders-list-T21lZ2E6-55-56",
+      "position": {
+        "x": 64,
+        "y": 188,
+        "width": 308,
+        "height": 16,
+        "z": 8
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "ddrObjectPath": "55.56",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 188,
+        "ddrSourceLeft": 64,
+        "ddrSourceBottom": 204,
+        "ddrSourceRight": 372,
+        "fillType": "none",
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "fontFamily": "Verdana",
+        "fontSize": 11,
+        "textColor": "#FFFFFF",
+        "fontWeight": "bold",
+        "label": "Name",
+        "ddrArrangeOrder": 8
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-orders-list-T21lZ2E6-57",
+      "position": {
+        "x": 80,
+        "y": 92,
+        "width": 22,
+        "height": 22,
+        "z": 9
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "styleName": "Header Sort Icon",
+        "ddrObjectPath": "57",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 260,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 92,
+        "ddrSourceLeft": 80,
+        "ddrSourceBottom": 114,
+        "ddrSourceRight": 102,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "zz_header_sorts",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 20,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 9
+      },
+      "type": "field",
+      "binding": {
+        "field": "zz_header_sorts",
+        "tableOccurrence": "ORDERS"
+      }
+    },
+    {
+      "id": "ddr-fm-orders-list-T21lZ2E6-59",
+      "position": {
+        "x": 346,
+        "y": 119,
+        "width": 308,
+        "height": 21,
+        "z": 10
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "ddrObjectPath": "59",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 119,
+        "ddrSourceLeft": 346,
+        "ddrSourceBottom": 140,
+        "ddrSourceRight": 654,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "company_name",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 10
+      },
+      "type": "field",
+      "binding": {
+        "field": "company_name",
+        "tableOccurrence": "ORDERS"
+      }
+    },
+    {
+      "id": "ddr-fm-orders-list-T21lZ2E6-60",
+      "position": {
+        "x": 346,
+        "y": 94,
+        "width": 308,
+        "height": 16,
+        "z": 11
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "ddrObjectPath": "60",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "GroupButton",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 94,
+        "ddrSourceLeft": 346,
+        "ddrSourceBottom": 110,
+        "ddrSourceRight": 654,
+        "fillType": "none",
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "fontFamily": "Verdana",
+        "fontSize": 11,
+        "textColor": "#FFFFFF",
+        "fontWeight": "bold",
+        "label": "Company",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 11
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Orders | Sort [column]",
+          "parameter": "2"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-orders-list-T21lZ2E6-60-61",
+      "position": {
+        "x": 692,
+        "y": 188,
+        "width": 308,
+        "height": 16,
+        "z": 12
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "ddrObjectPath": "60.61",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 188,
+        "ddrSourceLeft": 692,
+        "ddrSourceBottom": 204,
+        "ddrSourceRight": 1000,
+        "fillType": "none",
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "fontFamily": "Verdana",
+        "fontSize": 11,
+        "textColor": "#FFFFFF",
+        "fontWeight": "bold",
+        "label": "Company",
+        "ddrArrangeOrder": 12
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-orders-list-T21lZ2E6-62",
+      "position": {
+        "x": 412,
+        "y": 92,
+        "width": 22,
+        "height": 22,
+        "z": 13
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "styleName": "Header Sort Icon",
+        "ddrObjectPath": "62",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 260,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 92,
+        "ddrSourceLeft": 412,
+        "ddrSourceBottom": 114,
+        "ddrSourceRight": 434,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "zz_header_sorts[2]",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 20,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 13
+      },
+      "type": "field",
+      "binding": {
+        "field": "zz_header_sorts[2]",
+        "tableOccurrence": "ORDERS"
+      }
+    },
+    {
+      "id": "ddr-fm-orders-list-T21lZ2E6-81",
+      "position": {
+        "x": 5,
+        "y": 5,
+        "width": 156,
+        "height": 40,
+        "z": 14
+      },
+      "props": {
+        "tooltip": "Let( \n[\n$$BrowserNav.NavBackTip = MiddleWords( GetValue( $$BrowserNav.Layout.Backward ; 2 ) ; 2 ; 99 ) \n] ; \n\nIf( IsEmpty( $$BrowserNav.NavBackTip ) ; \"Nowhere to go\" ; $$BrowserNav.NavBackTip )\n)",
+        "hideObjectWhen": "cf_BrowserNavigation",
+        "styleTheme": "Enlightened Omega",
+        "styleName": "Body Button Bar",
+        "ddrObjectPath": "81",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "ButtonBar",
+        "ddrObjectFlags": 260,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 5,
+        "ddrSourceLeft": 5,
+        "ddrSourceBottom": 45,
+        "ddrSourceRight": 161,
+        "fillType": "gradient",
+        "fillColor": "rgba(94.1176%,94.1176%,94.1176%,1",
+        "fillGradientStartColor": "rgba(94.1176%,94.1176%,94.1176%,1",
+        "fillGradientEndColor": "rgba(90.9804%,90.9804%,90.9804%,1",
+        "lineColor": "rgba(177, 177, 177, 1)",
+        "lineStyle": "solid",
+        "effectOuterShadow": true,
+        "fontFamily": "Arial",
+        "fontSize": 12,
+        "textColor": "#000000",
+        "label": "Leads",
+        "buttonMode": "bar",
+        "variant": "secondary",
+        "buttonBarSegments": [
+          {
+            "id": "82",
+            "label": "Button",
+            "tooltip": "Let( \n[\n$$BrowserNav.NavBackTip = MiddleWords( GetValue( $$BrowserNav.Layout.Backward ; 2 ) ; 2 ; 99 ) \n] ; \n\nIf( IsEmpty( $$BrowserNav.NavBackTip ) ; \"Nowhere to go\" ; $$BrowserNav.NavBackTip )\n)",
+            "iconName": "a33_leftChevron.svg",
+            "action": "runScript",
+            "script": "Utility | Browser Navigation",
+            "parameter": "Backward"
+          }
+        ],
+        "buttonIconName": "a33_leftChevron.svg",
+        "ddrArrangeOrder": 14
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Browser Navigation",
+          "parameter": "Backward"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-orders-list-T21lZ2E6-81-82",
+      "position": {
+        "x": 11,
+        "y": 11,
+        "width": 51,
+        "height": 38,
+        "z": 15
+      },
+      "props": {
+        "tooltip": "Let( \n[\n$$BrowserNav.NavBackTip = MiddleWords( GetValue( $$BrowserNav.Layout.Backward ; 2 ) ; 2 ; 99 ) \n] ; \n\nIf( IsEmpty( $$BrowserNav.NavBackTip ) ; \"Nowhere to go\" ; $$BrowserNav.NavBackTip )\n)",
+        "hideObjectWhen": "cf_BrowserNavigation",
+        "styleTheme": "Enlightened Omega",
+        "styleName": "Body Button Bar",
+        "ddrObjectPath": "81.82",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 16385,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 11,
+        "ddrSourceLeft": 11,
+        "ddrSourceBottom": 49,
+        "ddrSourceRight": 62,
+        "fontFamily": "Arial",
+        "fontSize": 12,
+        "textColor": "#000000",
+        "label": "Let( \n[\n$$BrowserNav.NavBackTip = MiddleWords( GetValue( $$BrowserNav.Layout.Backward ; 2 ) ; 2 ; 99 ) \n] ; \n\nIf( IsEmpty( $$BrowserNav.NavBackTip ) ; \"Nowhere to go\" ; $$BrowserNav.NavBackTip )\n)",
+        "variant": "secondary",
+        "buttonIconName": "a33_leftChevron.svg",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 15
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Browser Navigation",
+          "parameter": "Backward"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-orders-list-T21lZ2E6-81-83",
+      "position": {
+        "x": 62,
+        "y": 11,
+        "width": 52,
+        "height": 38,
+        "z": 16
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "styleName": "Body Button Bar",
+        "ddrObjectPath": "81.83",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "PopoverButton",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 11,
+        "ddrSourceLeft": 62,
+        "ddrSourceBottom": 49,
+        "ddrSourceRight": 114,
+        "fillType": "gradient",
+        "fillColor": "rgba(94.1176%,94.1176%,94.1176%,1",
+        "fillGradientStartColor": "rgba(94.1176%,94.1176%,94.1176%,1",
+        "fillGradientEndColor": "rgba(90.9804%,90.9804%,90.9804%,1",
+        "lineColor": "rgba(177, 177, 177, 1)",
+        "lineStyle": "solid",
+        "effectOuterShadow": true,
+        "fontFamily": "Arial",
+        "fontSize": 12,
+        "textColor": "#000000",
+        "label": "Leads",
+        "variant": "secondary",
+        "buttonIconName": "a5_menu.svg",
+        "buttonMode": "popover",
+        "popoverTitle": "Navigation",
+        "popoverShowTitleBar": false,
+        "popoverButtonDisplay": "icon",
+        "popoverWidth": 241,
+        "popoverHeight": 554,
+        "ddrArrangeOrder": 16
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Desktop|Go to Leads",
+          "parameter": "Leads"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-orders-list-T21lZ2E6-81-83-84",
+      "position": {
+        "x": 68,
+        "y": 67,
+        "width": 241,
+        "height": 554,
+        "z": 17
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "ddrObjectPath": "81.83.84",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Popover",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 67,
+        "ddrSourceLeft": 68,
+        "ddrSourceBottom": 621,
+        "ddrSourceRight": 309,
+        "ddrFidelityWarnings": [
+          "Unsupported DDR object type: Popover"
+        ],
+        "fillType": "gradient",
+        "fillColor": "rgba(94.1176%,94.1176%,94.1176%,1",
+        "fillGradientStartColor": "rgba(94.1176%,94.1176%,94.1176%,1",
+        "fillGradientEndColor": "rgba(90.9804%,90.9804%,90.9804%,1",
+        "lineColor": "rgba(177, 177, 177, 1)",
+        "lineStyle": "solid",
+        "effectOuterShadow": true,
+        "fontFamily": "Arial",
+        "fontSize": 12,
+        "textColor": "#1A1A1A",
+        "label": "[Popover]",
+        "ddrArrangeOrder": 17
+      },
+      "type": "unknown",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Desktop|Go to Leads",
+          "parameter": "Leads"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-orders-list-T21lZ2E6-81-83-84-85",
+      "position": {
+        "x": 96,
+        "y": 158,
+        "width": 197,
+        "height": 493,
+        "z": 18
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "ddrObjectPath": "81.83.84.85",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "ButtonBar",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 158,
+        "ddrSourceLeft": 96,
+        "ddrSourceBottom": 651,
+        "ddrSourceRight": 293,
+        "fillType": "none",
+        "lineColor": "rgba(0, 0, 0, 1)",
+        "lineWidth": 1,
+        "lineStyle": "solid",
+        "cornerRadius": 3,
+        "effectOuterShadow": false,
+        "fontFamily": "Arial",
+        "fontSize": 12,
+        "textColor": "#1A1A1A",
+        "label": "Leads",
+        "buttonMode": "bar",
+        "variant": "secondary",
+        "buttonBarSegments": [
+          {
+            "id": "86",
+            "label": "Leads",
+            "iconName": "a47_account.svg",
+            "action": "runScript",
+            "script": "Desktop|Go to Leads",
+            "parameter": "Leads"
+          },
+          {
+            "id": "87",
+            "label": "Companies",
+            "iconName": "a46_contactsOutline.svg",
+            "action": "runScript",
+            "script": "Desktop|Go to Companies",
+            "parameter": "Companies"
+          },
+          {
+            "id": "88",
+            "label": "People",
+            "iconName": "a43_contact.svg",
+            "action": "runScript",
+            "script": "Desktop|Go to People",
+            "parameter": "People"
+          },
+          {
+            "id": "89",
+            "label": "Contract Quotes",
+            "iconName": "a117_comment.svg",
+            "action": "runScript",
+            "script": "Desktop|Go to Contract Quotes",
+            "parameter": "Contract Quotes"
+          },
+          {
+            "id": "90",
+            "label": "Contracts",
+            "iconName": "a75_file.svg",
+            "action": "runScript",
+            "script": "Desktop|Go to Contracts",
+            "parameter": "Contracts"
+          },
+          {
+            "id": "91",
+            "label": "Project Quotes",
+            "iconName": "a117_comment.svg",
+            "action": "runScript",
+            "script": "Desktop|Go to Project Quotes",
+            "parameter": "Project Quotes"
+          },
+          {
+            "id": "92",
+            "label": "Projects",
+            "iconName": "a107_time.svg",
+            "action": "runScript",
+            "script": "Desktop|Go to Projects",
+            "parameter": "Projects"
+          },
+          {
+            "id": "93",
+            "label": "Tickets",
+            "iconName": "a73_note.svg",
+            "action": "runScript",
+            "script": "Desktop|Go to Tickets",
+            "parameter": "Tickets"
+          },
+          {
+            "id": "94",
+            "label": "Puchase Orders",
+            "iconName": "a71_edit.svg",
+            "action": "runScript",
+            "script": "Desktop|Go to Orders",
+            "parameter": "Puchase Orders"
+          },
+          {
+            "id": "95",
+            "label": "Invoices",
+            "iconName": "a76_fileOutline.svg",
+            "action": "runScript",
+            "script": "Desktop|Go to Invoices",
+            "parameter": "Invoices"
+          },
+          {
+            "id": "96",
+            "label": "Suppliers",
+            "iconName": "a99_locationTriangle.svg",
+            "action": "runScript",
+            "script": "Desktop|Go to Suppliers",
+            "parameter": "Suppliers"
+          },
+          {
+            "id": "97",
+            "label": "Products",
+            "iconName": "a115_box.svg",
+            "action": "runScript",
+            "script": "Desktop|Go to Products",
+            "parameter": "Products"
+          }
+        ],
+        "buttonIconName": "a47_account.svg",
+        "ddrArrangeOrder": 18
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Desktop|Go to Leads",
+          "parameter": "Leads"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-orders-list-T21lZ2E6-81-83-84-85-86",
+      "position": {
+        "x": 125,
+        "y": 250,
+        "width": 195,
+        "height": 41,
+        "z": 19
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "ddrObjectPath": "81.83.84.85.86",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 250,
+        "ddrSourceLeft": 125,
+        "ddrSourceBottom": 291,
+        "ddrSourceRight": 320,
+        "fillType": "gradient",
+        "fillColor": "rgba(100%,100%,100%,1",
+        "fillGradientStartColor": "rgba(100%,100%,100%,1",
+        "fillGradientEndColor": "rgba(93.7255%,93.7255%,93.7255%,1",
+        "lineColor": "rgba(255, 255, 255, 1)",
+        "lineWidth": 0.25,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#1A1A1A",
+        "fontFamily": "Arial",
+        "fontSize": 12,
+        "label": "Leads",
+        "variant": "secondary",
+        "buttonIconName": "a47_account.svg",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 19
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Desktop|Go to Leads",
+          "parameter": "Leads"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-orders-list-T21lZ2E6-81-83-84-85-87",
+      "position": {
+        "x": 125,
+        "y": 291,
+        "width": 195,
+        "height": 41,
+        "z": 20
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "ddrObjectPath": "81.83.84.85.87",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 291,
+        "ddrSourceLeft": 125,
+        "ddrSourceBottom": 332,
+        "ddrSourceRight": 320,
+        "fillType": "gradient",
+        "fillColor": "rgba(100%,100%,100%,1",
+        "fillGradientStartColor": "rgba(100%,100%,100%,1",
+        "fillGradientEndColor": "rgba(93.7255%,93.7255%,93.7255%,1",
+        "lineColor": "rgba(255, 255, 255, 1)",
+        "lineWidth": 0.25,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#1A1A1A",
+        "fontFamily": "Arial",
+        "fontSize": 12,
+        "label": "Companies",
+        "variant": "secondary",
+        "buttonIconName": "a46_contactsOutline.svg",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 20
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Desktop|Go to Companies",
+          "parameter": "Companies"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-orders-list-T21lZ2E6-81-83-84-85-88",
+      "position": {
+        "x": 125,
+        "y": 332,
+        "width": 195,
+        "height": 41,
+        "z": 21
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "ddrObjectPath": "81.83.84.85.88",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 332,
+        "ddrSourceLeft": 125,
+        "ddrSourceBottom": 373,
+        "ddrSourceRight": 320,
+        "fillType": "gradient",
+        "fillColor": "rgba(100%,100%,100%,1",
+        "fillGradientStartColor": "rgba(100%,100%,100%,1",
+        "fillGradientEndColor": "rgba(93.7255%,93.7255%,93.7255%,1",
+        "lineColor": "rgba(255, 255, 255, 1)",
+        "lineWidth": 0.25,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#1A1A1A",
+        "fontFamily": "Arial",
+        "fontSize": 12,
+        "label": "People",
+        "variant": "secondary",
+        "buttonIconName": "a43_contact.svg",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 21
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Desktop|Go to People",
+          "parameter": "People"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-orders-list-T21lZ2E6-81-83-84-85-89",
+      "position": {
+        "x": 125,
+        "y": 373,
+        "width": 195,
+        "height": 41,
+        "z": 22
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "ddrObjectPath": "81.83.84.85.89",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 373,
+        "ddrSourceLeft": 125,
+        "ddrSourceBottom": 414,
+        "ddrSourceRight": 320,
+        "fillType": "gradient",
+        "fillColor": "rgba(100%,100%,100%,1",
+        "fillGradientStartColor": "rgba(100%,100%,100%,1",
+        "fillGradientEndColor": "rgba(93.7255%,93.7255%,93.7255%,1",
+        "lineColor": "rgba(255, 255, 255, 1)",
+        "lineWidth": 0.25,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#1A1A1A",
+        "fontFamily": "Arial",
+        "fontSize": 12,
+        "label": "Contract Quotes",
+        "variant": "secondary",
+        "buttonIconName": "a117_comment.svg",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 22
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Desktop|Go to Contract Quotes",
+          "parameter": "Contract Quotes"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-orders-list-T21lZ2E6-81-83-84-85-90",
+      "position": {
+        "x": 125,
+        "y": 414,
+        "width": 195,
+        "height": 41,
+        "z": 23
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "ddrObjectPath": "81.83.84.85.90",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 414,
+        "ddrSourceLeft": 125,
+        "ddrSourceBottom": 455,
+        "ddrSourceRight": 320,
+        "fillType": "gradient",
+        "fillColor": "rgba(100%,100%,100%,1",
+        "fillGradientStartColor": "rgba(100%,100%,100%,1",
+        "fillGradientEndColor": "rgba(93.7255%,93.7255%,93.7255%,1",
+        "lineColor": "rgba(255, 255, 255, 1)",
+        "lineWidth": 0.25,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#1A1A1A",
+        "fontFamily": "Arial",
+        "fontSize": 12,
+        "label": "Contracts",
+        "variant": "secondary",
+        "buttonIconName": "a75_file.svg",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 23
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Desktop|Go to Contracts",
+          "parameter": "Contracts"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-orders-list-T21lZ2E6-81-83-84-85-91",
+      "position": {
+        "x": 125,
+        "y": 455,
+        "width": 195,
+        "height": 41,
+        "z": 24
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "ddrObjectPath": "81.83.84.85.91",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 455,
+        "ddrSourceLeft": 125,
+        "ddrSourceBottom": 496,
+        "ddrSourceRight": 320,
+        "fillType": "gradient",
+        "fillColor": "rgba(100%,100%,100%,1",
+        "fillGradientStartColor": "rgba(100%,100%,100%,1",
+        "fillGradientEndColor": "rgba(93.7255%,93.7255%,93.7255%,1",
+        "lineColor": "rgba(255, 255, 255, 1)",
+        "lineWidth": 0.25,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#1A1A1A",
+        "fontFamily": "Arial",
+        "fontSize": 12,
+        "label": "Project Quotes",
+        "variant": "secondary",
+        "buttonIconName": "a117_comment.svg",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 24
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Desktop|Go to Project Quotes",
+          "parameter": "Project Quotes"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-orders-list-T21lZ2E6-81-83-84-85-92",
+      "position": {
+        "x": 125,
+        "y": 496,
+        "width": 195,
+        "height": 40,
+        "z": 25
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "ddrObjectPath": "81.83.84.85.92",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 496,
+        "ddrSourceLeft": 125,
+        "ddrSourceBottom": 536,
+        "ddrSourceRight": 320,
+        "fillType": "gradient",
+        "fillColor": "rgba(100%,100%,100%,1",
+        "fillGradientStartColor": "rgba(100%,100%,100%,1",
+        "fillGradientEndColor": "rgba(93.7255%,93.7255%,93.7255%,1",
+        "lineColor": "rgba(255, 255, 255, 1)",
+        "lineWidth": 0.25,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#1A1A1A",
+        "fontFamily": "Arial",
+        "fontSize": 12,
+        "label": "Projects",
+        "variant": "secondary",
+        "buttonIconName": "a107_time.svg",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 25
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Desktop|Go to Projects",
+          "parameter": "Projects"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-orders-list-T21lZ2E6-81-83-84-85-93",
+      "position": {
+        "x": 125,
+        "y": 536,
+        "width": 195,
+        "height": 41,
+        "z": 26
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "ddrObjectPath": "81.83.84.85.93",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 536,
+        "ddrSourceLeft": 125,
+        "ddrSourceBottom": 577,
+        "ddrSourceRight": 320,
+        "fillType": "gradient",
+        "fillColor": "rgba(100%,100%,100%,1",
+        "fillGradientStartColor": "rgba(100%,100%,100%,1",
+        "fillGradientEndColor": "rgba(93.7255%,93.7255%,93.7255%,1",
+        "lineColor": "rgba(255, 255, 255, 1)",
+        "lineWidth": 0.25,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#1A1A1A",
+        "fontFamily": "Arial",
+        "fontSize": 12,
+        "label": "Tickets",
+        "variant": "secondary",
+        "buttonIconName": "a73_note.svg",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 26
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Desktop|Go to Tickets",
+          "parameter": "Tickets"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-orders-list-T21lZ2E6-81-83-84-85-94",
+      "position": {
+        "x": 125,
+        "y": 577,
+        "width": 195,
+        "height": 41,
+        "z": 27
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "ddrObjectPath": "81.83.84.85.94",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 577,
+        "ddrSourceLeft": 125,
+        "ddrSourceBottom": 618,
+        "ddrSourceRight": 320,
+        "fillType": "gradient",
+        "fillColor": "rgba(100%,100%,100%,1",
+        "fillGradientStartColor": "rgba(100%,100%,100%,1",
+        "fillGradientEndColor": "rgba(93.7255%,93.7255%,93.7255%,1",
+        "lineColor": "rgba(255, 255, 255, 1)",
+        "lineWidth": 0.25,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#1A1A1A",
+        "fontFamily": "Arial",
+        "fontSize": 12,
+        "label": "Puchase Orders",
+        "variant": "secondary",
+        "buttonIconName": "a71_edit.svg",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 27
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Desktop|Go to Orders",
+          "parameter": "Puchase Orders"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-orders-list-T21lZ2E6-81-83-84-85-95",
+      "position": {
+        "x": 125,
+        "y": 618,
+        "width": 195,
+        "height": 41,
+        "z": 28
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "ddrObjectPath": "81.83.84.85.95",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 618,
+        "ddrSourceLeft": 125,
+        "ddrSourceBottom": 659,
+        "ddrSourceRight": 320,
+        "fillType": "gradient",
+        "fillColor": "rgba(100%,100%,100%,1",
+        "fillGradientStartColor": "rgba(100%,100%,100%,1",
+        "fillGradientEndColor": "rgba(93.7255%,93.7255%,93.7255%,1",
+        "lineColor": "rgba(255, 255, 255, 1)",
+        "lineWidth": 0.25,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#1A1A1A",
+        "fontFamily": "Arial",
+        "fontSize": 12,
+        "label": "Invoices",
+        "variant": "secondary",
+        "buttonIconName": "a76_fileOutline.svg",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 28
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Desktop|Go to Invoices",
+          "parameter": "Invoices"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-orders-list-T21lZ2E6-81-83-84-85-96",
+      "position": {
+        "x": 125,
+        "y": 659,
+        "width": 195,
+        "height": 41,
+        "z": 29
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "ddrObjectPath": "81.83.84.85.96",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 659,
+        "ddrSourceLeft": 125,
+        "ddrSourceBottom": 700,
+        "ddrSourceRight": 320,
+        "fillType": "gradient",
+        "fillColor": "rgba(100%,100%,100%,1",
+        "fillGradientStartColor": "rgba(100%,100%,100%,1",
+        "fillGradientEndColor": "rgba(93.7255%,93.7255%,93.7255%,1",
+        "lineColor": "rgba(255, 255, 255, 1)",
+        "lineWidth": 0.25,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#1A1A1A",
+        "fontFamily": "Arial",
+        "fontSize": 12,
+        "label": "Suppliers",
+        "variant": "secondary",
+        "buttonIconName": "a99_locationTriangle.svg",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 29
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Desktop|Go to Suppliers",
+          "parameter": "Suppliers"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-orders-list-T21lZ2E6-81-83-84-85-97",
+      "position": {
+        "x": 125,
+        "y": 700,
+        "width": 195,
+        "height": 41,
+        "z": 30
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "ddrObjectPath": "81.83.84.85.97",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 700,
+        "ddrSourceLeft": 125,
+        "ddrSourceBottom": 741,
+        "ddrSourceRight": 320,
+        "fillType": "gradient",
+        "fillColor": "rgba(100%,100%,100%,1",
+        "fillGradientStartColor": "rgba(100%,100%,100%,1",
+        "fillGradientEndColor": "rgba(93.7255%,93.7255%,93.7255%,1",
+        "lineColor": "rgba(255, 255, 255, 1)",
+        "lineWidth": 0.25,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#1A1A1A",
+        "fontFamily": "Arial",
+        "fontSize": 12,
+        "label": "Products",
+        "variant": "secondary",
+        "buttonIconName": "a115_box.svg",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 30
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Desktop|Go to Products",
+          "parameter": "Products"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-orders-list-T21lZ2E6-81-98",
+      "position": {
+        "x": 114,
+        "y": 11,
+        "width": 51,
+        "height": 38,
+        "z": 31
+      },
+      "props": {
+        "tooltip": "Let( \n[\n$$BrowserNav.NavNextTip = MiddleWords( GetValue( $$BrowserNav.Layout.Forward ; 1 ) ; 2 ; 99 ) \n] ; \n\nIf( IsEmpty( $$BrowserNav.NavNextTip ) ; \"Nowhere to go\" ; $$BrowserNav.NavNextTip )\n)",
+        "styleTheme": "Enlightened Omega",
+        "styleName": "Body Button Bar",
+        "ddrObjectPath": "81.98",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 16384,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 11,
+        "ddrSourceLeft": 114,
+        "ddrSourceBottom": 49,
+        "ddrSourceRight": 165,
+        "fontFamily": "Arial",
+        "fontSize": 12,
+        "textColor": "#000000",
+        "label": "Let( \n[\n$$BrowserNav.NavNextTip = MiddleWords( GetValue( $$BrowserNav.Layout.Forward ; 1 ) ; 2 ; 99 ) \n] ; \n\nIf( IsEmpty( $$BrowserNav.NavNextTip ) ; \"Nowhere to go\" ; $$BrowserNav.NavNextTip )\n)",
+        "variant": "secondary",
+        "buttonIconName": "a35_rightChevron.svg",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 31
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Browser Navigation",
+          "parameter": "Forward"
+        }
+      }
+    }
+  ],
+  "actions": []
+}

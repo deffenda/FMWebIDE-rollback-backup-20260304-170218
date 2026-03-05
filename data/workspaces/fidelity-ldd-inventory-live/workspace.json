@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "id": "fidelity-ldd-inventory-live",
+  "name": "LD&amp;D Inventory - live 1",
+  "filemaker": {
+    "host": "https://10.3.3.131",
+    "database": "LD&amp;D Inventory - live 1",
+    "ddrPath": "/Users/deffenda/Koofr/Inactive/BD/DDRs/01012019/LD&D Inventory - live 1_fmp12.xml",
+    "sourceFileName": "LD&amp;D Inventory - live 1.fmp12",
+    "solutionName": "Phase 16 Layout Fidelity"
+  }
+}

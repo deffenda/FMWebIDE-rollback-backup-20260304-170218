@@ -1,0 +1,91 @@
+{
+  "id": "fm-projects-T21lZ2E6",
+  "name": "PROJECTS",
+  "defaultTableOccurrence": "PROJECTS",
+  "canvas": {
+    "width": 1024,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-projects-T21lZ2E6-105",
+      "position": {
+        "x": 0,
+        "y": 50,
+        "width": 860,
+        "height": 482,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "105",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": true,
+        "autosizeBottom": true,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 3221225472,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 50,
+        "ddrSourceLeft": 0,
+        "ddrSourceBottom": 532,
+        "ddrSourceRight": 860,
+        "fillType": "none",
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#FCBF3B",
+        "fontWeight": "bold",
+        "fontFamily": "arial,sans-serif",
+        "fontSize": 12,
+        "label": "{{LayoutName}}\n{{AccountName}}\n{{UserName}}\n{{SystemIPAddress}}\n{{CurrentHostTimestamp}}\n{{SystemNICAddress}}\n{{PersistentID}}\n{{Device}}",
+        "ddrArrangeOrder": 1
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-projects-T21lZ2E6-106",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 737,
+        "height": 50,
+        "z": 2
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "106",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 0,
+        "ddrSourceLeft": 0,
+        "ddrSourceBottom": 50,
+        "ddrSourceRight": 737,
+        "fillType": "none",
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "fontSize": 36,
+        "textColor": "#FFFFFF",
+        "fontWeight": "bold",
+        "fontFamily": "arial,sans-serif",
+        "label": "{{LayoutTableName}}",
+        "ddrArrangeOrder": 2
+      },
+      "type": "label"
+    }
+  ],
+  "actions": []
+}

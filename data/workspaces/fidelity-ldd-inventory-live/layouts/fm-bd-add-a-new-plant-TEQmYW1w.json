@@ -1,0 +1,375 @@
+{
+  "id": "fm-bd-add-a-new-plant-TEQmYW1w",
+  "name": "BD Add a new plant",
+  "defaultTableOccurrence": "BD Add a new plant",
+  "canvas": {
+    "width": 1996,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-bd-add-a-new-plant-TEQmYW1w-10",
+      "position": {
+        "x": 25,
+        "y": 66,
+        "width": 131,
+        "height": 25,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Normal text",
+        "ddrObjectPath": "10",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 66,
+        "ddrSourceLeft": 25,
+        "ddrSourceBottom": 91,
+        "ddrSourceRight": 156,
+        "fontFamily": "Helvetica",
+        "fontSize": 18,
+        "textColor": "#666666",
+        "label": "Plant name",
+        "ddrArrangeOrder": 1
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-bd-add-a-new-plant-TEQmYW1w-11",
+      "position": {
+        "x": 25,
+        "y": 108,
+        "width": 137,
+        "height": 25,
+        "z": 2
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Normal text",
+        "ddrObjectPath": "11",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 108,
+        "ddrSourceLeft": 25,
+        "ddrSourceBottom": 133,
+        "ddrSourceRight": 162,
+        "fontFamily": "Helvetica",
+        "fontSize": 18,
+        "textColor": "#666666",
+        "label": "Decent name",
+        "ddrArrangeOrder": 2
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-bd-add-a-new-plant-TEQmYW1w-68",
+      "position": {
+        "x": 30,
+        "y": 150,
+        "width": 75,
+        "height": 25,
+        "z": 3
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Normal text",
+        "ddrObjectPath": "68",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 150,
+        "ddrSourceLeft": 30,
+        "ddrSourceBottom": 175,
+        "ddrSourceRight": 105,
+        "fontFamily": "Helvetica",
+        "fontSize": 18,
+        "textColor": "#666666",
+        "label": "SAP ID",
+        "ddrArrangeOrder": 3
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-bd-add-a-new-plant-TEQmYW1w-70",
+      "position": {
+        "x": 105,
+        "y": 205,
+        "width": 194,
+        "height": 37,
+        "z": 4
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "ddrObjectPath": "70",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 205,
+        "ddrSourceLeft": 105,
+        "ddrSourceBottom": 242,
+        "ddrSourceRight": 299,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#E6E6E6",
+        "label": "Save",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 4
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Save entered plant data"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-bd-add-a-new-plant-TEQmYW1w-71",
+      "position": {
+        "x": 317,
+        "y": 205,
+        "width": 194,
+        "height": 37,
+        "z": 5
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "ddrObjectPath": "71",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 205,
+        "ddrSourceLeft": 317,
+        "ddrSourceBottom": 242,
+        "ddrSourceRight": 511,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#E6E6E6",
+        "label": "Cancel",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 5
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Cancel entered plant data"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-bd-add-a-new-plant-TEQmYW1w-72",
+      "position": {
+        "x": 201,
+        "y": 65,
+        "width": 406,
+        "height": 32,
+        "z": 6
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "data entry field",
+        "ddrObjectPath": "72",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 65,
+        "ddrSourceLeft": 201,
+        "ddrSourceBottom": 97,
+        "ddrSourceRight": 607,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "plant name",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 6
+      },
+      "type": "field",
+      "binding": {
+        "field": "plant name",
+        "tableOccurrence": "Plants"
+      }
+    },
+    {
+      "id": "ddr-fm-bd-add-a-new-plant-TEQmYW1w-74",
+      "position": {
+        "x": 201,
+        "y": 104,
+        "width": 406,
+        "height": 32,
+        "z": 7
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "data entry field",
+        "ddrObjectPath": "74",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 104,
+        "ddrSourceLeft": 201,
+        "ddrSourceBottom": 136,
+        "ddrSourceRight": 607,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Decent name",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 7
+      },
+      "type": "field",
+      "binding": {
+        "field": "Decent name",
+        "tableOccurrence": "Plants"
+      }
+    },
+    {
+      "id": "ddr-fm-bd-add-a-new-plant-TEQmYW1w-75",
+      "position": {
+        "x": 201,
+        "y": 146,
+        "width": 406,
+        "height": 32,
+        "z": 8
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "dropdown",
+        "ddrObjectPath": "75",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 146,
+        "ddrSourceLeft": 201,
+        "ddrSourceBottom": 178,
+        "ddrSourceRight": 607,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "SAP ID",
+        "controlType": "dropdown",
+        "valueList": "SAP IDs for plants",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 8
+      },
+      "type": "field",
+      "binding": {
+        "field": "SAP ID",
+        "tableOccurrence": "Plants"
+      }
+    },
+    {
+      "id": "ddr-fm-bd-add-a-new-plant-TEQmYW1w-164",
+      "position": {
+        "x": 25,
+        "y": 15,
+        "width": 347,
+        "height": 33,
+        "z": 9
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Header text",
+        "ddrObjectPath": "164",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 15,
+        "ddrSourceLeft": 25,
+        "ddrSourceBottom": 48,
+        "ddrSourceRight": 372,
+        "fontFamily": "Helvetica",
+        "fontSize": 24,
+        "textColor": "#666666",
+        "label": "Add a new Plant",
+        "ddrArrangeOrder": 9
+      },
+      "type": "label"
+    }
+  ],
+  "actions": []
+}

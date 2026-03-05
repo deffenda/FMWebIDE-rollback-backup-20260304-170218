@@ -1,0 +1,42 @@
+{
+  "generatedAt": "2026-03-02T07:49:51.263Z",
+  "dataset": {
+    "foundSetSize": 100000,
+    "tableSampleSize": 25000,
+    "portalSize": 10000
+  },
+  "metrics": [
+    {
+      "name": "virtual-window-sweep-100k",
+      "durationMs": 0.9949170000000009,
+      "budgetMs": 120,
+      "passed": true,
+      "notes": "steps=1500"
+    },
+    {
+      "name": "table-display-build",
+      "durationMs": 104.51412499999999,
+      "budgetMs": 2000,
+      "passed": true,
+      "notes": "rows=25000"
+    },
+    {
+      "name": "find-and-sort-100k",
+      "durationMs": 118.88349999999997,
+      "budgetMs": 1600,
+      "passed": true,
+      "notes": "rows=100000"
+    },
+    {
+      "name": "portal-virtual-window-sweep-10k",
+      "durationMs": 0.14720899999997528,
+      "budgetMs": 100,
+      "passed": true,
+      "notes": "rows=10000"
+    }
+  ],
+  "summary": {
+    "passed": true,
+    "failedCount": 0
+  }
+}

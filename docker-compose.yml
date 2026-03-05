@@ -1,0 +1,16 @@
+services:
+  fmwebide:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: fmwebide:latest
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env.local
+    environment:
+      - NODE_ENV=production
+      - WEBIDE_ENV_PROFILE=PROD
+    volumes:
+      - ./data:/app/data

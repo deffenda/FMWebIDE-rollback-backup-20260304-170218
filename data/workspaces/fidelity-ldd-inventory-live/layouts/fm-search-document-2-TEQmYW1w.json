@@ -1,0 +1,216 @@
+{
+  "id": "fm-search-document-2-TEQmYW1w",
+  "name": "Search document 2",
+  "defaultTableOccurrence": "Search document 2",
+  "canvas": {
+    "width": 1996,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-search-document-2-TEQmYW1w-10",
+      "position": {
+        "x": 26,
+        "y": 92,
+        "width": 208,
+        "height": 24,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Normal text",
+        "ddrObjectPath": "10",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 92,
+        "ddrSourceLeft": 26,
+        "ddrSourceBottom": 116,
+        "ddrSourceRight": 234,
+        "fontFamily": "Helvetica",
+        "fontSize": 18,
+        "textColor": "#666666",
+        "label": "Catalog number",
+        "ddrArrangeOrder": 1
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-search-document-2-TEQmYW1w-56",
+      "position": {
+        "x": 206,
+        "y": 89,
+        "width": 276,
+        "height": 32,
+        "z": 2
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "data entry field",
+        "ddrObjectPath": "56",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 89,
+        "ddrSourceLeft": 206,
+        "ddrSourceBottom": 121,
+        "ddrSourceRight": 482,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "string 1",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 2
+      },
+      "type": "field",
+      "binding": {
+        "field": "string 1",
+        "tableOccurrence": "Temporary store input data"
+      }
+    },
+    {
+      "id": "ddr-fm-search-document-2-TEQmYW1w-70",
+      "position": {
+        "x": 101,
+        "y": 154,
+        "width": 134,
+        "height": 37,
+        "z": 3
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Blue button",
+        "ddrObjectPath": "70",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 154,
+        "ddrSourceLeft": 101,
+        "ddrSourceBottom": 191,
+        "ddrSourceRight": 235,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#E6E6E6",
+        "label": "Find",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 3
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Search documents for one catalog number"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-search-document-2-TEQmYW1w-71",
+      "position": {
+        "x": 305,
+        "y": 154,
+        "width": 134,
+        "height": 37,
+        "z": 4
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Blue button",
+        "ddrObjectPath": "71",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 154,
+        "ddrSourceLeft": 305,
+        "ddrSourceBottom": 191,
+        "ddrSourceRight": 439,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#E6E6E6",
+        "label": "Cancel",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 4
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Cancel document search"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-search-document-2-TEQmYW1w-118",
+      "position": {
+        "x": 26,
+        "y": 22,
+        "width": 507,
+        "height": 32,
+        "z": 5
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Header text",
+        "ddrObjectPath": "118",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 22,
+        "ddrSourceLeft": 26,
+        "ddrSourceBottom": 54,
+        "ddrSourceRight": 533,
+        "fontFamily": "Helvetica",
+        "fontSize": 24,
+        "textColor": "#666666",
+        "label": "Find all documents for one catalog number",
+        "ddrArrangeOrder": 5
+      },
+      "type": "label"
+    }
+  ],
+  "actions": []
+}

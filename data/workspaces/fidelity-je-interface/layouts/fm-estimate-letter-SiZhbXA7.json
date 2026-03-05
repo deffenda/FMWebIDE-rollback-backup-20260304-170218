@@ -1,0 +1,133 @@
+{
+  "id": "fm-estimate-letter-SiZhbXA7",
+  "name": "estimate_letter",
+  "defaultTableOccurrence": "estimate_letter",
+  "canvas": {
+    "width": 544,
+    "height": 681,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-estimate-letter-SiZhbXA7-1",
+      "position": {
+        "x": 166,
+        "y": 9,
+        "width": 228,
+        "height": 36,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "Classic",
+        "ddrObjectPath": "1",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 9,
+        "ddrSourceLeft": 166,
+        "ddrSourceBottom": 45,
+        "ddrSourceRight": 394,
+        "fillType": "none",
+        "lineColor": "rgba(255, 255, 255, 1)",
+        "lineStyle": "solid",
+        "effectOuterShadow": true,
+        "fontFamily": "Times New Roman",
+        "fontSize": 14,
+        "textAlign": "center",
+        "fontWeight": "bold",
+        "textColor": "#000000",
+        "label": "<<Item>>\nCabinetry and Millwork Contract",
+        "ddrArrangeOrder": 1
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-estimate-letter-SiZhbXA7-2",
+      "position": {
+        "x": 12,
+        "y": 197,
+        "width": 508,
+        "height": 388,
+        "z": 2
+      },
+      "props": {
+        "styleTheme": "Classic",
+        "ddrObjectPath": "2",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 197,
+        "ddrSourceLeft": 12,
+        "ddrSourceBottom": 585,
+        "ddrSourceRight": 520,
+        "fillType": "none",
+        "lineColor": "rgba(255, 255, 255, 1)",
+        "lineStyle": "solid",
+        "effectOuterShadow": true,
+        "fontFamily": "Helvetica",
+        "fontSize": 12,
+        "fontWeight": "bold",
+        "textColor": "#000000",
+        "label": "This agreement",
+        "ddrArrangeOrder": 2
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-estimate-letter-SiZhbXA7-4",
+      "position": {
+        "x": 90,
+        "y": 607,
+        "width": 375,
+        "height": 34,
+        "z": 3
+      },
+      "props": {
+        "styleTheme": "Classic",
+        "ddrObjectPath": "4",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 607,
+        "ddrSourceLeft": 90,
+        "ddrSourceBottom": 641,
+        "ddrSourceRight": 465,
+        "fillType": "none",
+        "lineColor": "rgba(255, 255, 255, 1)",
+        "lineStyle": "solid",
+        "effectOuterShadow": true,
+        "fontFamily": "Times New Roman",
+        "fontSize": 14,
+        "textAlign": "right",
+        "textColor": "#000000",
+        "label": "4785 Burnley Station Lane, Barboursville, Virginia 22923\nPhone 434-973-7018  www.jaegeranernst.com  Fax 434-974-6191",
+        "ddrArrangeOrder": 3
+      },
+      "type": "label"
+    }
+  ],
+  "actions": []
+}

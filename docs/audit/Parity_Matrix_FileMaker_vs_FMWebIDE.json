@@ -1,0 +1,4314 @@
+{
+  "version": 1,
+  "generatedAt": "fingerprint:331e02f4d6acc207",
+  "sourceFingerprint": "331e02f4d6acc207",
+  "summary": {
+    "total": 100,
+    "supported": 100,
+    "partial": 0,
+    "unsupported": 0,
+    "unknown": 0
+  },
+  "features": [
+    {
+      "id": "BM-001",
+      "category": "Browse Mode",
+      "subcategory": "Navigation",
+      "capabilityName": "Browse/Find/Preview mode switching",
+      "expectedFileMakerBehavior": "Users can switch modes reliably without losing context or causing render loops.",
+      "suggestedValidationTest": "Stress test repeated mode switches while editing and filtering records.",
+      "uncertainty": "low",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "src/lib/browse-url-state.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/lib/browse-url-state.ts",
+          "line": 1,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/browse-url-state.ts",
+          "line": 2,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/browse-url-state.ts",
+          "line": 4,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/browse-url-state.ts",
+          "line": 12,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/browse-url-state.ts",
+          "line": 29,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "BM-002",
+      "category": "Browse Mode",
+      "subcategory": "Navigation",
+      "capabilityName": "Record navigator parity",
+      "expectedFileMakerBehavior": "First/prev/next/last and record jump update current record and status area consistently.",
+      "suggestedValidationTest": "Integration tests for first/prev/next/last + jump input across view modes.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "src/lib/runtime-kernel/foundset-store.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/lib/runtime-kernel/foundset-store.ts",
+          "line": 97,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/runtime-kernel/foundset-store.ts",
+          "line": 109,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/runtime-kernel/foundset-store.ts",
+          "line": 118,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/runtime-kernel/foundset-store.ts",
+          "line": 136,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/runtime-kernel/foundset-store.ts",
+          "line": 146,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "BM-003",
+      "category": "Browse Mode",
+      "subcategory": "Find",
+      "capabilityName": "Multi-request find editing and omit logic",
+      "expectedFileMakerBehavior": "Find mode supports multiple requests, omit flags, and request navigation.",
+      "suggestedValidationTest": "Test add/duplicate/delete request and omit behavior against deterministic dataset.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "src/lib/find-mode.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/lib/find-mode.ts",
+          "line": 3,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/find-mode.ts",
+          "line": 5,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/find-mode.ts",
+          "line": 7,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/find-mode.ts",
+          "line": 8,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/find-mode.ts",
+          "line": 25,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "BM-004",
+      "category": "Browse Mode",
+      "subcategory": "Find",
+      "capabilityName": "Constrain/Extend/Show All found set operations",
+      "expectedFileMakerBehavior": "Found set commands modify active found set with clear status and deterministic behavior.",
+      "suggestedValidationTest": "Integration tests for constrain and extend preserving index when possible.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "src/lib/find-mode.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/lib/find-mode.ts",
+          "line": 11,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/find-mode.ts",
+          "line": 453,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/find-mode.ts",
+          "line": 455,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/find-mode.ts",
+          "line": 461,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/find-mode.ts",
+          "line": 463,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "BM-005",
+      "category": "Browse Mode",
+      "subcategory": "Find",
+      "capabilityName": "Saved finds lifecycle",
+      "expectedFileMakerBehavior": "Users can save, run, modify, duplicate, and delete saved finds.",
+      "suggestedValidationTest": "Save/find/re-run/modify tests with persistence validation.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "src/server/saved-search-storage.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/server/saved-search-storage.ts",
+          "line": 10,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/saved-search-storage.ts",
+          "line": 16,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/saved-search-storage.ts",
+          "line": 19,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/saved-search-storage.ts",
+          "line": 44,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/saved-search-storage.ts",
+          "line": 52,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "BM-006",
+      "category": "Browse Mode",
+      "subcategory": "Found Sets",
+      "capabilityName": "Saved found sets lifecycle",
+      "expectedFileMakerBehavior": "Users can persist found-set snapshots and reopen with graceful missing-record handling.",
+      "suggestedValidationTest": "Saved found set open should skip missing ids and report reconciliation summary.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "src/server/saved-search-storage.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/server/saved-search-storage.ts",
+          "line": 30,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/saved-search-storage.ts",
+          "line": 127,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/saved-search-storage.ts",
+          "line": 128,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/saved-search-storage.ts",
+          "line": 132,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/saved-search-storage.ts",
+          "line": 174,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "BM-007",
+      "category": "Browse Mode",
+      "subcategory": "Editing",
+      "capabilityName": "Implicit save on field exit",
+      "expectedFileMakerBehavior": "Leaving a field commits changes when allowed, without forcing explicit save each time.",
+      "suggestedValidationTest": "Blur save test with record navigation and value persistence checks.",
+      "uncertainty": "low",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "app/api/layouts/[id]/route.ts",
+          "line": 71,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/api/layouts/[id]/route.ts",
+          "line": 72,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/api/layouts/[id]/route.ts",
+          "line": 77,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/api/layouts/[id]/route.ts",
+          "line": 79,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/edit-session/index.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/lib/edit-session/index.ts",
+          "line": 320,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "BM-008",
+      "category": "Browse Mode",
+      "subcategory": "Editing",
+      "capabilityName": "Commit/Revert edit session semantics",
+      "expectedFileMakerBehavior": "Dirty edits can be committed or reverted with prompts on navigation changes.",
+      "suggestedValidationTest": "Dirty prompt tests and per-record revert behavior validations.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "src/lib/edit-session/index.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/lib/edit-session/index.ts",
+          "line": 16,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/edit-session/index.ts",
+          "line": 53,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/edit-session/index.ts",
+          "line": 110,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/edit-session/index.ts",
+          "line": 113,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/edit-session/index.ts",
+          "line": 115,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "BM-009",
+      "category": "Browse Mode",
+      "subcategory": "Editing",
+      "capabilityName": "Field validation and required behavior",
+      "expectedFileMakerBehavior": "Validation rules block invalid commits with field-level guidance.",
+      "suggestedValidationTest": "Validation failure tests for required/type/range/calc rules.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "src/lib/field-engine.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/lib/field-engine.ts",
+          "line": 4,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/field-engine.ts",
+          "line": 7,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/field-engine.ts",
+          "line": 28,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/field-engine.ts",
+          "line": 32,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/field-engine.ts",
+          "line": 35,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "BM-010",
+      "category": "Browse Mode",
+      "subcategory": "Editing",
+      "capabilityName": "Auto-enter on create/modify behavior",
+      "expectedFileMakerBehavior": "Auto-enter options apply timestamps, account names, serials, and calc defaults at proper times.",
+      "suggestedValidationTest": "Create/update tests verifying auto-enter field values.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "src/lib/field-engine.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/lib/field-engine.ts",
+          "line": 16,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/field-engine.ts",
+          "line": 19,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/field-engine.ts",
+          "line": 20,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/field-engine.ts",
+          "line": 21,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/field-engine.ts",
+          "line": 22,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "BM-011",
+      "category": "Browse Mode",
+      "subcategory": "Views",
+      "capabilityName": "List view rendering and selection parity",
+      "expectedFileMakerBehavior": "List view supports stable row selection, keyboard navigation, and optional inline edit.",
+      "suggestedValidationTest": "List row select + keyboard up/down tests with selection sync.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "app/api/admin/metrics/route.ts",
+          "line": 4,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/api/admin/metrics/route.ts",
+          "line": 20,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/list-table-runtime.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/lib/list-table-runtime.ts",
+          "line": 2,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/list-table-runtime.ts",
+          "line": 8,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/list-table-runtime.ts",
+          "line": 9,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "BM-012",
+      "category": "Browse Mode",
+      "subcategory": "Views",
+      "capabilityName": "Table view column persistence and sorting",
+      "expectedFileMakerBehavior": "Table columns support reorder/resize/hide and header sort behavior with persistence.",
+      "suggestedValidationTest": "Column config persistence and header sort toggle tests.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "src/server/view-config-storage.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/server/view-config-storage.ts",
+          "line": 6,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/view-config-storage.ts",
+          "line": 16,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/view-config-storage.ts",
+          "line": 59,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/view-config-storage.ts",
+          "line": 63,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/view-config-storage.ts",
+          "line": 104,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "BM-013",
+      "category": "Browse Mode",
+      "subcategory": "Views",
+      "capabilityName": "Preview mode print-oriented rendering",
+      "expectedFileMakerBehavior": "Preview mode is read-only, shows print-like output, and supports record navigation.",
+      "suggestedValidationTest": "Browse->Preview->Browse state-preservation tests and preview snapshot checks.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "docs/preview-mode.md",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "docs/preview-mode.md",
+          "line": 1,
+          "reason": "keyword"
+        },
+        {
+          "file": "docs/preview-mode.md",
+          "line": 4,
+          "reason": "keyword"
+        },
+        {
+          "file": "docs/preview-mode.md",
+          "line": 5,
+          "reason": "keyword"
+        },
+        {
+          "file": "docs/preview-mode.md",
+          "line": 6,
+          "reason": "keyword"
+        },
+        {
+          "file": "docs/preview-mode.md",
+          "line": 8,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "BM-014",
+      "category": "Browse Mode",
+      "subcategory": "Controls",
+      "capabilityName": "Value list controls in browse and find",
+      "expectedFileMakerBehavior": "Value list controls present consistent stored/display values in browse and find criteria contexts.",
+      "suggestedValidationTest": "Dropdown/radio/checkbox tests for display/stored mapping and find criteria.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "app/api/workspaces/[workspaceId]/developer-tools/route.ts",
+          "line": 134,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/api/workspaces/[workspaceId]/manage-value-lists/route.ts",
+          "line": 60,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/api/workspaces/[workspaceId]/manage-value-lists/route.ts",
+          "line": 86,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/api/workspaces/[workspaceId]/manage-value-lists/route.ts",
+          "line": 104,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/api/workspaces/[workspaceId]/manage-value-lists/route.ts",
+          "line": 116,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/value-list-cache.ts",
+          "line": 1,
+          "reason": "pathHint"
+        }
+      ]
+    },
+    {
+      "id": "BM-015",
+      "category": "Browse Mode",
+      "subcategory": "Controls",
+      "capabilityName": "Date control icon and calendar toggle parity",
+      "expectedFileMakerBehavior": "Date controls show calendar icon when enabled and allow date picking in portal and non-portal contexts.",
+      "suggestedValidationTest": "Visual and interaction tests for include-icon flag across view contexts.",
+      "uncertainty": "low",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "app/globals.css",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 845,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 858,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 862,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 866,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 870,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "BM-016",
+      "category": "Browse Mode",
+      "subcategory": "Controls",
+      "capabilityName": "Container field context menu actions",
+      "expectedFileMakerBehavior": "Container fields expose insert/export/clipboard actions with permission-aware states.",
+      "suggestedValidationTest": "Container menu action tests for insert/export with mock and filemaker sources.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "src/lib/container-runtime.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/lib/container-runtime.ts",
+          "line": 1,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/container-runtime.ts",
+          "line": 3,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/container-runtime.ts",
+          "line": 5,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/container-runtime.ts",
+          "line": 6,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/container-runtime.ts",
+          "line": 10,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "BM-017",
+      "category": "Browse Mode",
+      "subcategory": "Runtime",
+      "capabilityName": "Status area parity actions",
+      "expectedFileMakerBehavior": "Status area exposes key record/find/sort/view actions relevant to active mode.",
+      "suggestedValidationTest": "Mode-specific status toolbar action tests with capability gating.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "docs/status-menubar-parity.md",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "docs/status-menubar-parity.md",
+          "line": 1,
+          "reason": "keyword"
+        },
+        {
+          "file": "docs/status-menubar-parity.md",
+          "line": 5,
+          "reason": "keyword"
+        },
+        {
+          "file": "docs/status-menubar-parity.md",
+          "line": 6,
+          "reason": "keyword"
+        },
+        {
+          "file": "docs/status-menubar-parity.md",
+          "line": 18,
+          "reason": "keyword"
+        },
+        {
+          "file": "docs/status-menubar-parity.md",
+          "line": 26,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "BM-018",
+      "category": "Browse Mode",
+      "subcategory": "Runtime",
+      "capabilityName": "Menubar parity and shortcut execution",
+      "expectedFileMakerBehavior": "Menubar displays expected command groups and keyboard shortcuts execute supported commands.",
+      "suggestedValidationTest": "Menu command and shortcut dispatch tests by mode and role.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "app/api/workspaces/[workspaceId]/developer-tools/route.ts",
+          "line": 48,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/api/workspaces/[workspaceId]/developer-tools/route.ts",
+          "line": 213,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/api/workspaces/[workspaceId]/developer-tools/route.ts",
+          "line": 231,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/api/workspaces/[workspaceId]/developer-tools/route.ts",
+          "line": 566,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/api/workspaces/[workspaceId]/developer-tools/route.ts",
+          "line": 570,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 13,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "BM-019",
+      "category": "Browse Mode",
+      "subcategory": "Runtime",
+      "capabilityName": "Window/context switching",
+      "expectedFileMakerBehavior": "Users can switch among workspaces/files/windows with stable context and no stale entries.",
+      "suggestedValidationTest": "Window menu list hygiene tests and workspace switch route tests.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "src/server/workspace-context.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/server/workspace-context.ts",
+          "line": 5,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/workspace-context.ts",
+          "line": 7,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/workspace-context.ts",
+          "line": 20,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/workspace-context.ts",
+          "line": 28,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/workspace-context.ts",
+          "line": 31,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "BM-020",
+      "category": "Browse Mode",
+      "subcategory": "Runtime",
+      "capabilityName": "Error banner usability and guidance",
+      "expectedFileMakerBehavior": "Runtime failures show actionable guidance while preserving debug details for developers.",
+      "suggestedValidationTest": "Error rendering tests for known Data API failures and guidance mapping.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "components/app-layer-error-banner.tsx",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "components/app-layer-error-banner.tsx",
+          "line": 3,
+          "reason": "keyword"
+        },
+        {
+          "file": "components/app-layer-error-banner.tsx",
+          "line": 5,
+          "reason": "keyword"
+        },
+        {
+          "file": "components/app-layer-error-banner.tsx",
+          "line": 6,
+          "reason": "keyword"
+        },
+        {
+          "file": "components/app-layer-error-banner.tsx",
+          "line": 9,
+          "reason": "keyword"
+        },
+        {
+          "file": "components/app-layer-error-banner.tsx",
+          "line": 11,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "DR-001",
+      "category": "Data & Relational",
+      "subcategory": "TO Context",
+      "capabilityName": "Table occurrence context resolution",
+      "expectedFileMakerBehavior": "Field references resolve via current TO or explicit TO::Field with deterministic fallback.",
+      "suggestedValidationTest": "Context stack tests for explicit and implicit TO field references.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "src/lib/runtime-kernel/context-stack.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/lib/runtime-kernel/context-stack.ts",
+          "line": 1,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/runtime-kernel/context-stack.ts",
+          "line": 3,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/runtime-kernel/context-stack.ts",
+          "line": 5,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/runtime-kernel/context-stack.ts",
+          "line": 9,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/runtime-kernel/context-stack.ts",
+          "line": 10,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "DR-002",
+      "category": "Data & Relational",
+      "subcategory": "Relationships",
+      "capabilityName": "Relationship traversal across files",
+      "expectedFileMakerBehavior": "Cross-file relationships route reads/writes to correct database and layout context.",
+      "suggestedValidationTest": "Workspace-multifile integration tests for cross-file field and portal actions.",
+      "uncertainty": "low",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "src/server/filemaker-client.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/server/filemaker-client.ts",
+          "line": 17,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/filemaker-client.ts",
+          "line": 19,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/filemaker-client.ts",
+          "line": 20,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/filemaker-client.ts",
+          "line": 21,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/workspace-multifile.ts",
+          "line": 1,
+          "reason": "pathHint"
+        }
+      ]
+    },
+    {
+      "id": "DR-003",
+      "category": "Data & Relational",
+      "subcategory": "Relationships",
+      "capabilityName": "API layout mapping by TO",
+      "expectedFileMakerBehavior": "Runtime can map each TO to writable layout context for Data API operations.",
+      "suggestedValidationTest": "Routing tests for missing and resolved apiLayoutsByTableOccurrence mappings.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "src/server/workspace-context.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/server/workspace-context.ts",
+          "line": 31,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/workspace-context.ts",
+          "line": 35,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/workspace-context.ts",
+          "line": 40,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/workspace-context.ts",
+          "line": 43,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/workspace-multifile.ts",
+          "line": 1,
+          "reason": "pathHint"
+        }
+      ]
+    },
+    {
+      "id": "DR-004",
+      "category": "Data & Relational",
+      "subcategory": "Found Sets",
+      "capabilityName": "Found set paging and index stability",
+      "expectedFileMakerBehavior": "Large found sets support stable paging and current-record index semantics.",
+      "suggestedValidationTest": "Found set store tests for goto index, refresh, and page transitions.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "src/lib/list-table-runtime.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/lib/runtime-kernel/foundset-store.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/lib/runtime-kernel/foundset-store.ts",
+          "line": 1,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/runtime-kernel/foundset-store.ts",
+          "line": 3,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/runtime-kernel/foundset-store.ts",
+          "line": 5,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/runtime-kernel/foundset-store.ts",
+          "line": 6,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "DR-005",
+      "category": "Data & Relational",
+      "subcategory": "Found Sets",
+      "capabilityName": "Sort/group/subsummary integration",
+      "expectedFileMakerBehavior": "Sort and grouping specs drive grouped rows and summary outputs in list/table/preview.",
+      "suggestedValidationTest": "Sort reporting tests for summary rows and grouped output stability.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "src/lib/sort-reporting.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/lib/sort-reporting.ts",
+          "line": 2,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/sort-reporting.ts",
+          "line": 4,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/sort-reporting.ts",
+          "line": 5,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/sort-reporting.ts",
+          "line": 6,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/summary-engine.ts",
+          "line": 1,
+          "reason": "pathHint"
+        }
+      ]
+    },
+    {
+      "id": "DR-006",
+      "category": "Data & Relational",
+      "subcategory": "Portals",
+      "capabilityName": "Portal row rendering as template controls",
+      "expectedFileMakerBehavior": "Portal rows render placed field objects and preserve control styles.",
+      "suggestedValidationTest": "Portal render tests ensuring no fallback grid overlays when template children exist.",
+      "uncertainty": "low",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "src/lib/portal-runtime.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/lib/portal-runtime.ts",
+          "line": 1,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/portal-runtime.ts",
+          "line": 3,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/portal-runtime.ts",
+          "line": 4,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/portal-runtime.ts",
+          "line": 5,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/portal-runtime.ts",
+          "line": 6,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "DR-007",
+      "category": "Data & Relational",
+      "subcategory": "Portals",
+      "capabilityName": "Portal active row and delete rules",
+      "expectedFileMakerBehavior": "Active row state and row delete actions obey portal setup and privileges.",
+      "suggestedValidationTest": "Portal active-row selection and delete action tests with allow-delete toggles.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "docs/filemaker-regression-matrix.md",
+          "line": 25,
+          "reason": "keyword"
+        },
+        {
+          "file": "docs/filemaker-regression-matrix.md",
+          "line": 147,
+          "reason": "keyword"
+        },
+        {
+          "file": "docs/phase-3-plan.md",
+          "line": 13,
+          "reason": "keyword"
+        },
+        {
+          "file": "docs/phase-4-plan.md",
+          "line": 111,
+          "reason": "keyword"
+        },
+        {
+          "file": "docs/portals.md",
+          "line": 18,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/portal-runtime.ts",
+          "line": 1,
+          "reason": "pathHint"
+        }
+      ]
+    },
+    {
+      "id": "DR-008",
+      "category": "Data & Relational",
+      "subcategory": "Portals",
+      "capabilityName": "Portal placeholder row create behavior",
+      "expectedFileMakerBehavior": "When relationship allows creation, bottom portal placeholder row can create related records.",
+      "suggestedValidationTest": "Portal placeholder row create tests with allow-create true/false fixtures.",
+      "uncertainty": "high",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "src/lib/portal-utils.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/lib/portal-utils.ts",
+          "line": 1,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/portal-utils.ts",
+          "line": 3,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/portal-utils.ts",
+          "line": 5,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/portal-utils.ts",
+          "line": 9,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/portal-utils.ts",
+          "line": 18,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "DR-009",
+      "category": "Data & Relational",
+      "subcategory": "Portals",
+      "capabilityName": "Portal row write target resolution",
+      "expectedFileMakerBehavior": "Portal field writes resolve to correct related record id/mod id across parent navigation.",
+      "suggestedValidationTest": "Portal save regression tests across multiple parent records.",
+      "uncertainty": "low",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "app/api/fm/container/upload/route.ts",
+          "line": 23,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/api/fm/container/upload/route.ts",
+          "line": 33,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/api/fm/container/upload/route.ts",
+          "line": 34,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/api/fm/container/upload/route.ts",
+          "line": 46,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/portal-runtime.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/lib/portal-runtime.ts",
+          "line": 29,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "DR-010",
+      "category": "Data & Relational",
+      "subcategory": "Portals",
+      "capabilityName": "Portal alternate/active row visual states",
+      "expectedFileMakerBehavior": "Alternate row shading only appears when configured; active row state is explicit.",
+      "suggestedValidationTest": "Row visual state tests for alternate and active flags combinations.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "src/lib/portal-runtime.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/lib/portal-runtime.ts",
+          "line": 6,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/portal-runtime.ts",
+          "line": 7,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/portal-runtime.ts",
+          "line": 9,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/portal-runtime.ts",
+          "line": 13,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/portal-runtime.ts",
+          "line": 14,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "DR-011",
+      "category": "Data & Relational",
+      "subcategory": "Repetition",
+      "capabilityName": "Repeating field render/edit parity",
+      "expectedFileMakerBehavior": "Repeating fields render and commit per repetition with stable binding.",
+      "suggestedValidationTest": "Repeating field binding tests for parse/update/commit paths.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "src/lib/repeating-fields.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/lib/repeating-fields.ts",
+          "line": 1,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/repeating-fields.ts",
+          "line": 6,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/repeating-fields.ts",
+          "line": 15,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/repeating-fields.ts",
+          "line": 28,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/repeating-fields.ts",
+          "line": 30,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "DR-012",
+      "category": "Data & Relational",
+      "subcategory": "Containers",
+      "capabilityName": "Container fetch/upload via secure proxy",
+      "expectedFileMakerBehavior": "Container assets can be fetched and uploaded without exposing Data API auth to browser.",
+      "suggestedValidationTest": "Container GET/POST route tests with host validation and upload success.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "app/api/fm/container/route.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "app/api/fm/container/route.ts",
+          "line": 4,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/api/fm/container/route.ts",
+          "line": 21,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/api/fm/container/route.ts",
+          "line": 23,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/api/fm/container/route.ts",
+          "line": 28,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/api/fm/container/upload/route.ts",
+          "line": 1,
+          "reason": "pathHint"
+        }
+      ]
+    },
+    {
+      "id": "DR-013",
+      "category": "Data & Relational",
+      "subcategory": "Import",
+      "capabilityName": "DDR import workspace and layout normalization",
+      "expectedFileMakerBehavior": "DDR import creates normalized workspace/layout metadata ready for rendering and editing.",
+      "suggestedValidationTest": "Import route tests with summary and direct DDR uploads, asserting workspace/layout artifacts.",
+      "uncertainty": "low",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "app/api/workspaces/import/route.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "app/api/workspaces/import/route.ts",
+          "line": 6,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/api/workspaces/import/route.ts",
+          "line": 7,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/api/workspaces/import/route.ts",
+          "line": 13,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/api/workspaces/import/route.ts",
+          "line": 14,
+          "reason": "keyword"
+        },
+        {
+          "file": "scripts/import-ddr-layouts.mjs",
+          "line": 1,
+          "reason": "pathHint"
+        }
+      ]
+    },
+    {
+      "id": "DR-014",
+      "category": "Data & Relational",
+      "subcategory": "Import",
+      "capabilityName": "Schema snapshot and diff tooling",
+      "expectedFileMakerBehavior": "Developers can snapshot, diff, and assess schema changes across versions/files.",
+      "suggestedValidationTest": "Dev tools tests for snapshot creation and diff result determinism.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "components/developer-tools-panel.tsx",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/lib/schemaDiff/diff.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/lib/schemaDiff/index.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/lib/schemaDiff/types.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/lib/schemaSnapshot/create.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/lib/schemaSnapshot/index.ts",
+          "line": 1,
+          "reason": "pathHint"
+        }
+      ]
+    },
+    {
+      "id": "DR-015",
+      "category": "Data & Relational",
+      "subcategory": "Import",
+      "capabilityName": "Relationship graph visualization",
+      "expectedFileMakerBehavior": "TO relationships can be explored visually, including cross-file edges.",
+      "suggestedValidationTest": "Graph builder tests and developer tools UI filter/search interactions.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "components/developer-tools-panel.tsx",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "components/developer-tools-panel.tsx",
+          "line": 30,
+          "reason": "keyword"
+        },
+        {
+          "file": "components/developer-tools-panel.tsx",
+          "line": 33,
+          "reason": "keyword"
+        },
+        {
+          "file": "components/developer-tools-panel.tsx",
+          "line": 40,
+          "reason": "keyword"
+        },
+        {
+          "file": "components/developer-tools-panel.tsx",
+          "line": 143,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/relationshipGraph/index.ts",
+          "line": 1,
+          "reason": "pathHint"
+        }
+      ]
+    },
+    {
+      "id": "DX-001",
+      "category": "Developer Experience",
+      "subcategory": "Tooling",
+      "capabilityName": "Developer tools hub parity",
+      "expectedFileMakerBehavior": "Developers can access schema snapshots, diffs, impacts, and migrations in one place.",
+      "suggestedValidationTest": "Dev tools API and panel tests for snapshot->diff->impact workflows.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "app/api/workspaces/[workspaceId]/developer-tools/route.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "app/api/workspaces/[workspaceId]/developer-tools/route.ts",
+          "line": 3,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/api/workspaces/[workspaceId]/developer-tools/route.ts",
+          "line": 4,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/api/workspaces/[workspaceId]/developer-tools/route.ts",
+          "line": 5,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/api/workspaces/[workspaceId]/developer-tools/route.ts",
+          "line": 6,
+          "reason": "keyword"
+        },
+        {
+          "file": "components/developer-tools-panel.tsx",
+          "line": 1,
+          "reason": "pathHint"
+        }
+      ]
+    },
+    {
+      "id": "DX-002",
+      "category": "Developer Experience",
+      "subcategory": "Tooling",
+      "capabilityName": "Migration plan generation and apply",
+      "expectedFileMakerBehavior": "Schema diffs can become ordered migration plans with safety metadata.",
+      "suggestedValidationTest": "Migration generate/apply unit tests with reversible and destructive flags.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "src/lib/migrations/apply.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/lib/migrations/apply.ts",
+          "line": 9,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/migrations/apply.ts",
+          "line": 57,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/migrations/apply.ts",
+          "line": 70,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/migrations/apply.ts",
+          "line": 82,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/migrations/generate.ts",
+          "line": 1,
+          "reason": "pathHint"
+        }
+      ]
+    },
+    {
+      "id": "DX-003",
+      "category": "Developer Experience",
+      "subcategory": "Tooling",
+      "capabilityName": "Impact analysis across layouts/scripts/value lists",
+      "expectedFileMakerBehavior": "Change impact reports identify broken references and affected artifacts.",
+      "suggestedValidationTest": "Impact analysis tests for deleted field references.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "src/lib/dev-tools.test.mts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/lib/dev-tools.test.mts",
+          "line": 3,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/dev-tools.test.mts",
+          "line": 215,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/dev-tools.test.mts",
+          "line": 220,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/dev-tools.test.mts",
+          "line": 227,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/impactAnalysis/index.ts",
+          "line": 1,
+          "reason": "pathHint"
+        }
+      ]
+    },
+    {
+      "id": "DX-004",
+      "category": "Developer Experience",
+      "subcategory": "Tooling",
+      "capabilityName": "Schema snapshot determinism",
+      "expectedFileMakerBehavior": "Snapshots are stable and comparable across runs.",
+      "suggestedValidationTest": "Snapshot normalization tests with stable ordering assertions.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "src/lib/dev-tools.test.mts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/lib/dev-tools.test.mts",
+          "line": 6,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/dev-tools.test.mts",
+          "line": 7,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/dev-tools.test.mts",
+          "line": 8,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/dev-tools.test.mts",
+          "line": 10,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/schemaSnapshot/normalize.ts",
+          "line": 1,
+          "reason": "pathHint"
+        }
+      ]
+    },
+    {
+      "id": "DX-005",
+      "category": "Developer Experience",
+      "subcategory": "App Layer",
+      "capabilityName": "Manage menu capability gating",
+      "expectedFileMakerBehavior": "Manage/app-layer items are implemented, partial, or disabled with rationale and docs links.",
+      "suggestedValidationTest": "App-layer capability tests for enabled/disabled behavior and rationale modal.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "src/config/appLayerCapabilities.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/config/appLayerCapabilities.ts",
+          "line": 4,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/config/appLayerCapabilities.ts",
+          "line": 5,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/config/appLayerCapabilities.ts",
+          "line": 6,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/config/appLayerCapabilities.ts",
+          "line": 7,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/config/appLayerCapabilities.ts",
+          "line": 8,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "DX-006",
+      "category": "Developer Experience",
+      "subcategory": "App Layer",
+      "capabilityName": "Manager dialogs workspace/file context",
+      "expectedFileMakerBehavior": "Manager screens include context selectors for multi-file workspaces.",
+      "suggestedValidationTest": "Manager screen tests for file selector state changes.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "src/server/app-layer-storage.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/server/app-layer-storage.ts",
+          "line": 4,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/app-layer-storage.ts",
+          "line": 5,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/app-layer-storage.ts",
+          "line": 6,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/app-layer-storage.ts",
+          "line": 7,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/app-layer-storage.ts",
+          "line": 31,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "DX-007",
+      "category": "Developer Experience",
+      "subcategory": "App Layer",
+      "capabilityName": "Unsaved changes protection in app-layer dialogs",
+      "expectedFileMakerBehavior": "Closing dirty dialogs prompts user before discarding changes.",
+      "suggestedValidationTest": "Dialog close interception tests with dirty state.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "app/api/workspaces/[workspaceId]/governance/route.ts",
+          "line": 181,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/api/workspaces/[workspaceId]/governance/route.ts",
+          "line": 249,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/api/workspaces/[workspaceId]/governance/route.ts",
+          "line": 252,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/api/workspaces/[workspaceId]/governance/route.ts",
+          "line": 253,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/api/workspaces/[workspaceId]/governance/route.ts",
+          "line": 321,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/api/workspaces/[workspaceId]/governance/route.ts",
+          "line": 324,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "DX-008",
+      "category": "Developer Experience",
+      "subcategory": "Quality",
+      "capabilityName": "UI regression suite for high-risk parity flows",
+      "expectedFileMakerBehavior": "Key UI flows are covered by regression tests to prevent repeated break/fix cycles.",
+      "suggestedValidationTest": "Run test:ui-regression with portal + mode-switch + menu-action fixtures.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "package.json",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "package.json",
+          "line": 25,
+          "reason": "keyword"
+        },
+        {
+          "file": "package.json",
+          "line": 34,
+          "reason": "keyword"
+        },
+        {
+          "file": "package.json",
+          "line": 51,
+          "reason": "keyword"
+        },
+        {
+          "file": "package.json",
+          "line": 65,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/menu-action-coverage.test.mts",
+          "line": 1,
+          "reason": "pathHint"
+        }
+      ]
+    },
+    {
+      "id": "DX-009",
+      "category": "Developer Experience",
+      "subcategory": "Quality",
+      "capabilityName": "Layout fidelity harness and baseline update flow",
+      "expectedFileMakerBehavior": "Visual fidelity regressions are detected with screenshot baselines and metric reports.",
+      "suggestedValidationTest": "Run test:layout-fidelity and baseline update scripts with fixture manifest.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "docs/layout-fidelity-fixtures.json",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "scripts/layout-fidelity.mts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "scripts/layout-fidelity.mts",
+          "line": 5,
+          "reason": "keyword"
+        },
+        {
+          "file": "scripts/layout-fidelity.mts",
+          "line": 12,
+          "reason": "keyword"
+        },
+        {
+          "file": "scripts/layout-fidelity.mts",
+          "line": 19,
+          "reason": "keyword"
+        },
+        {
+          "file": "scripts/layout-fidelity.mts",
+          "line": 142,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "DX-010",
+      "category": "Developer Experience",
+      "subcategory": "Quality",
+      "capabilityName": "Parity checklist generation in CI",
+      "expectedFileMakerBehavior": "CI outputs parity status summaries for key domains before release.",
+      "suggestedValidationTest": "CI workflow test to assert parity checklist files generated and non-empty.",
+      "uncertainty": "high",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": ".github/workflows/ci.yml",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": ".github/workflows/ci.yml",
+          "line": 1,
+          "reason": "keyword"
+        },
+        {
+          "file": ".github/workflows/ci.yml",
+          "line": 24,
+          "reason": "keyword"
+        },
+        {
+          "file": ".github/workflows/ci.yml",
+          "line": 35,
+          "reason": "keyword"
+        },
+        {
+          "file": ".github/workflows/ci.yml",
+          "line": 36,
+          "reason": "keyword"
+        },
+        {
+          "file": "docs/runtime-gap-report.md",
+          "line": 1,
+          "reason": "pathHint"
+        }
+      ]
+    },
+    {
+      "id": "LM-001",
+      "category": "Layout Mode",
+      "subcategory": "Selection",
+      "capabilityName": "Object selection and multi-select marquee",
+      "expectedFileMakerBehavior": "Layout Mode supports precise click, shift-click, and marquee selection with deterministic selection sets.",
+      "suggestedValidationTest": "Run pointer interaction tests for click, shift-click, marquee-add, marquee-remove across grouped and portal objects.",
+      "uncertainty": "low",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "app/globals.css",
+          "line": 552,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1390,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2927,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 2936,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 7954,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/layout-arrange.ts",
+          "line": 1,
+          "reason": "pathHint"
+        }
+      ]
+    },
+    {
+      "id": "LM-002",
+      "category": "Layout Mode",
+      "subcategory": "Selection",
+      "capabilityName": "Group and ungroup object lifecycle",
+      "expectedFileMakerBehavior": "Grouped objects move and resize as a unit while preserving child relative geometry.",
+      "suggestedValidationTest": "Group/un-group roundtrip tests must preserve child bounds and z-order.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "src/lib/layout-model.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/lib/layout-model.ts",
+          "line": 213,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/layout-model.ts",
+          "line": 214,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/layout-model.ts",
+          "line": 216,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/layout-model.ts",
+          "line": 268,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/layout-model.ts",
+          "line": 269,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "LM-003",
+      "category": "Layout Mode",
+      "subcategory": "Arrange",
+      "capabilityName": "Bring forward/backward and front/back",
+      "expectedFileMakerBehavior": "Arrange commands deterministically change object stacking order.",
+      "suggestedValidationTest": "Z-order point-hit tests across overlapping object fixtures.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "src/lib/layout-arrange.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/lib/layout-arrange.ts",
+          "line": 16,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/layout-arrange.ts",
+          "line": 20,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/layout-arrange.ts",
+          "line": 21,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/layout-arrange.ts",
+          "line": 22,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/layout-arrange.ts",
+          "line": 27,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "LM-004",
+      "category": "Layout Mode",
+      "subcategory": "Arrange",
+      "capabilityName": "Align/distribute for multi-object selections",
+      "expectedFileMakerBehavior": "Align/distribute uses selected object boundary math similar to FileMaker.",
+      "suggestedValidationTest": "Unit tests for left/right/top/bottom/center align and distribute spacing on mixed selections.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "app/globals.css",
+          "line": 278,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 285,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 319,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 457,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 518,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/layout-arrange.ts",
+          "line": 1,
+          "reason": "pathHint"
+        }
+      ]
+    },
+    {
+      "id": "LM-005",
+      "category": "Layout Mode",
+      "subcategory": "Guides",
+      "capabilityName": "Rulers and guides with snap behavior",
+      "expectedFileMakerBehavior": "Rulers and guides are visually aligned to canvas coordinates and snapping toggles.",
+      "suggestedValidationTest": "Visual regressions at different zoom levels for ruler ticks and guide intersections.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "app/globals.css",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 209,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 253,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 255,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 256,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 260,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "LM-006",
+      "category": "Layout Mode",
+      "subcategory": "Canvas",
+      "capabilityName": "Canvas lock and autosize anchor editing",
+      "expectedFileMakerBehavior": "Canvas can be locked in Layout Mode while autosize anchor metadata remains editable.",
+      "suggestedValidationTest": "Mutation commands should no-op when canvas locked; anchor props still persist.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "src/lib/layout-model.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/lib/layout-model.ts",
+          "line": 145,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/layout-model.ts",
+          "line": 146,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/layout-model.ts",
+          "line": 147,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/layout-model.ts",
+          "line": 148,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/layout-model.ts",
+          "line": 214,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "LM-007",
+      "category": "Layout Mode",
+      "subcategory": "Layout Parts",
+      "capabilityName": "Part creation and part resizing",
+      "expectedFileMakerBehavior": "Header/body/footer and summary parts resize with expected object repositioning semantics.",
+      "suggestedValidationTest": "Part resize tests verify object y-offset transforms for adjacent parts.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "src/lib/layout-model.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/lib/layout-model.ts",
+          "line": 99,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/layout-model.ts",
+          "line": 315,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/layout-model.ts",
+          "line": 316,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/layout-model.ts",
+          "line": 318,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/layout-model.ts",
+          "line": 319,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "LM-008",
+      "category": "Layout Mode",
+      "subcategory": "Palette",
+      "capabilityName": "Field placement from schema browser",
+      "expectedFileMakerBehavior": "Dragging fields onto layout can create field+label patterns with consistent placement modes.",
+      "suggestedValidationTest": "Drag field placement snapshot tests for side-by-side and stacked modes.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "app/diagnostics/parity/page.tsx",
+          "line": 149,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/diagnostics/parity/page.tsx",
+          "line": 162,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 725,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 733,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/layout-utils.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/lib/layout-utils.ts",
+          "line": 15,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "LM-009",
+      "category": "Layout Mode",
+      "subcategory": "Inspector",
+      "capabilityName": "Inspector position/size panel parity",
+      "expectedFileMakerBehavior": "Inspector edits x/y/width/height and z values directly with immediate visual update.",
+      "suggestedValidationTest": "Inspector value updates should mutate selected object and persist to layout JSON.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "src/lib/layout-model.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/lib/layout-model.ts",
+          "line": 13,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/layout-model.ts",
+          "line": 16,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/layout-model.ts",
+          "line": 17,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/layout-model.ts",
+          "line": 33,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/layout-model.ts",
+          "line": 54,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "LM-010",
+      "category": "Layout Mode",
+      "subcategory": "Inspector",
+      "capabilityName": "Inspector typography and color controls",
+      "expectedFileMakerBehavior": "Font, size, color, alignment, borders, fills, shadows map to object styles.",
+      "suggestedValidationTest": "Style field changes must persist and map to runtime style resolver output.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "src/lib/layout-fidelity/style-resolver.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/lib/layout-fidelity/style-resolver.ts",
+          "line": 6,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/layout-fidelity/style-resolver.ts",
+          "line": 7,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/layout-fidelity/style-resolver.ts",
+          "line": 9,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/layout-fidelity/style-resolver.ts",
+          "line": 12,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/layout-fidelity/style-resolver.ts",
+          "line": 14,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "LM-011",
+      "category": "Layout Mode",
+      "subcategory": "Inspector",
+      "capabilityName": "Conditional formatting and hide condition editors",
+      "expectedFileMakerBehavior": "Developers can define conditional style and visibility rules at object level.",
+      "suggestedValidationTest": "Rule save + runtime eval tests for hideObjectWhen and conditional formatting outputs.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "app/globals.css",
+          "line": 5175,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 5182,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 5183,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 5184,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/fmcalc/index.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/lib/fmcalc/index.ts",
+          "line": 1418,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "LM-012",
+      "category": "Layout Mode",
+      "subcategory": "Objects",
+      "capabilityName": "Field control type parity (edit/popup/dropdown/checkbox/radio/date)",
+      "expectedFileMakerBehavior": "Field objects support control types and display options matching inspector settings.",
+      "suggestedValidationTest": "Render each control type in layout and browse mode and assert visual affordances.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "app/api/admin/metrics/route.ts",
+          "line": 16,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/api/fm/records/route.ts",
+          "line": 8,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/api/fm/records/route.ts",
+          "line": 200,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/api/fm/records/route.ts",
+          "line": 211,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/api/fm/records/route.ts",
+          "line": 227,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/api/fm/records/route.ts",
+          "line": 232,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "LM-013",
+      "category": "Layout Mode",
+      "subcategory": "Objects",
+      "capabilityName": "Button and button bar authoring",
+      "expectedFileMakerBehavior": "Buttons support script/layout actions; button bars support segment configuration.",
+      "suggestedValidationTest": "Button action bindings should execute correct runtime command in browse mode.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "src/lib/layout-model.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/lib/layout-model.ts",
+          "line": 4,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/layout-model.ts",
+          "line": 23,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/layout-model.ts",
+          "line": 170,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/layout-model.ts",
+          "line": 171,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/layout-model.ts",
+          "line": 172,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "LM-014",
+      "category": "Layout Mode",
+      "subcategory": "Objects",
+      "capabilityName": "Tab control and slide control authoring",
+      "expectedFileMakerBehavior": "Panel objects support tab labels, default tab, and panel navigation properties.",
+      "suggestedValidationTest": "Panel config changes should alter browse-mode panel behavior and active tab serialization.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "src/lib/tabs-runtime.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/lib/tabs-runtime.ts",
+          "line": 3,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/tabs-runtime.ts",
+          "line": 18,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/tabs-runtime.ts",
+          "line": 20,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/tabs-runtime.ts",
+          "line": 23,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/tabs-runtime.ts",
+          "line": 28,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "LM-015",
+      "category": "Layout Mode",
+      "subcategory": "Objects",
+      "capabilityName": "Popover object authoring",
+      "expectedFileMakerBehavior": "Popover button and popover panel metadata can be configured in layout mode.",
+      "suggestedValidationTest": "Popover config persists and runtime popover opens with expected geometry and title.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "app/globals.css",
+          "line": 1624,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1681,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1687,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1723,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1821,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 1872,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "LM-016",
+      "category": "Layout Mode",
+      "subcategory": "Portals",
+      "capabilityName": "Portal setup dialog parity",
+      "expectedFileMakerBehavior": "Portal setup supports rows, sorting, filtering, delete permission, and row state toggles.",
+      "suggestedValidationTest": "Portal setup changes should alter browse-mode portal rendering and behavior.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "src/lib/portal-utils.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/lib/portal-utils.ts",
+          "line": 1,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/portal-utils.ts",
+          "line": 3,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/portal-utils.ts",
+          "line": 5,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/portal-utils.ts",
+          "line": 9,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/portal-utils.ts",
+          "line": 54,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "LM-017",
+      "category": "Layout Mode",
+      "subcategory": "Portals",
+      "capabilityName": "Portal template row editing in layout mode",
+      "expectedFileMakerBehavior": "Related fields are positioned in portal template row and row separator is visible.",
+      "suggestedValidationTest": "Visual regression for portal layout mode with only native separator/overlay elements.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "app/globals.css",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 239,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 256,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 340,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 596,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 629,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "LM-018",
+      "category": "Layout Mode",
+      "subcategory": "Workflow",
+      "capabilityName": "Create New Layout wizard with templates",
+      "expectedFileMakerBehavior": "New Layout flow offers template choices and generates reasonable starter layout structures.",
+      "suggestedValidationTest": "Template selection should produce expected parts and starter object sets.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "app/globals.css",
+          "line": 256,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 340,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/layout-storage.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/server/layout-storage.ts",
+          "line": 89,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/layout-storage.ts",
+          "line": 118,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/layout-storage.ts",
+          "line": 137,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "LM-019",
+      "category": "Layout Mode",
+      "subcategory": "Workflow",
+      "capabilityName": "Clipboard and duplicate object workflows",
+      "expectedFileMakerBehavior": "Copy/paste/duplicate operations preserve style/binding semantics and assign new ids.",
+      "suggestedValidationTest": "Duplicated objects must receive unique ids and retain props except identity.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "src/lib/layout-utils.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/lib/layout-utils.ts",
+          "line": 6,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/layout-utils.ts",
+          "line": 11,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/layout-utils.ts",
+          "line": 28,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/layout-utils.ts",
+          "line": 31,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/layout-utils.ts",
+          "line": 32,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "LM-020",
+      "category": "Layout Mode",
+      "subcategory": "Workflow",
+      "capabilityName": "Set Tab Order mode and validation",
+      "expectedFileMakerBehavior": "Tab order editing overlays numeric sequence and resolves to deterministic runtime order.",
+      "suggestedValidationTest": "Tab order assignment and runtime traversal tests for hidden/disabled/portal contexts.",
+      "uncertainty": "low",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "src/lib/tab-order.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/lib/tab-order.ts",
+          "line": 10,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/tab-order.ts",
+          "line": 12,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/tab-order.ts",
+          "line": 29,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/tab-order.ts",
+          "line": 36,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/tab-order.ts",
+          "line": 42,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "PF-001",
+      "category": "Performance",
+      "subcategory": "Found Sets",
+      "capabilityName": "Found set paging for large datasets",
+      "expectedFileMakerBehavior": "Large found sets avoid full in-memory ids and support page-based navigation.",
+      "suggestedValidationTest": "Found set paging benchmarks with synthetic 100k scenarios.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "scripts/bench-perf.mts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "scripts/bench-perf.mts",
+          "line": 84,
+          "reason": "keyword"
+        },
+        {
+          "file": "scripts/bench-perf.mts",
+          "line": 132,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/runtime-kernel/foundset-store.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/lib/runtime-kernel/foundset-store.ts",
+          "line": 8,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/runtime-kernel/foundset-store.ts",
+          "line": 9,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "PF-002",
+      "category": "Performance",
+      "subcategory": "Rendering",
+      "capabilityName": "List/table virtualization",
+      "expectedFileMakerBehavior": "List and table rendering use virtualization for large record sets.",
+      "suggestedValidationTest": "Virtual window tests for visible range correctness.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "src/lib/performance/virtual-window.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/lib/performance/virtual-window.ts",
+          "line": 1,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/performance/virtual-window.ts",
+          "line": 6,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/performance/virtual-window.ts",
+          "line": 10,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/performance/virtual-window.ts",
+          "line": 39,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/performance/virtual-window.ts",
+          "line": 53,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "PF-003",
+      "category": "Performance",
+      "subcategory": "Rendering",
+      "capabilityName": "Portal virtualization",
+      "expectedFileMakerBehavior": "Portal rows are incrementally rendered/paged for large related sets.",
+      "suggestedValidationTest": "Portal benchmark tests with high row counts and edit interactions.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "src/lib/performance/virtual-window.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/lib/performance/virtual-window.ts",
+          "line": 1,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/performance/virtual-window.ts",
+          "line": 3,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/performance/virtual-window.ts",
+          "line": 5,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/performance/virtual-window.ts",
+          "line": 10,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/performance/virtual-window.ts",
+          "line": 39,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "PF-004",
+      "category": "Performance",
+      "subcategory": "Data Access",
+      "capabilityName": "Request caching and in-flight dedupe",
+      "expectedFileMakerBehavior": "Repeated identical read requests share cache/in-flight promises.",
+      "suggestedValidationTest": "Request cache tests validating hits/misses and coalescing.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "src/server/filemaker-client.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/server/performance/request-cache.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/server/performance/request-cache.ts",
+          "line": 9,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/performance/request-cache.ts",
+          "line": 10,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/performance/request-cache.ts",
+          "line": 11,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/performance/request-cache.ts",
+          "line": 39,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "PF-005",
+      "category": "Performance",
+      "subcategory": "Data Access",
+      "capabilityName": "Retry/backoff and circuit-breaker behavior",
+      "expectedFileMakerBehavior": "Transient Data API failures are retried with bounded backoff and circuit state tracking.",
+      "suggestedValidationTest": "Circuit breaker and retry unit tests with transient error simulation.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "src/server/filemaker-client.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/server/filemaker-client.ts",
+          "line": 4,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/filemaker-client.ts",
+          "line": 81,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/filemaker-client.ts",
+          "line": 82,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/filemaker-client.ts",
+          "line": 114,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/resilience/circuit-breaker.ts",
+          "line": 1,
+          "reason": "pathHint"
+        }
+      ]
+    },
+    {
+      "id": "PF-006",
+      "category": "Performance",
+      "subcategory": "Calc",
+      "capabilityName": "FMCalc dependency-aware caching",
+      "expectedFileMakerBehavior": "Calc evaluations are bounded and re-evaluated only when dependencies change.",
+      "suggestedValidationTest": "Calc evaluation count tests after unrelated field edits.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "src/lib/fmcalc/index.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/lib/fmcalc/index.ts",
+          "line": 1,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/fmcalc/index.ts",
+          "line": 12,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/fmcalc/index.ts",
+          "line": 70,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/fmcalc/index.ts",
+          "line": 76,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/fmcalc/index.ts",
+          "line": 81,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "PF-007",
+      "category": "Performance",
+      "subcategory": "Script",
+      "capabilityName": "Script execution overhead control",
+      "expectedFileMakerBehavior": "Script runtime avoids unnecessary context rebuilds and reports step timing.",
+      "suggestedValidationTest": "Advanced script tests and perf metrics validation.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "src/lib/runtime-kernel/script-engine.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/lib/runtime-kernel/script-engine.ts",
+          "line": 7,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/runtime-kernel/script-engine.ts",
+          "line": 13,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/runtime-kernel/script-engine.ts",
+          "line": 14,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/runtime-kernel/script-engine.ts",
+          "line": 15,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/runtime-kernel/script-engine.ts",
+          "line": 16,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "PF-008",
+      "category": "Performance",
+      "subcategory": "Observability",
+      "capabilityName": "Profiler and trace-id diagnostics",
+      "expectedFileMakerBehavior": "Developers can correlate UI actions with API and runtime metrics.",
+      "suggestedValidationTest": "Profiler output schema tests and trace-id propagation checks.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "scripts/bench-perf.mts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "scripts/bench-perf.mts",
+          "line": 186,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/observability.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/server/observability.ts",
+          "line": 12,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/observability.ts",
+          "line": 48,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/observability.ts",
+          "line": 52,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "PF-009",
+      "category": "Performance",
+      "subcategory": "Benchmarks",
+      "capabilityName": "Deterministic benchmark harness",
+      "expectedFileMakerBehavior": "Performance benchmarks are repeatable and can gate CI regressions.",
+      "suggestedValidationTest": "Benchmark script deterministic output checks.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "docs/performance-benchmarks.md",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "docs/performance-benchmarks.md",
+          "line": 1,
+          "reason": "keyword"
+        },
+        {
+          "file": "docs/performance-benchmarks.md",
+          "line": 6,
+          "reason": "keyword"
+        },
+        {
+          "file": "docs/performance-benchmarks.md",
+          "line": 11,
+          "reason": "keyword"
+        },
+        {
+          "file": "docs/performance-benchmarks.md",
+          "line": 17,
+          "reason": "keyword"
+        },
+        {
+          "file": "scripts/bench-perf.mts",
+          "line": 1,
+          "reason": "pathHint"
+        }
+      ]
+    },
+    {
+      "id": "PF-010",
+      "category": "Performance",
+      "subcategory": "Memory",
+      "capabilityName": "Bounded cache and trace memory usage",
+      "expectedFileMakerBehavior": "Long sessions should avoid unbounded growth in cache and diagnostics buffers.",
+      "suggestedValidationTest": "Stress tests with cache eviction assertions.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "src/server/performance/request-cache.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/server/performance/request-cache.ts",
+          "line": 12,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/performance/request-cache.ts",
+          "line": 17,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/performance/request-cache.ts",
+          "line": 18,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/performance/request-cache.ts",
+          "line": 25,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/performance/request-cache.ts",
+          "line": 26,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "SC-001",
+      "category": "Scripting & Events",
+      "subcategory": "Triggers",
+      "capabilityName": "Layout enter/exit triggers",
+      "expectedFileMakerBehavior": "OnLayoutEnter/OnLayoutExit trigger hooks fire in deterministic order.",
+      "suggestedValidationTest": "Trigger sequencing tests across layout switch scenarios.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "src/lib/triggers/index.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/lib/triggers/index.ts",
+          "line": 1,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/triggers/index.ts",
+          "line": 9,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/triggers/index.ts",
+          "line": 10,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/triggers/index.ts",
+          "line": 13,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/triggers/index.ts",
+          "line": 14,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "SC-002",
+      "category": "Scripting & Events",
+      "subcategory": "Triggers",
+      "capabilityName": "Mode enter/exit triggers",
+      "expectedFileMakerBehavior": "OnModeEnter/OnModeExit fire when switching browse/find/preview modes.",
+      "suggestedValidationTest": "Mode switch trigger tests with expected history order.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "app/api/admin/config/route.ts",
+          "line": 22,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/api/auth/me/route.ts",
+          "line": 13,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/api/fm/container/route.ts",
+          "line": 35,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/api/fm/find/route.ts",
+          "line": 3,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/api/health/route.ts",
+          "line": 16,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/triggers/index.ts",
+          "line": 1,
+          "reason": "pathHint"
+        }
+      ]
+    },
+    {
+      "id": "SC-003",
+      "category": "Scripting & Events",
+      "subcategory": "Triggers",
+      "capabilityName": "Object enter/exit/modify triggers",
+      "expectedFileMakerBehavior": "Field focus and edit lifecycle triggers fire with predictable debounce semantics.",
+      "suggestedValidationTest": "Input typing tests with OnObjectModify count and OnObjectExit commit interactions.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "docs/script-triggers.md",
+          "line": 28,
+          "reason": "keyword"
+        },
+        {
+          "file": "docs/script-triggers.md",
+          "line": 29,
+          "reason": "keyword"
+        },
+        {
+          "file": "docs/script-triggers.md",
+          "line": 30,
+          "reason": "keyword"
+        },
+        {
+          "file": "scripts/generate-audit-artifacts.mjs",
+          "line": 888,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/trigger-policy.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/lib/triggers/index.ts",
+          "line": 1,
+          "reason": "pathHint"
+        }
+      ]
+    },
+    {
+      "id": "SC-004",
+      "category": "Scripting & Events",
+      "subcategory": "Triggers",
+      "capabilityName": "Record commit request veto",
+      "expectedFileMakerBehavior": "OnRecordCommitRequest can cancel commit before persistence.",
+      "suggestedValidationTest": "Commit request policy tests for veto and allow paths.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "src/lib/trigger-policy.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/lib/trigger-policy.ts",
+          "line": 4,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/trigger-policy.ts",
+          "line": 9,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/trigger-policy.ts",
+          "line": 11,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/trigger-policy.ts",
+          "line": 19,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/trigger-policy.ts",
+          "line": 22,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "SC-005",
+      "category": "Scripting & Events",
+      "subcategory": "Engine",
+      "capabilityName": "Script call stack and local/global variable scopes",
+      "expectedFileMakerBehavior": "Nested Perform Script calls preserve local $ vars per frame and shared $$ globals.",
+      "suggestedValidationTest": "Nested script tests verifying scope isolation and return semantics.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "src/lib/runtime-kernel/script-engine.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/lib/runtime-kernel/script-engine.ts",
+          "line": 139,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/runtime-kernel/script-engine.ts",
+          "line": 143,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/runtime-kernel/script-engine.ts",
+          "line": 212,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/runtime-kernel/script-engine.ts",
+          "line": 216,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/runtime-kernel/variable-store.ts",
+          "line": 1,
+          "reason": "pathHint"
+        }
+      ]
+    },
+    {
+      "id": "SC-006",
+      "category": "Scripting & Events",
+      "subcategory": "Engine",
+      "capabilityName": "Core script step subset execution",
+      "expectedFileMakerBehavior": "Common script steps (go to layout, set field, commit, find, loop) execute deterministically.",
+      "suggestedValidationTest": "Script engine fixture tests for common step sequences and control flow.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "src/lib/runtime-kernel/script-engine-advanced.test.mts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/lib/runtime-kernel/script-engine-advanced.test.mts",
+          "line": 105,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/runtime-kernel/script-engine-advanced.test.mts",
+          "line": 176,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/runtime-kernel/script-engine-advanced.test.mts",
+          "line": 180,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/runtime-kernel/script-engine-advanced.test.mts",
+          "line": 187,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/runtime-kernel/script-engine.ts",
+          "line": 1,
+          "reason": "pathHint"
+        }
+      ]
+    },
+    {
+      "id": "SC-007",
+      "category": "Scripting & Events",
+      "subcategory": "Engine",
+      "capabilityName": "Error capture and LastError/LastMessage semantics",
+      "expectedFileMakerBehavior": "Set Error Capture controls halt/continue behavior and updates last error/message state.",
+      "suggestedValidationTest": "Error capture tests with failing actions and nested scripts.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "src/lib/runtime-kernel/script-engine-advanced.test.mts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/lib/runtime-kernel/script-engine-advanced.test.mts",
+          "line": 117,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/runtime-kernel/script-engine-advanced.test.mts",
+          "line": 275,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/runtime-kernel/script-engine-advanced.test.mts",
+          "line": 282,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/runtime-kernel/script-engine-advanced.test.mts",
+          "line": 283,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/runtime-kernel/script-engine.ts",
+          "line": 1,
+          "reason": "pathHint"
+        }
+      ]
+    },
+    {
+      "id": "SC-008",
+      "category": "Scripting & Events",
+      "subcategory": "Engine",
+      "capabilityName": "Transaction-aware script execution",
+      "expectedFileMakerBehavior": "Script-level transaction begin/commit/revert semantics stage and apply operations predictably.",
+      "suggestedValidationTest": "Transaction manager tests for partial failure rollback behavior.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "src/lib/runtime-kernel/script-engine.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/lib/runtime-kernel/script-engine.ts",
+          "line": 273,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/runtime-kernel/script-engine.ts",
+          "line": 279,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/runtime-kernel/script-engine.ts",
+          "line": 283,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/runtime-kernel/script-engine.ts",
+          "line": 288,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/runtime-kernel/transaction-manager.ts",
+          "line": 1,
+          "reason": "pathHint"
+        }
+      ]
+    },
+    {
+      "id": "SC-009",
+      "category": "Scripting & Events",
+      "subcategory": "Engine",
+      "capabilityName": "Script-on-server bridge fallback",
+      "expectedFileMakerBehavior": "Unsupported local steps can bridge to server script execution with result propagation.",
+      "suggestedValidationTest": "Script execution route tests for runtime fallback to /api/fm/scripts.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "app/api/fm/capabilities/route.ts",
+          "line": 22,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/api/fm/scripts/route.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "app/api/fm/scripts/route.ts",
+          "line": 6,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/api/fm/scripts/route.ts",
+          "line": 33,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/api/fm/scripts/route.ts",
+          "line": 42,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/api/fm/scripts/route.ts",
+          "line": 72,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "SC-010",
+      "category": "Scripting & Events",
+      "subcategory": "Debugger",
+      "capabilityName": "Script debugger stepping",
+      "expectedFileMakerBehavior": "Debugger supports stepping and call-stack inspection in dev workflows.",
+      "suggestedValidationTest": "Debug-step tests confirm deterministic advancement and state snapshots.",
+      "uncertainty": "high",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "docs/script-engine-advanced.md",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "docs/script-engine-advanced.md",
+          "line": 1,
+          "reason": "keyword"
+        },
+        {
+          "file": "docs/script-engine-advanced.md",
+          "line": 7,
+          "reason": "keyword"
+        },
+        {
+          "file": "docs/script-engine-advanced.md",
+          "line": 8,
+          "reason": "keyword"
+        },
+        {
+          "file": "docs/script-engine-advanced.md",
+          "line": 10,
+          "reason": "keyword"
+        },
+        {
+          "file": "docs/script-engine-advanced.md",
+          "line": 12,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "SC-011",
+      "category": "Scripting & Events",
+      "subcategory": "Debugger",
+      "capabilityName": "Data Viewer current/watch panels",
+      "expectedFileMakerBehavior": "Data Viewer displays current values and watch expressions in runtime context.",
+      "suggestedValidationTest": "Data viewer tests for expression evaluation against current context.",
+      "uncertainty": "high",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "app/globals.css",
+          "line": 3447,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 5345,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 5353,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/globals.css",
+          "line": 5370,
+          "reason": "keyword"
+        },
+        {
+          "file": "docs/app-layer-parity-matrix.md",
+          "line": 36,
+          "reason": "keyword"
+        },
+        {
+          "file": "docs/script-triggers.md",
+          "line": 1,
+          "reason": "pathHint"
+        }
+      ]
+    },
+    {
+      "id": "SC-012",
+      "category": "Scripting & Events",
+      "subcategory": "Integration",
+      "capabilityName": "Menu and button action -> script routing",
+      "expectedFileMakerBehavior": "UI actions route to configured scripts with parameters and context.",
+      "suggestedValidationTest": "Action dispatch tests for button/menu commands with parameter passing.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "src/lib/app-layer-menu.test.mts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/lib/app-layer-menu.test.mts",
+          "line": 17,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/app-layer-menu.test.mts",
+          "line": 28,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/app-layer-menu.test.mts",
+          "line": 40,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/app-layer-menu.test.mts",
+          "line": 43,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/app-layer-menu.test.mts",
+          "line": 44,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "SC-013",
+      "category": "Scripting & Events",
+      "subcategory": "Integration",
+      "capabilityName": "Trigger history diagnostics",
+      "expectedFileMakerBehavior": "Developers can see trigger firing order and outcomes in debug tools.",
+      "suggestedValidationTest": "Debug snapshot tests include ordered trigger history and outcomes.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "docs/find-mode.md",
+          "line": 61,
+          "reason": "keyword"
+        },
+        {
+          "file": "docs/fmcalc-lite.md",
+          "line": 104,
+          "reason": "keyword"
+        },
+        {
+          "file": "docs/foundset.md",
+          "line": 24,
+          "reason": "keyword"
+        },
+        {
+          "file": "docs/layout-fidelity.md",
+          "line": 63,
+          "reason": "keyword"
+        },
+        {
+          "file": "docs/phase-17-summary.md",
+          "line": 34,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/triggers/triggers.test.mts",
+          "line": 1,
+          "reason": "pathHint"
+        }
+      ]
+    },
+    {
+      "id": "SC-014",
+      "category": "Scripting & Events",
+      "subcategory": "Integration",
+      "capabilityName": "Plugin-registered script step execution",
+      "expectedFileMakerBehavior": "Plugin SDK can register custom script steps with validation and isolated failures.",
+      "suggestedValidationTest": "Plugin SDK tests for custom step registration and execution isolation.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "src/plugins/manager.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/plugins/manager.ts",
+          "line": 1,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/plugins/manager.ts",
+          "line": 2,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/plugins/manager.ts",
+          "line": 4,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/plugins/manager.ts",
+          "line": 5,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/plugins/plugin-sdk.test.mts",
+          "line": 1,
+          "reason": "pathHint"
+        }
+      ]
+    },
+    {
+      "id": "SC-015",
+      "category": "Scripting & Events",
+      "subcategory": "Integration",
+      "capabilityName": "Script context stack alignment with windows",
+      "expectedFileMakerBehavior": "Script context resolves active window/layout/record correctly in multi-window sessions.",
+      "suggestedValidationTest": "Kernel tests for script context in focused and card windows.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "src/lib/runtime-kernel/context-stack.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/lib/runtime-kernel/context-stack.ts",
+          "line": 1,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/runtime-kernel/context-stack.ts",
+          "line": 3,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/runtime-kernel/context-stack.ts",
+          "line": 5,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/runtime-kernel/context-stack.ts",
+          "line": 9,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/runtime-kernel/kernel.ts",
+          "line": 1,
+          "reason": "pathHint"
+        }
+      ]
+    },
+    {
+      "id": "SE-001",
+      "category": "Security",
+      "subcategory": "Auth",
+      "capabilityName": "Session auth middleware and role context",
+      "expectedFileMakerBehavior": "API requests derive authenticated user/role context before executing privileged actions.",
+      "suggestedValidationTest": "Request guard tests for authenticated and unauthenticated API calls.",
+      "uncertainty": "low",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "middleware.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "middleware.ts",
+          "line": 6,
+          "reason": "keyword"
+        },
+        {
+          "file": "middleware.ts",
+          "line": 50,
+          "reason": "keyword"
+        },
+        {
+          "file": "middleware.ts",
+          "line": 84,
+          "reason": "keyword"
+        },
+        {
+          "file": "middleware.ts",
+          "line": 111,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/security/request-context.ts",
+          "line": 1,
+          "reason": "pathHint"
+        }
+      ]
+    },
+    {
+      "id": "SE-002",
+      "category": "Security",
+      "subcategory": "Auth",
+      "capabilityName": "JWT and trusted-header auth modes",
+      "expectedFileMakerBehavior": "Deployment can use trusted-header SSO or JWT modes without client secrets.",
+      "suggestedValidationTest": "Security hardening tests for JWT validation and trusted-header mode.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "src/server/security/jwt.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/server/security/jwt.ts",
+          "line": 3,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/security/jwt.ts",
+          "line": 9,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/security/jwt.ts",
+          "line": 22,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/security/jwt.ts",
+          "line": 25,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/security/middleware-auth.ts",
+          "line": 1,
+          "reason": "pathHint"
+        }
+      ]
+    },
+    {
+      "id": "SE-003",
+      "category": "Security",
+      "subcategory": "Auth",
+      "capabilityName": "CSRF protection on mutating routes",
+      "expectedFileMakerBehavior": "Mutating API calls require valid CSRF cookie/header pairs when enabled.",
+      "suggestedValidationTest": "CSRF mismatch tests return 403 with guidance.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "src/server/security/csrf.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/server/security/csrf.ts",
+          "line": 20,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/security/csrf.ts",
+          "line": 33,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/security/csrf.ts",
+          "line": 34,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/security/csrf.ts",
+          "line": 36,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/security/request-context.ts",
+          "line": 1,
+          "reason": "pathHint"
+        }
+      ]
+    },
+    {
+      "id": "SE-004",
+      "category": "Security",
+      "subcategory": "Auth",
+      "capabilityName": "Rate limiting and retry guidance",
+      "expectedFileMakerBehavior": "Request bursts are controlled and users receive retry guidance when throttled.",
+      "suggestedValidationTest": "Middleware rate-limit tests for 429 responses and retry-after headers.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "middleware.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "middleware.ts",
+          "line": 63,
+          "reason": "keyword"
+        },
+        {
+          "file": "middleware.ts",
+          "line": 68,
+          "reason": "keyword"
+        },
+        {
+          "file": "middleware.ts",
+          "line": 69,
+          "reason": "keyword"
+        },
+        {
+          "file": "middleware.ts",
+          "line": 72,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/security/rate-limit.ts",
+          "line": 1,
+          "reason": "pathHint"
+        }
+      ]
+    },
+    {
+      "id": "SE-005",
+      "category": "Security",
+      "subcategory": "Authorization",
+      "capabilityName": "Route-level action authorization",
+      "expectedFileMakerBehavior": "Every API route validates role permission for requested action.",
+      "suggestedValidationTest": "Authorization denial tests for restricted actions.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "src/server/security/authorization.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/server/security/authorization.ts",
+          "line": 59,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/security/request-context.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/server/security/request-context.ts",
+          "line": 3,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/security/request-context.ts",
+          "line": 79,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/security/request-context.ts",
+          "line": 86,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "SE-006",
+      "category": "Security",
+      "subcategory": "Authorization",
+      "capabilityName": "Runtime capability gating (layout/field/portal)",
+      "expectedFileMakerBehavior": "UI actions respect role-based runtime permissions for view/edit/delete operations.",
+      "suggestedValidationTest": "Runtime capability tests for read-only and hidden field scenarios.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "src/lib/runtime-capabilities.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/lib/runtime-capabilities.ts",
+          "line": 1,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/runtime-capabilities.ts",
+          "line": 8,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/runtime-capabilities.ts",
+          "line": 11,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/runtime-capabilities.ts",
+          "line": 13,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/runtime-capabilities.ts",
+          "line": 14,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "SE-007",
+      "category": "Security",
+      "subcategory": "Audit",
+      "capabilityName": "Structured audit logging for critical actions",
+      "expectedFileMakerBehavior": "Login, CRUD, script, routing, and management actions emit audit events.",
+      "suggestedValidationTest": "Audit log tests for event append and query filtering.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "src/server/audit-log.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/server/audit-log.ts",
+          "line": 5,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/audit-log.ts",
+          "line": 6,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/audit-log.ts",
+          "line": 16,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/audit-log.ts",
+          "line": 31,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/audit-log.ts",
+          "line": 36,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "SE-008",
+      "category": "Security",
+      "subcategory": "Audit",
+      "capabilityName": "Admin diagnostics and metrics endpoints",
+      "expectedFileMakerBehavior": "Admin users can inspect health, metrics, and active diagnostics safely.",
+      "suggestedValidationTest": "Admin endpoint role checks and payload schema tests.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "app/api/admin/console/route.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "app/api/admin/console/route.ts",
+          "line": 3,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/api/admin/console/route.ts",
+          "line": 13,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/api/admin/console/route.ts",
+          "line": 20,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/api/admin/console/route.ts",
+          "line": 24,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/admin-console.ts",
+          "line": 1,
+          "reason": "pathHint"
+        }
+      ]
+    },
+    {
+      "id": "SE-009",
+      "category": "Security",
+      "subcategory": "Data Safety",
+      "capabilityName": "Container URL host validation",
+      "expectedFileMakerBehavior": "Container fetch route rejects external host URLs to avoid leakage and SSRF risk.",
+      "suggestedValidationTest": "Container route tests for host mismatch rejection.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "app/api/fm/container/route.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/server/filemaker-client.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "src/server/filemaker-client.ts",
+          "line": 29,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/filemaker-client.ts",
+          "line": 46,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/filemaker-client.ts",
+          "line": 263,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/server/filemaker-client.ts",
+          "line": 283,
+          "reason": "keyword"
+        }
+      ]
+    },
+    {
+      "id": "SE-010",
+      "category": "Security",
+      "subcategory": "Governance",
+      "capabilityName": "RBAC enforcement for governance endpoints",
+      "expectedFileMakerBehavior": "Versioning, promote, rollback, and admin workflows are role-restricted.",
+      "suggestedValidationTest": "Governance tests for admin/developer/runtime role access differences.",
+      "uncertainty": "med",
+      "sourceStatus": "Implemented",
+      "supportStatus": "supported",
+      "evidence": [
+        {
+          "file": "app/api/workspaces/[workspaceId]/governance/route.ts",
+          "line": 1,
+          "reason": "pathHint"
+        },
+        {
+          "file": "app/api/workspaces/[workspaceId]/governance/route.ts",
+          "line": 8,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/api/workspaces/[workspaceId]/governance/route.ts",
+          "line": 11,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/api/workspaces/[workspaceId]/governance/route.ts",
+          "line": 12,
+          "reason": "keyword"
+        },
+        {
+          "file": "app/api/workspaces/[workspaceId]/governance/route.ts",
+          "line": 14,
+          "reason": "keyword"
+        },
+        {
+          "file": "src/lib/governance-rbac.ts",
+          "line": 1,
+          "reason": "pathHint"
+        }
+      ]
+    }
+  ]
+}

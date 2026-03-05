@@ -1,0 +1,212 @@
+{
+  "id": "fm-products-to-documents-TEQmYW1w",
+  "name": "Products to Documents",
+  "defaultTableOccurrence": "Products to Documents",
+  "canvas": {
+    "width": 1024,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-products-to-documents-TEQmYW1w-1",
+      "position": {
+        "x": 361,
+        "y": 39,
+        "width": 287,
+        "height": 32,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Table field",
+        "ddrObjectPath": "1",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 39,
+        "ddrSourceLeft": 361,
+        "ddrSourceBottom": 71,
+        "ddrSourceRight": 648,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Document ID",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 1
+      },
+      "type": "field",
+      "binding": {
+        "field": "Document ID",
+        "tableOccurrence": "Products to documents"
+      }
+    },
+    {
+      "id": "ddr-fm-products-to-documents-TEQmYW1w-2",
+      "position": {
+        "x": 0,
+        "y": 38,
+        "width": 323,
+        "height": 32,
+        "z": 2
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Table field",
+        "ddrObjectPath": "2",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 38,
+        "ddrSourceLeft": 0,
+        "ddrSourceBottom": 70,
+        "ddrSourceRight": 323,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Catalog number",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 2
+      },
+      "type": "field",
+      "binding": {
+        "field": "Catalog number",
+        "tableOccurrence": "Products to documents"
+      }
+    },
+    {
+      "id": "ddr-fm-products-to-documents-TEQmYW1w-3",
+      "position": {
+        "x": 361,
+        "y": 6,
+        "width": 279,
+        "height": 25,
+        "z": 3
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Column title",
+        "ddrObjectPath": "3",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 6,
+        "ddrSourceLeft": 361,
+        "ddrSourceBottom": 31,
+        "ddrSourceRight": 640,
+        "fontFamily": "Helvetica",
+        "fontSize": 18,
+        "textColor": "#666666",
+        "label": "Document",
+        "ddrArrangeOrder": 3
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-products-to-documents-TEQmYW1w-4",
+      "position": {
+        "x": 5,
+        "y": 6,
+        "width": 279,
+        "height": 25,
+        "z": 4
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Column title",
+        "ddrObjectPath": "4",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 6,
+        "ddrSourceLeft": 5,
+        "ddrSourceBottom": 31,
+        "ddrSourceRight": 284,
+        "fontFamily": "Helvetica",
+        "fontSize": 18,
+        "textColor": "#666666",
+        "label": "Product",
+        "ddrArrangeOrder": 4
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-products-to-documents-TEQmYW1w-5",
+      "position": {
+        "x": 685,
+        "y": 0,
+        "width": 194,
+        "height": 36,
+        "z": 5
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "ddrObjectPath": "5",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 0,
+        "ddrSourceLeft": 685,
+        "ddrSourceBottom": 36,
+        "ddrSourceRight": 879,
+        "fillType": "none",
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "fontFamily": "Helvetica",
+        "fontSize": 28,
+        "textColor": "#666666",
+        "label": "{{FoundCount}}",
+        "ddrArrangeOrder": 5
+      },
+      "type": "label"
+    }
+  ],
+  "actions": []
+}

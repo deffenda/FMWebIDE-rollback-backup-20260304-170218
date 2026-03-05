@@ -1,0 +1,179 @@
+{
+  "id": "fm-notes-SiZhbXA7",
+  "name": "Notes",
+  "defaultTableOccurrence": "Notes",
+  "canvas": {
+    "width": 1024,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-notes-SiZhbXA7-1",
+      "position": {
+        "x": 141,
+        "y": 49,
+        "width": 79,
+        "height": 14,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "Classic",
+        "ddrObjectPath": "1",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 49,
+        "ddrSourceLeft": 141,
+        "ddrSourceBottom": 63,
+        "ddrSourceRight": 220,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "author",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 1
+      },
+      "type": "field",
+      "binding": {
+        "field": "author",
+        "tableOccurrence": "Notes"
+      }
+    },
+    {
+      "id": "ddr-fm-notes-SiZhbXA7-2",
+      "position": {
+        "x": 86.975,
+        "y": 48,
+        "width": 43.025,
+        "height": 15,
+        "z": 2
+      },
+      "props": {
+        "styleTheme": "Classic",
+        "ddrObjectPath": "2",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 48,
+        "ddrSourceLeft": 86.975,
+        "ddrSourceBottom": 63,
+        "ddrSourceRight": 130,
+        "fillType": "none",
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "fontSize": 10,
+        "textAlign": "right",
+        "fontFamily": "Helvetica",
+        "textColor": "#000000",
+        "label": "author",
+        "ddrArrangeOrder": 2
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-notes-SiZhbXA7-3",
+      "position": {
+        "x": 147,
+        "y": 88,
+        "width": 203,
+        "height": 61,
+        "z": 3
+      },
+      "props": {
+        "styleTheme": "Classic",
+        "ddrObjectPath": "3",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 88,
+        "ddrSourceLeft": 147,
+        "ddrSourceBottom": 149,
+        "ddrSourceRight": 350,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "note",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 20,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 3
+      },
+      "type": "field",
+      "binding": {
+        "field": "note",
+        "tableOccurrence": "Notes"
+      }
+    },
+    {
+      "id": "ddr-fm-notes-SiZhbXA7-4",
+      "position": {
+        "x": 103.645,
+        "y": 87,
+        "width": 32.355,
+        "height": 15,
+        "z": 4
+      },
+      "props": {
+        "styleTheme": "Classic",
+        "ddrObjectPath": "4",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 87,
+        "ddrSourceLeft": 103.645,
+        "ddrSourceBottom": 102,
+        "ddrSourceRight": 136,
+        "fillType": "none",
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "fontSize": 10,
+        "textAlign": "right",
+        "fontFamily": "Helvetica",
+        "textColor": "#000000",
+        "label": "note",
+        "ddrArrangeOrder": 4
+      },
+      "type": "label"
+    }
+  ],
+  "actions": []
+}

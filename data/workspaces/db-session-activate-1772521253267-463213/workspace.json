@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "id": "db-session-activate-1772521253267-463213",
+  "name": "db-session-activate-1772521253267-463213",
+  "filemaker": {
+    "host": "https://fm.example.com",
+    "database": "Common",
+    "username": "common-user-updated",
+    "password": "common-secret"
+  },
+  "files": [
+    {
+      "fileId": "assets-file",
+      "databaseName": "Assets",
+      "displayName": "Assets",
+      "host": "https://fm.example.com",
+      "username": "admin",
+      "password": "primary-secret",
+      "primary": true,
+      "status": "connected"
+    },
+    {
+      "fileId": "common-file",
+      "databaseName": "Common",
+      "displayName": "Common",
+      "host": "https://fm.example.com",
+      "username": "common-user-updated",
+      "password": "common-secret",
+      "primary": true,
+      "status": "unknown"
+    }
+  ]
+}

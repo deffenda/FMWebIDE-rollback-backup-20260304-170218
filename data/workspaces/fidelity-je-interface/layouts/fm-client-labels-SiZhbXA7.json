@@ -1,0 +1,53 @@
+{
+  "id": "fm-client-labels-SiZhbXA7",
+  "name": "Client Labels",
+  "defaultTableOccurrence": "Client Labels",
+  "canvas": {
+    "width": 480,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-client-labels-SiZhbXA7-1",
+      "position": {
+        "x": 9,
+        "y": 17,
+        "width": 173.8,
+        "height": 72,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "Classic",
+        "ddrObjectPath": "1",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 16777216,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 17,
+        "ddrSourceLeft": 9,
+        "ddrSourceBottom": 89,
+        "ddrSourceRight": 182.8,
+        "fillType": "none",
+        "lineColor": "rgba(255, 255, 255, 1)",
+        "lineStyle": "solid",
+        "effectOuterShadow": true,
+        "fontSize": 9,
+        "fontFamily": "Helvetica",
+        "textColor": "#000000",
+        "label": "<<F Name>> <<L Name>>\n<<Company>>\n<<Bill To Address>>\n<<Bill To Address 2>>\n<<Bill To City>>, <<Bill To State>>  <<Bill To Zip>>",
+        "ddrArrangeOrder": 1
+      },
+      "type": "label"
+    }
+  ],
+  "actions": []
+}

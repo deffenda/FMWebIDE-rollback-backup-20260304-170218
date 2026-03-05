@@ -1,0 +1,24 @@
+flowchart LR
+  A[DDR XML / Summary XML] --> B[scripts/import-ddr-layouts.mjs]
+  B --> C[Workspace + Layout JSON Artifacts]
+  C --> D[src/server/layout-storage.ts]
+  C --> E[src/server/workspace-context.ts]
+  D --> F[app/api/layouts/*]
+  E --> G[app/api/workspaces/*]
+  F --> H[components/layout-mode.tsx]
+  F --> I[components/browse-mode.tsx]
+  H --> J[src/lib/layout-model.ts]
+  I --> J
+  I --> K[src/lib/runtime-kernel/*]
+  I --> L[src/lib/fmcalc/*]
+  I --> M[src/lib/portal-runtime.ts]
+  I --> N[src/lib/layout-fidelity/*]
+  I --> O[app/api/fm/*]
+  O --> P[src/server/filemaker-client.ts]
+  P --> Q[src/server/workspace-multifile.ts]
+  Q --> R[FileMaker Data API]
+  P --> S[src/server/mock-record-storage.ts]
+  T[middleware.ts] --> O
+  T --> F
+  U[src/server/security/request-context.ts] --> O
+  V[src/plugins/*] --> I

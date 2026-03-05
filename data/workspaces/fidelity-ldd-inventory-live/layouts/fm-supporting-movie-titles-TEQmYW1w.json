@@ -1,0 +1,97 @@
+{
+  "id": "fm-supporting-movie-titles-TEQmYW1w",
+  "name": "Supporting movie titles",
+  "defaultTableOccurrence": "Supporting movie titles",
+  "canvas": {
+    "width": 1024,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-supporting-movie-titles-TEQmYW1w-1",
+      "position": {
+        "x": 103,
+        "y": 55,
+        "width": 24,
+        "height": 18,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "1",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 55,
+        "ddrSourceLeft": 103,
+        "ddrSourceBottom": 73,
+        "ddrSourceRight": 127,
+        "fillType": "none",
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textAlign": "right",
+        "fontFamily": "arial,sans-serif",
+        "fontSize": 12,
+        "textColor": "#707070",
+        "label": "title",
+        "ddrArrangeOrder": 1
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-supporting-movie-titles-TEQmYW1w-2",
+      "position": {
+        "x": 138,
+        "y": 52,
+        "width": 253,
+        "height": 22,
+        "z": 2
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "2",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 52,
+        "ddrSourceLeft": 138,
+        "ddrSourceBottom": 74,
+        "ddrSourceRight": 391,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "title",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 2
+      },
+      "type": "field",
+      "binding": {
+        "field": "title",
+        "tableOccurrence": "Supporting movie titles"
+      }
+    }
+  ],
+  "actions": []
+}

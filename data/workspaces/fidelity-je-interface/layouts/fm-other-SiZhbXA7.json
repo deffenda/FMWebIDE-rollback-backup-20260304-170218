@@ -1,0 +1,14 @@
+{
+  "id": "fm-other-SiZhbXA7",
+  "name": "Other",
+  "defaultTableOccurrence": "Other",
+  "canvas": {
+    "width": 612,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [],
+  "actions": []
+}

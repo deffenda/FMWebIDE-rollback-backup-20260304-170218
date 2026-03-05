@@ -1,0 +1,1616 @@
+{
+  "id": "fm-products-list-T21lZ2E6",
+  "name": "Products|List",
+  "defaultTableOccurrence": "Products|List",
+  "canvas": {
+    "width": 1147,
+    "height": 654,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-products-list-T21lZ2E6-14",
+      "position": {
+        "x": 173,
+        "y": 0,
+        "width": 737,
+        "height": 50,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "styleName": "Entity Header",
+        "ddrObjectPath": "14",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 0,
+        "ddrSourceLeft": 173,
+        "ddrSourceBottom": 50,
+        "ddrSourceRight": 910,
+        "fontFamily": "arial,sans-serif",
+        "fontSize": 36,
+        "textColor": "#FFFFFF",
+        "label": "Products",
+        "ddrArrangeOrder": 1
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-products-list-T21lZ2E6-34",
+      "position": {
+        "x": 5,
+        "y": 119,
+        "width": 21,
+        "height": 21,
+        "z": 2
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "styleName": "Navigation Blue",
+        "ddrObjectPath": "34",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 260,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 119,
+        "ddrSourceLeft": 5,
+        "ddrSourceBottom": 140,
+        "ddrSourceRight": 26,
+        "fontFamily": "arial,sans-serif",
+        "fontSize": 12,
+        "textColor": "#FFFFFF",
+        "label": "Button",
+        "variant": "secondary",
+        "buttonIconName": "a35_rightChevron.svg",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 2
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Desktop|Go to Form View from List View",
+          "parameter": "not Get ( WindowMode ) = 0 or not Get ( FoundCount )"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-products-list-T21lZ2E6-36",
+      "position": {
+        "x": 32,
+        "y": 158,
+        "width": 308,
+        "height": 16,
+        "z": 3
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "styleName": "Accent Text 2",
+        "ddrObjectPath": "36",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 158,
+        "ddrSourceLeft": 32,
+        "ddrSourceBottom": 174,
+        "ddrSourceRight": 340,
+        "fontFamily": "arial,sans-serif",
+        "fontSize": 12,
+        "textColor": "#72A332",
+        "label": "Showing {{FoundCount}} of {{TotalRecordCount}}",
+        "ddrArrangeOrder": 3
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-products-list-T21lZ2E6-37",
+      "position": {
+        "x": 1044,
+        "y": 5,
+        "width": 79,
+        "height": 37,
+        "z": 4
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "styleName": "Header Logo",
+        "ddrObjectPath": "37",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": true,
+        "autosizeBottom": false,
+        "autosizeLeft": false,
+        "ddrOriginalObjectType": "GroupButton",
+        "ddrObjectFlags": 1342177540,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 5,
+        "ddrSourceLeft": 1044,
+        "ddrSourceBottom": 42,
+        "ddrSourceRight": 1123,
+        "fillType": "none",
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "label": "Button",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 4
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Desktop|Go to Home",
+          "parameter": "not Get ( WindowMode ) = 0 or not Get ( FoundCount )"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-products-list-T21lZ2E6-37-38",
+      "position": {
+        "x": 2088,
+        "y": 10,
+        "width": 79,
+        "height": 37,
+        "z": 5
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "styleName": "Header Logo",
+        "ddrObjectPath": "37.38",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": true,
+        "autosizeBottom": false,
+        "autosizeLeft": false,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 1342177280,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 10,
+        "ddrSourceLeft": 2088,
+        "ddrSourceBottom": 47,
+        "ddrSourceRight": 2167,
+        "fillType": "none",
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "com_logo_display",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 5
+      },
+      "type": "field",
+      "binding": {
+        "field": "com_logo_display",
+        "tableOccurrence": "SYSTEM"
+      }
+    },
+    {
+      "id": "ddr-fm-products-list-T21lZ2E6-59",
+      "position": {
+        "x": 32,
+        "y": 94,
+        "width": 301,
+        "height": 16,
+        "z": 6
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "ddrObjectPath": "59",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "GroupButton",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 94,
+        "ddrSourceLeft": 32,
+        "ddrSourceBottom": 110,
+        "ddrSourceRight": 333,
+        "fillType": "none",
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "fontFamily": "Verdana",
+        "fontSize": 11,
+        "textColor": "#FFFFFF",
+        "fontWeight": "bold",
+        "label": "Name",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 6
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Products | Sort [column]",
+          "parameter": "1"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-products-list-T21lZ2E6-59-60",
+      "position": {
+        "x": 64,
+        "y": 188,
+        "width": 301,
+        "height": 16,
+        "z": 7
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "ddrObjectPath": "59.60",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 188,
+        "ddrSourceLeft": 64,
+        "ddrSourceBottom": 204,
+        "ddrSourceRight": 365,
+        "fillType": "none",
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "fontFamily": "Verdana",
+        "fontSize": 11,
+        "textColor": "#FFFFFF",
+        "fontWeight": "bold",
+        "label": "Name",
+        "ddrArrangeOrder": 7
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-products-list-T21lZ2E6-61",
+      "position": {
+        "x": 80,
+        "y": 92,
+        "width": 22,
+        "height": 22,
+        "z": 8
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "styleName": "Header Sort Icon",
+        "ddrObjectPath": "61",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 260,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 92,
+        "ddrSourceLeft": 80,
+        "ddrSourceBottom": 114,
+        "ddrSourceRight": 102,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "zz_header_sorts",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 20,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 8
+      },
+      "type": "field",
+      "binding": {
+        "field": "zz_header_sorts",
+        "tableOccurrence": "PRODUCTS"
+      }
+    },
+    {
+      "id": "ddr-fm-products-list-T21lZ2E6-87",
+      "position": {
+        "x": 32,
+        "y": 119,
+        "width": 301,
+        "height": 21,
+        "z": 9
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "ddrObjectPath": "87",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 119,
+        "ddrSourceLeft": 32,
+        "ddrSourceBottom": 140,
+        "ddrSourceRight": 333,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Name",
+        "controlType": "text",
+        "showPlaceholderInFindMode": true,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 9
+      },
+      "type": "field",
+      "binding": {
+        "field": "product_name",
+        "tableOccurrence": "PRODUCTS"
+      }
+    },
+    {
+      "id": "ddr-fm-products-list-T21lZ2E6-88",
+      "position": {
+        "x": 340,
+        "y": 95,
+        "width": 308,
+        "height": 16,
+        "z": 10
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "ddrObjectPath": "88",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "GroupButton",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 95,
+        "ddrSourceLeft": 340,
+        "ddrSourceBottom": 111,
+        "ddrSourceRight": 648,
+        "fillType": "none",
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "fontFamily": "Verdana",
+        "fontSize": 11,
+        "textColor": "#FFFFFF",
+        "fontWeight": "bold",
+        "label": "Supplier",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 10
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Products | Sort [column]",
+          "parameter": "2"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-products-list-T21lZ2E6-88-89",
+      "position": {
+        "x": 680,
+        "y": 190,
+        "width": 308,
+        "height": 16,
+        "z": 11
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "ddrObjectPath": "88.89",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 190,
+        "ddrSourceLeft": 680,
+        "ddrSourceBottom": 206,
+        "ddrSourceRight": 988,
+        "fillType": "none",
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "fontFamily": "Verdana",
+        "fontSize": 11,
+        "textColor": "#FFFFFF",
+        "fontWeight": "bold",
+        "label": "Supplier",
+        "ddrArrangeOrder": 11
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-products-list-T21lZ2E6-90",
+      "position": {
+        "x": 400,
+        "y": 92,
+        "width": 22,
+        "height": 22,
+        "z": 12
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "styleName": "Header Sort Icon",
+        "ddrObjectPath": "90",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 260,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 92,
+        "ddrSourceLeft": 400,
+        "ddrSourceBottom": 114,
+        "ddrSourceRight": 422,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "zz_header_sorts[2]",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 20,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 12
+      },
+      "type": "field",
+      "binding": {
+        "field": "zz_header_sorts[2]",
+        "tableOccurrence": "PRODUCTS"
+      }
+    },
+    {
+      "id": "ddr-fm-products-list-T21lZ2E6-91",
+      "position": {
+        "x": 340,
+        "y": 119,
+        "width": 308,
+        "height": 21,
+        "z": 13
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "ddrObjectPath": "91",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 119,
+        "ddrSourceLeft": 340,
+        "ddrSourceBottom": 140,
+        "ddrSourceRight": 648,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Supplier",
+        "controlType": "text",
+        "showPlaceholderInFindMode": true,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 13
+      },
+      "type": "field",
+      "binding": {
+        "field": "supplier_name",
+        "tableOccurrence": "products_SUPPLIERS"
+      }
+    },
+    {
+      "id": "ddr-fm-products-list-T21lZ2E6-94",
+      "position": {
+        "x": 5,
+        "y": 5,
+        "width": 156,
+        "height": 40,
+        "z": 14
+      },
+      "props": {
+        "tooltip": "Let( \n[\n$$BrowserNav.NavBackTip = MiddleWords( GetValue( $$BrowserNav.Layout.Backward ; 2 ) ; 2 ; 99 ) \n] ; \n\nIf( IsEmpty( $$BrowserNav.NavBackTip ) ; \"Nowhere to go\" ; $$BrowserNav.NavBackTip )\n)",
+        "hideObjectWhen": "cf_BrowserNavigation",
+        "styleTheme": "Enlightened Omega",
+        "styleName": "Body Button Bar",
+        "ddrObjectPath": "94",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "ButtonBar",
+        "ddrObjectFlags": 260,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 5,
+        "ddrSourceLeft": 5,
+        "ddrSourceBottom": 45,
+        "ddrSourceRight": 161,
+        "fillType": "gradient",
+        "fillColor": "rgba(94.1176%,94.1176%,94.1176%,1",
+        "fillGradientStartColor": "rgba(94.1176%,94.1176%,94.1176%,1",
+        "fillGradientEndColor": "rgba(90.9804%,90.9804%,90.9804%,1",
+        "lineColor": "rgba(177, 177, 177, 1)",
+        "lineStyle": "solid",
+        "effectOuterShadow": true,
+        "fontFamily": "Arial",
+        "fontSize": 12,
+        "textColor": "#000000",
+        "label": "Leads",
+        "buttonMode": "bar",
+        "variant": "secondary",
+        "buttonBarSegments": [
+          {
+            "id": "95",
+            "label": "Button",
+            "tooltip": "Let( \n[\n$$BrowserNav.NavBackTip = MiddleWords( GetValue( $$BrowserNav.Layout.Backward ; 2 ) ; 2 ; 99 ) \n] ; \n\nIf( IsEmpty( $$BrowserNav.NavBackTip ) ; \"Nowhere to go\" ; $$BrowserNav.NavBackTip )\n)",
+            "iconName": "a33_leftChevron.svg",
+            "action": "runScript",
+            "script": "Utility | Browser Navigation",
+            "parameter": "Backward"
+          }
+        ],
+        "buttonIconName": "a33_leftChevron.svg",
+        "ddrArrangeOrder": 14
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Browser Navigation",
+          "parameter": "Backward"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-products-list-T21lZ2E6-94-95",
+      "position": {
+        "x": 11,
+        "y": 11,
+        "width": 51,
+        "height": 38,
+        "z": 15
+      },
+      "props": {
+        "tooltip": "Let( \n[\n$$BrowserNav.NavBackTip = MiddleWords( GetValue( $$BrowserNav.Layout.Backward ; 2 ) ; 2 ; 99 ) \n] ; \n\nIf( IsEmpty( $$BrowserNav.NavBackTip ) ; \"Nowhere to go\" ; $$BrowserNav.NavBackTip )\n)",
+        "hideObjectWhen": "cf_BrowserNavigation",
+        "styleTheme": "Enlightened Omega",
+        "styleName": "Body Button Bar",
+        "ddrObjectPath": "94.95",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 16385,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 11,
+        "ddrSourceLeft": 11,
+        "ddrSourceBottom": 49,
+        "ddrSourceRight": 62,
+        "fontFamily": "Arial",
+        "fontSize": 12,
+        "textColor": "#000000",
+        "label": "Let( \n[\n$$BrowserNav.NavBackTip = MiddleWords( GetValue( $$BrowserNav.Layout.Backward ; 2 ) ; 2 ; 99 ) \n] ; \n\nIf( IsEmpty( $$BrowserNav.NavBackTip ) ; \"Nowhere to go\" ; $$BrowserNav.NavBackTip )\n)",
+        "variant": "secondary",
+        "buttonIconName": "a33_leftChevron.svg",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 15
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Browser Navigation",
+          "parameter": "Backward"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-products-list-T21lZ2E6-94-96",
+      "position": {
+        "x": 62,
+        "y": 11,
+        "width": 52,
+        "height": 38,
+        "z": 16
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "styleName": "Body Button Bar",
+        "ddrObjectPath": "94.96",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "PopoverButton",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 11,
+        "ddrSourceLeft": 62,
+        "ddrSourceBottom": 49,
+        "ddrSourceRight": 114,
+        "fillType": "gradient",
+        "fillColor": "rgba(94.1176%,94.1176%,94.1176%,1",
+        "fillGradientStartColor": "rgba(94.1176%,94.1176%,94.1176%,1",
+        "fillGradientEndColor": "rgba(90.9804%,90.9804%,90.9804%,1",
+        "lineColor": "rgba(177, 177, 177, 1)",
+        "lineStyle": "solid",
+        "effectOuterShadow": true,
+        "fontFamily": "Arial",
+        "fontSize": 12,
+        "textColor": "#000000",
+        "label": "Leads",
+        "variant": "secondary",
+        "buttonIconName": "a5_menu.svg",
+        "buttonMode": "popover",
+        "popoverTitle": "Navigation",
+        "popoverShowTitleBar": false,
+        "popoverButtonDisplay": "icon",
+        "popoverWidth": 241,
+        "popoverHeight": 554,
+        "ddrArrangeOrder": 16
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Desktop|Go to Leads",
+          "parameter": "Leads"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-products-list-T21lZ2E6-94-96-97",
+      "position": {
+        "x": 85,
+        "y": 71,
+        "width": 241,
+        "height": 554,
+        "z": 17
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "ddrObjectPath": "94.96.97",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Popover",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 71,
+        "ddrSourceLeft": 85,
+        "ddrSourceBottom": 625,
+        "ddrSourceRight": 326,
+        "ddrFidelityWarnings": [
+          "Unsupported DDR object type: Popover"
+        ],
+        "fillType": "gradient",
+        "fillColor": "rgba(94.1176%,94.1176%,94.1176%,1",
+        "fillGradientStartColor": "rgba(94.1176%,94.1176%,94.1176%,1",
+        "fillGradientEndColor": "rgba(90.9804%,90.9804%,90.9804%,1",
+        "lineColor": "rgba(177, 177, 177, 1)",
+        "lineStyle": "solid",
+        "effectOuterShadow": true,
+        "fontFamily": "Arial",
+        "fontSize": 12,
+        "textColor": "#1A1A1A",
+        "label": "[Popover]",
+        "ddrArrangeOrder": 17
+      },
+      "type": "unknown",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Desktop|Go to Leads",
+          "parameter": "Leads"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-products-list-T21lZ2E6-94-96-97-98",
+      "position": {
+        "x": 130,
+        "y": 166,
+        "width": 197,
+        "height": 493,
+        "z": 18
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "ddrObjectPath": "94.96.97.98",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "ButtonBar",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 166,
+        "ddrSourceLeft": 130,
+        "ddrSourceBottom": 659,
+        "ddrSourceRight": 327,
+        "fillType": "none",
+        "lineColor": "rgba(0, 0, 0, 1)",
+        "lineWidth": 1,
+        "lineStyle": "solid",
+        "cornerRadius": 3,
+        "effectOuterShadow": false,
+        "fontFamily": "Arial",
+        "fontSize": 12,
+        "textColor": "#1A1A1A",
+        "label": "Leads",
+        "buttonMode": "bar",
+        "variant": "secondary",
+        "buttonBarSegments": [
+          {
+            "id": "99",
+            "label": "Leads",
+            "iconName": "a47_account.svg",
+            "action": "runScript",
+            "script": "Desktop|Go to Leads",
+            "parameter": "Leads"
+          },
+          {
+            "id": "100",
+            "label": "Companies",
+            "iconName": "a46_contactsOutline.svg",
+            "action": "runScript",
+            "script": "Desktop|Go to Companies",
+            "parameter": "Companies"
+          },
+          {
+            "id": "101",
+            "label": "People",
+            "iconName": "a43_contact.svg",
+            "action": "runScript",
+            "script": "Desktop|Go to People",
+            "parameter": "People"
+          },
+          {
+            "id": "102",
+            "label": "Contract Quotes",
+            "iconName": "a117_comment.svg",
+            "action": "runScript",
+            "script": "Desktop|Go to Contract Quotes",
+            "parameter": "Contract Quotes"
+          },
+          {
+            "id": "103",
+            "label": "Contracts",
+            "iconName": "a75_file.svg",
+            "action": "runScript",
+            "script": "Desktop|Go to Contracts",
+            "parameter": "Contracts"
+          },
+          {
+            "id": "104",
+            "label": "Project Quotes",
+            "iconName": "a117_comment.svg",
+            "action": "runScript",
+            "script": "Desktop|Go to Project Quotes",
+            "parameter": "Project Quotes"
+          },
+          {
+            "id": "105",
+            "label": "Projects",
+            "iconName": "a107_time.svg",
+            "action": "runScript",
+            "script": "Desktop|Go to Projects",
+            "parameter": "Projects"
+          },
+          {
+            "id": "106",
+            "label": "Tickets",
+            "iconName": "a73_note.svg",
+            "action": "runScript",
+            "script": "Desktop|Go to Tickets",
+            "parameter": "Tickets"
+          },
+          {
+            "id": "107",
+            "label": "Puchase Orders",
+            "iconName": "a71_edit.svg",
+            "action": "runScript",
+            "script": "Desktop|Go to Orders",
+            "parameter": "Puchase Orders"
+          },
+          {
+            "id": "108",
+            "label": "Invoices",
+            "iconName": "a76_fileOutline.svg",
+            "action": "runScript",
+            "script": "Desktop|Go to Invoices",
+            "parameter": "Invoices"
+          },
+          {
+            "id": "109",
+            "label": "Suppliers",
+            "iconName": "a99_locationTriangle.svg",
+            "action": "runScript",
+            "script": "Desktop|Go to Suppliers",
+            "parameter": "Suppliers"
+          },
+          {
+            "id": "110",
+            "label": "Products",
+            "iconName": "a115_box.svg",
+            "action": "runScript",
+            "script": "Desktop|Go to Products",
+            "parameter": "Products"
+          }
+        ],
+        "buttonIconName": "a47_account.svg",
+        "ddrArrangeOrder": 18
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Desktop|Go to Leads",
+          "parameter": "Leads"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-products-list-T21lZ2E6-94-96-97-98-99",
+      "position": {
+        "x": 176,
+        "y": 262,
+        "width": 195,
+        "height": 41,
+        "z": 19
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "ddrObjectPath": "94.96.97.98.99",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 262,
+        "ddrSourceLeft": 176,
+        "ddrSourceBottom": 303,
+        "ddrSourceRight": 371,
+        "fillType": "gradient",
+        "fillColor": "rgba(100%,100%,100%,1",
+        "fillGradientStartColor": "rgba(100%,100%,100%,1",
+        "fillGradientEndColor": "rgba(93.7255%,93.7255%,93.7255%,1",
+        "lineColor": "rgba(255, 255, 255, 1)",
+        "lineWidth": 0.25,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#1A1A1A",
+        "fontFamily": "Arial",
+        "fontSize": 12,
+        "label": "Leads",
+        "variant": "secondary",
+        "buttonIconName": "a47_account.svg",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 19
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Desktop|Go to Leads",
+          "parameter": "Leads"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-products-list-T21lZ2E6-94-96-97-98-100",
+      "position": {
+        "x": 176,
+        "y": 303,
+        "width": 195,
+        "height": 41,
+        "z": 20
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "ddrObjectPath": "94.96.97.98.100",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 303,
+        "ddrSourceLeft": 176,
+        "ddrSourceBottom": 344,
+        "ddrSourceRight": 371,
+        "fillType": "gradient",
+        "fillColor": "rgba(100%,100%,100%,1",
+        "fillGradientStartColor": "rgba(100%,100%,100%,1",
+        "fillGradientEndColor": "rgba(93.7255%,93.7255%,93.7255%,1",
+        "lineColor": "rgba(255, 255, 255, 1)",
+        "lineWidth": 0.25,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#1A1A1A",
+        "fontFamily": "Arial",
+        "fontSize": 12,
+        "label": "Companies",
+        "variant": "secondary",
+        "buttonIconName": "a46_contactsOutline.svg",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 20
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Desktop|Go to Companies",
+          "parameter": "Companies"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-products-list-T21lZ2E6-94-96-97-98-101",
+      "position": {
+        "x": 176,
+        "y": 344,
+        "width": 195,
+        "height": 41,
+        "z": 21
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "ddrObjectPath": "94.96.97.98.101",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 344,
+        "ddrSourceLeft": 176,
+        "ddrSourceBottom": 385,
+        "ddrSourceRight": 371,
+        "fillType": "gradient",
+        "fillColor": "rgba(100%,100%,100%,1",
+        "fillGradientStartColor": "rgba(100%,100%,100%,1",
+        "fillGradientEndColor": "rgba(93.7255%,93.7255%,93.7255%,1",
+        "lineColor": "rgba(255, 255, 255, 1)",
+        "lineWidth": 0.25,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#1A1A1A",
+        "fontFamily": "Arial",
+        "fontSize": 12,
+        "label": "People",
+        "variant": "secondary",
+        "buttonIconName": "a43_contact.svg",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 21
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Desktop|Go to People",
+          "parameter": "People"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-products-list-T21lZ2E6-94-96-97-98-102",
+      "position": {
+        "x": 176,
+        "y": 385,
+        "width": 195,
+        "height": 41,
+        "z": 22
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "ddrObjectPath": "94.96.97.98.102",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 385,
+        "ddrSourceLeft": 176,
+        "ddrSourceBottom": 426,
+        "ddrSourceRight": 371,
+        "fillType": "gradient",
+        "fillColor": "rgba(100%,100%,100%,1",
+        "fillGradientStartColor": "rgba(100%,100%,100%,1",
+        "fillGradientEndColor": "rgba(93.7255%,93.7255%,93.7255%,1",
+        "lineColor": "rgba(255, 255, 255, 1)",
+        "lineWidth": 0.25,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#1A1A1A",
+        "fontFamily": "Arial",
+        "fontSize": 12,
+        "label": "Contract Quotes",
+        "variant": "secondary",
+        "buttonIconName": "a117_comment.svg",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 22
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Desktop|Go to Contract Quotes",
+          "parameter": "Contract Quotes"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-products-list-T21lZ2E6-94-96-97-98-103",
+      "position": {
+        "x": 176,
+        "y": 426,
+        "width": 195,
+        "height": 41,
+        "z": 23
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "ddrObjectPath": "94.96.97.98.103",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 426,
+        "ddrSourceLeft": 176,
+        "ddrSourceBottom": 467,
+        "ddrSourceRight": 371,
+        "fillType": "gradient",
+        "fillColor": "rgba(100%,100%,100%,1",
+        "fillGradientStartColor": "rgba(100%,100%,100%,1",
+        "fillGradientEndColor": "rgba(93.7255%,93.7255%,93.7255%,1",
+        "lineColor": "rgba(255, 255, 255, 1)",
+        "lineWidth": 0.25,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#1A1A1A",
+        "fontFamily": "Arial",
+        "fontSize": 12,
+        "label": "Contracts",
+        "variant": "secondary",
+        "buttonIconName": "a75_file.svg",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 23
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Desktop|Go to Contracts",
+          "parameter": "Contracts"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-products-list-T21lZ2E6-94-96-97-98-104",
+      "position": {
+        "x": 176,
+        "y": 467,
+        "width": 195,
+        "height": 41,
+        "z": 24
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "ddrObjectPath": "94.96.97.98.104",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 467,
+        "ddrSourceLeft": 176,
+        "ddrSourceBottom": 508,
+        "ddrSourceRight": 371,
+        "fillType": "gradient",
+        "fillColor": "rgba(100%,100%,100%,1",
+        "fillGradientStartColor": "rgba(100%,100%,100%,1",
+        "fillGradientEndColor": "rgba(93.7255%,93.7255%,93.7255%,1",
+        "lineColor": "rgba(255, 255, 255, 1)",
+        "lineWidth": 0.25,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#1A1A1A",
+        "fontFamily": "Arial",
+        "fontSize": 12,
+        "label": "Project Quotes",
+        "variant": "secondary",
+        "buttonIconName": "a117_comment.svg",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 24
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Desktop|Go to Project Quotes",
+          "parameter": "Project Quotes"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-products-list-T21lZ2E6-94-96-97-98-105",
+      "position": {
+        "x": 176,
+        "y": 508,
+        "width": 195,
+        "height": 40,
+        "z": 25
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "ddrObjectPath": "94.96.97.98.105",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 508,
+        "ddrSourceLeft": 176,
+        "ddrSourceBottom": 548,
+        "ddrSourceRight": 371,
+        "fillType": "gradient",
+        "fillColor": "rgba(100%,100%,100%,1",
+        "fillGradientStartColor": "rgba(100%,100%,100%,1",
+        "fillGradientEndColor": "rgba(93.7255%,93.7255%,93.7255%,1",
+        "lineColor": "rgba(255, 255, 255, 1)",
+        "lineWidth": 0.25,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#1A1A1A",
+        "fontFamily": "Arial",
+        "fontSize": 12,
+        "label": "Projects",
+        "variant": "secondary",
+        "buttonIconName": "a107_time.svg",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 25
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Desktop|Go to Projects",
+          "parameter": "Projects"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-products-list-T21lZ2E6-94-96-97-98-106",
+      "position": {
+        "x": 176,
+        "y": 548,
+        "width": 195,
+        "height": 41,
+        "z": 26
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "ddrObjectPath": "94.96.97.98.106",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 548,
+        "ddrSourceLeft": 176,
+        "ddrSourceBottom": 589,
+        "ddrSourceRight": 371,
+        "fillType": "gradient",
+        "fillColor": "rgba(100%,100%,100%,1",
+        "fillGradientStartColor": "rgba(100%,100%,100%,1",
+        "fillGradientEndColor": "rgba(93.7255%,93.7255%,93.7255%,1",
+        "lineColor": "rgba(255, 255, 255, 1)",
+        "lineWidth": 0.25,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#1A1A1A",
+        "fontFamily": "Arial",
+        "fontSize": 12,
+        "label": "Tickets",
+        "variant": "secondary",
+        "buttonIconName": "a73_note.svg",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 26
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Desktop|Go to Tickets",
+          "parameter": "Tickets"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-products-list-T21lZ2E6-94-96-97-98-107",
+      "position": {
+        "x": 176,
+        "y": 589,
+        "width": 195,
+        "height": 41,
+        "z": 27
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "ddrObjectPath": "94.96.97.98.107",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 589,
+        "ddrSourceLeft": 176,
+        "ddrSourceBottom": 630,
+        "ddrSourceRight": 371,
+        "fillType": "gradient",
+        "fillColor": "rgba(100%,100%,100%,1",
+        "fillGradientStartColor": "rgba(100%,100%,100%,1",
+        "fillGradientEndColor": "rgba(93.7255%,93.7255%,93.7255%,1",
+        "lineColor": "rgba(255, 255, 255, 1)",
+        "lineWidth": 0.25,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#1A1A1A",
+        "fontFamily": "Arial",
+        "fontSize": 12,
+        "label": "Puchase Orders",
+        "variant": "secondary",
+        "buttonIconName": "a71_edit.svg",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 27
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Desktop|Go to Orders",
+          "parameter": "Puchase Orders"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-products-list-T21lZ2E6-94-96-97-98-108",
+      "position": {
+        "x": 176,
+        "y": 630,
+        "width": 195,
+        "height": 41,
+        "z": 28
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "ddrObjectPath": "94.96.97.98.108",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 630,
+        "ddrSourceLeft": 176,
+        "ddrSourceBottom": 671,
+        "ddrSourceRight": 371,
+        "fillType": "gradient",
+        "fillColor": "rgba(100%,100%,100%,1",
+        "fillGradientStartColor": "rgba(100%,100%,100%,1",
+        "fillGradientEndColor": "rgba(93.7255%,93.7255%,93.7255%,1",
+        "lineColor": "rgba(255, 255, 255, 1)",
+        "lineWidth": 0.25,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#1A1A1A",
+        "fontFamily": "Arial",
+        "fontSize": 12,
+        "label": "Invoices",
+        "variant": "secondary",
+        "buttonIconName": "a76_fileOutline.svg",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 28
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Desktop|Go to Invoices",
+          "parameter": "Invoices"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-products-list-T21lZ2E6-94-96-97-98-109",
+      "position": {
+        "x": 176,
+        "y": 671,
+        "width": 195,
+        "height": 41,
+        "z": 29
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "ddrObjectPath": "94.96.97.98.109",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 671,
+        "ddrSourceLeft": 176,
+        "ddrSourceBottom": 712,
+        "ddrSourceRight": 371,
+        "fillType": "gradient",
+        "fillColor": "rgba(100%,100%,100%,1",
+        "fillGradientStartColor": "rgba(100%,100%,100%,1",
+        "fillGradientEndColor": "rgba(93.7255%,93.7255%,93.7255%,1",
+        "lineColor": "rgba(255, 255, 255, 1)",
+        "lineWidth": 0.25,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#1A1A1A",
+        "fontFamily": "Arial",
+        "fontSize": 12,
+        "label": "Suppliers",
+        "variant": "secondary",
+        "buttonIconName": "a99_locationTriangle.svg",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 29
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Desktop|Go to Suppliers",
+          "parameter": "Suppliers"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-products-list-T21lZ2E6-94-96-97-98-110",
+      "position": {
+        "x": 176,
+        "y": 712,
+        "width": 195,
+        "height": 41,
+        "z": 30
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "ddrObjectPath": "94.96.97.98.110",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 712,
+        "ddrSourceLeft": 176,
+        "ddrSourceBottom": 753,
+        "ddrSourceRight": 371,
+        "fillType": "gradient",
+        "fillColor": "rgba(100%,100%,100%,1",
+        "fillGradientStartColor": "rgba(100%,100%,100%,1",
+        "fillGradientEndColor": "rgba(93.7255%,93.7255%,93.7255%,1",
+        "lineColor": "rgba(255, 255, 255, 1)",
+        "lineWidth": 0.25,
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#1A1A1A",
+        "fontFamily": "Arial",
+        "fontSize": 12,
+        "label": "Products",
+        "variant": "secondary",
+        "buttonIconName": "a115_box.svg",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 30
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Desktop|Go to Products",
+          "parameter": "Products"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-products-list-T21lZ2E6-94-111",
+      "position": {
+        "x": 114,
+        "y": 11,
+        "width": 51,
+        "height": 38,
+        "z": 31
+      },
+      "props": {
+        "tooltip": "Let( \n[\n$$BrowserNav.NavNextTip = MiddleWords( GetValue( $$BrowserNav.Layout.Forward ; 1 ) ; 2 ; 99 ) \n] ; \n\nIf( IsEmpty( $$BrowserNav.NavNextTip ) ; \"Nowhere to go\" ; $$BrowserNav.NavNextTip )\n)",
+        "styleTheme": "Enlightened Omega",
+        "styleName": "Body Button Bar",
+        "ddrObjectPath": "94.111",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 16384,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 11,
+        "ddrSourceLeft": 114,
+        "ddrSourceBottom": 49,
+        "ddrSourceRight": 165,
+        "fontFamily": "Arial",
+        "fontSize": 12,
+        "textColor": "#000000",
+        "label": "Let( \n[\n$$BrowserNav.NavNextTip = MiddleWords( GetValue( $$BrowserNav.Layout.Forward ; 1 ) ; 2 ; 99 ) \n] ; \n\nIf( IsEmpty( $$BrowserNav.NavNextTip ) ; \"Nowhere to go\" ; $$BrowserNav.NavNextTip )\n)",
+        "variant": "secondary",
+        "buttonIconName": "a35_rightChevron.svg",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 31
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Browser Navigation",
+          "parameter": "Forward"
+        }
+      }
+    }
+  ],
+  "actions": []
+}

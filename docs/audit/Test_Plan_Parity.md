@@ -1,0 +1,93 @@
+# Parity Test Plan
+
+## Objectives
+
+- Validate FileMaker parity behavior for Layout Mode and Browse/Runtime Mode.
+- Detect rendering and interaction regressions with deterministic fixture runs.
+- Gate high-risk portal, mode-switch, and routing scenarios.
+
+## DDR Fixture Strategy
+
+Discovered fixtures:
+- tests/fixtures/ddr/synthetic-minimal-ddr.xml
+
+Synthetic fixture generation was not required because repository fixtures are present.
+
+## Golden Rendering Strategy
+
+1. Use layout-fidelity harness (`npm run test:layout-fidelity`) to render curated fixtures.
+2. Run deterministic DOM snapshot checks for object count and structure.
+3. Validate bounding boxes for high-value object types (fields, labels, portals, buttons).
+4. Check typography/layout tokens (font family, size, line-height, text alignment) where feasible.
+
+## Portal Test Strategy
+
+- Editable portal CRUD with commit/revert semantics.
+- Portal row target resolution across parent-record navigation.
+- Placeholder row create behavior when relationship allows creation.
+- Alternate/active row state visual behavior.
+- Virtualization guard tests for large row counts.
+
+## Data API Strategy
+
+- Verify request batching and in-flight dedupe behavior.
+- Verify retry/backoff and circuit breaker behavior on transient failures.
+- Validate idempotent save semantics for field exit and explicit commit actions.
+
+## Security Strategy
+
+- CSRF rejection tests for mutating requests.
+- Route authorization tests for role-gated operations.
+- Token/session redaction checks in diagnostics outputs.
+- Rate-limit response and retry guidance checks.
+
+## Harness Scaffolding
+
+- `tests/parity/audit-fixtures.test.mts` (fixture availability + synthetic fallback checks).
+- `tests/parity/layout-fidelity-placeholder.test.mts` (example deterministic bounding-box style guard).
+- `tests/fixtures/ddr/` fixture directory for parity test inputs.
+
+## CI Plan
+
+- Run `npm run audit:ci` on PR and main branch pushes.
+- Ensure docs/audit artifacts are generated and backlog length >= 75.
+- Keep parity tests additive so existing test suites remain stable.
+
+## UI Native Behavior Tests (Playwright)
+
+- UI suite location:
+  - `tests/ui/native-parity/native-parity.spec.mts`
+  - `tests/ui/native-parity/scenarios.spec.mts`
+- Command harness:
+  - `tests/ui/native-parity/commandRegistry.mts`
+  - `tests/ui/native-parity/engine.mts`
+- Invariant assertions:
+  - `tests/ui/native-parity/assertions.mts`
+  - `tests/ui/native-parity/invariantMap.ts`
+- Scenario library:
+  - `tests/ui/native-parity/scenarios/`
+  - 25 scenarios across browse lifecycle, find mode, portals, layout mode safe edits, and navigation/history
+- Parity traceability:
+  - `tests/ui/native-parity/parityMap.ts`
+- Catalog and edge-case mapping:
+  - `docs/audit/UI_Native_Behavior_Test_Catalog.md`
+  - `docs/audit/Edge_Case_Playbook_FileMaker_on_Web.md`
+- Runbook:
+  - `docs/audit/Native_Parity_UI_Test_Runbook.md`
+- Coverage output:
+  - `docs/audit/UI_Command_Coverage_Report.md`
+  - `docs/audit/Parity_UI_Scorecard.md`
+  - `docs/audit/Parity_UI_Coverage_Map.md`
+  - `docs/audit/Parity_UI_Failure_Triage.md`
+  - `docs/audit/Parity_UI_Backlog_Auto.md`
+  - `docs/audit/Parity_UI_Flakes.md`
+
+UI test commands:
+- `npm run test:ui`
+- `npm run test:ui:headed`
+- `npm run test:ui:trace`
+
+Parity execution engine commands:
+- `npm run parity:ui` (runs UI suite + parity scoring + regression gates)
+- `npm run parity:ui:report` (report-only; no regression gate)
+- `ALLOW_PARITY_BASELINE_UPDATE=true npm run parity:ui:update-baseline` (explicit baseline update)

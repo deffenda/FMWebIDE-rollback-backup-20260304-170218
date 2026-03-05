@@ -1,0 +1,140 @@
+{
+  "externalDataSources": [
+    {
+      "id": "source-rest",
+      "name": "Reporting API",
+      "type": "rest",
+      "host": "https://example.test",
+      "database": "reporting",
+      "enabled": true
+    }
+  ],
+  "customFunctions": [
+    {
+      "id": "cf-upper",
+      "name": "UpperCase",
+      "parameters": [
+        "text"
+      ],
+      "definition": "Upper ( text )",
+      "source": "workspace"
+    }
+  ],
+  "themes": [],
+  "securityRoles": [
+    {
+      "id": "full-access",
+      "name": "fullAccess",
+      "canView": true,
+      "canEdit": true,
+      "canDelete": true,
+      "notes": "Default unrestricted runtime simulation role."
+    },
+    {
+      "id": "read-only",
+      "name": "readOnly",
+      "canView": true,
+      "canEdit": false,
+      "canDelete": false,
+      "notes": "Runtime read-only simulation role."
+    },
+    {
+      "id": "restricted",
+      "name": "restricted",
+      "canView": true,
+      "canEdit": true,
+      "canDelete": false,
+      "notes": "Runtime restricted simulation role."
+    }
+  ],
+  "containerSettings": {
+    "cacheSeconds": 60,
+    "maxPreviewBytes": 1048576,
+    "allowUploads": false
+  },
+  "preferences": {
+    "general": {
+      "showStatusToolbar": false,
+      "showFormattingBar": true,
+      "compactStatusArea": true
+    },
+    "runtime": {
+      "defaultBrowseView": "table",
+      "autoRefreshOnOpen": false,
+      "enablePolling": true
+    },
+    "debug": {
+      "enableDebugOverlay": true,
+      "enableScriptTrace": true,
+      "enableCalcDiagnostics": true
+    },
+    "security": {
+      "maskSensitiveDebugValues": true,
+      "requireConfirmOnDelete": false
+    }
+  },
+  "fileOptions": [
+    {
+      "fileId": "assets",
+      "defaultLayout": "Asset Details",
+      "onOpenScript": "OnOpen",
+      "onCloseScript": "OnClose",
+      "openToDefaultLayout": true,
+      "menuSet": "FileMaker Default",
+      "runOnOpenScript": true,
+      "runOnCloseScript": true,
+      "openHidden": false,
+      "spellingUnderline": true,
+      "spellingSuggest": true,
+      "textSmartQuotes": true,
+      "textSmartDashes": true,
+      "textDirection": "default"
+    }
+  ],
+  "sharing": [
+    {
+      "fileId": "assets",
+      "networkAccess": "all",
+      "requireAccountPrivilege": true,
+      "showInOpenRemote": true,
+      "webDirectEnabled": true,
+      "webDirectRequireSecure": true,
+      "webDirectAllowPrinting": false,
+      "webDirectDisconnectMinutes": 30,
+      "odbcJdbcEnabled": true,
+      "odbcJdbcMode": "extended-privilege",
+      "odbcJdbcAllowExecuteSql": true
+    }
+  ],
+  "fileReferences": [
+    {
+      "id": "ref-common",
+      "sourceFileId": "project-tracker",
+      "targetFileId": "common",
+      "connectionHint": "fms://common",
+      "required": true,
+      "status": "ok"
+    }
+  ],
+  "authProfiles": [
+    {
+      "id": "profile-main",
+      "name": "Main",
+      "host": "fm.test.local",
+      "database": "Assets",
+      "username": "tester",
+      "workspaceFileIds": [
+        "assets"
+      ],
+      "enabled": true,
+      "lastTestStatus": "ok"
+    }
+  ],
+  "pluginPreferences": [
+    {
+      "pluginId": "example-chart",
+      "enabled": true
+    }
+  ],
+  "updatedAt": "2026-03-03T09:36:44.010Z"
+}

@@ -1,0 +1,143 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://fmweb-ide.local/schemas/parity-matrix-report.schema.json",
+  "title": "FMWebParityMatrixReport",
+  "type": "object",
+  "required": [
+    "version",
+    "generatedAt",
+    "sourceFingerprint",
+    "summary",
+    "features"
+  ],
+  "properties": {
+    "version": {
+      "type": "integer",
+      "const": 1
+    },
+    "generatedAt": {
+      "type": "string"
+    },
+    "sourceFingerprint": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "object",
+      "required": [
+        "total",
+        "supported",
+        "partial",
+        "unsupported",
+        "unknown"
+      ],
+      "properties": {
+        "total": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "supported": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "partial": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "unsupported": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "unknown": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "features": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "category",
+          "subcategory",
+          "capabilityName",
+          "expectedFileMakerBehavior",
+          "suggestedValidationTest",
+          "uncertainty",
+          "sourceStatus",
+          "supportStatus",
+          "evidence"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "category": {
+            "type": "string"
+          },
+          "subcategory": {
+            "type": "string"
+          },
+          "capabilityName": {
+            "type": "string"
+          },
+          "expectedFileMakerBehavior": {
+            "type": "string"
+          },
+          "suggestedValidationTest": {
+            "type": "string"
+          },
+          "uncertainty": {
+            "type": "string",
+            "enum": [
+              "low",
+              "med",
+              "high"
+            ]
+          },
+          "sourceStatus": {
+            "type": "string",
+            "enum": [
+              "Implemented",
+              "Partial",
+              "Missing",
+              "Unknown"
+            ]
+          },
+          "supportStatus": {
+            "type": "string",
+            "enum": [
+              "supported",
+              "partial",
+              "unsupported",
+              "unknown"
+            ]
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "file",
+                "line"
+              ],
+              "properties": {
+                "file": {
+                  "type": "string"
+                },
+                "line": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "reason": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

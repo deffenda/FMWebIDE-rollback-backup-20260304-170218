@@ -1,0 +1,56 @@
+{
+  "externalDataSources": [
+    {
+      "id": "source-rest",
+      "name": "Reporting API",
+      "type": "rest",
+      "host": "https://example.test",
+      "database": "reporting",
+      "enabled": true
+    }
+  ],
+  "customFunctions": [
+    {
+      "id": "cf-upper",
+      "name": "UpperCase",
+      "parameters": [
+        "text"
+      ],
+      "definition": "Upper ( text )",
+      "source": "workspace"
+    }
+  ],
+  "themes": [],
+  "securityRoles": [
+    {
+      "id": "full-access",
+      "name": "fullAccess",
+      "canView": true,
+      "canEdit": true,
+      "canDelete": true,
+      "notes": "Default unrestricted runtime simulation role."
+    },
+    {
+      "id": "read-only",
+      "name": "readOnly",
+      "canView": true,
+      "canEdit": false,
+      "canDelete": false,
+      "notes": "Runtime read-only simulation role."
+    },
+    {
+      "id": "restricted",
+      "name": "restricted",
+      "canView": true,
+      "canEdit": true,
+      "canDelete": false,
+      "notes": "Runtime restricted simulation role."
+    }
+  ],
+  "containerSettings": {
+    "cacheSeconds": 60,
+    "maxPreviewBytes": 1048576,
+    "allowUploads": false
+  },
+  "updatedAt": "2026-03-02T05:56:02.115Z"
+}

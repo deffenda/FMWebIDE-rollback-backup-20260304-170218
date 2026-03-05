@@ -1,0 +1,294 @@
+{
+  "id": "fm-bd-create-an-export-file-TEQmYW1w",
+  "name": "BD Create an export file",
+  "defaultTableOccurrence": "BD Create an export file",
+  "canvas": {
+    "width": 1996,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-bd-create-an-export-file-TEQmYW1w-10",
+      "position": {
+        "x": 24,
+        "y": 80,
+        "width": 46,
+        "height": 25,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Normal text",
+        "ddrObjectPath": "10",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 80,
+        "ddrSourceLeft": 24,
+        "ddrSourceBottom": 105,
+        "ddrSourceRight": 70,
+        "fontFamily": "Helvetica",
+        "fontSize": 18,
+        "textColor": "#666666",
+        "label": "From",
+        "ddrArrangeOrder": 1
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-bd-create-an-export-file-TEQmYW1w-70",
+      "position": {
+        "x": 24,
+        "y": 141,
+        "width": 194,
+        "height": 40,
+        "z": 2
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Blue button",
+        "ddrObjectPath": "70",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 141,
+        "ddrSourceLeft": 24,
+        "ddrSourceBottom": 181,
+        "ddrSourceRight": 218,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#E6E6E6",
+        "label": "Go",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 2
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "run the report on the server"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-bd-create-an-export-file-TEQmYW1w-71",
+      "position": {
+        "x": 243,
+        "y": 141,
+        "width": 194,
+        "height": 37,
+        "z": 3
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Blue button",
+        "ddrObjectPath": "71",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 141,
+        "ddrSourceLeft": 243,
+        "ddrSourceBottom": 178,
+        "ddrSourceRight": 437,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#E6E6E6",
+        "label": "Cancel",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 3
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Cancel create server side report"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-bd-create-an-export-file-TEQmYW1w-94",
+      "position": {
+        "x": 81,
+        "y": 77,
+        "width": 143,
+        "height": 32,
+        "z": 4
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "ddrObjectPath": "94",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 77,
+        "ddrSourceLeft": 81,
+        "ddrSourceBottom": 109,
+        "ddrSourceRight": 224,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "date 1",
+        "controlType": "date",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 4
+      },
+      "type": "field",
+      "binding": {
+        "field": "date 1",
+        "tableOccurrence": "Temporary store input data"
+      }
+    },
+    {
+      "id": "ddr-fm-bd-create-an-export-file-TEQmYW1w-142",
+      "position": {
+        "x": 24,
+        "y": 11,
+        "width": 516,
+        "height": 32,
+        "z": 5
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Header text",
+        "ddrObjectPath": "142",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 11,
+        "ddrSourceLeft": 24,
+        "ddrSourceBottom": 43,
+        "ddrSourceRight": 540,
+        "fontFamily": "Helvetica",
+        "fontSize": 24,
+        "textColor": "#666666",
+        "label": "Create export file with time information",
+        "ddrArrangeOrder": 5
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-bd-create-an-export-file-TEQmYW1w-185",
+      "position": {
+        "x": 273,
+        "y": 77,
+        "width": 157,
+        "height": 32,
+        "z": 6
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "ddrObjectPath": "185",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 77,
+        "ddrSourceLeft": 273,
+        "ddrSourceBottom": 109,
+        "ddrSourceRight": 430,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "date 2",
+        "controlType": "date",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 6
+      },
+      "type": "field",
+      "binding": {
+        "field": "date 2",
+        "tableOccurrence": "Temporary store input data"
+      }
+    },
+    {
+      "id": "ddr-fm-bd-create-an-export-file-TEQmYW1w-186",
+      "position": {
+        "x": 248,
+        "y": 80,
+        "width": 57,
+        "height": 25,
+        "z": 7
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Normal text",
+        "ddrObjectPath": "186",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 80,
+        "ddrSourceLeft": 248,
+        "ddrSourceBottom": 105,
+        "ddrSourceRight": 305,
+        "fontFamily": "Helvetica",
+        "fontSize": 18,
+        "textColor": "#666666",
+        "label": "to",
+        "ddrArrangeOrder": 7
+      },
+      "type": "label"
+    }
+  ],
+  "actions": []
+}

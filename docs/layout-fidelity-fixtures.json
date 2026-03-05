@@ -1,0 +1,117 @@
+{
+  "version": 1,
+  "description": "Curated DDR fixtures and layout samples for Phase 16 fidelity metrics and visual regression.",
+  "tolerance": {
+    "boundsPx": 1,
+    "minimumObjectCountMatch": 0.55,
+    "minimumStyleCoverage": 0.45
+  },
+  "fixtures": [
+    {
+      "id": "ldd-inventory-live",
+      "label": "LD&D Inventory - live 1",
+      "paths": [
+        "/mnt/data/LD&D Inventory - live 1_fmp12.xml",
+        "/Users/deffenda/Koofr/Inactive/BD/DDRs/01012019/LD&D Inventory - live 1_fmp12.xml"
+      ],
+      "layouts": [
+        "Main menu",
+        "Functions",
+        "BD Master Task List",
+        "BD List of Products",
+        "BD List of Names",
+        "BD List of Project states",
+        "BD List of Plants"
+      ]
+    },
+    {
+      "id": "je-data",
+      "label": "J&E data",
+      "paths": [
+        "/mnt/data/J&E_data_fmp12.xml",
+        "/Users/deffenda/Koofr/Inactive/J&E/05122020/J&E_data_fmp12.xml"
+      ],
+      "layouts": [
+        "main_menu",
+        "construction",
+        "wood_cost_dataentry",
+        "jobs",
+        "PurchaseOrder",
+        "Payments"
+      ]
+    },
+    {
+      "id": "je-interface",
+      "label": "J&E interface",
+      "paths": [
+        "/mnt/data/J&E_interface_fmp12.xml",
+        "/Users/deffenda/Koofr/Inactive/J&E/05122020/J&E_interface_fmp12.xml"
+      ],
+      "layouts": [
+        "Main Menu",
+        "Multi Job Summary",
+        "Labor Posting",
+        "Lumber Posting",
+        "Picture Data Entry",
+        "Contacts",
+        "Purchase Order"
+      ]
+    },
+    {
+      "id": "mastertrapper",
+      "label": "MasterTrapper",
+      "paths": [
+        "/mnt/data/MasterTrapper_fmp12.xml",
+        "/Users/deffenda/Koofr/Inactive/Master Trapper/DDR/02242018/MasterTrapper_fmp12.xml"
+      ],
+      "layouts": [
+        "HOME",
+        "Jobs|Form",
+        "Jobs|Map",
+        "Customers|List",
+        "Invoices|List",
+        "Reports|Form",
+        "Pictures|Form"
+      ]
+    },
+    {
+      "id": "omega",
+      "label": "Omega",
+      "paths": [
+        "/mnt/data/Omega_fmp12.xml",
+        "/Users/deffenda/Koofr/Inactive/Omega/DDR/08202018/Omega_fmp12.xml"
+      ],
+      "layouts": [
+        "HOME",
+        "Emails|Form",
+        "Leads|Form",
+        "Companies|Form",
+        "Leads|List",
+        "Tickets|Form",
+        "Projects|Form",
+        "Invoices|Form"
+      ]
+    }
+  ],
+  "summaryFixtures": [
+    {
+      "label": "Legacy BD Summary.xml",
+      "paths": [
+        "/mnt/data/Summary.xml",
+        "/Users/deffenda/Koofr/Inactive/BD/DDRs/01012019/Summary.xml"
+      ]
+    },
+    {
+      "label": "J&E Summary.xml",
+      "paths": [
+        "/Users/deffenda/Koofr/Inactive/J&E/05122020/Summary.xml"
+      ]
+    },
+    {
+      "label": "Omega Summary.xml",
+      "paths": [
+        "/Users/deffenda/Koofr/Inactive/Omega/DDR/08202018/Summary.xml"
+      ]
+    }
+  ]
+}

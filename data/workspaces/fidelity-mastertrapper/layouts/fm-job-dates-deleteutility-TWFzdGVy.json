@@ -1,0 +1,14 @@
+{
+  "id": "fm-job-dates-deleteutility-TWFzdGVy",
+  "name": "JOB_DATES_DeleteUtility",
+  "defaultTableOccurrence": "JOB_DATES_DeleteUtility",
+  "canvas": {
+    "width": 1024,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [],
+  "actions": []
+}

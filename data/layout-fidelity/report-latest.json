@@ -1,0 +1,817 @@
+{
+  "generatedAt": "2026-03-02T09:47:31.798Z",
+  "updateBaselines": false,
+  "visualEnabled": false,
+  "baseUrl": null,
+  "tolerance": {
+    "objectCountMatch": 0.55,
+    "styleCoverage": 0.45,
+    "boundsPx": 1
+  },
+  "fixtureCount": 5,
+  "measuredLayoutCount": 35,
+  "failedLayoutCount": 0,
+  "warnings": [],
+  "fixtures": [
+    {
+      "id": "ldd-inventory-live",
+      "label": "LD&D Inventory - live 1",
+      "path": "/Users/deffenda/Koofr/Inactive/BD/DDRs/01012019/LD&D Inventory - live 1_fmp12.xml",
+      "workspaceId": "fidelity-ldd-inventory-live",
+      "database": "LD&amp;D Inventory - live 1",
+      "layoutsRequested": [
+        "Main menu",
+        "Functions",
+        "BD Master Task List",
+        "BD List of Products",
+        "BD List of Names",
+        "BD List of Project states",
+        "BD List of Plants"
+      ],
+      "layoutsMeasured": [
+        {
+          "layoutName": "Main menu",
+          "layoutId": "fm-main-menu-TEQmYW1w",
+          "ddrObjectCount": 87,
+          "renderedObjectCount": 87,
+          "objectCountMatch": 1,
+          "boundsCoverage": 1,
+          "styleCoverage": 1,
+          "zOrderCoverage": 1,
+          "objectTypeCoverage": 0.8620689655172413,
+          "portalFidelity": 1,
+          "unknownObjects": 12,
+          "warningCount": 12,
+          "visual": {
+            "attempted": false,
+            "captured": false,
+            "baselineFound": false,
+            "changed": false
+          }
+        },
+        {
+          "layoutName": "Functions",
+          "layoutId": "fm-functions-TEQmYW1w",
+          "ddrObjectCount": 76,
+          "renderedObjectCount": 76,
+          "objectCountMatch": 1,
+          "boundsCoverage": 1,
+          "styleCoverage": 1,
+          "zOrderCoverage": 1,
+          "objectTypeCoverage": 0.8026315789473685,
+          "portalFidelity": 1,
+          "unknownObjects": 15,
+          "warningCount": 15,
+          "visual": {
+            "attempted": false,
+            "captured": false,
+            "baselineFound": false,
+            "changed": false
+          }
+        },
+        {
+          "layoutName": "BD Master Task List",
+          "layoutId": "fm-bd-master-task-list-TEQmYW1w",
+          "ddrObjectCount": 92,
+          "renderedObjectCount": 92,
+          "objectCountMatch": 1,
+          "boundsCoverage": 1,
+          "styleCoverage": 1,
+          "zOrderCoverage": 1,
+          "objectTypeCoverage": 0.8586956521739131,
+          "portalFidelity": 1,
+          "unknownObjects": 13,
+          "warningCount": 13,
+          "visual": {
+            "attempted": false,
+            "captured": false,
+            "baselineFound": false,
+            "changed": false
+          }
+        },
+        {
+          "layoutName": "BD List of Products",
+          "layoutId": "fm-bd-list-of-products-TEQmYW1w",
+          "ddrObjectCount": 83,
+          "renderedObjectCount": 83,
+          "objectCountMatch": 1,
+          "boundsCoverage": 1,
+          "styleCoverage": 1,
+          "zOrderCoverage": 1,
+          "objectTypeCoverage": 0.8313253012048193,
+          "portalFidelity": 1,
+          "unknownObjects": 14,
+          "warningCount": 14,
+          "visual": {
+            "attempted": false,
+            "captured": false,
+            "baselineFound": false,
+            "changed": false
+          }
+        },
+        {
+          "layoutName": "BD List of Names",
+          "layoutId": "fm-bd-list-of-names-TEQmYW1w",
+          "ddrObjectCount": 76,
+          "renderedObjectCount": 76,
+          "objectCountMatch": 1,
+          "boundsCoverage": 1,
+          "styleCoverage": 1,
+          "zOrderCoverage": 1,
+          "objectTypeCoverage": 0.8289473684210527,
+          "portalFidelity": 1,
+          "unknownObjects": 13,
+          "warningCount": 13,
+          "visual": {
+            "attempted": false,
+            "captured": false,
+            "baselineFound": false,
+            "changed": false
+          }
+        },
+        {
+          "layoutName": "BD List of Project states",
+          "layoutId": "fm-bd-list-of-project-states-TEQmYW1w",
+          "ddrObjectCount": 65,
+          "renderedObjectCount": 65,
+          "objectCountMatch": 1,
+          "boundsCoverage": 1,
+          "styleCoverage": 1,
+          "zOrderCoverage": 1,
+          "objectTypeCoverage": 0.8,
+          "portalFidelity": 1,
+          "unknownObjects": 13,
+          "warningCount": 13,
+          "visual": {
+            "attempted": false,
+            "captured": false,
+            "baselineFound": false,
+            "changed": false
+          }
+        },
+        {
+          "layoutName": "BD List of Plants",
+          "layoutId": "fm-bd-list-of-plants-TEQmYW1w",
+          "ddrObjectCount": 74,
+          "renderedObjectCount": 74,
+          "objectCountMatch": 1,
+          "boundsCoverage": 1,
+          "styleCoverage": 1,
+          "zOrderCoverage": 1,
+          "objectTypeCoverage": 0.8243243243243243,
+          "portalFidelity": 1,
+          "unknownObjects": 13,
+          "warningCount": 13,
+          "visual": {
+            "attempted": false,
+            "captured": false,
+            "baselineFound": false,
+            "changed": false
+          }
+        }
+      ],
+      "skippedLayouts": [],
+      "warnings": []
+    },
+    {
+      "id": "je-data",
+      "label": "J&E data",
+      "path": "/Users/deffenda/Koofr/Inactive/J&E/05122020/J&E_data_fmp12.xml",
+      "workspaceId": "fidelity-je-data",
+      "database": "J&amp;E_data",
+      "layoutsRequested": [
+        "main_menu",
+        "construction",
+        "wood_cost_dataentry",
+        "jobs",
+        "PurchaseOrder",
+        "Payments"
+      ],
+      "layoutsMeasured": [
+        {
+          "layoutName": "main_menu",
+          "layoutId": "fm-main-menu-SiZhbXA7",
+          "ddrObjectCount": 63,
+          "renderedObjectCount": 63,
+          "objectCountMatch": 1,
+          "boundsCoverage": 1,
+          "styleCoverage": 1,
+          "zOrderCoverage": 1,
+          "objectTypeCoverage": 0.6984126984126984,
+          "portalFidelity": 1,
+          "unknownObjects": 19,
+          "warningCount": 19,
+          "visual": {
+            "attempted": false,
+            "captured": false,
+            "baselineFound": false,
+            "changed": false
+          }
+        },
+        {
+          "layoutName": "construction",
+          "layoutId": "fm-construction-SiZhbXA7",
+          "ddrObjectCount": 53,
+          "renderedObjectCount": 53,
+          "objectCountMatch": 1,
+          "boundsCoverage": 1,
+          "styleCoverage": 1,
+          "zOrderCoverage": 1,
+          "objectTypeCoverage": 0.9622641509433962,
+          "portalFidelity": 1,
+          "unknownObjects": 2,
+          "warningCount": 2,
+          "visual": {
+            "attempted": false,
+            "captured": false,
+            "baselineFound": false,
+            "changed": false
+          }
+        },
+        {
+          "layoutName": "wood_cost_dataentry",
+          "layoutId": "fm-wood-cost-dataentry-SiZhbXA7",
+          "ddrObjectCount": 17,
+          "renderedObjectCount": 17,
+          "objectCountMatch": 1,
+          "boundsCoverage": 1,
+          "styleCoverage": 1,
+          "zOrderCoverage": 1,
+          "objectTypeCoverage": 1,
+          "portalFidelity": 1,
+          "unknownObjects": 0,
+          "warningCount": 0,
+          "visual": {
+            "attempted": false,
+            "captured": false,
+            "baselineFound": false,
+            "changed": false
+          }
+        },
+        {
+          "layoutName": "jobs",
+          "layoutId": "fm-jobs-SiZhbXA7",
+          "ddrObjectCount": 52,
+          "renderedObjectCount": 52,
+          "objectCountMatch": 1,
+          "boundsCoverage": 1,
+          "styleCoverage": 1,
+          "zOrderCoverage": 1,
+          "objectTypeCoverage": 1,
+          "portalFidelity": 1,
+          "unknownObjects": 0,
+          "warningCount": 0,
+          "visual": {
+            "attempted": false,
+            "captured": false,
+            "baselineFound": false,
+            "changed": false
+          }
+        },
+        {
+          "layoutName": "PurchaseOrder",
+          "layoutId": "fm-purchaseorder-SiZhbXA7",
+          "ddrObjectCount": 26,
+          "renderedObjectCount": 26,
+          "objectCountMatch": 1,
+          "boundsCoverage": 1,
+          "styleCoverage": 1,
+          "zOrderCoverage": 1,
+          "objectTypeCoverage": 1,
+          "portalFidelity": 1,
+          "unknownObjects": 0,
+          "warningCount": 0,
+          "visual": {
+            "attempted": false,
+            "captured": false,
+            "baselineFound": false,
+            "changed": false
+          }
+        },
+        {
+          "layoutName": "Payments",
+          "layoutId": "fm-payments-SiZhbXA7",
+          "ddrObjectCount": 8,
+          "renderedObjectCount": 8,
+          "objectCountMatch": 1,
+          "boundsCoverage": 1,
+          "styleCoverage": 1,
+          "zOrderCoverage": 1,
+          "objectTypeCoverage": 1,
+          "portalFidelity": 1,
+          "unknownObjects": 0,
+          "warningCount": 0,
+          "visual": {
+            "attempted": false,
+            "captured": false,
+            "baselineFound": false,
+            "changed": false
+          }
+        }
+      ],
+      "skippedLayouts": [],
+      "warnings": []
+    },
+    {
+      "id": "je-interface",
+      "label": "J&E interface",
+      "path": "/Users/deffenda/Koofr/Inactive/J&E/05122020/J&E_interface_fmp12.xml",
+      "workspaceId": "fidelity-je-interface",
+      "database": "J&amp;E_interface",
+      "layoutsRequested": [
+        "Main Menu",
+        "Multi Job Summary",
+        "Labor Posting",
+        "Lumber Posting",
+        "Picture Data Entry",
+        "Contacts",
+        "Purchase Order"
+      ],
+      "layoutsMeasured": [
+        {
+          "layoutName": "Main Menu",
+          "layoutId": "fm-main-menu-SiZhbXA7",
+          "ddrObjectCount": 60,
+          "renderedObjectCount": 60,
+          "objectCountMatch": 1,
+          "boundsCoverage": 1,
+          "styleCoverage": 1,
+          "zOrderCoverage": 1,
+          "objectTypeCoverage": 0.9333333333333333,
+          "portalFidelity": 1,
+          "unknownObjects": 4,
+          "warningCount": 4,
+          "visual": {
+            "attempted": false,
+            "captured": false,
+            "baselineFound": false,
+            "changed": false
+          }
+        },
+        {
+          "layoutName": "Multi Job Summary",
+          "layoutId": "fm-multi-job-summary-SiZhbXA7",
+          "ddrObjectCount": 85,
+          "renderedObjectCount": 85,
+          "objectCountMatch": 1,
+          "boundsCoverage": 1,
+          "styleCoverage": 1,
+          "zOrderCoverage": 1,
+          "objectTypeCoverage": 1,
+          "portalFidelity": 1,
+          "unknownObjects": 0,
+          "warningCount": 0,
+          "visual": {
+            "attempted": false,
+            "captured": false,
+            "baselineFound": false,
+            "changed": false
+          }
+        },
+        {
+          "layoutName": "Labor Posting",
+          "layoutId": "fm-labor-posting-SiZhbXA7",
+          "ddrObjectCount": 60,
+          "renderedObjectCount": 60,
+          "objectCountMatch": 1,
+          "boundsCoverage": 1,
+          "styleCoverage": 1,
+          "zOrderCoverage": 1,
+          "objectTypeCoverage": 0.95,
+          "portalFidelity": 1,
+          "unknownObjects": 3,
+          "warningCount": 3,
+          "visual": {
+            "attempted": false,
+            "captured": false,
+            "baselineFound": false,
+            "changed": false
+          }
+        },
+        {
+          "layoutName": "Lumber Posting",
+          "layoutId": "fm-lumber-posting-SiZhbXA7",
+          "ddrObjectCount": 56,
+          "renderedObjectCount": 56,
+          "objectCountMatch": 1,
+          "boundsCoverage": 1,
+          "styleCoverage": 1,
+          "zOrderCoverage": 1,
+          "objectTypeCoverage": 0.9464285714285714,
+          "portalFidelity": 1,
+          "unknownObjects": 3,
+          "warningCount": 3,
+          "visual": {
+            "attempted": false,
+            "captured": false,
+            "baselineFound": false,
+            "changed": false
+          }
+        },
+        {
+          "layoutName": "Picture Data Entry",
+          "layoutId": "fm-picture-data-entry-SiZhbXA7",
+          "ddrObjectCount": 72,
+          "renderedObjectCount": 72,
+          "objectCountMatch": 1,
+          "boundsCoverage": 1,
+          "styleCoverage": 1,
+          "zOrderCoverage": 1,
+          "objectTypeCoverage": 0.9305555555555556,
+          "portalFidelity": 1,
+          "unknownObjects": 5,
+          "warningCount": 5,
+          "visual": {
+            "attempted": false,
+            "captured": false,
+            "baselineFound": false,
+            "changed": false
+          }
+        },
+        {
+          "layoutName": "Contacts",
+          "layoutId": "fm-contacts-SiZhbXA7",
+          "ddrObjectCount": 122,
+          "renderedObjectCount": 122,
+          "objectCountMatch": 1,
+          "boundsCoverage": 1,
+          "styleCoverage": 1,
+          "zOrderCoverage": 1,
+          "objectTypeCoverage": 0.9754098360655737,
+          "portalFidelity": 1,
+          "unknownObjects": 3,
+          "warningCount": 3,
+          "visual": {
+            "attempted": false,
+            "captured": false,
+            "baselineFound": false,
+            "changed": false
+          }
+        },
+        {
+          "layoutName": "Purchase Order",
+          "layoutId": "fm-purchase-order-SiZhbXA7",
+          "ddrObjectCount": 67,
+          "renderedObjectCount": 67,
+          "objectCountMatch": 1,
+          "boundsCoverage": 1,
+          "styleCoverage": 1,
+          "zOrderCoverage": 1,
+          "objectTypeCoverage": 0.9552238805970149,
+          "portalFidelity": 1,
+          "unknownObjects": 3,
+          "warningCount": 3,
+          "visual": {
+            "attempted": false,
+            "captured": false,
+            "baselineFound": false,
+            "changed": false
+          }
+        }
+      ],
+      "skippedLayouts": [],
+      "warnings": []
+    },
+    {
+      "id": "mastertrapper",
+      "label": "MasterTrapper",
+      "path": "/Users/deffenda/Koofr/Inactive/Master Trapper/DDR/02242018/MasterTrapper_fmp12.xml",
+      "workspaceId": "fidelity-mastertrapper",
+      "database": "MasterTrapper",
+      "layoutsRequested": [
+        "HOME",
+        "Jobs|Form",
+        "Jobs|Map",
+        "Customers|List",
+        "Invoices|List",
+        "Reports|Form",
+        "Pictures|Form"
+      ],
+      "layoutsMeasured": [
+        {
+          "layoutName": "HOME",
+          "layoutId": "fm-home-TWFzdGVy",
+          "ddrObjectCount": 70,
+          "renderedObjectCount": 68,
+          "objectCountMatch": 0.9714285714285714,
+          "boundsCoverage": 1,
+          "styleCoverage": 1,
+          "zOrderCoverage": 1,
+          "objectTypeCoverage": 0.9285714285714286,
+          "portalFidelity": 1,
+          "unknownObjects": 3,
+          "warningCount": 3,
+          "visual": {
+            "attempted": false,
+            "captured": false,
+            "baselineFound": false,
+            "changed": false
+          }
+        },
+        {
+          "layoutName": "Jobs|Form",
+          "layoutId": "fm-jobs-form-TWFzdGVy",
+          "ddrObjectCount": 144,
+          "renderedObjectCount": 139,
+          "objectCountMatch": 0.9652777777777778,
+          "boundsCoverage": 1,
+          "styleCoverage": 1,
+          "zOrderCoverage": 1,
+          "objectTypeCoverage": 0.9236111111111112,
+          "portalFidelity": 1,
+          "unknownObjects": 4,
+          "warningCount": 25,
+          "visual": {
+            "attempted": false,
+            "captured": false,
+            "baselineFound": false,
+            "changed": false
+          }
+        },
+        {
+          "layoutName": "Jobs|Map",
+          "layoutId": "fm-jobs-map-TWFzdGVy",
+          "ddrObjectCount": 30,
+          "renderedObjectCount": 30,
+          "objectCountMatch": 1,
+          "boundsCoverage": 1,
+          "styleCoverage": 1,
+          "zOrderCoverage": 1,
+          "objectTypeCoverage": 0.9,
+          "portalFidelity": 0,
+          "unknownObjects": 5,
+          "warningCount": 5,
+          "visual": {
+            "attempted": false,
+            "captured": false,
+            "baselineFound": false,
+            "changed": false
+          }
+        },
+        {
+          "layoutName": "Customers|List",
+          "layoutId": "fm-customers-list-TWFzdGVy",
+          "ddrObjectCount": 37,
+          "renderedObjectCount": 37,
+          "objectCountMatch": 1,
+          "boundsCoverage": 1,
+          "styleCoverage": 1,
+          "zOrderCoverage": 1,
+          "objectTypeCoverage": 0.9459459459459459,
+          "portalFidelity": 1,
+          "unknownObjects": 2,
+          "warningCount": 2,
+          "visual": {
+            "attempted": false,
+            "captured": false,
+            "baselineFound": false,
+            "changed": false
+          }
+        },
+        {
+          "layoutName": "Invoices|List",
+          "layoutId": "fm-invoices-list-TWFzdGVy",
+          "ddrObjectCount": 48,
+          "renderedObjectCount": 48,
+          "objectCountMatch": 1,
+          "boundsCoverage": 1,
+          "styleCoverage": 1,
+          "zOrderCoverage": 1,
+          "objectTypeCoverage": 0.9583333333333334,
+          "portalFidelity": 1,
+          "unknownObjects": 2,
+          "warningCount": 2,
+          "visual": {
+            "attempted": false,
+            "captured": false,
+            "baselineFound": false,
+            "changed": false
+          }
+        },
+        {
+          "layoutName": "Reports|Form",
+          "layoutId": "fm-reports-form-TWFzdGVy",
+          "ddrObjectCount": 35,
+          "renderedObjectCount": 34,
+          "objectCountMatch": 0.9714285714285714,
+          "boundsCoverage": 1,
+          "styleCoverage": 1,
+          "zOrderCoverage": 1,
+          "objectTypeCoverage": 0.9142857142857143,
+          "portalFidelity": 1,
+          "unknownObjects": 2,
+          "warningCount": 4,
+          "visual": {
+            "attempted": false,
+            "captured": false,
+            "baselineFound": false,
+            "changed": false
+          }
+        },
+        {
+          "layoutName": "Pictures|Form",
+          "layoutId": "fm-pictures-form-TWFzdGVy",
+          "ddrObjectCount": 29,
+          "renderedObjectCount": 29,
+          "objectCountMatch": 1,
+          "boundsCoverage": 1,
+          "styleCoverage": 1,
+          "zOrderCoverage": 1,
+          "objectTypeCoverage": 0.9310344827586207,
+          "portalFidelity": 1,
+          "unknownObjects": 2,
+          "warningCount": 2,
+          "visual": {
+            "attempted": false,
+            "captured": false,
+            "baselineFound": false,
+            "changed": false
+          }
+        }
+      ],
+      "skippedLayouts": [],
+      "warnings": []
+    },
+    {
+      "id": "omega",
+      "label": "Omega",
+      "path": "/Users/deffenda/Koofr/Inactive/Omega/DDR/08202018/Omega_fmp12.xml",
+      "workspaceId": "fidelity-omega",
+      "database": "Omega",
+      "layoutsRequested": [
+        "HOME",
+        "Emails|Form",
+        "Leads|Form",
+        "Companies|Form",
+        "Leads|List",
+        "Tickets|Form",
+        "Projects|Form",
+        "Invoices|Form"
+      ],
+      "layoutsMeasured": [
+        {
+          "layoutName": "HOME",
+          "layoutId": "fm-home-T21lZ2E6",
+          "ddrObjectCount": 58,
+          "renderedObjectCount": 56,
+          "objectCountMatch": 0.9655172413793104,
+          "boundsCoverage": 1,
+          "styleCoverage": 1,
+          "zOrderCoverage": 1,
+          "objectTypeCoverage": 0.9310344827586207,
+          "portalFidelity": 1,
+          "unknownObjects": 2,
+          "warningCount": 2,
+          "visual": {
+            "attempted": false,
+            "captured": false,
+            "baselineFound": false,
+            "changed": false
+          }
+        },
+        {
+          "layoutName": "Emails|Form",
+          "layoutId": "fm-emails-form-T21lZ2E6",
+          "ddrObjectCount": 38,
+          "renderedObjectCount": 36,
+          "objectCountMatch": 0.9473684210526315,
+          "boundsCoverage": 1,
+          "styleCoverage": 1,
+          "zOrderCoverage": 1,
+          "objectTypeCoverage": 0.868421052631579,
+          "portalFidelity": 1,
+          "unknownObjects": 2,
+          "warningCount": 2,
+          "visual": {
+            "attempted": false,
+            "captured": false,
+            "baselineFound": false,
+            "changed": false
+          }
+        },
+        {
+          "layoutName": "Leads|Form",
+          "layoutId": "fm-leads-form-T21lZ2E6",
+          "ddrObjectCount": 65,
+          "renderedObjectCount": 63,
+          "objectCountMatch": 0.9692307692307692,
+          "boundsCoverage": 1,
+          "styleCoverage": 1,
+          "zOrderCoverage": 1,
+          "objectTypeCoverage": 0.9384615384615385,
+          "portalFidelity": 1,
+          "unknownObjects": 1,
+          "warningCount": 7,
+          "visual": {
+            "attempted": false,
+            "captured": false,
+            "baselineFound": false,
+            "changed": false
+          }
+        },
+        {
+          "layoutName": "Companies|Form",
+          "layoutId": "fm-companies-form-T21lZ2E6",
+          "ddrObjectCount": 177,
+          "renderedObjectCount": 168,
+          "objectCountMatch": 0.9491525423728814,
+          "boundsCoverage": 1,
+          "styleCoverage": 1,
+          "zOrderCoverage": 1,
+          "objectTypeCoverage": 0.903954802259887,
+          "portalFidelity": 1,
+          "unknownObjects": 6,
+          "warningCount": 17,
+          "visual": {
+            "attempted": false,
+            "captured": false,
+            "baselineFound": false,
+            "changed": false
+          }
+        },
+        {
+          "layoutName": "Leads|List",
+          "layoutId": "fm-leads-list-T21lZ2E6",
+          "ddrObjectCount": 27,
+          "renderedObjectCount": 27,
+          "objectCountMatch": 1,
+          "boundsCoverage": 1,
+          "styleCoverage": 1,
+          "zOrderCoverage": 1,
+          "objectTypeCoverage": 0.9629629629629629,
+          "portalFidelity": 1,
+          "unknownObjects": 1,
+          "warningCount": 1,
+          "visual": {
+            "attempted": false,
+            "captured": false,
+            "baselineFound": false,
+            "changed": false
+          }
+        },
+        {
+          "layoutName": "Tickets|Form",
+          "layoutId": "fm-tickets-form-T21lZ2E6",
+          "ddrObjectCount": 297,
+          "renderedObjectCount": 283,
+          "objectCountMatch": 0.9528619528619529,
+          "boundsCoverage": 1,
+          "styleCoverage": 1,
+          "zOrderCoverage": 1,
+          "objectTypeCoverage": 0.8855218855218855,
+          "portalFidelity": 1,
+          "unknownObjects": 15,
+          "warningCount": 65,
+          "visual": {
+            "attempted": false,
+            "captured": false,
+            "baselineFound": false,
+            "changed": false
+          }
+        },
+        {
+          "layoutName": "Projects|Form",
+          "layoutId": "fm-projects-form-T21lZ2E6",
+          "ddrObjectCount": 210,
+          "renderedObjectCount": 201,
+          "objectCountMatch": 0.9571428571428572,
+          "boundsCoverage": 1,
+          "styleCoverage": 1,
+          "zOrderCoverage": 1,
+          "objectTypeCoverage": 0.8714285714285714,
+          "portalFidelity": 1,
+          "unknownObjects": 14,
+          "warningCount": 50,
+          "visual": {
+            "attempted": false,
+            "captured": false,
+            "baselineFound": false,
+            "changed": false
+          }
+        },
+        {
+          "layoutName": "Invoices|Form",
+          "layoutId": "fm-invoices-form-T21lZ2E6",
+          "ddrObjectCount": 140,
+          "renderedObjectCount": 134,
+          "objectCountMatch": 0.9571428571428572,
+          "boundsCoverage": 1,
+          "styleCoverage": 1,
+          "zOrderCoverage": 1,
+          "objectTypeCoverage": 0.8785714285714286,
+          "portalFidelity": 1,
+          "unknownObjects": 8,
+          "warningCount": 30,
+          "visual": {
+            "attempted": false,
+            "captured": false,
+            "baselineFound": false,
+            "changed": false
+          }
+        }
+      ],
+      "skippedLayouts": [],
+      "warnings": []
+    }
+  ]
+}

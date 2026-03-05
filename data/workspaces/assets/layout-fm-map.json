@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "byFileMakerLayoutKey": {
+    "Assets::Asset List": "fm-asset-list-QXNzZXRz",
+    "Assets::Asset Details": "fm-asset-details-QXNzZXRz",
+    "Assets::Vendor List": "fm-vendor-list-QXNzZXRz",
+    "Assets::Vendor Details": "fm-vendor-details-QXNzZXRz",
+    "Assets::Employee List": "fm-employee-list-QXNzZXRz",
+    "Assets::Employee Details": "fm-employee-details-QXNzZXRz",
+    "Assets::Asset%20Details": "fm-asset-20details-QXNzZXRz",
+    "Assets::Asset%2520Details": "fm-asset-2520details-QXNzZXRz",
+    "Assets::Asset%252520Details": "fm-asset-252520details-QXNzZXRz"
+  }
+}

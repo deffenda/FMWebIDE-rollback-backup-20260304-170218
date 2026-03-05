@@ -1,0 +1,20 @@
+{
+  "id": "synthetic-native-parity-fixture",
+  "label": "SYNTHETIC Native Parity Fixture",
+  "synthetic": true,
+  "workspaceId": "default",
+  "layoutCandidates": {
+    "detail": ["Asset Details", "Assets", "Asset"],
+    "list": ["Assets", "Asset Details"],
+    "portalHeavy": ["Asset Details"]
+  },
+  "expectedCapabilities": [
+    "menubar",
+    "status-toolbar",
+    "view-switch-form-list-table-preview",
+    "find-mode",
+    "portal-rendering",
+    "layout-mode-inspector"
+  ],
+  "notes": "SYNTHETIC fixture manifest for UI parity tests. Real DDR-derived workspaces should replace this in CI environments with live fixtures."
+}

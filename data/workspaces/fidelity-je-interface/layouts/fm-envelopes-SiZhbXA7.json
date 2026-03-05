@@ -1,0 +1,53 @@
+{
+  "id": "fm-envelopes-SiZhbXA7",
+  "name": "envelopes",
+  "defaultTableOccurrence": "envelopes",
+  "canvas": {
+    "width": 600,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-envelopes-SiZhbXA7-1",
+      "position": {
+        "x": 288,
+        "y": 282,
+        "width": 288,
+        "height": 118,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "Classic",
+        "ddrObjectPath": "1",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 282,
+        "ddrSourceLeft": 288,
+        "ddrSourceBottom": 400,
+        "ddrSourceRight": 576,
+        "fillType": "none",
+        "lineColor": "rgba(255, 255, 255, 1)",
+        "lineStyle": "solid",
+        "effectOuterShadow": true,
+        "fontFamily": "GoudyOldStyTBol",
+        "fontSize": 10,
+        "textColor": "#000000",
+        "label": "<<F Name>> <<L Name>>\n<<Company>>\n<<Bill To Address>>\n<<Bill To Address 2>>\n<<Bill To City>>, <<Bill To State>>  <<Bill To Zip>>",
+        "ddrArrangeOrder": 1
+      },
+      "type": "label"
+    }
+  ],
+  "actions": []
+}

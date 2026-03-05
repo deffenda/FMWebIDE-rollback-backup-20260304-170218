@@ -1,0 +1,20 @@
+import { WebDirectRuntimeShell } from "@/components/webdirect-runtime-shell";
+
+type RuntimePageProps = {
+  params: Promise<{ id: string }>;
+  searchParams?: Promise<Record<string, string | string[] | undefined>>;
+};
+
+export default async function RuntimeLayoutPage({ params, searchParams }: RuntimePageProps) {
+  const { id } = await params;
+  const query = (await searchParams) ?? {};
+  const workspaceToken = query.workspace;
+  const workspaceId =
+    typeof workspaceToken === "string"
+      ? workspaceToken
+      : Array.isArray(workspaceToken)
+        ? workspaceToken[0]
+        : undefined;
+
+  return <WebDirectRuntimeShell layoutId={id} workspaceId={workspaceId} />;
+}

@@ -1,0 +1,29 @@
+{
+  "id": "fm-customers-QXNzZXRz",
+  "name": "Customers",
+  "defaultTableOccurrence": "Customers",
+  "canvas": {
+    "width": 1200,
+    "height": 900,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false,
+    "showRulers": false,
+    "showGuides": false,
+    "autosizeTop": true,
+    "autosizeRight": true,
+    "autosizeBottom": true,
+    "autosizeLeft": true,
+    "locked": false
+  },
+  "parts": [
+    {
+      "id": "0b757cf1-de41-488c-b017-050bd584d973",
+      "type": "body",
+      "label": "Body",
+      "height": 900
+    }
+  ],
+  "components": [],
+  "actions": []
+}

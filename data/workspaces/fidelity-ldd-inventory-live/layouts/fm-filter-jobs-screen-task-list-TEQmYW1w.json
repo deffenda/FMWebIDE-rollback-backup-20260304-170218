@@ -1,0 +1,147 @@
+{
+  "id": "fm-filter-jobs-screen-task-list-TEQmYW1w",
+  "name": "Filter jobs screen task list",
+  "defaultTableOccurrence": "Filter jobs screen task list",
+  "canvas": {
+    "width": 1996,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-filter-jobs-screen-task-list-TEQmYW1w-70",
+      "position": {
+        "x": 146,
+        "y": 229,
+        "width": 143,
+        "height": 37,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Blue button",
+        "ddrObjectPath": "70",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 229,
+        "ddrSourceLeft": 146,
+        "ddrSourceBottom": 266,
+        "ddrSourceRight": 289,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#E6E6E6",
+        "label": "Filter",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 1
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Perform filter Job Task List"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-filter-jobs-screen-task-list-TEQmYW1w-71",
+      "position": {
+        "x": 299,
+        "y": 229,
+        "width": 143,
+        "height": 37,
+        "z": 2
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Blue button",
+        "ddrObjectPath": "71",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 229,
+        "ddrSourceLeft": 299,
+        "ddrSourceBottom": 266,
+        "ddrSourceRight": 442,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#E6E6E6",
+        "label": "Cancel",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 2
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Cancel filter job screen task list"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-filter-jobs-screen-task-list-TEQmYW1w-169",
+      "position": {
+        "x": 235,
+        "y": 98,
+        "width": 143,
+        "height": 114,
+        "z": 3
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Checkbox pane",
+        "ddrObjectPath": "169",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 98,
+        "ddrSourceLeft": 235,
+        "ddrSourceBottom": 212,
+        "ddrSourceRight": 378,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "string 1",
+        "controlType": "checkbox",
+        "valueList": "task status list",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 3
+      },
+      "type": "field",
+      "binding": {
+        "field": "string 1",
+        "tableOccurrence": "Temporary store input data"
+      }
+    }
+  ],
+  "actions": []
+}

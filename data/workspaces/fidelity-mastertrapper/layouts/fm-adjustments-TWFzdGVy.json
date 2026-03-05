@@ -1,0 +1,91 @@
+{
+  "id": "fm-adjustments-TWFzdGVy",
+  "name": "ADJUSTMENTS",
+  "defaultTableOccurrence": "ADJUSTMENTS",
+  "canvas": {
+    "width": 1046,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-adjustments-TWFzdGVy-25",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 1022,
+        "height": 44,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "25",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 0,
+        "ddrSourceLeft": 0,
+        "ddrSourceBottom": 44,
+        "ddrSourceRight": 1022,
+        "fillType": "none",
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "fontSize": 36,
+        "textColor": "#FFFFFF",
+        "fontWeight": "bold",
+        "fontFamily": "arial,sans-serif",
+        "label": "{{LayoutTableName}}",
+        "ddrArrangeOrder": 1
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-adjustments-TWFzdGVy-26",
+      "position": {
+        "x": 0,
+        "y": 50,
+        "width": 259,
+        "height": 300,
+        "z": 2
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "26",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": true,
+        "autosizeBottom": true,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 3221225472,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 50,
+        "ddrSourceLeft": 0,
+        "ddrSourceBottom": 350,
+        "ddrSourceRight": 259,
+        "fillType": "none",
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textColor": "#FCBF3B",
+        "fontWeight": "bold",
+        "fontFamily": "arial,sans-serif",
+        "fontSize": 12,
+        "label": "{{LayoutName}}\n{{AccountName}}\n{{UserName}}\n{{SystemIPAddress}}\n{{CurrentHostTimestamp}}\n{{SystemNICAddress}}",
+        "ddrArrangeOrder": 2
+      },
+      "type": "label"
+    }
+  ],
+  "actions": []
+}

@@ -1,0 +1,179 @@
+{
+  "id": "fm-printed-languages-TEQmYW1w",
+  "name": "Printed languages",
+  "defaultTableOccurrence": "Printed languages",
+  "canvas": {
+    "width": 1024,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-printed-languages-TEQmYW1w-1",
+      "position": {
+        "x": 50,
+        "y": 55,
+        "width": 77,
+        "height": 18,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "1",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 55,
+        "ddrSourceLeft": 50,
+        "ddrSourceBottom": 73,
+        "ddrSourceRight": 127,
+        "fillType": "none",
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textAlign": "right",
+        "fontFamily": "arial,sans-serif",
+        "fontSize": 12,
+        "textColor": "#707070",
+        "label": "Document ID",
+        "ddrArrangeOrder": 1
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-printed-languages-TEQmYW1w-2",
+      "position": {
+        "x": 138,
+        "y": 52,
+        "width": 253,
+        "height": 22,
+        "z": 2
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "2",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 52,
+        "ddrSourceLeft": 138,
+        "ddrSourceBottom": 74,
+        "ddrSourceRight": 391,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Document ID",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 2
+      },
+      "type": "field",
+      "binding": {
+        "field": "Document ID",
+        "tableOccurrence": "Printed languages"
+      }
+    },
+    {
+      "id": "ddr-fm-printed-languages-TEQmYW1w-3",
+      "position": {
+        "x": 38,
+        "y": 79,
+        "width": 89,
+        "height": 18,
+        "z": 3
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "3",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 79,
+        "ddrSourceLeft": 38,
+        "ddrSourceBottom": 97,
+        "ddrSourceRight": 127,
+        "fillType": "none",
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textAlign": "right",
+        "fontFamily": "arial,sans-serif",
+        "fontSize": 12,
+        "textColor": "#707070",
+        "label": "Language code",
+        "ddrArrangeOrder": 3
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-printed-languages-TEQmYW1w-4",
+      "position": {
+        "x": 138,
+        "y": 76,
+        "width": 253,
+        "height": 22,
+        "z": 4
+      },
+      "props": {
+        "styleTheme": "Enlightened",
+        "ddrObjectPath": "4",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 76,
+        "ddrSourceLeft": 138,
+        "ddrSourceBottom": 98,
+        "ddrSourceRight": 391,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Language code",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 4
+      },
+      "type": "field",
+      "binding": {
+        "field": "Language code",
+        "tableOccurrence": "Printed languages"
+      }
+    }
+  ],
+  "actions": []
+}

@@ -1,0 +1,377 @@
+{
+  "id": "fm-bd-add-a-new-product-TEQmYW1w",
+  "name": "BD Add a new product",
+  "defaultTableOccurrence": "BD Add a new product",
+  "canvas": {
+    "width": 1996,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-bd-add-a-new-product-TEQmYW1w-10",
+      "position": {
+        "x": 30,
+        "y": 77,
+        "width": 150,
+        "height": 24,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Normal text",
+        "ddrObjectPath": "10",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 77,
+        "ddrSourceLeft": 30,
+        "ddrSourceBottom": 101,
+        "ddrSourceRight": 180,
+        "fontFamily": "Helvetica",
+        "fontSize": 18,
+        "textColor": "#666666",
+        "label": "Catalog Number",
+        "ddrArrangeOrder": 1
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-bd-add-a-new-product-TEQmYW1w-11",
+      "position": {
+        "x": 31,
+        "y": 117,
+        "width": 272,
+        "height": 24,
+        "z": 2
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Normal text",
+        "ddrObjectPath": "11",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 117,
+        "ddrSourceLeft": 31,
+        "ddrSourceBottom": 141,
+        "ddrSourceRight": 303,
+        "fontFamily": "Helvetica",
+        "fontSize": 18,
+        "textColor": "#666666",
+        "label": "Product Description",
+        "ddrArrangeOrder": 2
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-bd-add-a-new-product-TEQmYW1w-56",
+      "position": {
+        "x": 244,
+        "y": 73,
+        "width": 413,
+        "height": 32,
+        "z": 3
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "data entry field",
+        "ddrObjectPath": "56",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 73,
+        "ddrSourceLeft": 244,
+        "ddrSourceBottom": 105,
+        "ddrSourceRight": 657,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Catalog number",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 3
+      },
+      "type": "field",
+      "binding": {
+        "field": "Catalog number",
+        "tableOccurrence": "Products"
+      }
+    },
+    {
+      "id": "ddr-fm-bd-add-a-new-product-TEQmYW1w-64",
+      "position": {
+        "x": 244,
+        "y": 113,
+        "width": 413,
+        "height": 32,
+        "z": 4
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "data entry field",
+        "ddrObjectPath": "64",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 113,
+        "ddrSourceLeft": 244,
+        "ddrSourceBottom": 145,
+        "ddrSourceRight": 657,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Product description",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 4
+      },
+      "type": "field",
+      "binding": {
+        "field": "Product description",
+        "tableOccurrence": "Products"
+      }
+    },
+    {
+      "id": "ddr-fm-bd-add-a-new-product-TEQmYW1w-68",
+      "position": {
+        "x": 31,
+        "y": 157,
+        "width": 272,
+        "height": 25,
+        "z": 5
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Normal text",
+        "ddrObjectPath": "68",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 157,
+        "ddrSourceLeft": 31,
+        "ddrSourceBottom": 182,
+        "ddrSourceRight": 303,
+        "fontFamily": "Helvetica",
+        "fontSize": 18,
+        "textColor": "#666666",
+        "label": "Plant",
+        "ddrArrangeOrder": 5
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-bd-add-a-new-product-TEQmYW1w-69",
+      "position": {
+        "x": 244,
+        "y": 153,
+        "width": 413,
+        "height": 32,
+        "z": 6
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "dropdown",
+        "ddrObjectPath": "69",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 153,
+        "ddrSourceLeft": 244,
+        "ddrSourceBottom": 185,
+        "ddrSourceRight": 657,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "Plant name",
+        "controlType": "dropdown",
+        "valueList": "Plants",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 6
+      },
+      "type": "field",
+      "binding": {
+        "field": "Plant name",
+        "tableOccurrence": "Products"
+      }
+    },
+    {
+      "id": "ddr-fm-bd-add-a-new-product-TEQmYW1w-70",
+      "position": {
+        "x": 157,
+        "y": 213,
+        "width": 143,
+        "height": 37,
+        "z": 7
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Blue button",
+        "ddrObjectPath": "70",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 213,
+        "ddrSourceLeft": 157,
+        "ddrSourceBottom": 250,
+        "ddrSourceRight": 300,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#E6E6E6",
+        "label": "Save",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 7
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Save entered product data"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-bd-add-a-new-product-TEQmYW1w-71",
+      "position": {
+        "x": 358,
+        "y": 213,
+        "width": 143,
+        "height": 37,
+        "z": 8
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Blue button",
+        "ddrObjectPath": "71",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 213,
+        "ddrSourceLeft": 358,
+        "ddrSourceBottom": 250,
+        "ddrSourceRight": 501,
+        "fontFamily": "tahoma,sans-serif",
+        "fontSize": 18,
+        "textColor": "#E6E6E6",
+        "label": "Cancel",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 8
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Cancel entered product data"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-bd-add-a-new-product-TEQmYW1w-118",
+      "position": {
+        "x": 31,
+        "y": 24,
+        "width": 347,
+        "height": 34,
+        "z": 9
+      },
+      "props": {
+        "styleTheme": "BD Synapsys Theme",
+        "styleName": "Table title",
+        "ddrObjectPath": "118",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 24,
+        "ddrSourceLeft": 31,
+        "ddrSourceBottom": 58,
+        "ddrSourceRight": 378,
+        "fontFamily": "Helvetica",
+        "fontSize": 28,
+        "textColor": "#666666",
+        "label": "Add a new Product",
+        "ddrArrangeOrder": 9
+      },
+      "type": "label"
+    }
+  ],
+  "actions": []
+}

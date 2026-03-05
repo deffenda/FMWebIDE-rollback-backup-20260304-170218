@@ -1,0 +1,103 @@
+{
+  "version": 1,
+  "updatedAt": "2026-03-03",
+  "phase": 2,
+  "features": [
+    {
+      "id": "P2-001",
+      "name": "Parts region rendering",
+      "status": "Implemented",
+      "notes": "Runtime render tree now computes explicit part metrics (top/height/content rect) with deterministic stacking and body stretch behavior."
+    },
+    {
+      "id": "P2-002",
+      "name": "Z-order fidelity",
+      "status": "Implemented",
+      "notes": "Object render order resolves from DDR arrange order or component z and is stable with ID tie-break ordering."
+    },
+    {
+      "id": "P2-003",
+      "name": "Anchors and resize behavior",
+      "status": "Implemented (Approx)",
+      "notes": "Anchors are evaluated per part container using baseline-to-current container deltas; missing DDR anchor metadata defaults to top-left with a deterministic wide-object heuristic (`left+right`) for objects spanning most of body width."
+    },
+    {
+      "id": "P2-004",
+      "name": "Zoom controls",
+      "status": "Implemented",
+      "notes": "Runtime toolbar includes 50%-200% zoom options; viewport events trigger geometry recompute."
+    },
+    {
+      "id": "P2-005",
+      "name": "Diagnostics overlay (rulers/guides)",
+      "status": "Implemented (Dev)",
+      "notes": "Use ?diag=1 on runtime route to enable geometry grid and hover inspector with anchor/bounds metadata."
+    },
+    {
+      "id": "P2-006",
+      "name": "Layout-level anchor overrides",
+      "status": "Implemented",
+      "notes": "Optional overrides are loaded from data/anchorsOverride.json and applied before anchor math execution."
+    },
+    {
+      "id": "P3-001",
+      "name": "Theme and style token resolution",
+      "status": "Implemented (Partial)",
+      "notes": "Deterministic token merge pipeline shipped: theme defaults -> style chain (basedOn) -> object overrides -> runtime overrides."
+    },
+    {
+      "id": "P3-002",
+      "name": "Typography rendering rules",
+      "status": "Implemented (Best effort)",
+      "notes": "Font stack mapping, wrap modes (`none|word|char`), text alignment, and vertical alignment are now resolved through FM-style tokens."
+    },
+    {
+      "id": "P3-003",
+      "name": "Borders/fills/padding fidelity",
+      "status": "Implemented",
+      "notes": "Fill, border, corner radius, and padding tokens now map through stable cssFromTokens output."
+    },
+    {
+      "id": "P3-004",
+      "name": "Style diagnostics inspector",
+      "status": "Implemented (Dev)",
+      "notes": "Diagnostics overlay now exposes style chain, token values, and per-property source map; includes wireframe and missing-mapping toggles."
+    },
+    {
+      "id": "P4-001",
+      "name": "Core object renderers (fields/text/button/image/shape)",
+      "status": "Implemented (Partial)",
+      "notes": "Runtime now maps core DDR object types to dedicated FM object components with deterministic render behavior."
+    },
+    {
+      "id": "P4-002",
+      "name": "Field interaction layers (display/edit/commit)",
+      "status": "Implemented",
+      "notes": "FmField now separates display/edit states and commits via runtime event pipeline."
+    },
+    {
+      "id": "P4-003",
+      "name": "Tab order focus behavior",
+      "status": "Implemented",
+      "notes": "Tab key routing advances focus via runtime tab order map and server-side focus patching."
+    },
+    {
+      "id": "P4-004",
+      "name": "Field validation hooks",
+      "status": "Implemented (Baseline)",
+      "notes": "Required/number/date/time validations now gate commits and return field-level errors."
+    },
+    {
+      "id": "P4-005",
+      "name": "Container field previews",
+      "status": "Implemented (Read-only)",
+      "notes": "Container-like field values render image previews or file-type icon placeholders without exposing raw server URLs in field UI."
+    }
+  ],
+  "knownLimitations": [
+    "When DDR lacks anchor metadata, defaults and heuristics are used.",
+    "Part auto-size/sliding behavior is a best-effort approximation.",
+    "Text metric parity remains best effort across browser/OS font engines.",
+    "Style inheritance definitions are approximated when DDR does not expose full style class relationships."
+  ]
+}

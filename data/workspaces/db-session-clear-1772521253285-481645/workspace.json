@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "id": "db-session-clear-1772521253285-481645",
+  "name": "db-session-clear-1772521253285-481645",
+  "filemaker": {
+    "host": "https://fm.example.com",
+    "database": "Assets",
+    "username": "admin",
+    "password": "primary-secret"
+  },
+  "files": [
+    {
+      "fileId": "assets-file",
+      "databaseName": "Assets",
+      "displayName": "Assets",
+      "host": "https://fm.example.com",
+      "username": "admin",
+      "primary": true,
+      "status": "connected"
+    }
+  ]
+}

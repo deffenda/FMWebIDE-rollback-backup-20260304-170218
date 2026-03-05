@@ -1,0 +1,132 @@
+{
+  "generatedAt": "fingerprint:331e02f4d6acc207",
+  "repoRoot": "/Users/deffenda/Code/FMWebIDE",
+  "toolchain": {
+    "packageManager": "npm",
+    "nextVersion": "^16.1.6",
+    "reactVersion": "^19.1.0",
+    "typescriptVersion": "^5.7.3",
+    "hasStrictTypescript": true,
+    "linting": [
+      "eslint",
+      "eslint-config-next"
+    ],
+    "testScripts": [
+      "test",
+      "test:admin-console",
+      "test:app-layer",
+      "test:browse-url",
+      "test:dev-tools",
+      "test:edit-session",
+      "test:feature-flags",
+      "test:field-engine",
+      "test:find-mode",
+      "test:fm-regression",
+      "test:fmcalc",
+      "test:governance",
+      "test:layout-fidelity",
+      "test:layout-fidelity-engines",
+      "test:layout-fidelity:update-baselines",
+      "test:layout-import",
+      "test:list-table-runtime",
+      "test:menu-actions",
+      "test:parity",
+      "test:perf-primitives",
+      "test:phase1-foundation",
+      "test:plugin-sdk",
+      "test:portal",
+      "test:privileges",
+      "test:runtime-controls",
+      "test:runtime-kernel",
+      "test:runtime-parity",
+      "test:saved-searches",
+      "test:script-advanced",
+      "test:security",
+      "test:sort-reporting",
+      "test:summary-engine",
+      "test:tab-order",
+      "test:tabs",
+      "test:transactions",
+      "test:trigger-policy",
+      "test:triggers",
+      "test:ui",
+      "test:ui-regression",
+      "test:ui:headed",
+      "test:ui:trace",
+      "test:value-lists",
+      "test:versioning",
+      "test:view-configs",
+      "test:webdirect-runtime",
+      "test:workspace-multifile"
+    ]
+  },
+  "architecture": {
+    "entrypoints": [
+      "app/page.tsx",
+      "app/layouts/[id]/edit/page.tsx",
+      "app/layouts/[id]/browse/page.tsx",
+      "components/layout-mode.tsx",
+      "components/browse-mode.tsx"
+    ],
+    "layoutModeModules": [
+      "components/layout-mode.tsx",
+      "src/lib/layout-model.ts",
+      "src/lib/layout-arrange.ts",
+      "src/lib/tab-order.ts"
+    ],
+    "browseModeModules": [
+      "components/browse-mode.tsx",
+      "src/lib/edit-session/index.ts",
+      "src/lib/find-mode.ts",
+      "src/lib/list-table-runtime.ts",
+      "src/lib/portal-runtime.ts"
+    ],
+    "ddrModules": [
+      "scripts/import-ddr-layouts.mjs",
+      "app/api/workspaces/import/route.ts",
+      "src/server/layout-storage.ts"
+    ],
+    "dataApiModules": [
+      "app/api/fm/records/route.ts",
+      "app/api/fm/find/route.ts",
+      "src/server/filemaker-client.ts",
+      "src/server/workspace-multifile.ts"
+    ],
+    "securityModules": [
+      "middleware.ts",
+      "src/server/security/request-context.ts",
+      "src/server/security/csrf.ts",
+      "src/server/security/session-store.ts",
+      "src/server/security/authorization.ts"
+    ],
+    "pluginModules": [
+      "src/plugins/manager.ts",
+      "src/plugins/registry.ts",
+      "src/plugins/runtime.ts"
+    ],
+    "testingModules": [
+      "src/lib/*.test.mts",
+      "src/server/*.test.mts",
+      "scripts/layout-fidelity.mts",
+      "scripts/bench-perf.mts"
+    ]
+  },
+  "inventory": {
+    "apiRouteCount": 41,
+    "componentCount": 7,
+    "libModuleCount": 107,
+    "serverModuleCount": 58
+  },
+  "findings": {
+    "stateManagement": "Hybrid: local React state plus dedicated runtime kernel modules for found sets/windows/scripts/context; Large mode components rely heavily on local useState/useMemo/useEffect state",
+    "dataAccess": "Server-side FileMaker Data API adapter; API proxy routes under app/api/fm/*; Workspace multi-file routing and DB-aware target resolution; Mock fallback storage for offline/dev execution",
+    "storage": "Layout JSON persistence in workspace/data directories; Workspace-scoped config and metadata storage; Saved find/found set persistence; Workspace versioning snapshots; App-layer manager state storage",
+    "renderingPipeline": "DDR importer script normalizes XML into workspace layout artifacts; Shared layout model used by design and runtime surfaces; Anchor/style/interaction fidelity engines present; Mode renderer parity path not fully detected",
+    "securityPosture": "Next middleware enforces auth, security headers, and correlation ids; Per-route authz + CSRF guard utility; CSRF validation module; Session/JWT/trusted-header auth handling; Structured audit logging module"
+  },
+  "knownRisks": [
+    "Multi-file routing depends on workspace mapping completeness; missing API layout mappings can surface runtime save errors.",
+    "Mode switching and route-state synchronization are high-risk for recursive update loops in large browse-mode component state.",
+    "App-layer breadth is large; capability gating drift can happen unless matrix coverage is enforced in CI."
+  ]
+}

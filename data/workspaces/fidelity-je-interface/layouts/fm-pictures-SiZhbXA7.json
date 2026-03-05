@@ -1,0 +1,14 @@
+{
+  "id": "fm-pictures-SiZhbXA7",
+  "name": "Pictures",
+  "defaultTableOccurrence": "Pictures",
+  "canvas": {
+    "width": 612,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [],
+  "actions": []
+}

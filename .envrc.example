@@ -1,0 +1,18 @@
+# FMWebIDE direnv template
+# 1) Copy this file to .envrc
+# 2) Customize values and environment selection
+# 3) Run: direnv allow
+
+# Load project secrets/settings from .env.local (gitignored)
+dotenv_if_exists .env.local
+
+# Make local package binaries available in shell
+PATH_add node_modules/.bin
+
+# Helpful defaults for local development
+export NODE_ENV=development
+export FMWEBIDE_LOCAL=1
+
+# Optional: force FileMaker mode during local sessions
+# export WEBIDE_ENV_PROFILE=DEV
+# export WEBIDE_AUTH_MODE=disabled

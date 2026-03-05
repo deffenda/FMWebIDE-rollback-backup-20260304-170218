@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "id": "fidelity-mastertrapper",
+  "name": "MasterTrapper",
+  "filemaker": {
+    "host": "https://a61858.fmphost.com",
+    "database": "MasterTrapper",
+    "ddrPath": "/Users/deffenda/Koofr/Inactive/Master Trapper/DDR/02242018/MasterTrapper_fmp12.xml",
+    "sourceFileName": "MasterTrapper.fmp12",
+    "solutionName": "Phase 16 Layout Fidelity"
+  }
+}

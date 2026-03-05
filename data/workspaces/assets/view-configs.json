@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "layouts": {
+    "fm-asset-2520details-QXNzZXRz": {
+      "layoutId": "fm-asset-2520details-QXNzZXRz",
+      "listRowFields": [],
+      "tableColumns": [],
+      "updatedAt": 1772660994614
+    },
+    "fm-asset-details-QXNzZXRz": {
+      "layoutId": "fm-asset-details-QXNzZXRz",
+      "listRowFields": [],
+      "tableColumns": [
+        {
+          "field": "Assignments::Note",
+          "hidden": false,
+          "order": 0
+        },
+        {
+          "field": "Assignments::Date Returned",
+          "hidden": false,
+          "order": 1
+        },
+        {
+          "field": "Assignments::EmployeeForeignKey",
+          "hidden": false,
+          "order": 2
+        },
+        {
+          "field": "Assets::Purchase Date",
+          "hidden": false,
+          "order": 3
+        },
+        {
+          "field": "Assets::Price",
+          "hidden": false,
+          "order": 4
+        },
+        {
+          "field": "Assets::Vendor",
+          "hidden": false,
+          "order": 5
+        },
+        {
+          "field": "Assets::Type",
+          "hidden": false,
+          "order": 6
+        },
+        {
+          "field": "Assets::Serial Number",
+          "hidden": false,
+          "order": 7
+        },
+        {
+          "field": "Assets::Description",
+          "hidden": false,
+          "order": 8
+        },
+        {
+          "field": "Assets::Name",
+          "hidden": false,
+          "order": 9
+        },
+        {
+          "field": "Assets::Image",
+          "hidden": false,
+          "order": 10
+        }
+      ],
+      "updatedAt": 1772661100534
+    }
+  }
+}

@@ -1,0 +1,2610 @@
+{
+  "id": "fm-home-dark-theme-T21lZ2E6",
+  "name": "HOME-Dark Theme",
+  "defaultTableOccurrence": "HOME-Dark Theme",
+  "canvas": {
+    "width": 1147,
+    "height": 649,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-home-dark-theme-T21lZ2E6-2",
+      "position": {
+        "x": 5,
+        "y": 5,
+        "width": 156,
+        "height": 40,
+        "z": 1
+      },
+      "props": {
+        "tooltip": "Let( \n[\n$$BrowserNav.NavBackTip = MiddleWords( GetValue( $$BrowserNav.Layout.Backward ; 2 ) ; 2 ; 99 ) \n] ; \n\nIf( IsEmpty( $$BrowserNav.NavBackTip ) ; \"Nowhere to go\" ; $$BrowserNav.NavBackTip )\n)",
+        "hideObjectWhen": "cf_BrowserNavigation",
+        "styleTheme": "Luminous",
+        "styleName": "Body Button Bar",
+        "ddrObjectPath": "2",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "ButtonBar",
+        "ddrObjectFlags": 260,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 5,
+        "ddrSourceLeft": 5,
+        "ddrSourceBottom": 45,
+        "ddrSourceRight": 161,
+        "fillType": "none",
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "fontSize": 12,
+        "fontFamily": "Arial",
+        "textColor": "#888888",
+        "label": "Leads",
+        "buttonMode": "bar",
+        "variant": "secondary",
+        "buttonBarSegments": [
+          {
+            "id": "3",
+            "label": "Button",
+            "tooltip": "Let( \n[\n$$BrowserNav.NavBackTip = MiddleWords( GetValue( $$BrowserNav.Layout.Backward ; 2 ) ; 2 ; 99 ) \n] ; \n\nIf( IsEmpty( $$BrowserNav.NavBackTip ) ; \"Nowhere to go\" ; $$BrowserNav.NavBackTip )\n)",
+            "iconName": "a33_leftChevron.svg",
+            "action": "runScript",
+            "script": "Utility | Browser Navigation",
+            "parameter": "Backward"
+          }
+        ],
+        "buttonIconName": "a33_leftChevron.svg",
+        "ddrArrangeOrder": 1
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Browser Navigation",
+          "parameter": "Backward"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-home-dark-theme-T21lZ2E6-2-3",
+      "position": {
+        "x": 10,
+        "y": 10,
+        "width": 52,
+        "height": 40,
+        "z": 2
+      },
+      "props": {
+        "tooltip": "Let( \n[\n$$BrowserNav.NavBackTip = MiddleWords( GetValue( $$BrowserNav.Layout.Backward ; 2 ) ; 2 ; 99 ) \n] ; \n\nIf( IsEmpty( $$BrowserNav.NavBackTip ) ; \"Nowhere to go\" ; $$BrowserNav.NavBackTip )\n)",
+        "hideObjectWhen": "cf_BrowserNavigation",
+        "styleTheme": "Luminous",
+        "styleName": "Body Button Bar",
+        "ddrObjectPath": "2.3",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 16385,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 10,
+        "ddrSourceLeft": 10,
+        "ddrSourceBottom": 50,
+        "ddrSourceRight": 62,
+        "fontFamily": "Arial",
+        "fontSize": 12,
+        "textColor": "#888888",
+        "label": "Let( \n[\n$$BrowserNav.NavBackTip = MiddleWords( GetValue( $$BrowserNav.Layout.Backward ; 2 ) ; 2 ; 99 ) \n] ; \n\nIf( IsEmpty( $$BrowserNav.NavBackTip ) ; \"Nowhere to go\" ; $$BrowserNav.NavBackTip )\n)",
+        "variant": "secondary",
+        "buttonIconName": "a33_leftChevron.svg",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 2
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Browser Navigation",
+          "parameter": "Backward"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-home-dark-theme-T21lZ2E6-2-4",
+      "position": {
+        "x": 62,
+        "y": 10,
+        "width": 52,
+        "height": 40,
+        "z": 3
+      },
+      "props": {
+        "styleTheme": "Luminous",
+        "styleName": "Body Button Bar",
+        "ddrObjectPath": "2.4",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "PopoverButton",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 10,
+        "ddrSourceLeft": 62,
+        "ddrSourceBottom": 50,
+        "ddrSourceRight": 114,
+        "fillType": "none",
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "fontSize": 12,
+        "fontFamily": "Arial",
+        "textColor": "#888888",
+        "label": "Leads",
+        "variant": "secondary",
+        "buttonIconName": "a5_menu.svg",
+        "buttonMode": "popover",
+        "popoverTitle": "Navigation",
+        "popoverShowTitleBar": false,
+        "popoverButtonDisplay": "icon",
+        "popoverWidth": 241,
+        "popoverHeight": 554,
+        "ddrArrangeOrder": 3
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Desktop|Go to Leads",
+          "parameter": "Leads"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-home-dark-theme-T21lZ2E6-2-4-5",
+      "position": {
+        "x": 67,
+        "y": 65,
+        "width": 241,
+        "height": 554,
+        "z": 4
+      },
+      "props": {
+        "styleTheme": "Luminous",
+        "ddrObjectPath": "2.4.5",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Popover",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 65,
+        "ddrSourceLeft": 67,
+        "ddrSourceBottom": 619,
+        "ddrSourceRight": 308,
+        "ddrFidelityWarnings": [
+          "Unsupported DDR object type: Popover"
+        ],
+        "fillType": "none",
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "fontSize": 12,
+        "fontFamily": "Arial",
+        "textColor": "#888888",
+        "label": "[Popover]",
+        "ddrArrangeOrder": 4
+      },
+      "type": "unknown",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Desktop|Go to Leads",
+          "parameter": "Leads"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-home-dark-theme-T21lZ2E6-2-4-5-6",
+      "position": {
+        "x": 94,
+        "y": 155,
+        "width": 197,
+        "height": 493,
+        "z": 5
+      },
+      "props": {
+        "styleTheme": "Luminous",
+        "ddrObjectPath": "2.4.5.6",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "ButtonBar",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 155,
+        "ddrSourceLeft": 94,
+        "ddrSourceBottom": 648,
+        "ddrSourceRight": 291,
+        "fontFamily": "Arial",
+        "fontSize": 12,
+        "textColor": "#888888",
+        "label": "Leads",
+        "buttonMode": "bar",
+        "variant": "secondary",
+        "buttonBarSegments": [
+          {
+            "id": "20",
+            "label": "Leads",
+            "iconName": "a47_account.svg",
+            "action": "runScript",
+            "script": "Desktop|Go to Leads",
+            "parameter": "Leads"
+          },
+          {
+            "id": "8",
+            "label": "Companies",
+            "iconName": "a46_contactsOutline.svg",
+            "action": "runScript",
+            "script": "Desktop|Go to Companies",
+            "parameter": "Companies"
+          },
+          {
+            "id": "16",
+            "label": "People",
+            "iconName": "a43_contact.svg",
+            "action": "runScript",
+            "script": "Desktop|Go to People",
+            "parameter": "People"
+          },
+          {
+            "id": "18",
+            "label": "Contract Quotes",
+            "iconName": "a117_comment.svg",
+            "action": "runScript",
+            "script": "Desktop|Go to Contract Quotes",
+            "parameter": "Contract Quotes"
+          },
+          {
+            "id": "17",
+            "label": "Contracts",
+            "iconName": "a75_file.svg",
+            "action": "runScript",
+            "script": "Desktop|Go to Contracts",
+            "parameter": "Contracts"
+          },
+          {
+            "id": "120",
+            "label": "Project Quotes",
+            "iconName": "a117_comment.svg",
+            "action": "runScript",
+            "script": "Desktop|Go to Project Quotes",
+            "parameter": "Project Quotes"
+          },
+          {
+            "id": "7",
+            "label": "Projects",
+            "iconName": "a107_time.svg",
+            "action": "runScript",
+            "script": "Desktop|Go to Projects",
+            "parameter": "Projects"
+          },
+          {
+            "id": "184",
+            "label": "Tickets",
+            "iconName": "a73_note.svg",
+            "action": "runScript",
+            "script": "Desktop|Go to Tickets",
+            "parameter": "Tickets"
+          },
+          {
+            "id": "21",
+            "label": "Puchase Orders",
+            "iconName": "a71_edit.svg",
+            "action": "runScript",
+            "script": "Desktop|Go to Orders",
+            "parameter": "Puchase Orders"
+          },
+          {
+            "id": "9",
+            "label": "Invoices",
+            "iconName": "a76_fileOutline.svg",
+            "action": "runScript",
+            "script": "Desktop|Go to Invoices",
+            "parameter": "Invoices"
+          },
+          {
+            "id": "123",
+            "label": "Suppliers",
+            "iconName": "a99_locationTriangle.svg",
+            "action": "runScript",
+            "script": "Desktop|Go to Suppliers",
+            "parameter": "Suppliers"
+          },
+          {
+            "id": "124",
+            "label": "Products",
+            "iconName": "a115_box.svg",
+            "action": "runScript",
+            "script": "Desktop|Go to Products",
+            "parameter": "Products"
+          }
+        ],
+        "buttonIconName": "a47_account.svg",
+        "ddrArrangeOrder": 5
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Desktop|Go to Leads",
+          "parameter": "Leads"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-home-dark-theme-T21lZ2E6-2-4-5-6-20",
+      "position": {
+        "x": 122,
+        "y": 246,
+        "width": 195,
+        "height": 41,
+        "z": 6
+      },
+      "props": {
+        "styleTheme": "Luminous",
+        "ddrObjectPath": "2.4.5.6.20",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 246,
+        "ddrSourceLeft": 122,
+        "ddrSourceBottom": 287,
+        "ddrSourceRight": 317,
+        "fontFamily": "Arial",
+        "fontSize": 12,
+        "textColor": "#888888",
+        "label": "Leads",
+        "variant": "secondary",
+        "buttonIconName": "a47_account.svg",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 6
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Desktop|Go to Leads",
+          "parameter": "Leads"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-home-dark-theme-T21lZ2E6-2-4-5-6-8",
+      "position": {
+        "x": 122,
+        "y": 287,
+        "width": 195,
+        "height": 41,
+        "z": 7
+      },
+      "props": {
+        "styleTheme": "Luminous",
+        "ddrObjectPath": "2.4.5.6.8",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 287,
+        "ddrSourceLeft": 122,
+        "ddrSourceBottom": 328,
+        "ddrSourceRight": 317,
+        "fontFamily": "Arial",
+        "fontSize": 12,
+        "textColor": "#888888",
+        "label": "Companies",
+        "variant": "secondary",
+        "buttonIconName": "a46_contactsOutline.svg",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 7
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Desktop|Go to Companies",
+          "parameter": "Companies"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-home-dark-theme-T21lZ2E6-2-4-5-6-16",
+      "position": {
+        "x": 122,
+        "y": 328,
+        "width": 195,
+        "height": 41,
+        "z": 8
+      },
+      "props": {
+        "styleTheme": "Luminous",
+        "ddrObjectPath": "2.4.5.6.16",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 328,
+        "ddrSourceLeft": 122,
+        "ddrSourceBottom": 369,
+        "ddrSourceRight": 317,
+        "fontFamily": "Arial",
+        "fontSize": 12,
+        "textColor": "#888888",
+        "label": "People",
+        "variant": "secondary",
+        "buttonIconName": "a43_contact.svg",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 8
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Desktop|Go to People",
+          "parameter": "People"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-home-dark-theme-T21lZ2E6-2-4-5-6-18",
+      "position": {
+        "x": 122,
+        "y": 369,
+        "width": 195,
+        "height": 41,
+        "z": 9
+      },
+      "props": {
+        "styleTheme": "Luminous",
+        "ddrObjectPath": "2.4.5.6.18",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 369,
+        "ddrSourceLeft": 122,
+        "ddrSourceBottom": 410,
+        "ddrSourceRight": 317,
+        "fontFamily": "Arial",
+        "fontSize": 12,
+        "textColor": "#888888",
+        "label": "Contract Quotes",
+        "variant": "secondary",
+        "buttonIconName": "a117_comment.svg",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 9
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Desktop|Go to Contract Quotes",
+          "parameter": "Contract Quotes"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-home-dark-theme-T21lZ2E6-2-4-5-6-17",
+      "position": {
+        "x": 122,
+        "y": 410,
+        "width": 195,
+        "height": 41,
+        "z": 10
+      },
+      "props": {
+        "styleTheme": "Luminous",
+        "ddrObjectPath": "2.4.5.6.17",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 410,
+        "ddrSourceLeft": 122,
+        "ddrSourceBottom": 451,
+        "ddrSourceRight": 317,
+        "fontFamily": "Arial",
+        "fontSize": 12,
+        "textColor": "#888888",
+        "label": "Contracts",
+        "variant": "secondary",
+        "buttonIconName": "a75_file.svg",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 10
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Desktop|Go to Contracts",
+          "parameter": "Contracts"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-home-dark-theme-T21lZ2E6-2-4-5-6-120",
+      "position": {
+        "x": 122,
+        "y": 451,
+        "width": 195,
+        "height": 41,
+        "z": 11
+      },
+      "props": {
+        "styleTheme": "Luminous",
+        "ddrObjectPath": "2.4.5.6.120",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 451,
+        "ddrSourceLeft": 122,
+        "ddrSourceBottom": 492,
+        "ddrSourceRight": 317,
+        "fontFamily": "Arial",
+        "fontSize": 12,
+        "textColor": "#888888",
+        "label": "Project Quotes",
+        "variant": "secondary",
+        "buttonIconName": "a117_comment.svg",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 11
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Desktop|Go to Project Quotes",
+          "parameter": "Project Quotes"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-home-dark-theme-T21lZ2E6-2-4-5-6-7",
+      "position": {
+        "x": 122,
+        "y": 492,
+        "width": 195,
+        "height": 40,
+        "z": 12
+      },
+      "props": {
+        "styleTheme": "Luminous",
+        "ddrObjectPath": "2.4.5.6.7",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 492,
+        "ddrSourceLeft": 122,
+        "ddrSourceBottom": 532,
+        "ddrSourceRight": 317,
+        "fontFamily": "Arial",
+        "fontSize": 12,
+        "textColor": "#888888",
+        "label": "Projects",
+        "variant": "secondary",
+        "buttonIconName": "a107_time.svg",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 12
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Desktop|Go to Projects",
+          "parameter": "Projects"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-home-dark-theme-T21lZ2E6-2-4-5-6-184",
+      "position": {
+        "x": 122,
+        "y": 532,
+        "width": 195,
+        "height": 41,
+        "z": 13
+      },
+      "props": {
+        "styleTheme": "Luminous",
+        "ddrObjectPath": "2.4.5.6.184",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 532,
+        "ddrSourceLeft": 122,
+        "ddrSourceBottom": 573,
+        "ddrSourceRight": 317,
+        "fontFamily": "Arial",
+        "fontSize": 12,
+        "textColor": "#888888",
+        "label": "Tickets",
+        "variant": "secondary",
+        "buttonIconName": "a73_note.svg",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 13
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Desktop|Go to Tickets",
+          "parameter": "Tickets"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-home-dark-theme-T21lZ2E6-2-4-5-6-21",
+      "position": {
+        "x": 122,
+        "y": 573,
+        "width": 195,
+        "height": 41,
+        "z": 14
+      },
+      "props": {
+        "styleTheme": "Luminous",
+        "ddrObjectPath": "2.4.5.6.21",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 573,
+        "ddrSourceLeft": 122,
+        "ddrSourceBottom": 614,
+        "ddrSourceRight": 317,
+        "fontFamily": "Arial",
+        "fontSize": 12,
+        "textColor": "#888888",
+        "label": "Puchase Orders",
+        "variant": "secondary",
+        "buttonIconName": "a71_edit.svg",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 14
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Desktop|Go to Orders",
+          "parameter": "Puchase Orders"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-home-dark-theme-T21lZ2E6-2-4-5-6-9",
+      "position": {
+        "x": 122,
+        "y": 614,
+        "width": 195,
+        "height": 41,
+        "z": 15
+      },
+      "props": {
+        "styleTheme": "Luminous",
+        "ddrObjectPath": "2.4.5.6.9",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 614,
+        "ddrSourceLeft": 122,
+        "ddrSourceBottom": 655,
+        "ddrSourceRight": 317,
+        "fontFamily": "Arial",
+        "fontSize": 12,
+        "textColor": "#888888",
+        "label": "Invoices",
+        "variant": "secondary",
+        "buttonIconName": "a76_fileOutline.svg",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 15
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Desktop|Go to Invoices",
+          "parameter": "Invoices"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-home-dark-theme-T21lZ2E6-2-4-5-6-123",
+      "position": {
+        "x": 122,
+        "y": 655,
+        "width": 195,
+        "height": 41,
+        "z": 16
+      },
+      "props": {
+        "styleTheme": "Luminous",
+        "ddrObjectPath": "2.4.5.6.123",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 655,
+        "ddrSourceLeft": 122,
+        "ddrSourceBottom": 696,
+        "ddrSourceRight": 317,
+        "fontFamily": "Arial",
+        "fontSize": 12,
+        "textColor": "#888888",
+        "label": "Suppliers",
+        "variant": "secondary",
+        "buttonIconName": "a99_locationTriangle.svg",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 16
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Desktop|Go to Suppliers",
+          "parameter": "Suppliers"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-home-dark-theme-T21lZ2E6-2-4-5-6-124",
+      "position": {
+        "x": 122,
+        "y": 696,
+        "width": 195,
+        "height": 41,
+        "z": 17
+      },
+      "props": {
+        "styleTheme": "Luminous",
+        "ddrObjectPath": "2.4.5.6.124",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 696,
+        "ddrSourceLeft": 122,
+        "ddrSourceBottom": 737,
+        "ddrSourceRight": 317,
+        "fontFamily": "Arial",
+        "fontSize": 12,
+        "textColor": "#888888",
+        "label": "Products",
+        "variant": "secondary",
+        "buttonIconName": "a115_box.svg",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 17
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Desktop|Go to Products",
+          "parameter": "Products"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-home-dark-theme-T21lZ2E6-2-13",
+      "position": {
+        "x": 114,
+        "y": 10,
+        "width": 52,
+        "height": 40,
+        "z": 18
+      },
+      "props": {
+        "tooltip": "Let( \n[\n$$BrowserNav.NavNextTip = MiddleWords( GetValue( $$BrowserNav.Layout.Forward ; 1 ) ; 2 ; 99 ) \n] ; \n\nIf( IsEmpty( $$BrowserNav.NavNextTip ) ; \"Nowhere to go\" ; $$BrowserNav.NavNextTip )\n)",
+        "styleTheme": "Luminous",
+        "styleName": "Body Button Bar",
+        "ddrObjectPath": "2.13",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 16384,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 10,
+        "ddrSourceLeft": 114,
+        "ddrSourceBottom": 50,
+        "ddrSourceRight": 166,
+        "fontFamily": "Arial",
+        "fontSize": 12,
+        "textColor": "#888888",
+        "label": "Let( \n[\n$$BrowserNav.NavNextTip = MiddleWords( GetValue( $$BrowserNav.Layout.Forward ; 1 ) ; 2 ; 99 ) \n] ; \n\nIf( IsEmpty( $$BrowserNav.NavNextTip ) ; \"Nowhere to go\" ; $$BrowserNav.NavNextTip )\n)",
+        "variant": "secondary",
+        "buttonIconName": "a35_rightChevron.svg",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 18
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Browser Navigation",
+          "parameter": "Forward"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-home-dark-theme-T21lZ2E6-14",
+      "position": {
+        "x": 173,
+        "y": 0,
+        "width": 737,
+        "height": 50,
+        "z": 19
+      },
+      "props": {
+        "styleTheme": "Luminous",
+        "styleName": "• Navigation Part Text",
+        "ddrObjectPath": "14",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 0,
+        "ddrSourceLeft": 173,
+        "ddrSourceBottom": 50,
+        "ddrSourceRight": 910,
+        "fontFamily": "Arial",
+        "fontSize": 36,
+        "textColor": "#DFDFDF",
+        "label": "Home",
+        "ddrArrangeOrder": 19
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-home-dark-theme-T21lZ2E6-22",
+      "position": {
+        "x": 229,
+        "y": 105,
+        "width": 894,
+        "height": 502,
+        "z": 20
+      },
+      "props": {
+        "styleTheme": "Luminous",
+        "styleName": "Minimal Edit Box",
+        "ddrObjectPath": "22",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": true,
+        "autosizeBottom": true,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "TabControl",
+        "ddrObjectFlags": 3221225472,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 105,
+        "ddrSourceLeft": 229,
+        "ddrSourceBottom": 607,
+        "ddrSourceRight": 1123,
+        "fillType": "none",
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "fontFamily": "arial,sans-serif",
+        "fontSize": 12,
+        "textColor": "#E6E6E6",
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "entity_display",
+        "controlType": "text",
+        "valueList": "DateSelector",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 20
+      },
+      "type": "field",
+      "binding": {
+        "field": "entity_display",
+        "tableOccurrence": "system_NOTES__byDate"
+      },
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Feature Not Yet Implemented",
+          "parameter": "not Get ( WindowMode ) = 0 or not Get ( FoundCount )"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-home-dark-theme-T21lZ2E6-22-24-126",
+      "position": {
+        "x": 725,
+        "y": 471,
+        "width": 817,
+        "height": 302,
+        "z": 21
+      },
+      "props": {
+        "styleTheme": "Luminous",
+        "styleName": "Minimal Edit Box",
+        "ddrObjectPath": "22.24.126",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": true,
+        "autosizeBottom": true,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Portal",
+        "ddrObjectFlags": 3221225472,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 471,
+        "ddrSourceLeft": 725,
+        "ddrSourceBottom": 773,
+        "ddrSourceRight": 1542,
+        "fontFamily": "arial,sans-serif",
+        "fontSize": 12,
+        "textColor": "#E6E6E6",
+        "label": "Portal",
+        "portalSortRecords": false,
+        "portalFilterRecords": false,
+        "portalFilterCalculation": "",
+        "portalAllowDelete": false,
+        "portalAllowVerticalScrolling": true,
+        "portalScrollBar": "always",
+        "portalResetScrollOnExit": false,
+        "portalInitialRow": 1,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 12,
+        "portalUseAlternateRowState": false,
+        "portalUseActiveRowState": true,
+        "portalRowFields": [
+          "entity_display",
+          "note",
+          "date",
+          "zz_timestamp_create"
+        ],
+        "portalColumnHeaders": [
+          "date",
+          "entity display",
+          "note"
+        ],
+        "portalColumnWidths": [
+          112,
+          251,
+          381
+        ],
+        "groupId": "ddr-group-fm-home-dark-theme-T21lZ2E6-22-24",
+        "ddrArrangeOrder": 21
+      },
+      "type": "portal",
+      "binding": {
+        "tableOccurrence": "system_NOTES__byDate"
+      },
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Feature Not Yet Implemented",
+          "parameter": "not Get ( WindowMode ) = 0 or not Get ( FoundCount )"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-home-dark-theme-T21lZ2E6-22-24-126-128",
+      "position": {
+        "x": 1023,
+        "y": 735,
+        "width": 251,
+        "height": 21,
+        "z": 22
+      },
+      "props": {
+        "styleTheme": "Luminous",
+        "styleName": "Minimal Edit Box",
+        "ddrObjectPath": "22.24.126.128",
+        "portalParentComponentId": "ddr-fm-home-dark-theme-T21lZ2E6-22-24-126",
+        "portalParentDdrPath": "22.24.126",
+        "portalParentTableOccurrence": "system_NOTES__byDate",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 735,
+        "ddrSourceLeft": 1023,
+        "ddrSourceBottom": 756,
+        "ddrSourceRight": 1274,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "entity_display",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "groupId": "ddr-group-fm-home-dark-theme-T21lZ2E6-22-24",
+        "ddrArrangeOrder": 22
+      },
+      "type": "field",
+      "binding": {
+        "field": "entity_display",
+        "tableOccurrence": "system_NOTES__byDate"
+      }
+    },
+    {
+      "id": "ddr-fm-home-dark-theme-T21lZ2E6-22-24-126-129",
+      "position": {
+        "x": 1386,
+        "y": 735,
+        "width": 381,
+        "height": 21,
+        "z": 23
+      },
+      "props": {
+        "styleTheme": "Luminous",
+        "styleName": "Minimal Edit Box",
+        "ddrObjectPath": "22.24.126.129",
+        "portalParentComponentId": "ddr-fm-home-dark-theme-T21lZ2E6-22-24-126",
+        "portalParentDdrPath": "22.24.126",
+        "portalParentTableOccurrence": "system_NOTES__byDate",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": true,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 1073741824,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 735,
+        "ddrSourceLeft": 1386,
+        "ddrSourceBottom": 756,
+        "ddrSourceRight": 1767,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "note",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "groupId": "ddr-group-fm-home-dark-theme-T21lZ2E6-22-24",
+        "ddrArrangeOrder": 23
+      },
+      "type": "field",
+      "binding": {
+        "field": "note",
+        "tableOccurrence": "system_NOTES__byDate"
+      }
+    },
+    {
+      "id": "ddr-fm-home-dark-theme-T21lZ2E6-22-24-126-183",
+      "position": {
+        "x": 998,
+        "y": 735,
+        "width": 21,
+        "height": 21,
+        "z": 24
+      },
+      "props": {
+        "styleTheme": "Luminous",
+        "ddrObjectPath": "22.24.126.183",
+        "portalParentComponentId": "ddr-fm-home-dark-theme-T21lZ2E6-22-24-126",
+        "portalParentDdrPath": "22.24.126",
+        "portalParentTableOccurrence": "system_NOTES__byDate",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 260,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 735,
+        "ddrSourceLeft": 998,
+        "ddrSourceBottom": 756,
+        "ddrSourceRight": 1019,
+        "fontFamily": "arial,sans-serif",
+        "fontSize": 12,
+        "textColor": "#E6E6E6",
+        "label": "Button",
+        "variant": "secondary",
+        "buttonIconName": "a35_rightChevron.svg",
+        "buttonMode": "standard",
+        "groupId": "ddr-group-fm-home-dark-theme-T21lZ2E6-22-24",
+        "ddrArrangeOrder": 24
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Feature Not Yet Implemented",
+          "parameter": "not Get ( WindowMode ) = 0 or not Get ( FoundCount )"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-home-dark-theme-T21lZ2E6-22-24-126-127",
+      "position": {
+        "x": 1274,
+        "y": 734,
+        "width": 112,
+        "height": 21,
+        "z": 25
+      },
+      "props": {
+        "styleTheme": "Luminous",
+        "styleName": "Minimal Edit Box",
+        "ddrObjectPath": "22.24.126.127",
+        "portalParentComponentId": "ddr-fm-home-dark-theme-T21lZ2E6-22-24-126",
+        "portalParentDdrPath": "22.24.126",
+        "portalParentTableOccurrence": "system_NOTES__byDate",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 734,
+        "ddrSourceLeft": 1274,
+        "ddrSourceBottom": 755,
+        "ddrSourceRight": 1386,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "date",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "groupId": "ddr-group-fm-home-dark-theme-T21lZ2E6-22-24",
+        "ddrArrangeOrder": 25
+      },
+      "type": "field",
+      "binding": {
+        "field": "date",
+        "tableOccurrence": "system_NOTES__byDate"
+      }
+    },
+    {
+      "id": "ddr-fm-home-dark-theme-T21lZ2E6-22-24-131",
+      "position": {
+        "x": 756,
+        "y": 453,
+        "width": 251,
+        "height": 17,
+        "z": 26
+      },
+      "props": {
+        "styleTheme": "Luminous",
+        "ddrObjectPath": "22.24.131",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 453,
+        "ddrSourceLeft": 756,
+        "ddrSourceBottom": 470,
+        "ddrSourceRight": 1007,
+        "fontFamily": "arial,sans-serif",
+        "fontSize": 12,
+        "textColor": "#AAAAAA",
+        "label": "Name",
+        "groupId": "ddr-group-fm-home-dark-theme-T21lZ2E6-22-24",
+        "ddrArrangeOrder": 26
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-home-dark-theme-T21lZ2E6-22-24-132",
+      "position": {
+        "x": 1119,
+        "y": 453,
+        "width": 381,
+        "height": 17,
+        "z": 27
+      },
+      "props": {
+        "styleTheme": "Luminous",
+        "ddrObjectPath": "22.24.132",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 453,
+        "ddrSourceLeft": 1119,
+        "ddrSourceBottom": 470,
+        "ddrSourceRight": 1500,
+        "fontFamily": "arial,sans-serif",
+        "fontSize": 12,
+        "textColor": "#AAAAAA",
+        "label": "Note",
+        "groupId": "ddr-group-fm-home-dark-theme-T21lZ2E6-22-24",
+        "ddrArrangeOrder": 27
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-home-dark-theme-T21lZ2E6-22-24-139",
+      "position": {
+        "x": 728,
+        "y": 366,
+        "width": 362,
+        "height": 22,
+        "z": 28
+      },
+      "props": {
+        "styleTheme": "Luminous",
+        "ddrObjectPath": "22.24.139",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 366,
+        "ddrSourceLeft": 728,
+        "ddrSourceBottom": 388,
+        "ddrSourceRight": 1090,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "usr_date_selection",
+        "controlType": "popup",
+        "valueList": "DateSelector",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-home-dark-theme-T21lZ2E6-22-24",
+        "ddrArrangeOrder": 28
+      },
+      "type": "field",
+      "binding": {
+        "field": "usr_date_selection",
+        "tableOccurrence": "SYSTEM"
+      }
+    },
+    {
+      "id": "ddr-fm-home-dark-theme-T21lZ2E6-22-24-180",
+      "position": {
+        "x": 982,
+        "y": 395,
+        "width": 108,
+        "height": 21,
+        "z": 29
+      },
+      "props": {
+        "styleTheme": "Luminous",
+        "ddrObjectPath": "22.24.180",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 395,
+        "ddrSourceLeft": 982,
+        "ddrSourceBottom": 416,
+        "ddrSourceRight": 1090,
+        "fillType": "none",
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "usr_date_high_g",
+        "controlType": "date",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-home-dark-theme-T21lZ2E6-22-24",
+        "ddrArrangeOrder": 29
+      },
+      "type": "field",
+      "binding": {
+        "field": "usr_date_high_g",
+        "tableOccurrence": "SYSTEM"
+      }
+    },
+    {
+      "id": "ddr-fm-home-dark-theme-T21lZ2E6-22-24-181",
+      "position": {
+        "x": 920,
+        "y": 397,
+        "width": 54,
+        "height": 18,
+        "z": 30
+      },
+      "props": {
+        "styleTheme": "Luminous",
+        "ddrObjectPath": "22.24.181",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 397,
+        "ddrSourceLeft": 920,
+        "ddrSourceBottom": 415,
+        "ddrSourceRight": 974,
+        "fillType": "none",
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textAlign": "right",
+        "fontFamily": "arial,sans-serif",
+        "fontSize": 12,
+        "textColor": "#AAAAAA",
+        "label": "Date End",
+        "groupId": "ddr-group-fm-home-dark-theme-T21lZ2E6-22-24",
+        "ddrArrangeOrder": 30
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-home-dark-theme-T21lZ2E6-22-24-178",
+      "position": {
+        "x": 798,
+        "y": 395,
+        "width": 108,
+        "height": 21,
+        "z": 31
+      },
+      "props": {
+        "styleTheme": "Luminous",
+        "ddrObjectPath": "22.24.178",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 395,
+        "ddrSourceLeft": 798,
+        "ddrSourceBottom": 416,
+        "ddrSourceRight": 906,
+        "fillType": "none",
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "usr_date_low_g",
+        "controlType": "date",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "groupId": "ddr-group-fm-home-dark-theme-T21lZ2E6-22-24",
+        "ddrArrangeOrder": 31
+      },
+      "type": "field",
+      "binding": {
+        "field": "usr_date_low_g",
+        "tableOccurrence": "SYSTEM"
+      }
+    },
+    {
+      "id": "ddr-fm-home-dark-theme-T21lZ2E6-22-24-179",
+      "position": {
+        "x": 731,
+        "y": 397,
+        "width": 58,
+        "height": 18,
+        "z": 32
+      },
+      "props": {
+        "styleTheme": "Luminous",
+        "ddrObjectPath": "22.24.179",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 397,
+        "ddrSourceLeft": 731,
+        "ddrSourceBottom": 415,
+        "ddrSourceRight": 789,
+        "fillType": "none",
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "textAlign": "right",
+        "fontFamily": "arial,sans-serif",
+        "fontSize": 12,
+        "textColor": "#AAAAAA",
+        "label": "Date Start",
+        "groupId": "ddr-group-fm-home-dark-theme-T21lZ2E6-22-24",
+        "ddrArrangeOrder": 32
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-home-dark-theme-T21lZ2E6-22-24-130",
+      "position": {
+        "x": 1007,
+        "y": 453,
+        "width": 112,
+        "height": 16,
+        "z": 33
+      },
+      "props": {
+        "styleTheme": "Luminous",
+        "ddrObjectPath": "22.24.130",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 453,
+        "ddrSourceLeft": 1007,
+        "ddrSourceBottom": 469,
+        "ddrSourceRight": 1119,
+        "fontFamily": "arial,sans-serif",
+        "fontSize": 12,
+        "textColor": "#AAAAAA",
+        "label": "Date",
+        "groupId": "ddr-group-fm-home-dark-theme-T21lZ2E6-22-24",
+        "ddrArrangeOrder": 33
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-home-dark-theme-T21lZ2E6-22-24-185",
+      "position": {
+        "x": 1212,
+        "y": 369,
+        "width": 231,
+        "height": 46,
+        "z": 34
+      },
+      "props": {
+        "styleTheme": "Luminous",
+        "ddrObjectPath": "22.24.185",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 369,
+        "ddrSourceLeft": 1212,
+        "ddrSourceBottom": 415,
+        "ddrSourceRight": 1443,
+        "fontFamily": "arial,sans-serif",
+        "fontSize": 12,
+        "textColor": "#AAAAAA",
+        "label": "Sample Data from DL.  Adding new notes in the Omega App will show up here.",
+        "groupId": "ddr-group-fm-home-dark-theme-T21lZ2E6-22-24",
+        "ddrArrangeOrder": 34
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-home-dark-theme-T21lZ2E6-22-125-153",
+      "position": {
+        "x": 945,
+        "y": 364,
+        "width": 279,
+        "height": 17,
+        "z": 35
+      },
+      "props": {
+        "styleTheme": "Luminous",
+        "ddrObjectPath": "22.125.153",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 364,
+        "ddrSourceLeft": 945,
+        "ddrSourceBottom": 381,
+        "ddrSourceRight": 1224,
+        "fontFamily": "arial,sans-serif",
+        "fontSize": 12,
+        "textColor": "#AAAAAA",
+        "label": "To",
+        "groupId": "ddr-group-fm-home-dark-theme-T21lZ2E6-22-125",
+        "ddrArrangeOrder": 35
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-home-dark-theme-T21lZ2E6-22-125-143",
+      "position": {
+        "x": 749,
+        "y": 364,
+        "width": 93,
+        "height": 17,
+        "z": 36
+      },
+      "props": {
+        "styleTheme": "Luminous",
+        "ddrObjectPath": "22.125.143",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 364,
+        "ddrSourceLeft": 749,
+        "ddrSourceBottom": 381,
+        "ddrSourceRight": 842,
+        "fontFamily": "arial,sans-serif",
+        "fontSize": 12,
+        "textColor": "#AAAAAA",
+        "label": "Sent",
+        "groupId": "ddr-group-fm-home-dark-theme-T21lZ2E6-22-125",
+        "ddrArrangeOrder": 36
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-home-dark-theme-T21lZ2E6-22-125-152",
+      "position": {
+        "x": 847,
+        "y": 364,
+        "width": 93,
+        "height": 17,
+        "z": 37
+      },
+      "props": {
+        "styleTheme": "Luminous",
+        "ddrObjectPath": "22.125.152",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 364,
+        "ddrSourceLeft": 847,
+        "ddrSourceBottom": 381,
+        "ddrSourceRight": 940,
+        "fontFamily": "arial,sans-serif",
+        "fontSize": 12,
+        "textColor": "#AAAAAA",
+        "label": "Received",
+        "groupId": "ddr-group-fm-home-dark-theme-T21lZ2E6-22-125",
+        "ddrArrangeOrder": 37
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-home-dark-theme-T21lZ2E6-22-125-142",
+      "position": {
+        "x": 1233,
+        "y": 364,
+        "width": 209,
+        "height": 17,
+        "z": 38
+      },
+      "props": {
+        "styleTheme": "Luminous",
+        "ddrObjectPath": "22.125.142",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": true,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 1073741824,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 364,
+        "ddrSourceLeft": 1233,
+        "ddrSourceBottom": 381,
+        "ddrSourceRight": 1442,
+        "fontFamily": "arial,sans-serif",
+        "fontSize": 12,
+        "textColor": "#AAAAAA",
+        "label": "Subject",
+        "groupId": "ddr-group-fm-home-dark-theme-T21lZ2E6-22-125",
+        "ddrArrangeOrder": 38
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-home-dark-theme-T21lZ2E6-22-125-144",
+      "position": {
+        "x": 717,
+        "y": 380,
+        "width": 838,
+        "height": 416,
+        "z": 39
+      },
+      "props": {
+        "styleTheme": "Luminous",
+        "ddrObjectPath": "22.125.144",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": true,
+        "autosizeBottom": true,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Portal",
+        "ddrObjectFlags": 3221225472,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 380,
+        "ddrSourceLeft": 717,
+        "ddrSourceBottom": 796,
+        "ddrSourceRight": 1555,
+        "fontFamily": "arial,sans-serif",
+        "fontSize": 12,
+        "textColor": "#E6E6E6",
+        "label": "portal_emails",
+        "portalSortRecords": false,
+        "portalFilterRecords": false,
+        "portalFilterCalculation": "",
+        "portalAllowDelete": false,
+        "portalAllowVerticalScrolling": true,
+        "portalScrollBar": "always",
+        "portalResetScrollOnExit": false,
+        "portalInitialRow": 1,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 6,
+        "portalUseAlternateRowState": false,
+        "portalUseActiveRowState": true,
+        "portalRowFields": [
+          "sentDate",
+          "subject",
+          "receivedDate",
+          "to",
+          "from"
+        ],
+        "portalColumnHeaders": [
+          "sent Date",
+          "received Date",
+          "to",
+          "subject",
+          "From"
+        ],
+        "portalColumnWidths": [
+          94,
+          94,
+          280,
+          269,
+          280
+        ],
+        "groupId": "ddr-group-fm-home-dark-theme-T21lZ2E6-22-125",
+        "ddrArrangeOrder": 39
+      },
+      "type": "portal",
+      "binding": {
+        "tableOccurrence": "system_EMAILS"
+      },
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Delete Portal Row",
+          "parameter": "not Get ( WindowMode ) = 0 or not Get ( FoundCount )"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-home-dark-theme-T21lZ2E6-22-125-144-145",
+      "position": {
+        "x": 1769,
+        "y": 590,
+        "width": 21,
+        "height": 21,
+        "z": 40
+      },
+      "props": {
+        "styleTheme": "Luminous",
+        "ddrObjectPath": "22.125.144.145",
+        "portalParentComponentId": "ddr-fm-home-dark-theme-T21lZ2E6-22-125-144",
+        "portalParentDdrPath": "22.125.144",
+        "portalParentTableOccurrence": "system_EMAILS",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": true,
+        "autosizeBottom": false,
+        "autosizeLeft": false,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 1342177540,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 590,
+        "ddrSourceLeft": 1769,
+        "ddrSourceBottom": 611,
+        "ddrSourceRight": 1790,
+        "fontFamily": "arial,sans-serif",
+        "fontSize": 12,
+        "textColor": "#E6E6E6",
+        "label": "Button",
+        "variant": "secondary",
+        "buttonIconName": "a27_XCircle.svg",
+        "buttonMode": "standard",
+        "groupId": "ddr-group-fm-home-dark-theme-T21lZ2E6-22-125",
+        "ddrArrangeOrder": 40
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Utility | Delete Portal Row",
+          "parameter": "not Get ( WindowMode ) = 0 or not Get ( FoundCount )"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-home-dark-theme-T21lZ2E6-22-125-144-146",
+      "position": {
+        "x": 1008,
+        "y": 553,
+        "width": 94,
+        "height": 21,
+        "z": 41
+      },
+      "props": {
+        "styleTheme": "Luminous",
+        "ddrObjectPath": "22.125.144.146",
+        "portalParentComponentId": "ddr-fm-home-dark-theme-T21lZ2E6-22-125-144",
+        "portalParentDdrPath": "22.125.144",
+        "portalParentTableOccurrence": "system_EMAILS",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 553,
+        "ddrSourceLeft": 1008,
+        "ddrSourceBottom": 574,
+        "ddrSourceRight": 1102,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "sentDate",
+        "controlType": "date",
+        "valueList": "ContractGroups",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "groupId": "ddr-group-fm-home-dark-theme-T21lZ2E6-22-125",
+        "ddrArrangeOrder": 41
+      },
+      "type": "field",
+      "binding": {
+        "field": "sentDate",
+        "tableOccurrence": "system_EMAILS"
+      }
+    },
+    {
+      "id": "ddr-fm-home-dark-theme-T21lZ2E6-22-125-144-147",
+      "position": {
+        "x": 1492,
+        "y": 553,
+        "width": 269,
+        "height": 58,
+        "z": 42
+      },
+      "props": {
+        "styleTheme": "Luminous",
+        "ddrObjectPath": "22.125.144.147",
+        "portalParentComponentId": "ddr-fm-home-dark-theme-T21lZ2E6-22-125-144",
+        "portalParentDdrPath": "22.125.144",
+        "portalParentTableOccurrence": "system_EMAILS",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": true,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 1073741824,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 553,
+        "ddrSourceLeft": 1492,
+        "ddrSourceBottom": 611,
+        "ddrSourceRight": 1761,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "subject",
+        "controlType": "text",
+        "valueList": "Cities",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "groupId": "ddr-group-fm-home-dark-theme-T21lZ2E6-22-125",
+        "ddrArrangeOrder": 42
+      },
+      "type": "field",
+      "binding": {
+        "field": "subject",
+        "tableOccurrence": "system_EMAILS"
+      }
+    },
+    {
+      "id": "ddr-fm-home-dark-theme-T21lZ2E6-22-125-144-148",
+      "position": {
+        "x": 1106,
+        "y": 553,
+        "width": 94,
+        "height": 21,
+        "z": 43
+      },
+      "props": {
+        "styleTheme": "Luminous",
+        "ddrObjectPath": "22.125.144.148",
+        "portalParentComponentId": "ddr-fm-home-dark-theme-T21lZ2E6-22-125-144",
+        "portalParentDdrPath": "22.125.144",
+        "portalParentTableOccurrence": "system_EMAILS",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 553,
+        "ddrSourceLeft": 1106,
+        "ddrSourceBottom": 574,
+        "ddrSourceRight": 1200,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "receivedDate",
+        "controlType": "date",
+        "valueList": "ContractGroups",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "groupId": "ddr-group-fm-home-dark-theme-T21lZ2E6-22-125",
+        "ddrArrangeOrder": 43
+      },
+      "type": "field",
+      "binding": {
+        "field": "receivedDate",
+        "tableOccurrence": "system_EMAILS"
+      }
+    },
+    {
+      "id": "ddr-fm-home-dark-theme-T21lZ2E6-22-125-144-149",
+      "position": {
+        "x": 1205,
+        "y": 553,
+        "width": 280,
+        "height": 21,
+        "z": 44
+      },
+      "props": {
+        "styleTheme": "Luminous",
+        "ddrObjectPath": "22.125.144.149",
+        "portalParentComponentId": "ddr-fm-home-dark-theme-T21lZ2E6-22-125-144",
+        "portalParentDdrPath": "22.125.144",
+        "portalParentTableOccurrence": "system_EMAILS",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 553,
+        "ddrSourceLeft": 1205,
+        "ddrSourceBottom": 574,
+        "ddrSourceRight": 1485,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "to",
+        "controlType": "text",
+        "valueList": "Cities",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "groupId": "ddr-group-fm-home-dark-theme-T21lZ2E6-22-125",
+        "ddrArrangeOrder": 44
+      },
+      "type": "field",
+      "binding": {
+        "field": "to",
+        "tableOccurrence": "system_EMAILS"
+      }
+    },
+    {
+      "id": "ddr-fm-home-dark-theme-T21lZ2E6-22-125-144-150",
+      "position": {
+        "x": 1206,
+        "y": 590,
+        "width": 279,
+        "height": 21,
+        "z": 45
+      },
+      "props": {
+        "styleTheme": "Luminous",
+        "ddrObjectPath": "22.125.144.150",
+        "portalParentComponentId": "ddr-fm-home-dark-theme-T21lZ2E6-22-125-144",
+        "portalParentDdrPath": "22.125.144",
+        "portalParentTableOccurrence": "system_EMAILS",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 590,
+        "ddrSourceLeft": 1206,
+        "ddrSourceBottom": 611,
+        "ddrSourceRight": 1485,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "from",
+        "controlType": "text",
+        "valueList": "Cities",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "groupId": "ddr-group-fm-home-dark-theme-T21lZ2E6-22-125",
+        "ddrArrangeOrder": 45
+      },
+      "type": "field",
+      "binding": {
+        "field": "from",
+        "tableOccurrence": "system_EMAILS"
+      }
+    },
+    {
+      "id": "ddr-fm-home-dark-theme-T21lZ2E6-22-125-144-151",
+      "position": {
+        "x": 983,
+        "y": 553,
+        "width": 21,
+        "height": 21,
+        "z": 46
+      },
+      "props": {
+        "styleTheme": "Luminous",
+        "ddrObjectPath": "22.125.144.151",
+        "portalParentComponentId": "ddr-fm-home-dark-theme-T21lZ2E6-22-125-144",
+        "portalParentDdrPath": "22.125.144",
+        "portalParentTableOccurrence": "system_EMAILS",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 260,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 553,
+        "ddrSourceLeft": 983,
+        "ddrSourceBottom": 574,
+        "ddrSourceRight": 1004,
+        "fontFamily": "arial,sans-serif",
+        "fontSize": 12,
+        "textColor": "#E6E6E6",
+        "label": "Button",
+        "variant": "secondary",
+        "buttonIconName": "a35_rightChevron.svg",
+        "buttonMode": "standard",
+        "groupId": "ddr-group-fm-home-dark-theme-T21lZ2E6-22-125",
+        "ddrArrangeOrder": 46
+      },
+      "type": "button"
+    },
+    {
+      "id": "ddr-fm-home-dark-theme-T21lZ2E6-22-125-144-154",
+      "position": {
+        "x": 1204,
+        "y": 574,
+        "width": 280,
+        "height": 17,
+        "z": 47
+      },
+      "props": {
+        "styleTheme": "Luminous",
+        "ddrObjectPath": "22.125.144.154",
+        "portalParentComponentId": "ddr-fm-home-dark-theme-T21lZ2E6-22-125-144",
+        "portalParentDdrPath": "22.125.144",
+        "portalParentTableOccurrence": "system_EMAILS",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 574,
+        "ddrSourceLeft": 1204,
+        "ddrSourceBottom": 591,
+        "ddrSourceRight": 1484,
+        "fontFamily": "arial,sans-serif",
+        "fontSize": 12,
+        "textColor": "#AAAAAA",
+        "label": "From",
+        "groupId": "ddr-group-fm-home-dark-theme-T21lZ2E6-22-125",
+        "ddrArrangeOrder": 47
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-home-dark-theme-T21lZ2E6-105",
+      "position": {
+        "x": 1044,
+        "y": 5,
+        "width": 79,
+        "height": 37,
+        "z": 48
+      },
+      "props": {
+        "styleTheme": "Luminous",
+        "styleName": "Minimal Container",
+        "ddrObjectPath": "105",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": true,
+        "autosizeBottom": false,
+        "autosizeLeft": false,
+        "ddrOriginalObjectType": "GroupButton",
+        "ddrObjectFlags": 1342177540,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 5,
+        "ddrSourceLeft": 1044,
+        "ddrSourceBottom": 42,
+        "ddrSourceRight": 1123,
+        "fillType": "none",
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "label": "Button",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 48
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Desktop|Go to Home",
+          "parameter": "not Get ( WindowMode ) = 0 or not Get ( FoundCount )"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-home-dark-theme-T21lZ2E6-105-69",
+      "position": {
+        "x": 2088,
+        "y": 10,
+        "width": 79,
+        "height": 37,
+        "z": 49
+      },
+      "props": {
+        "styleTheme": "Luminous",
+        "styleName": "Minimal Container",
+        "ddrObjectPath": "105.69",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": true,
+        "autosizeBottom": false,
+        "autosizeLeft": false,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 1342177280,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 10,
+        "ddrSourceLeft": 2088,
+        "ddrSourceBottom": 47,
+        "ddrSourceRight": 2167,
+        "fillType": "none",
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "paddingTop": 0,
+        "paddingRight": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "com_logo_display",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 49
+      },
+      "type": "field",
+      "binding": {
+        "field": "com_logo_display",
+        "tableOccurrence": "SYSTEM"
+      }
+    },
+    {
+      "id": "ddr-fm-home-dark-theme-T21lZ2E6-172",
+      "position": {
+        "x": 43,
+        "y": 105,
+        "width": 149,
+        "height": 22,
+        "z": 50
+      },
+      "props": {
+        "styleTheme": "Luminous",
+        "ddrObjectPath": "172",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 260,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 105,
+        "ddrSourceLeft": 43,
+        "ddrSourceBottom": 127,
+        "ddrSourceRight": 192,
+        "fontFamily": "arial,sans-serif",
+        "fontSize": 12,
+        "textColor": "#E6E6E6",
+        "label": "Find Company",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 50
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Home | Find Company",
+          "parameter": "not Get ( WindowMode ) = 0 or not Get ( FoundCount )"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-home-dark-theme-T21lZ2E6-173",
+      "position": {
+        "x": 43,
+        "y": 134,
+        "width": 149,
+        "height": 22,
+        "z": 51
+      },
+      "props": {
+        "styleTheme": "Luminous",
+        "ddrObjectPath": "173",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 260,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 134,
+        "ddrSourceLeft": 43,
+        "ddrSourceBottom": 156,
+        "ddrSourceRight": 192,
+        "fontFamily": "arial,sans-serif",
+        "fontSize": 12,
+        "textColor": "#E6E6E6",
+        "label": "Find Person",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 51
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Home | Find Person",
+          "parameter": "not Get ( WindowMode ) = 0 or not Get ( FoundCount )"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-home-dark-theme-T21lZ2E6-174",
+      "position": {
+        "x": 43,
+        "y": 556,
+        "width": 149,
+        "height": 22,
+        "z": 52
+      },
+      "props": {
+        "styleTheme": "Luminous",
+        "ddrObjectPath": "174",
+        "rotation": 0,
+        "autosizeTop": false,
+        "autosizeRight": false,
+        "autosizeBottom": true,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 2684354820,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 556,
+        "ddrSourceLeft": 43,
+        "ddrSourceBottom": 578,
+        "ddrSourceRight": 192,
+        "fontFamily": "arial,sans-serif",
+        "fontSize": 12,
+        "textColor": "#E6E6E6",
+        "label": "Preferences",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 52
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Home | Go to Preferences",
+          "parameter": "not Get ( WindowMode ) = 0 or not Get ( FoundCount ) or not z_IS_OWNER"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-home-dark-theme-T21lZ2E6-175",
+      "position": {
+        "x": 43,
+        "y": 498,
+        "width": 149,
+        "height": 22,
+        "z": 53
+      },
+      "props": {
+        "styleTheme": "Luminous",
+        "ddrObjectPath": "175",
+        "rotation": 0,
+        "autosizeTop": false,
+        "autosizeRight": false,
+        "autosizeBottom": true,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 2684354820,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 498,
+        "ddrSourceLeft": 43,
+        "ddrSourceBottom": 520,
+        "ddrSourceRight": 192,
+        "fontFamily": "arial,sans-serif",
+        "fontSize": 12,
+        "textColor": "#E6E6E6",
+        "label": "Enter Time",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 53
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Home | Go to Employee Time Entries",
+          "parameter": "not Get ( WindowMode ) = 0 or not Get ( FoundCount )"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-home-dark-theme-T21lZ2E6-176",
+      "position": {
+        "x": 43,
+        "y": 585,
+        "width": 149,
+        "height": 22,
+        "z": 54
+      },
+      "props": {
+        "styleTheme": "Luminous",
+        "ddrObjectPath": "176",
+        "rotation": 0,
+        "autosizeTop": false,
+        "autosizeRight": false,
+        "autosizeBottom": true,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 2684354820,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 585,
+        "ddrSourceLeft": 43,
+        "ddrSourceBottom": 607,
+        "ddrSourceRight": 192,
+        "fontFamily": "arial,sans-serif",
+        "fontSize": 12,
+        "textColor": "#E6E6E6",
+        "label": "Exit Application",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 54
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Exit",
+          "parameter": "not Get ( WindowMode ) = 0 or not Get ( FoundCount )"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-home-dark-theme-T21lZ2E6-177",
+      "position": {
+        "x": 43,
+        "y": 527,
+        "width": 149,
+        "height": 22,
+        "z": 55
+      },
+      "props": {
+        "styleTheme": "Luminous",
+        "ddrObjectPath": "177",
+        "rotation": 0,
+        "autosizeTop": false,
+        "autosizeRight": false,
+        "autosizeBottom": true,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 2684354820,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 527,
+        "ddrSourceLeft": 43,
+        "ddrSourceBottom": 549,
+        "ddrSourceRight": 192,
+        "fontFamily": "arial,sans-serif",
+        "fontSize": 12,
+        "textColor": "#E6E6E6",
+        "label": "Timesheets",
+        "variant": "secondary",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 55
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "runScript",
+          "script": "Home | Go to Timesheets",
+          "parameter": "not Get ( WindowMode ) = 0 or not Get ( FoundCount ) or not z_IS_OWNER"
+        }
+      }
+    }
+  ],
+  "actions": []
+}

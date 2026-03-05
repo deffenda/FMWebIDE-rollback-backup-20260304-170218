@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "id": "fidelity-je-data",
+  "name": "J&amp;E_data",
+  "filemaker": {
+    "host": "https://jande.hopto.org",
+    "database": "J&amp;E_data",
+    "ddrPath": "/Users/deffenda/Koofr/Inactive/J&E/05122020/J&E_data_fmp12.xml",
+    "sourceFileName": "J&amp;E_data.fmp12",
+    "solutionName": "Phase 16 Layout Fidelity"
+  }
+}

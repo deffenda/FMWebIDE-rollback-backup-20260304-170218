@@ -1,0 +1,230 @@
+{
+  "id": "fm-iphone-inspeciton-signature-T21lZ2E6",
+  "name": "iPhone|Inspeciton Signature",
+  "defaultTableOccurrence": "iPhone|Inspeciton Signature",
+  "canvas": {
+    "width": 480,
+    "height": 600,
+    "gridSize": 8,
+    "showGrid": false,
+    "snapToGrid": false
+  },
+  "components": [
+    {
+      "id": "ddr-fm-iphone-inspeciton-signature-T21lZ2E6-12",
+      "position": {
+        "x": 3,
+        "y": 0,
+        "width": 216,
+        "height": 44,
+        "z": 1
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "styleName": "Entity Header",
+        "ddrObjectPath": "12",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": true,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Text",
+        "ddrObjectFlags": 1073741824,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 0,
+        "ddrSourceLeft": 3,
+        "ddrSourceBottom": 44,
+        "ddrSourceRight": 219,
+        "fillType": "none",
+        "lineStyle": "solid",
+        "effectOuterShadow": false,
+        "fontSize": 24,
+        "fontFamily": "arial,sans-serif",
+        "textColor": "#FFFFFF",
+        "label": "Signature",
+        "ddrArrangeOrder": 1
+      },
+      "type": "label"
+    },
+    {
+      "id": "ddr-fm-iphone-inspeciton-signature-T21lZ2E6-52",
+      "position": {
+        "x": 18,
+        "y": 50,
+        "width": 37,
+        "height": 37,
+        "z": 2
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "ddrObjectPath": "52",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": false,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Button",
+        "ddrObjectFlags": 0,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 50,
+        "ddrSourceLeft": 18,
+        "ddrSourceBottom": 87,
+        "ddrSourceRight": 55,
+        "fontFamily": "arial,sans-serif",
+        "fontSize": 12,
+        "textColor": "#000000",
+        "label": "Button",
+        "variant": "secondary",
+        "buttonIconName": "a33_leftChevron.svg",
+        "buttonMode": "standard",
+        "ddrArrangeOrder": 2
+      },
+      "type": "button",
+      "events": {
+        "onClick": {
+          "action": "goToLayout",
+          "layoutName": "iPhone|Inspection Details"
+        }
+      }
+    },
+    {
+      "id": "ddr-fm-iphone-inspeciton-signature-T21lZ2E6-97",
+      "position": {
+        "x": 64,
+        "y": 47,
+        "width": 248,
+        "height": 21,
+        "z": 3
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "styleName": "Minimal Edit Box LJ",
+        "ddrObjectPath": "97",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": true,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 1073741824,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 47,
+        "ddrSourceLeft": 64,
+        "ddrSourceBottom": 68,
+        "ddrSourceRight": 312,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "site_name",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 3
+      },
+      "type": "field",
+      "binding": {
+        "field": "site_name",
+        "tableOccurrence": "INSPECTIONS"
+      }
+    },
+    {
+      "id": "ddr-fm-iphone-inspeciton-signature-T21lZ2E6-98",
+      "position": {
+        "x": 64,
+        "y": 68,
+        "width": 248,
+        "height": 21,
+        "z": 4
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "styleName": "Minimal Edit Box LJ",
+        "ddrObjectPath": "98",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": true,
+        "autosizeBottom": false,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 1073741824,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 68,
+        "ddrSourceLeft": 64,
+        "ddrSourceBottom": 89,
+        "ddrSourceRight": 312,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "job_name",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": true,
+        "ddrArrangeOrder": 4
+      },
+      "type": "field",
+      "binding": {
+        "field": "job_name",
+        "tableOccurrence": "INSPECTIONS"
+      }
+    },
+    {
+      "id": "ddr-fm-iphone-inspeciton-signature-T21lZ2E6-106",
+      "position": {
+        "x": 18,
+        "y": 114,
+        "width": 286,
+        "height": 117,
+        "z": 5
+      },
+      "props": {
+        "styleTheme": "Enlightened Omega",
+        "ddrObjectPath": "106",
+        "rotation": 0,
+        "autosizeTop": true,
+        "autosizeRight": true,
+        "autosizeBottom": true,
+        "autosizeLeft": true,
+        "ddrOriginalObjectType": "Field",
+        "ddrObjectFlags": 3221225472,
+        "ddrAnchorSource": "flags",
+        "ddrStyleParsed": true,
+        "ddrConditionalFormattingStatic": false,
+        "ddrSourceTop": 114,
+        "ddrSourceLeft": 18,
+        "ddrSourceBottom": 231,
+        "ddrSourceRight": 304,
+        "label": "",
+        "labelPlacement": "none",
+        "placeholder": "signature",
+        "controlType": "text",
+        "showPlaceholderInFindMode": false,
+        "repetitionsFrom": 1,
+        "repetitionsTo": 1,
+        "inputMethod": "Automatic",
+        "keyboardType": "Default for Data Type",
+        "includeInQuickFind": false,
+        "ddrArrangeOrder": 5
+      },
+      "type": "field",
+      "binding": {
+        "field": "signature",
+        "tableOccurrence": "INSPECTIONS"
+      }
+    }
+  ],
+  "actions": []
+}
